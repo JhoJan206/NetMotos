@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import MotoCard from '../components/MotoCard.astro'
+import AdSlot from '../components/AdSlot.astro'
+import MotoSearchFilter from '../components/MotoSearchFilter'
+import { getCollection } from 'astro:content'
+
+const motos = (await getCollection('motos')).map(m => m.data)
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Fichas Técnicas de Motos en Colombia',
+  description: 'Catálogo completo de fichas técnicas de motos disponibles en Colombia. Filtra por marca, cilindraje, tipo y precio.',
+}
+---
+
+<BaseLayout
+  title="Fichas Técnicas de Motos en Colombia"
+  description="Catálogo completo de fichas técnicas de motos en Colombia. Compara especificaciones, precios y rendimiento de todas las marcas."
+  canonical="/fichas-tecnicas"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Fichas Técnicas', path: '/fichas-tecnicas' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <div class="section-title">
+        <h2>Fichas Técnicas</h2>
+      </div>
+      <MotoSearchFilter client:load motos={JSON.stringify(motos)} />
+    </div>
+  </div>
+</BaseLayout>

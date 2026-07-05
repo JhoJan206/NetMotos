@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import AdSlot from '../../components/AdSlot.astro'
+import CompararBoton from '../../components/CompararBoton'
+import { getCollection } from 'astro:content'
+import { formatCOP } from '../../utils/formatCurrency'
+
+export async function getStaticPaths() {
+  const motos = await getCollection('motos')
+  return motos.map(moto => ({
+    params: { slug: moto.data.slug },
+    props: { moto: moto.data },
+  }))
+}
+
+const { moto } = Astro.props
+
+const MOTO_COLORS = ['#E63946', '#1D3557', '#F4A261', '#2A9D8F', '#6B4CE6', '#E07A2F']
+let hash = 0
+for (let i = 0; i < moto.modelo.length; i++) hash = moto.modelo.charCodeAt(i) + ((hash << 5) - hash)
+const color = MOTO_COLORS[Math.abs(hash) % MOTO_COLORS.length]
+
+const specs = [
+  { label: 'Marca', value: moto.marca },
+  { label: 'Modelo', value: moto.modelo },
+  { label: 'Año', value: String(moto.anio) },
+  { label: 'Tipo', value: moto.tipo },
+  { label: 'Cilindraje', value: `${moto.cilindraje} cc` },
+  { label: 'Potencia', value: `${moto.potencia_hp} HP @ ${moto.potencia_rpm} rpm` },
+  { label: 'Torque', value: `${moto.torque_nm} Nm @ ${moto.torque_rpm} rpm` },
+  { label: 'Alimentación', value: moto.alimentacion },
+  { label: 'Encendido', value: moto.encendido },
+  { label: 'Arranque', value: moto.arranque },
+  { label: 'Transmisión', value: moto.transmision },
+  { label: 'Combustible', value: moto.combustible },
+  { label: 'Capacidad del tanque', value: `${moto.capacidad_tanque_l} L` },
+  { label: 'Consumo', value: `${moto.consumo_km_l} km/l` },
+  { label: 'Peso', value: `${moto.peso_kg} kg` },
+  { label: 'Altura del asiento', value: `${moto.altura_asiento_mm} mm` },
+  { label: 'Distancia al suelo', value: `${moto.distancia_suelo_mm} mm` },
+  { label: 'Suspensión delantera', value: moto.suspension_delantera },
+  { label: 'Suspensión trasera', value: moto.suspension_trasera },
+  { label: 'Freno delantero', value: moto.freno_delantero },
+  { label: 'Freno trasero', value: moto.freno_trasero },
+  { label: 'Llanta delantera', value: moto.llanta_delantero },
+  { label: 'Llanta trasera', value: moto.llanta_trasero },
+  { label: 'Precio', value: formatCOP(moto.precio_cop) },
+]
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: moto.nombre_completo,
+  brand: { '@type': 'Brand', name: moto.marca },
+  description: `Ficha técnica de la ${moto.nombre_completo}. ${moto.cilindraje}cc, ${moto.potencia_hp} HP, consumo ${moto.consumo_km_l} km/l. Precio en Colombia: ${formatCOP(moto.precio_cop)}.`,
+  category: `Moto ${moto.tipo}`,
+  vehicleEngine: {
+    '@type': 'EngineSpecification',
+    enginePower: { '@type': 'QuantitativeValue', value: moto.potencia_hp, unitText: 'HP' },
+    torque: { '@type': 'QuantitativeValue', value: moto.torque_nm, unitText: 'Nm' },
+    engineDisplacement: { '@type': 'QuantitativeValue', value: moto.cilindraje, unitText: 'CC' },
+    fuelType: moto.combustible,
+  },
+  offers: {
+    '@type': 'Offer',
+    price: moto.precio_cop,
+    priceCurrency: 'COP',
+    availability: 'https://schema.org/InStock',
+    seller: { '@type': 'Organization', name: moto.marca },
+  },
+}
+
+const allMotos = (await getCollection('motos')).map(m => m.data)
+const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.id)
+---
+
+<BaseLayout
+  title={`${moto.nombre_completo} - Ficha Técnica, Precio en Colombia`}
+  description={`Ficha técnica de la ${moto.nombre_completo}: ${moto.cilindraje}cc, ${moto.potencia_hp} HP, consumo ${moto.consumo_km_l} km/l, precio ${formatCOP(moto.precio_cop)}. Pros, contras y especificaciones completas.`}
+  canonical={`/fichas-tecnicas/${moto.slug}`}
+  schema={schema}
+  type="product"
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Fichas Técnicas', path: '/fichas-tecnicas' },
+    { name: moto.nombre_completo, path: `/fichas-tecnicas/${moto.slug}` },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container ficha-detalle">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <a href="/fichas-tecnicas">Fichas Técnicas</a>
+        <span>/</span>
+        <span>{moto.nombre_completo}</span>
+      </nav>
+
+      <div class="ficha-header">
+        <div class="ficha-image" style={moto.imagen ? {} : `background: linear-gradient(135deg, ${color}, ${color}dd)`}>
+          {moto.imagen ? (
+            <img src={moto.imagen} alt={moto.nombre_completo} class="ficha-img" loading="lazy" />
+          ) : (
+            <div class="ficha-placeholder">
+              <span>{moto.modelo[0]}</span>
+            </div>
+          )}
+        </div>
+        <div class="ficha-header-info">
+          <div class="ficha-bread">
+            <span class="tag tag-guias">{moto.marca}</span>
+            <span class="tag tag-lanzamientos">{moto.tipo}</span>
+          </div>
+          <h1>{moto.nombre_completo}</h1>
+          <p class="ficha-anio">Modelo {moto.anio}</p>
+          <div class="ficha-highlights">
+            <div class="highlight">
+              <span class="highlight-value">{moto.cilindraje}cc</span>
+              <span class="highlight-label">Cilindraje</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-value">{moto.potencia_hp} HP</span>
+              <span class="highlight-label">Potencia</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-value">{moto.consumo_km_l} km/l</span>
+              <span class="highlight-label">Consumo</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-value">{formatCOP(moto.precio_cop)}</span>
+              <span class="highlight-label">Precio</span>
+            </div>
+          </div>
+          <div class="ficha-actions">
+            <CompararBoton client:load motoId={moto.id} />
+          </div>
+        </div>
+      </div>
+
+      <div class="ficha-content">
+        <div class="ficha-main">
+          <section class="ficha-section">
+            <h2>Especificaciones Técnicas</h2>
+            <div class="specs-table-wrapper">
+              <table class="specs-table">
+                <tbody>
+                  {specs.map(spec => (
+                    <tr>
+                      <td class="spec-label">{spec.label}</td>
+                      <td class="spec-value">{spec.value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <div class="ficha-pros-contras">
+            <div class="pros-card">
+              <h3>Pros</h3>
+              <ul>
+                {moto.pros.map((p: string) => <li>{p}</li>)}
+              </ul>
+            </div>
+            <div class="contras-card">
+              <h3>Contras</h3>
+              <ul>
+                {moto.contras.map((c: string) => <li>{c}</li>)}
+              </ul>
+            </div>
+          </div>
+
+          {otherMotos.length > 0 && (
+            <section class="ficha-section">
+              <h2>Compara con otras motos de {moto.marca}</h2>
+              <div class="grid-3">
+                {otherMotos.slice(0, 3).map(m => (
+                  <a href={`/fichas-tecnicas/${m.slug}`} class="moto-mini-card" style={`border-left-color: ${color}`}>
+                    <strong>{m.nombre_completo}</strong>
+                    <span>{m.cilindraje}cc | {formatCOP(m.precio_cop)}</span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
+          <div class="ficha-ad">
+            <AdSlot id="ficha-inline" />
+          </div>
+        </div>
+        <aside class="ficha-sidebar">
+          <AdSlot id="sidebar-ficha" />
+          <div class="sidebar-card">
+            <h4>Calcula tu consumo</h4>
+            <p>Estima cuánto gastarás en gasolina al mes.</p>
+            <a href="/calculadora-consumo" class="btn btn-primary btn-sm">Calcular</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

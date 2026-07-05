@@ -1,0 +1,39 @@
+id: akt-ttr-125
+slug: akt-ttr-125
+marca: AKT
+modelo: TTR 125
+nombre_completo: AKT TTR 125
+anio: 2024
+tipo: Doble Propósito
+cilindraje: 124
+potencia_hp: 9.5
+potencia_rpm: 7500
+torque_nm: 8.7
+torque_rpm: 5500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 7.5
+consumo_km_l: 45
+peso_kg: 115
+altura_asiento_mm: 820
+distancia_suelo_mm: 200
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 240mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 2.75-21
+llanta_trasero: 3.50-18
+precio_cop: 4590000
+imagen: ''
+pros:
+  - Excelente para terreno rural
+  - Buena distancia al suelo
+  - Neumáticos mixtos
+contras:
+  - Potencia baja para carretera
+  - Sin ABS
+  - Asiento alto
+rating: 4

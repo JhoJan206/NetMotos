@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import ComparadorApp from '../components/ComparadorApp'
+import { getCollection } from 'astro:content'
+
+const motos = (await getCollection('motos')).map(m => m.data)
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Comparador de Motos en Colombia',
+  description: 'Compara las especificaciones técnicas de hasta 3 motos lado a lado. Tabla comparativa con precio, consumo, potencia y más.',
+}
+---
+
+<BaseLayout
+  title="Comparador de Motos en Colombia"
+  description="Compara especificaciones técnicas de motos en Colombia. Precio, cilindraje, consumo, potencia y más características lado a lado."
+  canonical="/comparador"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Comparador', path: '/comparador' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Comparador</span>
+      </nav>
+      <div class="section-title">
+        <h2>Comparador de Motos</h2>
+      </div>
+      <ComparadorApp client:load motos={JSON.stringify(motos)} />
+    </div>
+  </div>
+</BaseLayout>

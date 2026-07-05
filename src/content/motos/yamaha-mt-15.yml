@@ -1,0 +1,40 @@
+id: yamaha-mt-15
+slug: yamaha-mt-15
+imagen: /images/motos/mt-15.webp
+marca: Yamaha
+modelo: MT-15
+nombre_completo: Yamaha MT-15
+anio: 2024
+tipo: Naked
+cilindraje: 155
+potencia_hp: 18.6
+potencia_rpm: 10000
+torque_nm: 14.1
+torque_rpm: 7500
+alimentacion: Inyección electrónica
+encendido: Electrónico
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10
+consumo_km_l: 40
+peso_kg: 138
+altura_asiento_mm: 810
+distancia_suelo_mm: 155
+suspension_delantera: Horquilla invertida 37mm
+suspension_trasera: Monoamortiguador ajustable
+freno_delantero: Disco 282mm + ABS
+freno_trasero: Disco 220mm + ABS
+llanta_delantero: 100/80-17
+llanta_trasero: 140/70-17
+precio_cop: 9890000
+pros:
+  - Motor potente (18.6 HP)
+  - Horquilla invertida
+  - ABS de serie
+  - 6 velocidades
+contras:
+  - Precio muy elevado para 155cc
+  - Postura deportiva (poco cómoda en ciudad)
+  - Consumo alto para su cilindraje
+rating: 4.4

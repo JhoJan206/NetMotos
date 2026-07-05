@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import BlogCard from '../components/BlogCard.astro'
+import AdSlot from '../components/AdSlot.astro'
+import { getCollection } from 'astro:content'
+
+const posts = (await getCollection('blog'))
+  .filter(p => p.data.category === 'Guías')
+  .sort((a, b) => b.data.date.localeCompare(a.data.date))
+  .map(p => ({ ...p.data, slug: p.slug }))
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Guías de Motos en Colombia',
+  description: 'Artículos guía para elegir la mejor moto en Colombia según tu presupuesto y necesidades.',
+}
+---
+
+<BaseLayout
+  title="Guías de Motos - ¿Cuál es la mejor moto para ti?"
+  description="Guías de compra de motos en Colombia. Encuentra la mejor moto para ciudad, carretera, presupuesto ajustado o uso diario."
+  canonical="/guias"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Guías', path: '/guias' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Guías</span>
+      </nav>
+      <div class="section-title">
+        <h2>Guías de Compra</h2>
+      </div>
+      <p class="guias-desc">Artículos para ayudarte a elegir la mejor moto según tu presupuesto, uso y preferencias.</p>
+      <div class="guias-layout">
+        <div class="guias-main">
+          {posts.length === 0 ? (
+            <div class="empty-state">
+              <p>Próximamente más guías de compra.</p>
+              <a href="/blog" class="btn btn-primary">Ver blog</a>
+            </div>
+          ) : (
+            <div class="grid-3">
+              {posts.map(post => <BlogCard post={post} />)}
+            </div>
+          )}
+        </div>
+        <aside class="guias-sidebar">
+          <AdSlot id="sidebar-guias" />
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

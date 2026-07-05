@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import AdSlot from '../components/AdSlot.astro'
+import CalculadoraForm from '../components/CalculadoraForm'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Calculadora de Consumo de Motos',
+  description: 'Calcula el costo mensual y anual de gasolina, SOAT y mantenimiento para tu moto en Colombia.',
+  applicationCategory: 'FinanceApplication',
+}
+---
+
+<BaseLayout
+  title="Calculadora de Consumo de Motos - Costos en Colombia"
+  description="Calcula cuánto gastarás en gasolina, SOAT y mantenimiento de tu moto al mes y al año. Ingresa tus datos y obtén un presupuesto estimado en COP."
+  canonical="/calculadora-consumo"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Calculadora de Consumo', path: '/calculadora-consumo' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Calculadora de Consumo</span>
+      </nav>
+      <div class="section-title">
+        <h2>Calculadora de Consumo</h2>
+      </div>
+      <div class="calc-layout">
+        <div class="calc-form-wrapper">
+          <CalculadoraForm client:load />
+        </div>
+        <aside class="calc-sidebar">
+          <AdSlot id="sidebar-calculadora" />
+          <div class="sidebar-card">
+            <h4>¿No sabes el consumo de tu moto?</h4>
+            <p>Revisa la ficha técnica de tu modelo para ver el consumo oficial.</p>
+            <a href="/fichas-tecnicas" class="btn btn-primary btn-sm">Ver fichas</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

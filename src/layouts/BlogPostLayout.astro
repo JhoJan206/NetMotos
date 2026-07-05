@@ -1,0 +1,132 @@
+---
+import BaseLayout from './BaseLayout.astro'
+import AdSlot from '../components/AdSlot.astro'
+
+export interface Props {
+  post: {
+    title: string
+    slug: string
+    excerpt: string
+    category: string
+    date: string
+    author?: string
+    cover_image?: string
+  }
+}
+
+const { post } = Astro.props
+const isoDate = post.date ? new Date(post.date).toISOString().split('T')[0] : ''
+
+function generateKeywords(title: string, category: string) {
+  const words = new Set<string>()
+  const t = title.toLowerCase()
+  ;['moto', 'colombia', 'precio', 'consumo'].forEach(w => words.add(w))
+  if (category) words.add(category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
+  const marcaMatch = t.match(/(akt|suzuki|tvs|bajaj|yamaha|honda|hero)/)
+  if (marcaMatch) words.add(marcaMatch[0])
+  t.split(' ').filter(w => w.length > 5).slice(0, 3).forEach(w => words.add(w))
+  return [...words]
+}
+
+const tags = generateKeywords(post.title, post.category)
+const CATEGORY_COLORS: Record<string, string> = {
+  Lanzamientos: '#E63946',
+  'Guías': '#F4A261',
+  Normativa: '#1D3557',
+  Eventos: '#2A9D8F',
+  Deportes: '#6B4CE6',
+  'Seguridad Vial': '#E07A2F',
+}
+const color = CATEGORY_COLORS[post.category] || '#1D3557'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: post.title,
+  description: post.excerpt,
+  datePublished: isoDate,
+  dateModified: isoDate,
+  author: { '@type': 'Person', name: post.author || 'NetMotos' },
+  publisher: { '@type': 'Organization', name: 'NetMotos' },
+  image: post.cover_image || '',
+  articleSection: post.category,
+  keywords: tags.join(', '),
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://netmotos.lat/blog/${post.slug}` },
+  url: `https://netmotos.lat/blog/${post.slug}`,
+}
+---
+
+<BaseLayout
+  title={post.title}
+  description={post.excerpt}
+  canonical={`/blog/${post.slug}`}
+  schema={schema}
+  type="article"
+  image={post.cover_image || ''}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Noticias', path: '/blog' },
+    { name: post.title, path: `/blog/${post.slug}` },
+  ]}
+  articleMeta={{
+    publishedTime: isoDate,
+    modifiedTime: isoDate,
+    section: post.category,
+    tags,
+    keywords: tags.join(', '),
+  }}
+>
+  <div class="page-wrapper">
+    <div class="container blog-post">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <a href="/blog">Noticias</a>
+        <span>/</span>
+        <span>{post.title}</span>
+      </nav>
+
+      <div class="blog-post-layout">
+        <article class="blog-post-main">
+          <div class="blog-post-header" style={`border-top-color: ${color}`}>
+            <div class="blog-post-meta">
+              <span class={`tag tag-${post.category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}>
+                {post.category}
+              </span>
+              <span>{post.date}</span>
+            </div>
+            <h1>{post.title}</h1>
+            {post.author && <p class="blog-post-author">Por {post.author}</p>}
+          </div>
+
+          {post.cover_image && (
+            <div class="blog-post-cover">
+              <img src={post.cover_image} alt={post.title} loading="lazy" />
+            </div>
+          )}
+
+          <div class="blog-post-content markdown-content">
+            <slot />
+          </div>
+
+          <div class="blog-post-ad">
+            <AdSlot id="blog-post-inline" />
+          </div>
+
+          <div class="blog-post-nav">
+            <a href="/blog" class="btn btn-outline">← Volver al blog</a>
+          </div>
+        </article>
+
+        <aside class="blog-post-sidebar">
+          <AdSlot id="sidebar-blog-post" />
+          <div class="sidebar-card">
+            <h4>Comparador de Motos</h4>
+            <p>Compara hasta 3 modelos lado a lado.</p>
+            <a href="/comparador" class="btn btn-primary btn-sm">Comparar</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

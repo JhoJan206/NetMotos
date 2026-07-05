@@ -1,0 +1,39 @@
+id: yamaha-ybr-125
+slug: yamaha-ybr-125
+marca: Yamaha
+modelo: YBR 125
+nombre_completo: Yamaha YBR 125
+anio: 2024
+tipo: Naked
+cilindraje: 124
+potencia_hp: 10.5
+potencia_rpm: 7800
+torque_nm: 9.8
+torque_rpm: 6500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 50
+peso_kg: 117
+altura_asiento_mm: 770
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 245mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 4990000
+imagen: ''
+pros:
+  - Confiabilidad Yamaha
+  - Tanque grande (12L)
+  - Excelente economía de combustible
+contras:
+  - Diseño básico
+  - Freno trasero de tambor
+  - Sin ABS
+rating: 4.2

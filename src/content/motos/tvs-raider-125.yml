@@ -1,0 +1,39 @@
+id: tvs-raider-125
+slug: tvs-raider-125
+imagen: /images/motos/raider-125.webp
+marca: TVS
+modelo: Raider 125
+nombre_completo: TVS Raider 125
+anio: 2024
+tipo: Deportiva
+cilindraje: 124.8
+potencia_hp: 11.5
+potencia_rpm: 7500
+torque_nm: 11.2
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10
+consumo_km_l: 52
+peso_kg: 122
+altura_asiento_mm: 780
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica 33mm
+suspension_trasera: Monoamortiguador ajustable
+freno_delantero: Disco 270mm
+freno_trasero: Disco 220mm
+llanta_delantero: 100/80-17
+llanta_trasero: 120/70-17
+precio_cop: 4890000
+pros:
+  - Inyección electrónica (mejor arranque en frío)
+  - Frenos de disco en ambas ruedas
+  - Diseño deportivo moderno
+contras:
+  - Red de servicio más limitada
+  - Disponibilidad de repuestos
+  - Precio superior al promedio 125cc
+rating: 4.3

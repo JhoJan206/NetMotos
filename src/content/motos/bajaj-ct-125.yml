@@ -1,0 +1,39 @@
+id: bajaj-ct-125
+slug: bajaj-ct-125
+marca: Bajaj
+modelo: CT 125
+nombre_completo: Bajaj CT 125
+anio: 2024
+tipo: Naked
+cilindraje: 124.6
+potencia_hp: 10.8
+potencia_rpm: 8000
+torque_nm: 10
+torque_rpm: 5500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 55
+peso_kg: 118
+altura_asiento_mm: 785
+distancia_suelo_mm: 165
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 240mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 3990000
+imagen: ''
+pros:
+  - Mejor precio del segmento
+  - Tanque grande (12L)
+  - Bajo consumo de combustible
+contras:
+  - Marca con menos tradición en Colombia
+  - Calidad de acabados media
+  - Servicio técnico limitado en ciudades pequeñas
+rating: 4

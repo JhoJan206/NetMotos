@@ -1,0 +1,39 @@
+id: bajaj-pulsar-ns125
+slug: bajaj-pulsar-ns125
+marca: Bajaj
+modelo: Pulsar NS125
+nombre_completo: Bajaj Pulsar NS125
+anio: 2024
+tipo: Naked
+cilindraje: 124.6
+potencia_hp: 12
+potencia_rpm: 8500
+torque_nm: 11
+torque_rpm: 6500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 11
+consumo_km_l: 48
+peso_kg: 122
+altura_asiento_mm: 785
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica 33mm
+suspension_trasera: Monoamortiguador Nitrox
+freno_delantero: Disco 260mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 80/100-17
+llanta_trasero: 100/90-17
+precio_cop: 4390000
+imagen: ''
+pros:
+  - Diseño deportivo atractivo
+  - Monoamortiguador Nitrox
+  - Tanque de buen tamaño
+contras:
+  - Freno trasero de tambor
+  - Carburador (no inyección)
+  - Disponibilidad de servicio técnico
+rating: 4.1

@@ -1,0 +1,39 @@
+id: akt-nkd-125
+slug: akt-nkd-125
+marca: AKT
+modelo: NKD 125
+nombre_completo: AKT NKD 125
+anio: 2024
+tipo: Naked
+cilindraje: 124
+potencia_hp: 10.5
+potencia_rpm: 8000
+torque_nm: 9.5
+torque_rpm: 6000
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 11
+consumo_km_l: 50
+peso_kg: 120
+altura_asiento_mm: 775
+distancia_suelo_mm: 155
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 240mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 4290000
+imagen: ''
+pros:
+  - Excelente consumo de combustible
+  - Mantenimiento económico
+  - Repuestos abundantes en Colombia
+contras:
+  - Potencia modesta para carretera
+  - Sin ABS
+  - Acabados básicos
+rating: 4.2

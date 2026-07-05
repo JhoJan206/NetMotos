@@ -1,0 +1,39 @@
+id: suzuki-gn-125
+slug: suzuki-gn-125
+imagen: /images/motos/gn-125.webp
+marca: Suzuki
+modelo: GN 125
+nombre_completo: Suzuki GN 125
+anio: 2024
+tipo: Naked
+cilindraje: 124
+potencia_hp: 11.2
+potencia_rpm: 8500
+torque_nm: 9.8
+torque_rpm: 6500
+alimentacion: Carburador Mikuni
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 9.5
+consumo_km_l: 48
+peso_kg: 115
+altura_asiento_mm: 760
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica 33mm
+suspension_trasera: Doble amortiguador ajustable
+freno_delantero: Disco 275mm
+freno_trasero: Tambor 130mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.50-16
+precio_cop: 5390000
+pros:
+  - Confiabilidad legendaria de Suzuki
+  - Posición de manejo cómoda
+  - Buena reventa
+contras:
+  - Tecnología básica
+  - Tanque pequeño
+  - Sin ABS
+rating: 4.5

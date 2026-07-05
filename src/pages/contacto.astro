@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const FORMSPREE = 'https://formspree.io/f/xzdwlgze'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contacto - NetMotos',
+  description: 'Página de contacto de NetMotos.',
+}
+---
+
+<BaseLayout
+  title="Contacto"
+  description="Contacta con NetMotos para sugerencias, correcciones de fichas técnicas o información sobre motos en Colombia."
+  canonical="/contacto"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Contacto', path: '/contacto' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container" style="max-width: 700px">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Contacto</span>
+      </nav>
+      <h1>Contacto</h1>
+      <p style="color: var(--color-text-muted); margin-bottom: 32px">
+        ¿Tienes una sugerencia, encontraste un error en alguna ficha técnica o quieres colaborar con NetMotos? Escríbenos.
+      </p>
+      <div class="calc-form">
+        <form action={FORMSPREE} method="POST">
+          <div class="calc-field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" />
+          </div>
+          <div class="calc-field">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com" />
+          </div>
+          <div class="calc-field">
+            <label for="asunto">Asunto</label>
+            <select id="asunto" name="asunto" required>
+              <option value="">Selecciona un asunto</option>
+              <option value="error">Error en ficha técnica</option>
+              <option value="sugerencia">Sugerencia de nueva moto</option>
+              <option value="colaboracion">Colaboración o contenido</option>
+              <option value="publicidad">Publicidad o AdSense</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+          <div class="calc-field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required rows="6" placeholder="Escribe tu mensaje aquí..." style="width: 100%; padding: 10px 14px; border: 2px solid var(--color-border); border-radius: var(--radius-sm); font-family: inherit; font-size: 1rem; resize: vertical"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

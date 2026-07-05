@@ -1,0 +1,11 @@
+---
+export interface Props {
+  id: string
+  className?: string
+}
+const { id, className = '' } = Astro.props
+---
+
+<div id={`ad-slot-${id}`} class={`ad-slot ${className}`} style="background: #F0F0F0; border: 1px dashed #D0D0D0; border-radius: 8px; display: flex; align-items: center; justify-content: center; min-height: 90px; color: #999; font-size: 0.8rem; text-align: center; padding: 8px;">
+  <span>Espacio publicitario</span>
+</div>

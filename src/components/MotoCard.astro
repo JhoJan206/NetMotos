@@ -1,0 +1,58 @@
+---
+import { formatCOP } from '../utils/formatCurrency'
+
+export interface Props {
+  moto: {
+    id: string
+    slug: string
+    marca: string
+    modelo: string
+    nombre_completo: string
+    cilindraje: number
+    potencia_hp: number
+    consumo_km_l: number
+    peso_kg: number
+    precio_cop: number
+    tipo: string
+    imagen?: string
+  }
+}
+
+const { moto } = Astro.props
+
+const MOTO_COLORS = ['#E63946', '#1D3557', '#F4A261', '#2A9D8F', '#6B4CE6', '#E07A2F', '#2B4F7A', '#E9C46A']
+let hash = 0
+for (let i = 0; i < moto.modelo.length; i++) hash = moto.modelo.charCodeAt(i) + ((hash << 5) - hash)
+const color = MOTO_COLORS[Math.abs(hash) % MOTO_COLORS.length]
+---
+
+<article class="moto-card">
+  <a href={`/fichas-tecnicas/${moto.slug}`} class="moto-card-image" style={moto.imagen ? {} : `background: linear-gradient(135deg, ${color}, ${color}dd)`}>
+    {moto.imagen ? (
+      <img src={moto.imagen} alt={moto.nombre_completo} class="moto-card-img" loading="lazy" />
+    ) : (
+      <div class="moto-card-placeholder">
+        <span class="moto-initial">{moto.modelo[0]}</span>
+      </div>
+    )}
+  </a>
+  <div class="moto-card-body">
+    <div class="moto-card-header">
+      <span class="moto-marca">{moto.marca}</span>
+      <span class="moto-tipo">{moto.tipo}</span>
+    </div>
+    <h3 class="moto-card-title">
+      <a href={`/fichas-tecnicas/${moto.slug}`}>{moto.nombre_completo}</a>
+    </h3>
+    <div class="moto-card-specs">
+      <span>{moto.cilindraje}cc</span>
+      <span>{moto.potencia_hp} HP</span>
+      <span>{moto.consumo_km_l} km/l</span>
+      <span>{moto.peso_kg} kg</span>
+    </div>
+    <div class="moto-card-footer">
+      <span class="moto-precio">{formatCOP(moto.precio_cop)}</span>
+      <a href={`/fichas-tecnicas/${moto.slug}`} class="btn btn-sm btn-primary">Ver ficha</a>
+    </div>
+  </div>
+</article>

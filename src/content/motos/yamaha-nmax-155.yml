@@ -1,0 +1,39 @@
+id: yamaha-nmax-155
+slug: yamaha-nmax-155
+marca: Yamaha
+modelo: NMAX 155
+nombre_completo: Yamaha NMAX 155
+anio: 2024
+tipo: Scooter
+cilindraje: 155
+potencia_hp: 15
+potencia_rpm: 8000
+torque_nm: 13.9
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico
+arranque: Eléctrico
+transmision: Automática CVT
+combustible: Gasolina corriente
+capacidad_tanque_l: 6.6
+consumo_km_l: 45
+peso_kg: 130
+altura_asiento_mm: 765
+distancia_suelo_mm: 135
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Monoamortiguador
+freno_delantero: Disco 230mm + ABS
+freno_trasero: Disco 230mm + ABS
+llanta_delantero: 110/70-13
+llanta_trasero: 130/70-13
+precio_cop: 8690000
+imagen: ''
+pros:
+  - ABS de serie
+  - Excelente para ciudad
+  - Espacio bajo el asiento
+contras:
+  - Precio elevado
+  - Tanque pequeño
+  - No apta para carretera
+rating: 4.6

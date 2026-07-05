@@ -1,0 +1,88 @@
+---
+import Navbar from '../components/Navbar.astro'
+import Footer from '../components/Footer.astro'
+import CookieConsent from '../components/CookieConsent'
+import '../styles/global.css'
+import '../styles/components.css'
+
+export interface Props {
+  title: string
+  description?: string
+  canonical: string
+  schema?: any
+  type?: string
+  image?: string
+  breadcrumbs?: { name: string; path: string }[]
+  articleMeta?: any
+}
+
+const { title, canonical, breadcrumbs } = Astro.props
+const description = Astro.props.description || 'Fichas técnicas de motos en Colombia de todos los segmentos y cilindrajes. Compara modelos, calcula consumo y descubre la moto ideal para ti.'
+const url = `https://netmotos.lat${canonical}`
+const fullTitle = `${title} | NetMotos`
+
+const schemas: any[] = []
+if (Astro.props.schema) schemas.push(Astro.props.schema)
+if (breadcrumbs && breadcrumbs.length > 0) {
+  schemas.push({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: `${'https://netmotos.lat'}${item.path}`,
+    })),
+  })
+}
+---
+
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1D3557" />
+    <meta name="google-adsense-account" content="ca-pub-xxxxxxxxxxxxxx" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxx" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={url} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:type" content={Astro.props.type || 'website'} />
+    <meta property="og:site_name" content="NetMotos" />
+    {Astro.props.image && <meta property="og:image" content={Astro.props.image.startsWith('http') ? Astro.props.image : `https://netmotos.lat${Astro.props.image}`} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    {Astro.props.articleMeta && (
+      <>
+        {Astro.props.articleMeta.publishedTime && <meta property="article:published_time" content={Astro.props.articleMeta.publishedTime} />}
+        {Astro.props.articleMeta.modifiedTime && <meta property="article:modified_time" content={Astro.props.articleMeta.modifiedTime} />}
+        {Astro.props.articleMeta.section && <meta property="article:section" content={Astro.props.articleMeta.section} />}
+        {Astro.props.articleMeta.tags?.map((tag: string) => <meta property="article:tag" content={tag} />)}
+        {Astro.props.articleMeta.keywords && <meta name="news_keywords" content={Astro.props.articleMeta.keywords} />}
+      </>
+    )}
+
+    {schemas.map((s, i) => (
+      <script key={i} type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
+
+  </head>
+  <body>
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <CookieConsent client:load />
+  </body>
+</html>

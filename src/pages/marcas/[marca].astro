@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import MotoCard from '../../components/MotoCard.astro'
+import AdSlot from '../../components/AdSlot.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const motos = await getCollection('motos')
+  const marcas = [...new Set(motos.map(m => m.data.marca.toLowerCase()))]
+  return marcas.map(marca => ({
+    params: { marca },
+    props: {
+      marcaCapitalized: marca.charAt(0).toUpperCase() + marca.slice(1),
+      motos: motos.filter(m => m.data.marca.toLowerCase() === marca).map(m => m.data),
+    },
+  }))
+}
+
+const { marcaCapitalized, motos } = Astro.props
+
+const MARCAS_INFO: Record<string, string> = {
+  AKT: 'AKT Motos es una marca colombiana con gran presencia en el mercado nacional, con un amplio portafolio que cubre desde motos económicas hasta modelos adventure de alta cilindrada.',
+  Suzuki: 'Suzuki es una marca japonesa con presencia global. Su portafolio en Colombia abarca desde motos urbanas confiables hasta modelos adventure y deportivos.',
+  TVS: 'TVS Motor Company es un fabricante indio con creciente presencia en Colombia, destacando por su tecnología e innovación en diversos segmentos.',
+  Bajaj: 'Bajaj Auto es el fabricante indio más grande del mundo. Su portafolio cubre desde motos de trabajo hasta modelos deportivos de media cilindrada.',
+  Yamaha: 'Yamaha Motor es sinónimo de rendimiento y tecnología. Sus modelos abarcan desde scooters urbanos hasta deportivas y naked de alta cilindrada.',
+  Honda: 'Honda es la marca más grande del mundo. En Colombia ofrece un portafolio completo que incluye desde motos urbanas hasta scooters premium y adventure.',
+  Hero: 'Hero MotoCorp es el fabricante más grande de India. En Colombia ofrece modelos con buena relación precio-equipamiento en diversos segmentos.',
+}
+
+const marcaInfo = MARCAS_INFO[marcaCapitalized] || `${marcaCapitalized} es una marca de motos disponible en Colombia con modelos para todos los segmentos y necesidades.`
+const precios = motos.map(m => m.precio_cop)
+const minPrecio = Math.min(...precios)
+const maxPrecio = Math.max(...precios)
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Motos ${marcaCapitalized} en Colombia`,
+  description: `Catálogo de motos ${marcaCapitalized} disponibles en Colombia. Precios desde $${minPrecio.toLocaleString('es-CO')} hasta $${maxPrecio.toLocaleString('es-CO')}.`,
+}
+---
+
+<BaseLayout
+  title={`Motos ${marcaCapitalized} en Colombia - Fichas Técnicas y Precios`}
+  description={`Encuentra todas las motos ${marcaCapitalized} disponibles en Colombia. ${motos.length} modelos con fichas técnicas, precios actualizados, especificaciones y comparativas.`}
+  canonical={`/marcas/${marcaCapitalized.toLowerCase()}`}
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Fichas Técnicas', path: '/fichas-tecnicas' },
+    { name: marcaCapitalized, path: `/marcas/${marcaCapitalized.toLowerCase()}` },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <a href="/fichas-tecnicas">Fichas Técnicas</a>
+        <span>/</span>
+        <span>{marcaCapitalized}</span>
+      </nav>
+      <div class="marca-header">
+        <h1>Motos {marcaCapitalized}</h1>
+        <p class="marca-desc">{marcaInfo}</p>
+        <div class="marca-stats">
+          <span>{motos.length} modelos</span>
+          <span>Desde {new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 0 }).format(minPrecio)}</span>
+        </div>
+      </div>
+      <div class="grid-3">
+        {motos.map(moto => <MotoCard moto={moto} />)}
+      </div>
+      <div style="margin-top: 24px; text-align: center">
+        <AdSlot id="marca-bottom" />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

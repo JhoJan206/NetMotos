@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'Sobre NetMotos',
+  description: 'NetMotos es un portal colombiano especializado en fichas técnicas de motos, comparativas, calculadora de consumo y noticias del sector.',
+}
+---
+
+<BaseLayout
+  title="Sobre NetMotos"
+  description="Conoce NetMotos, el portal colombiano de fichas técnicas de motos. Información clara y actualizada para ayudarte a elegir la mejor moto."
+  canonical="/sobre-nosotros"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Sobre NetMotos', path: '/sobre-nosotros' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container" style="max-width: 800px">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Sobre NetMotos</span>
+      </nav>
+      <h1>Sobre NetMotos</h1>
+      <div class="markdown-content">
+        <h2>¿Qué es NetMotos?</h2>
+        <p>NetMotos es un portal independiente creado en Colombia con un objetivo claro: ayudarte a encontrar la moto perfecta para ti. Aquí encontrarás fichas técnicas detalladas, un comparador interactivo, calculadora de consumo y artículos informativos sobre el mundo de las motos en Colombia.</p>
+        <h2>Nuestra Misión</h2>
+        <p>Sabemos que elegir moto puede ser abrumador. Entre marcas, modelos, cilindrajes, precios y especificaciones técnicas, es fácil perderse. En NetMotos reunimos toda la información en un solo lugar para que puedas comparar, calcular y decidir con confianza.</p>
+        <h2>Qué Ofrecemos</h2>
+        <ul>
+          <li><strong>Fichas Técnicas:</strong> Especificaciones completas de las motos más populares en Colombia.</li>
+          <li><strong>Comparador:</strong> Compara hasta 3 motos lado a lado con todas sus características técnicas.</li>
+          <li><strong>Calculadora de Consumo:</strong> Estima cuánto gastarás en gasolina, SOAT y mantenimiento según tu uso.</li>
+          <li><strong>Blog:</strong> Artículos sobre lanzamientos, guías de compra, normativa de tránsito, seguridad vial y mantenimiento.</li>
+          <li><strong>Guías de Compra:</strong> Contenido curado para ayudarte a elegir según tu presupuesto y necesidades.</li>
+        </ul>
+        <h2>¿Por Qué Confiar en NetMotos?</h2>
+        <p>La información en NetMotos se recopila de fuentes oficiales como los sitios web de los fabricantes y concesionarios autorizados en Colombia. Cada ficha técnica incluye datos verificables.</p>
+        <p>Los precios son aproximados y pueden variar según el concesionario, la ciudad y la fecha de consulta.</p>
+        <h2>Nuestro Compromiso</h2>
+        <p>NetMotos se actualiza periódicamente para reflejar los cambios de precios, nuevos modelos y actualizaciones del mercado colombiano.</p>
+        <h2>Transparencia</h2>
+        <p>NetMotos es un sitio independiente. No estamos afiliados a ninguna marca de motos ni concesionario. El sitio se financia a través de Google AdSense para mantenerse gratuito y accesible para todos.</p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

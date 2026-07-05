@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+
+<BaseLayout
+  title="Términos y Condiciones"
+  description="Términos y condiciones de uso de NetMotos, el portal de fichas técnicas de motos en Colombia."
+  canonical="/terminos"
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Términos', path: '/terminos' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container" style="max-width: 800px">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Términos</span>
+      </nav>
+      <h1>Términos y Condiciones</h1>
+      <div class="markdown-content">
+        <h2>Uso del Sitio</h2>
+        <p>Al acceder y utilizar NetMotos, aceptas cumplir con estos términos y condiciones.</p>
+        <h2>Información</h2>
+        <p>La información proporcionada en NetMotos es solo para fines informativos. Los precios y especificaciones son aproximados.</p>
+        <h2>Propiedad Intelectual</h2>
+        <p>Todo el contenido de NetMotos es propiedad del sitio, salvo que se indique lo contrario.</p>
+        <h2>Enlaces a Terceros</h2>
+        <p>NetMotos puede contener enlaces a sitios web de terceros. No somos responsables del contenido o prácticas de privacidad de estos sitios.</p>
+        <h2>Cambios</h2>
+        <p>NetMotos se reserva el derecho de modificar estos términos en cualquier momento.</p>
+        <h2>Contacto</h2>
+        <p>Si tienes preguntas sobre estos términos, <a href="/contacto">contáctanos</a>.</p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

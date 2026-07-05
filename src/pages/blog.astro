@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import BlogCard from '../components/BlogCard.astro'
+import AdSlot from '../components/AdSlot.astro'
+import { getCollection } from 'astro:content'
+import BlogFilter from '../components/BlogFilter'
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.localeCompare(a.data.date))
+  .map(p => ({ ...p.data, slug: p.slug }))
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: 'Noticias de Motos - NetMotos',
+  description: 'Noticias, guías y artículos sobre el mundo de las motos en Colombia.',
+}
+---
+
+<BaseLayout
+  title="Noticias de Motos en Colombia - Novedades, Guías y Lanzamientos"
+  description="NetMotos Noticias: toda la información sobre lanzamientos, guías de compra, normativa de tránsito, eventos y seguridad vial para motociclistas en Colombia."
+  canonical="/blog"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Noticias', path: '/blog' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Noticias</span>
+      </nav>
+      <div class="section-title">
+        <h2>Noticias de Motos</h2>
+      </div>
+      <BlogFilter client:load posts={JSON.stringify(posts)} />
+    </div>
+  </div>
+</BaseLayout>

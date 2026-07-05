@@ -1,0 +1,39 @@
+id: tvs-apache-rtr-160
+slug: tvs-apache-rtr-160
+marca: TVS
+modelo: Apache RTR 160
+nombre_completo: TVS Apache RTR 160 4V
+anio: 2024
+tipo: Deportiva
+cilindraje: 159.7
+potencia_hp: 16
+potencia_rpm: 8500
+torque_nm: 14.8
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10
+consumo_km_l: 42
+peso_kg: 136
+altura_asiento_mm: 800
+distancia_suelo_mm: 165
+suspension_delantera: Horquilla telescópica 37mm
+suspension_trasera: Monoamortiguador ajustable
+freno_delantero: Disco 270mm
+freno_trasero: Disco 220mm
+llanta_delantero: 90/90-17
+llanta_trasero: 110/80-17
+precio_cop: 5690000
+imagen: ''
+pros:
+  - Motor potente y refinado
+  - Doble freno de disco
+  - Excelente relación peso-potencia
+contras:
+  - Red de servicio limitada
+  - Consumo medio-alto
+  - Disponibilidad de repuestos
+rating: 4.3
