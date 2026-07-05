@@ -110,10 +110,14 @@ export default function ComparadorApp({ motos: motosJson }: { motos: string }) {
               const color = motoColor(moto.modelo)
               return (
                 <div key={moto.id} className="moto-card">
-                  <a href={`/fichas-tecnicas/${moto.slug}`} className="moto-card-image" style={{ background: `linear-gradient(135deg, ${color}, ${color}dd)` }}>
-                    <div className="moto-card-placeholder">
-                      <span className="moto-initial">{moto.modelo[0]}</span>
-                    </div>
+                  <a href={`/fichas-tecnicas/${moto.slug}`} className="moto-card-image" style={{ background: moto.imagen ? 'var(--color-surface)' : `linear-gradient(135deg, ${color}, ${color}dd)` }}>
+                    {moto.imagen ? (
+                      <img src={moto.imagen} alt={moto.nombre_completo} className="moto-card-img" loading="lazy" />
+                    ) : (
+                      <div className="moto-card-placeholder">
+                        <span className="moto-initial">{moto.modelo[0]}</span>
+                      </div>
+                    )}
                   </a>
                   <div className="moto-card-body">
                     <div className="moto-card-header">
