@@ -7,6 +7,7 @@ interface Post {
   category: string
   date: string
   author?: string
+  cover_image?: string
 }
 
 const CATEGORIES = ['Todas', 'Lanzamientos', 'Guías', 'Normativa', 'Eventos', 'Deportes', 'Seguridad Vial']
@@ -64,9 +65,13 @@ export default function BlogFilter({ posts: postsJson }: { posts: string }) {
               {paginados.map(post => (
                 <article key={post.slug} className="blog-card">
                   <a href={`/blog/${post.slug}`} className="blog-card-image" style={{ background: CATEGORY_COLORS[post.category] || '#F0F0F0' }}>
-                    <div className="blog-card-placeholder">
-                      <span>{post.category[0]}</span>
-                    </div>
+                    {post.cover_image ? (
+                      <img src={post.cover_image} alt={post.title} className="blog-card-img" loading="lazy" />
+                    ) : (
+                      <div className="blog-card-placeholder">
+                        <span>{post.category[0]}</span>
+                      </div>
+                    )}
                   </a>
                   <div className="blog-card-body">
                     <div className="blog-card-meta">
