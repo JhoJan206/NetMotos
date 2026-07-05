@@ -11,6 +11,14 @@ export default function CookieConsent() {
   const acceptAll = () => {
     localStorage.setItem('cookies-accepted', 'all')
     setVisible(false)
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DT70F21310');
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-DT70F21310';
+    document.head.appendChild(script);
   }
 
   const reject = () => {

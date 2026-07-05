@@ -44,6 +44,7 @@ if (breadcrumbs && breadcrumbs.length > 0) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1D3557" />
     <meta name="google-adsense-account" content="ca-pub-9384689460941433" />
+    <meta name="google-site-verification" content="Yz6TABaQi_-gc8BdJiSN6ZeaG0zApNmJwDhCpnjualQ" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9384689460941433" crossorigin="anonymous"></script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -76,6 +77,21 @@ if (breadcrumbs && breadcrumbs.length > 0) {
       <script key={i} type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}
 
+    <script is:inline>
+      (function() {
+        var consent = localStorage.getItem('cookies-accepted');
+        if (consent === 'all') {
+          var s = document.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-DT70F21310';
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-DT70F21310');
+        }
+      })();
+    </script>
   </head>
   <body>
     <Navbar />
