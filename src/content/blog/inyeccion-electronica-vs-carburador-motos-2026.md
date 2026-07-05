@@ -4,7 +4,7 @@ slug: inyeccion-electronica-vs-carburador-motos-2026
 category: "Guías"
 date: "2026-06-12"
 excerpt: "Comparativa completa entre motos con inyección electrónica y carburador en Colombia en 2026. Consumo, mantenimiento, precio y cuál conviene más según tu uso."
-cover_image: ""
+cover_image: "/images/blog/inyeccion-vs-carburador.webp"
 author: "Jhojan Jacome"
 ---
 

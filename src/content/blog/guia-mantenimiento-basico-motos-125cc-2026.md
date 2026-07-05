@@ -4,7 +4,7 @@ slug: guia-mantenimiento-basico-motos-125cc-2026
 category: "Guías"
 date: "2026-06-08"
 excerpt: "Todo lo que necesitas saber sobre el mantenimiento de tu moto 125cc en Colombia en 2026: aceite, frenos, cadena, llantas y costos aproximados por servicio."
-cover_image: ""
+cover_image: "/images/blog/guia-mantenimiento.webp"
 author: "Jhojan Jacome"
 ---
 

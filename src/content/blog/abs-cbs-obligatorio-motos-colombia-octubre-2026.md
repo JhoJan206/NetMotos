@@ -4,7 +4,7 @@ slug: abs-cbs-obligatorio-motos-colombia-octubre-2026
 category: "Normativa"
 date: "2026-06-15"
 excerpt: "El Ministerio de Transporte y la ANSV confirmaron que los sistemas ABS o CBS serán obligatorios en motos nuevas desde octubre de 2026. Te explicamos cómo aplica, qué motos afecta y cómo prepararte."
-cover_image: ""
+cover_image: "/images/blog/abs-cbs.webp"
 author: "Jhojan Jacome"
 ---
 

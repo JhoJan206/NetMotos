@@ -4,7 +4,7 @@ slug: top-motos-125cc-colombia-2026
 category: "Guías"
 date: "2026-06-20"
 excerpt: "Ranking de las motos 125cc más vendidas en Colombia en 2026, con datos reales de matrículas de Andemos y RUNT (no opiniones): AKT NKD 125, Bajaj, Hero Hunk, TVS Raider y más."
-cover_image: ""
+cover_image: "/images/blog/top-motos-125cc.webp"
 author: "Jhojan Jacome"
 ---
 

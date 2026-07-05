@@ -7,6 +7,7 @@ export interface Props {
     category: string
     date: string
     author?: string
+    cover_image?: string
   }
 }
 
@@ -25,9 +26,13 @@ const bgColor = CATEGORY_COLORS[post.category] || '#F0F0F0'
 
 <article class="blog-card">
   <a href={`/blog/${post.slug}`} class="blog-card-image" style={`background: ${bgColor}`}>
-    <div class="blog-card-placeholder">
-      <span>{post.category[0]}</span>
-    </div>
+    {post.cover_image ? (
+      <img src={post.cover_image} alt={post.title} class="blog-card-img" loading="lazy" />
+    ) : (
+      <div class="blog-card-placeholder">
+        <span>{post.category[0]}</span>
+      </div>
+    )}
   </a>
   <div class="blog-card-body">
     <div class="blog-card-meta">

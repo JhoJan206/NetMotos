@@ -4,7 +4,7 @@ slug: comparativa-akt-nkd-vs-bajaj-ct125-2026
 category: "Guías"
 date: "2026-06-25"
 excerpt: "Comparamos la AKT NKD 125 (la moto más vendida de Colombia) con la Bajaj Boxer CT125 Sport, su evolución con freno de disco y CBS. Precio, consumo, mantenimiento y cuál recomendamos según tu uso."
-cover_image: ""
+cover_image: "/images/blog/comparativa-akt-bajaj.webp"
 author: "Jhojan Jacome"
 ---
 

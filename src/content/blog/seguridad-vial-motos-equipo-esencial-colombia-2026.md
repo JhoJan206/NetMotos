@@ -4,7 +4,7 @@ slug: seguridad-vial-motos-equipo-esencial-colombia-2026
 category: "Seguridad Vial"
 date: "2026-06-18"
 excerpt: "Guía de seguridad vial para motociclistas en Colombia en 2026. Equipo de protección obligatorio y recomendado, la nueva normativa de frenos ABS/CBS y consejos para conducir seguro."
-cover_image: ""
+cover_image: "/images/blog/seguridad-vial.webp"
 author: "Jhojan Jacome"
 ---
 

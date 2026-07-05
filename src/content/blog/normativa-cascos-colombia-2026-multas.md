@@ -4,7 +4,7 @@ slug: normativa-cascos-colombia-2026-multas
 category: "Normativa"
 date: "2026-02-10"
 excerpt: "Todo sobre la normativa de cascos para motociclistas en Colombia en 2026: certificaciones vigentes (incluida la nueva ECE 22.06), multas actualizadas y cómo identificar un casco legal."
-cover_image: ""
+cover_image: "/images/blog/normativa-cascos.webp"
 author: "Jhojan Jacome"
 ---
 

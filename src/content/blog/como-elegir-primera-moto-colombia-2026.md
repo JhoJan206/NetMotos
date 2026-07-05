@@ -4,7 +4,7 @@ slug: como-elegir-primera-moto-colombia-2026
 category: "Guías"
 date: "2026-06-05"
 excerpt: "Guía paso a paso para comprar tu primera moto en Colombia en 2026. Presupuesto, cilindraje, tipo de moto, documentos, licencia y recomendaciones de modelos vigentes para empezar."
-cover_image: ""
+cover_image: "/images/blog/como-elegir.webp"
 author: "Jhojan Jacome"
 ---
 

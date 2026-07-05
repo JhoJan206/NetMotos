@@ -4,7 +4,7 @@ slug: soat-motos-colombia-2026-precios
 category: "Normativa"
 date: "2026-01-15"
 excerpt: "Conoce los precios oficiales del SOAT para motos en Colombia 2026 según cilindraje, incluyendo ciclomotores y motocarros. Te explicamos qué cubre, cómo pagarlo y qué pasa si te cogen sin él."
-cover_image: ""
+cover_image: "/images/blog/soat.webp"
 author: "Jhojan Jacome"
 ---
 

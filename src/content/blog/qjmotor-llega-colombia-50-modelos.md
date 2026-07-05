@@ -4,7 +4,7 @@ slug: qjmotor-llega-colombia-50-modelos
 category: "Lanzamientos"
 date: "2026-06-15"
 excerpt: "La marca china QJMOTOR desembarcó oficialmente en Colombia durante la Feria 2 Ruedas 2026 con el stand más grande de una sola marca en la historia del evento. Conoce los segmentos que cubrirá y cómo impactará el mercado."
-cover_image: ""
+cover_image: "/images/blog/qjmotor.webp"
 author: "Jhojan Jacome"
 ---
 

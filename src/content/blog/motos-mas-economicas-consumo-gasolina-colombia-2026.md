@@ -4,7 +4,7 @@ slug: motos-mas-economicas-consumo-gasolina-colombia-2026
 category: "Guías"
 date: "2026-06-10"
 excerpt: "Descubre las motos con mejor consumo de gasolina en Colombia en 2026. Ranking actualizado con km/l reales, costo por km con el precio actual del galón y ahorro anual vs otros modelos."
-cover_image: ""
+cover_image: "/images/blog/motos-economicas.webp"
 author: "Jhojan Jacome"
 ---
 

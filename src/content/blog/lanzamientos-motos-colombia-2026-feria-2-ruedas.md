@@ -4,7 +4,7 @@ slug: lanzamientos-motos-colombia-2026-feria-2-ruedas
 category: "Lanzamientos"
 date: "2026-06-15"
 excerpt: "La Feria 2 Ruedas y la Expo2Ruedas 2026 dejaron varios lanzamientos importantes: Honda PCX160 ABS, Suzuki DR160X, AKT VOGE DSX525, TVS iQube eléctrico y más. Repasamos los precios y novedades."
-cover_image: ""
+cover_image: "/images/blog/lanzamientos-2026.webp"
 author: "Jhojan Jacome"
 ---
 

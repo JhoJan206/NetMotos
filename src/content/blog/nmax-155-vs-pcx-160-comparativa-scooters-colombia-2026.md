@@ -4,7 +4,7 @@ slug: nmax-155-vs-pcx-160-comparativa-scooters-colombia-2026
 category: "Guías"
 date: "2026-06-28"
 excerpt: "Honda relanzó el PCX160 en versión ABS premium a $14.800.000, mucho más caro que la Yamaha NMAX 155. Comparamos ambos scooters en 2026 para ayudarte a decidir si el salto de precio se justifica."
-cover_image: ""
+cover_image: "/images/blog/nmax-vs-pcx.webp"
 author: "Jhojan Jacome"
 ---
 
