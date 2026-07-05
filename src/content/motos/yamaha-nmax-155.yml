@@ -27,7 +27,7 @@ freno_trasero: Disco 230mm + ABS
 llanta_delantero: 110/70-13
 llanta_trasero: 130/70-13
 precio_cop: 8690000
-imagen: ''
+imagen: /images/motos/yamaha-nmax-155.webp
 pros:
   - ABS de serie
   - Excelente para ciudad

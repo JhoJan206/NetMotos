@@ -27,7 +27,7 @@ freno_trasero: Disco 220mm
 llanta_delantero: 100/80-17
 llanta_trasero: 130/70-17
 precio_cop: 5490000
-imagen: ''
+imagen: /images/motos/hero-xtreme-160r.webp
 pros:
   - Inyección electrónica
   - ABS delantero

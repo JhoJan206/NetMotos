@@ -27,7 +27,7 @@ freno_trasero: Tambor 130mm
 llanta_delantero: 2.75-18
 llanta_trasero: 3.00-18
 precio_cop: 4290000
-imagen: ''
+imagen: /images/motos/akt-nkd-125.webp
 pros:
   - Excelente consumo de combustible
   - Mantenimiento económico

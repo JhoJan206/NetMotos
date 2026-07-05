@@ -27,7 +27,7 @@ freno_trasero: Tambor 130mm
 llanta_delantero: 2.75-21
 llanta_trasero: 3.50-18
 precio_cop: 4590000
-imagen: ''
+imagen: /images/motos/akt-ttr-125.webp
 pros:
   - Excelente para terreno rural
   - Buena distancia al suelo

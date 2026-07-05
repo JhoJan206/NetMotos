@@ -27,7 +27,7 @@ freno_trasero: Disco 220mm
 llanta_delantero: 90/90-17
 llanta_trasero: 110/80-17
 precio_cop: 5690000
-imagen: ''
+imagen: /images/motos/tvs-apache-rtr-160.webp
 pros:
   - Motor potente y refinado
   - Doble freno de disco

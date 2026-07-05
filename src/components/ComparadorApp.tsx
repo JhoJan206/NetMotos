@@ -28,6 +28,14 @@ interface Moto {
   imagen?: string
 }
 
+const MOTO_COLORS = ['#E63946', '#1D3557', '#F4A261', '#2A9D8F', '#6B4CE6', '#E07A2F', '#2B4F7A', '#E9C46A']
+
+function motoColor(modelo: string): string {
+  let hash = 0
+  for (let i = 0; i < modelo.length; i++) hash = modelo.charCodeAt(i) + ((hash << 5) - hash)
+  return MOTO_COLORS[Math.abs(hash) % MOTO_COLORS.length]
+}
+
 export default function ComparadorApp({ motos: motosJson }: { motos: string }) {
   const allMotos: Moto[] = JSON.parse(motosJson)
   const [selected, setSelected] = useState<Moto[]>([])
@@ -64,6 +72,15 @@ export default function ComparadorApp({ motos: motosJson }: { motos: string }) {
     })
   }
 
+  const handleAddMoto = (moto: Moto) => {
+    setSelected(prev => {
+      if (prev.find(m => m.id === moto.id)) return prev
+      const next = prev.length >= 3 ? [...prev.slice(1), moto] : [...prev, moto]
+      sessionStorage.setItem('comparador', JSON.stringify(next.map(m => ({ id: m.id }))))
+      return next
+    })
+  }
+
   const disponibles = allMotos.filter(m => !selected.find(s => s.id === m.id))
 
   if (!ready) return <div style={{ padding: '40px', textAlign: 'center' }}>Cargando...</div>
@@ -89,31 +106,37 @@ export default function ComparadorApp({ motos: motosJson }: { motos: string }) {
       {selected.length === 0 && (
         <div className="comparador-empty">
           <div className="grid-3">
-            {allMotos.slice(0, 6).map(moto => (
-              <div key={moto.id} className="moto-card">
-                <a href={`/fichas-tecnicas/${moto.slug}`} className="moto-card-image">
-                  <div className="moto-card-placeholder">
-                    <span className="moto-initial">{moto.modelo[0]}</span>
-                  </div>
-                </a>
-                <div className="moto-card-body">
-                  <div className="moto-card-header">
-                    <span className="moto-marca">{moto.marca}</span>
-                    <span className="moto-tipo">{moto.tipo}</span>
-                  </div>
-                  <h3 className="moto-card-title">{moto.nombre_completo}</h3>
-                  <div className="moto-card-specs">
-                    <span>{moto.cilindraje}cc</span>
-                    <span>{moto.potencia_hp} HP</span>
-                    <span>{moto.consumo_km_l} km/l</span>
-                    <span>{moto.peso_kg} kg</span>
-                  </div>
-                  <div className="moto-card-footer">
-                    <span className="moto-precio">{formatCOP(moto.precio_cop)}</span>
+            {allMotos.slice(0, 6).map(moto => {
+              const color = motoColor(moto.modelo)
+              return (
+                <div key={moto.id} className="moto-card">
+                  <a href={`/fichas-tecnicas/${moto.slug}`} className="moto-card-image" style={{ background: `linear-gradient(135deg, ${color}, ${color}dd)` }}>
+                    <div className="moto-card-placeholder">
+                      <span className="moto-initial">{moto.modelo[0]}</span>
+                    </div>
+                  </a>
+                  <div className="moto-card-body">
+                    <div className="moto-card-header">
+                      <span className="moto-marca">{moto.marca}</span>
+                      <span className="moto-tipo">{moto.tipo}</span>
+                    </div>
+                    <h3 className="moto-card-title">{moto.nombre_completo}</h3>
+                    <div className="moto-card-specs">
+                      <span>{moto.cilindraje}cc</span>
+                      <span>{moto.potencia_hp} HP</span>
+                      <span>{moto.consumo_km_l} km/l</span>
+                      <span>{moto.peso_kg} kg</span>
+                    </div>
+                    <div className="moto-card-footer">
+                      <span className="moto-precio">{formatCOP(moto.precio_cop)}</span>
+                      <button className="btn btn-sm btn-primary" onClick={() => handleAddMoto(moto)}>
+                        Comparar
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       )}

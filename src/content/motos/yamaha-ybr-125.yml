@@ -27,7 +27,7 @@ freno_trasero: Tambor 130mm
 llanta_delantero: 2.75-18
 llanta_trasero: 3.00-18
 precio_cop: 4990000
-imagen: ''
+imagen: /images/motos/yamaha-ybr-125.webp
 pros:
   - Confiabilidad Yamaha
   - Tanque grande (12L)

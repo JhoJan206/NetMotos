@@ -27,7 +27,7 @@ freno_trasero: Disco 220mm
 llanta_delantero: 80/100-17
 llanta_trasero: 110/90-17
 precio_cop: 4590000
-imagen: ''
+imagen: /images/motos/hero-hunk-125r.webp
 pros:
   - Frenos de disco en ambas ruedas
   - Monoamortiguador Nitrox

@@ -27,7 +27,7 @@ freno_trasero: Tambor 130mm
 llanta_delantero: 2.75-18
 llanta_trasero: 3.00-18
 precio_cop: 3990000
-imagen: ''
+imagen: /images/motos/bajaj-ct-125.webp
 pros:
   - Mejor precio del segmento
   - Tanque grande (12L)
