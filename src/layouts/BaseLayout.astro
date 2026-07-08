@@ -78,20 +78,19 @@ if (breadcrumbs && breadcrumbs.length > 0) {
     ))}
 
     <script is:inline>
-      (function() {
-        var consent = localStorage.getItem('cookies-accepted');
-        if (consent === 'all') {
-          var s = document.createElement('script');
-          s.async = true;
-          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-DT70F21310';
-          document.head.appendChild(s);
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-DT70F21310');
-        }
-      })();
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+      gtag('js', new Date());
+      gtag('config', 'G-DT70F21310');
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DT70F21310"></script>
   </head>
   <body>
     <Navbar />
