@@ -7,7 +7,6 @@ export default defineConfig({
   trailingSlash: 'never',
   integrations: [react(), sitemap({
     changefreq: 'daily',
-    lastmod: new Date(),
   })],
   vite: {
     ssr: {
