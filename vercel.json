@@ -17,6 +17,5 @@
   ],
   "redirects": [
     { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "permanent": true },
-    { "source": "https://www.netmotos.lat/:path*", "destination": "https://netmotos.lat/:path*", "permanent": true }
   ]
 }
