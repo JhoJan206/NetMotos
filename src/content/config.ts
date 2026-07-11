@@ -4,7 +4,7 @@ const blog = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    category: z.enum(['Lanzamientos', 'Guías', 'Normativa', 'Eventos', 'Deportes', 'Seguridad Vial']),
+    category: z.enum(['Lanzamientos', 'Guías', 'Normativa', 'Noticias', 'Deportes', 'Seguridad Vial']),
     date: z.string(),
     excerpt: z.string(),
     cover_image: z.string().optional(),

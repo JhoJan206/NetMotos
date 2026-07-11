@@ -1,0 +1,37 @@
+id: ktm-200-duke-2026
+slug: ktm-200-duke-2026
+marca: KTM
+modelo: 200 Duke
+nombre_completo: KTM 200 Duke 2026
+anio: 2026
+tipo: Naked
+cilindraje: 199.5
+potencia_hp: 24.7
+potencia_rpm: 9750
+torque_nm: 19.5
+torque_rpm: 8000
+alimentacion: Inyección electrónica
+encendido: Electrónico (ECU Bosch)
+arranque: Eléctrico
+transmision: 6 velocidades
+combustible: Gasolina extra (95 octanos recomendado)
+capacidad_tanque_l: 13.5
+consumo_km_l: 30
+peso_kg: 140
+altura_asiento_mm: 815
+distancia_suelo_mm: 174
+suspension_delantera: WP APEX invertida 45 mm, 138 mm de recorrido
+suspension_trasera: Monoshock WP APEX, 161 mm de recorrido
+freno_delantero: Disco 320 mm con ABS (pinza radial ByBre)
+freno_trasero: Disco 230 mm con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 150/60-17
+precio_cop: 18990000
+imagen: /images/motos/ktm-200-duke-2026.webp
+pros:
+  - Mejor relación peso-potencia de su segmento (140 kg y 24.7 HP)
+  - Garantía ampliada a 4 años sin límite de kilometraje desde 2026
+contras:
+  - Precio bastante por encima de sus rivales asiáticas de 200cc
+  - Altura de asiento (815 mm) puede incomodar a pilotos de estatura baja
+rating: 4.6

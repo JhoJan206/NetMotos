@@ -1,0 +1,40 @@
+id: honda-xr150l-2.0-abs
+slug: honda-xr150l-2.0-abs
+marca: Honda
+modelo: XR150L 2.0 ABS
+nombre_completo: Honda XR150L 2.0 ABS
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 149.15
+potencia_hp: 11.7
+potencia_rpm: 8000
+torque_nm: 12.1
+torque_rpm: 6000
+alimentacion: Carburador
+encendido: CDI
+arranque: Eléctrico y pedal
+transmision: 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 42
+peso_kg: 128
+# altura_asiento_mm y distancia_suelo_mm: Honda Colombia no publica la cifra exacta
+# en su ficha pública; son valores aproximados típicos del segmento XR, verifícalos
+# contra el PDF de ficha técnica antes de publicar.
+altura_asiento_mm: 825
+distancia_suelo_mm: 195
+suspension_delantera: Telescópica invertida con cámara de nitrógeno (NAP)
+suspension_trasera: Monoamortiguador Pro-Arm
+freno_delantero: Disco ventilado con ABS
+freno_trasero: Tambor
+llanta_delantero: 90/90-19
+llanta_trasero: 110/90-17
+precio_cop: 10990000
+imagen: /images/motos/honda-xr150l-2.0-abs.webp
+pros:
+  - Más de 21 años de trayectoria de la línea XR en Colombia, con red de repuestos amplia
+  - Doble arranque (eléctrico y pedal), útil en caminos destapados donde falla la batería
+contras:
+  - Freno trasero de tambor, ya superado por el disco en varias rivales directas
+  - Motor carburado, sin la precisión ni el mantenimiento simplificado de una inyección electrónica
+rating: 4.2

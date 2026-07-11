@@ -1,0 +1,37 @@
+id: tvs-apache-rtr-200-4v-xc-fi-abs
+slug: tvs-apache-rtr-200-4v-xc-fi-abs
+marca: TVS
+modelo: Apache RTR 200 4V XC FI ABS
+nombre_completo: TVS Apache RTR 200 4V XC FI ABS
+anio: 2026
+tipo: Deportiva
+cilindraje: 197.75
+potencia_hp: 20.23
+potencia_rpm: 8500
+torque_nm: 18.1
+torque_rpm: 7000
+alimentacion: Inyección electrónica
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 34
+peso_kg: 152
+altura_asiento_mm: 800
+distancia_suelo_mm: 180
+suspension_delantera: Horquilla telescópica Kayaba
+suspension_trasera: Monoamortiguador Kayaba ajustable en 7 posiciones
+freno_delantero: Disco 270 mm con ABS
+freno_trasero: Disco 240 mm con ABS
+llanta_delantero: 90/90-17
+llanta_trasero: 130/70-17
+precio_cop: 12799999
+imagen: /images/motos/tvs-apache-rtr-200-4v-xc-fi-abs.webp
+pros:
+  - 3 modos de manejo (Sport, Urbano, Lluvia) seleccionables, poco frecuente en esta categoría
+  - Refrigeración por aceite que reduce hasta 10°C la temperatura del motor en tráfico
+contras:
+  - Conectividad SmartXonnect depende de la app, que no todos los usuarios activan
+  - Suspensión trasera ajustable, pero de fábrica llega en posición algo dura para trayectos largos
+rating: 4.4

@@ -1,0 +1,37 @@
+id: royal-enfield-classic-350
+slug: royal-enfield-classic-350
+marca: Royal Enfield
+modelo: Classic 350
+nombre_completo: Royal Enfield Classic 350
+anio: 2026
+tipo: Clásica
+cilindraje: 349
+potencia_hp: 20.2
+potencia_rpm: 6100
+torque_nm: 27
+torque_rpm: 4000
+alimentacion: Inyección electrónica (EFI)
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 28
+peso_kg: 195
+altura_asiento_mm: 805
+distancia_suelo_mm: 170
+suspension_delantera: Telescópica 41 mm
+suspension_trasera: Doble amortiguador con ajuste de precarga en 6 posiciones
+freno_delantero: Disco 300 mm con ABS
+freno_trasero: Disco 270 mm con ABS
+llanta_delantero: 100/90-19
+llanta_trasero: 120/80-18
+precio_cop: 19900000
+imagen: /images/motos/royal-enfield-classic-350.webp
+pros:
+  - Ensamblada en Antioquia, con componentes de origen nacional en pintura y detalles
+  - Torque generoso (27 Nm) disponible desde bajas revoluciones, ideal para ciudad
+contras:
+  - Precio elevado tras el ajuste del nuevo impoconsumo de 2026
+  - Peso considerable (195 kg) frente a otras 350cc del mercado, exige más práctica al maniobrar en bajo
+rating: 4.5

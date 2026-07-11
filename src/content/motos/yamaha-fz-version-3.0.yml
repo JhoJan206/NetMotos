@@ -1,0 +1,37 @@
+id: yamaha-fz-version-3.0
+slug: yamaha-fz-version-3.0
+marca: Yamaha
+modelo: FZ Versión 3.0 FI
+nombre_completo: Yamaha FZ Versión 3.0 FI
+anio: 2026
+tipo: Naked
+cilindraje: 149
+potencia_hp: 13
+potencia_rpm: 8000
+torque_nm: 12.8
+torque_rpm: 6000
+alimentacion: Inyección electrónica (Fuel Injection)
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 44
+peso_kg: 137
+altura_asiento_mm: 790
+distancia_suelo_mm: 165
+suspension_delantera: Telescópica
+suspension_trasera: Monoshock
+freno_delantero: Disco con ABS monocanal
+freno_trasero: Disco
+llanta_delantero: 100/80-17
+llanta_trasero: 140/60-17
+precio_cop: 11700000
+imagen: /images/motos/yamaha-fz-version-3.0.webp
+pros:
+  - Tecnología Blue Core que le da uno de los mejores rendimientos de combustible de su segmento
+  - 15 años de trayectoria de la familia FZ en Colombia, con alta disponibilidad de repuestos
+contras:
+  - Potencia algo justa (13 HP) frente a naked de 160-200cc en precio similar
+  - Solo ABS monocanal (delantero), sin cobertura en la rueda trasera
+rating: 4.3

@@ -1,0 +1,39 @@
+id: akt-flex-evolution-125
+slug: akt-flex-evolution-125
+marca: AKT
+modelo: Flex Evolution 125
+nombre_completo: AKT Flex Evolution 125
+anio: 2026
+tipo: Scooter
+cilindraje: 123.7
+potencia_hp: 8.6
+potencia_rpm: 8000
+torque_nm: 8.5
+torque_rpm: 6000
+alimentacion: Carburador
+encendido: CDI
+arranque: Eléctrico y a patada
+transmision: 4 cambios (semiautomática)
+combustible: Gasolina corriente
+capacidad_tanque_l: 3.8
+consumo_km_l: 48
+peso_kg: 103
+# altura_asiento_mm: AKT no publica esta cifra para la versión Evolution; valor
+# aproximado según el segmento de semiautomáticas AKT, verificar en el manual de usuario.
+altura_asiento_mm: 780
+distancia_suelo_mm: 130
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco lobulado
+freno_trasero: Tambor
+llanta_delantero: 2.50-17
+llanta_trasero: 2.75-17
+precio_cop: 5590000
+imagen: /images/motos/akt-flex-evolution-125.webp
+pros:
+  - Uno de los precios de entrada más bajos del mercado, ideal como primera moto
+  - Transmisión semiautomática fácil de aprender, sin manigueta de clutch
+contras:
+  - Tanque pequeño (3.8 L), exige tanquear con más frecuencia
+  - Freno trasero de tambor y motor carburado, tecnología más básica que la competencia con inyección
+rating: 4.0

@@ -1,0 +1,37 @@
+id: suzuki-gsx-s150-abs
+slug: suzuki-gsx-s150-abs
+marca: Suzuki
+modelo: GSX-S150 ABS
+nombre_completo: Suzuki GSX-S150 ABS
+anio: 2026
+tipo: Deportiva
+cilindraje: 147
+potencia_hp: 18.9
+potencia_rpm: 10500
+torque_nm: 14.0
+torque_rpm: 9000
+alimentacion: Inyección electrónica
+encendido: Electrónico (ECU)
+arranque: Eléctrico y pedal
+transmision: 6 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 11
+consumo_km_l: 38
+peso_kg: 130
+altura_asiento_mm: 786
+distancia_suelo_mm: 155
+suspension_delantera: Telescópica
+suspension_trasera: Monoamortiguador con bieletas
+freno_delantero: Disco con ABS
+freno_trasero: Disco con ABS
+llanta_delantero: 90/80-17
+llanta_trasero: 130/70-17
+precio_cop: 12990000
+imagen: /images/motos/suzuki-gsx-s150-abs.webp
+pros:
+  - De las pocas 150cc del mercado colombiano con refrigeración líquida, DOHC y ABS doble canal
+  - Peso muy bajo (130 kg) que la hace ágil entre semáforos y en parqueo
+contras:
+  - Tanque de solo 11 litros, autonomía algo corta para carretera
+  - Menos torque en bajo régimen que una naked de mayor cilindraje como la CB190R
+rating: 4.4

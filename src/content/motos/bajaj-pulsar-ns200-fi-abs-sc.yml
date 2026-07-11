@@ -1,0 +1,37 @@
+id: bajaj-pulsar-ns200-fi-abs-sc
+slug: bajaj-pulsar-ns200-fi-abs-sc
+marca: Bajaj
+modelo: Pulsar NS200 FI ABS SC
+nombre_completo: Bajaj Pulsar NS200 FI ABS SC
+anio: 2026
+tipo: Naked
+cilindraje: 199.5
+potencia_hp: 24.13
+potencia_rpm: 9750
+torque_nm: 18.6
+torque_rpm: 8000
+alimentacion: Inyección electrónica
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 6 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 32
+peso_kg: 155
+altura_asiento_mm: 807
+distancia_suelo_mm: 167
+suspension_delantera: Horquilla telescópica convencional
+suspension_trasera: Monoamortiguador Nitrox
+freno_delantero: Disco 300 mm con ABS
+freno_trasero: Disco 230 mm con ABS
+llanta_delantero: 100/80-17
+llanta_trasero: 130/70-17
+precio_cop: 13199000
+imagen: /images/motos/bajaj-pulsar-ns200-fi-abs-sc.webp
+pros:
+  - Motor con tecnología triple bujía (DTS-i) que entrega potencia pareja en todo el rango
+  - App Bajaj Ride Connect con navegación y estadísticas de consumo, poco común en este precio
+contras:
+  - Suspensión delantera convencional (no invertida), un peldaño por debajo de la KTM Duke 200
+  - Acabados percibidos como menos premium que los de Honda o Yamaha en la misma franja
+rating: 4.3

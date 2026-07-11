@@ -10,14 +10,14 @@ interface Post {
   cover_image?: string
 }
 
-const CATEGORIES = ['Todas', 'Lanzamientos', 'Guías', 'Normativa', 'Eventos', 'Deportes', 'Seguridad Vial']
+const CATEGORIES = ['Todas', 'Lanzamientos', 'Guías', 'Normativa', 'Noticias', 'Deportes', 'Seguridad Vial']
 const POSTS_PER_PAGE = 6
 
 const CATEGORY_COLORS: Record<string, string> = {
   Lanzamientos: '#FFE0E0',
   'Guías': '#FFF3D6',
   Normativa: '#D6E8FF',
-  Eventos: '#D6FFE0',
+  Noticias: '#D6FFE0',
   Deportes: '#E8D6FF',
   'Seguridad Vial': '#FFD6E8',
 }

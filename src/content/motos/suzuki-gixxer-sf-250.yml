@@ -1,0 +1,37 @@
+id: suzuki-gixxer-sf-250
+slug: suzuki-gixxer-sf-250
+marca: Suzuki
+modelo: Gixxer SF 250
+nombre_completo: Suzuki Gixxer SF 250
+anio: 2026
+tipo: Deportiva
+cilindraje: 249
+potencia_hp: 26.1
+potencia_rpm: 9000
+torque_nm: 22
+torque_rpm: 7300
+alimentacion: Inyección electrónica
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 6 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 30
+peso_kg: 161
+altura_asiento_mm: 800
+distancia_suelo_mm: 165
+suspension_delantera: Telescópica
+suspension_trasera: Monoamortiguador ajustable en 7 posiciones
+freno_delantero: Disco 300 mm con ABS
+freno_trasero: Disco con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 150/60-17
+precio_cop: 17130000
+imagen: /images/motos/suzuki-gixxer-sf-250.webp
+pros:
+  - Motor refrigerado por aceite, solución poco común en 250cc que da buena durabilidad sin el peso de un sistema líquido
+  - ABS de doble canal de serie en toda la gama
+contras:
+  - Precio elevado frente a naked de cilindraje similar sin carenado, como la Yamaha FZ25
+  - Carenado completo suma peso (161 kg) frente a versiones naked de la misma plataforma
+rating: 4.4

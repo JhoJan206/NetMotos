@@ -1,0 +1,37 @@
+id: honda-cb190r-2.0
+slug: honda-cb190r-2.0
+marca: Honda
+modelo: CB190R 2.0
+nombre_completo: Honda CB190R 2.0
+anio: 2026
+tipo: Naked
+cilindraje: 184.4
+potencia_hp: 17
+potencia_rpm: 8500
+torque_nm: 15.5
+torque_rpm: 6500
+alimentacion: Inyección electrónica PGM-FI
+encendido: Electrónico (ECU)
+arranque: Eléctrico
+transmision: 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 35
+peso_kg: 142
+altura_asiento_mm: 770
+distancia_suelo_mm: 160
+suspension_delantera: Telescópica invertida
+suspension_trasera: Monoamortiguador Pro-Link
+freno_delantero: Disco con ABS
+freno_trasero: Disco
+llanta_delantero: 110/70-17
+llanta_trasero: 140/70-17
+precio_cop: 12790000
+imagen: /images/motos/honda-cb190r-2.0.webp
+pros:
+  - Refrigeración por aire de bajo mantenimiento con el respaldo y red de servicio de Honda
+  - ABS delantero de serie, algo que varias rivales de su precio no ofrecen
+contras:
+  - El motor enfriado por aire se nota más caliente en tráfico pesado que las versiones refrigeradas por líquido
+  - Consumo un poco más alto que naked de menor cilindraje como la FZ 3.0
+rating: 4.3
