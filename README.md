@@ -39,4 +39,4 @@ npm run preview  # Previsualizar el build localmente
 
 ## Despliegue
 
-El proyecto está configurado para desplegarse en Vercel. El site base se define en astro.config.mjs como https://netmotos.lat
+El proyecto está configurado para desplegarse en Vercel. https://netmotos.lat
