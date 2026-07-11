@@ -39,4 +39,4 @@ npm run preview  # Previsualizar el build localmente
 
 ## Despliegue
 
-El proyecto está configurado para desplegarse en Vercel. https://netmotos.lat
+El proyecto está configurado para desplegarse en Vercel: https://netmotos.lat
