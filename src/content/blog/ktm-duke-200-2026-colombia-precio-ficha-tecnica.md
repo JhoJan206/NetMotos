@@ -4,6 +4,7 @@ slug: ktm-duke-200-2026-colombia-precio-ficha-tecnica
 category: "Lanzamientos"
 date: "2026-07-08"
 excerpt: "La KTM 200 Duke se renueva para 2026 con nuevo diseño, tablero de 5 pulgadas y garantía de 4 años. Te contamos el precio en Colombia, las diferencias clave con la generación anterior, y cómo se compara con sus rivales en el segmento de las 200 cc premium."
+cover_image: /images/blog/ktm-200-duke-colombia.webp
 author: "Jhojan Jacome"
 ---
 

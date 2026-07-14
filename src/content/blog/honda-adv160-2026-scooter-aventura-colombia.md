@@ -4,6 +4,7 @@ slug: honda-adv160-2026-scooter-aventura-colombia
 category: "Noticias"
 date: "2026-07-05"
 excerpt: "Honda ya actualizó el ADV160 para 2026 con suspensión de mayor recorrido, control de tracción HSTC y tablero LCD segmentado. El modelo sigue ausente en Colombia mientras la demanda crece en foros y redes sociales. Esto es todo lo que se sabe hasta ahora."
+cover_image: /images/blog/adv160.webp
 author: "Jhojan Jacome"
 ---
 

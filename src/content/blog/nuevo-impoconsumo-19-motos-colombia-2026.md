@@ -4,6 +4,7 @@ slug: nuevo-impoconsumo-19-motos-colombia-2026
 category: "Guías"
 date: "2026-07-10"
 excerpt: "El Decreto 1474 de 2025 ajustó el impoconsumo aplicado a motocicletas y ya se refleja en los precios de venta al público. Te explicamos qué cambió, a qué modelos afecta más y cómo calcular el precio real antes de comprar."
+cover_image: /images/blog/impoconsumo-motos-colombia.webp
 author: "Jhojan Jacome"
 ---
 
