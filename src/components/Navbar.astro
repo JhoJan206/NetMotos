@@ -12,7 +12,6 @@ const { currentPath = '' } = Astro.props
       <span class="hamburger" />
     </button>
     <div class="nav-menu" id="navMenu">
-      <a href="/" class={currentPath === '/' ? 'active' : ''}>Inicio</a>
       <a href="/fichas-tecnicas" class={currentPath.startsWith('/fichas-tecnicas') ? 'active' : ''}>Fichas Técnicas</a>
       <a href="/comparador" class={currentPath === '/comparador' ? 'active' : ''}>Comparador</a>
       <a href="/calculadora-consumo" class={currentPath === '/calculadora-consumo' ? 'active' : ''}>Calculadora</a>

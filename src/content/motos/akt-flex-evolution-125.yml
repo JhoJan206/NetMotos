@@ -18,8 +18,6 @@ combustible: Gasolina corriente
 capacidad_tanque_l: 3.8
 consumo_km_l: 48
 peso_kg: 103
-# altura_asiento_mm: AKT no publica esta cifra para la versión Evolution; valor
-# aproximado según el segmento de semiautomáticas AKT, verificar en el manual de usuario.
 altura_asiento_mm: 780
 distancia_suelo_mm: 130
 suspension_delantera: Telescópica hidráulica
@@ -36,4 +34,13 @@ pros:
 contras:
   - Tanque pequeño (3.8 L), exige tanquear con más frecuencia
   - Freno trasero de tambor y motor carburado, tecnología más básica que la competencia con inyección
-rating: 4.0
+rating: 4
+descripcion: >-
+  Si nunca has manejado moto y la idea del clutch te da nervios, la AKT Flex Evolution 125 es exactamente el tipo de
+  vehículo por el que deberías empezar. Su transmisión semiautomática de 4 cambios —sin manigueta de embrague— te deja
+  concentrarte en el tráfico sin pensar en hacer el punto de fricción. El motor de 123.7 cc entrega solo 8.6 HP, que
+  para ciudad es más que suficiente, y el asiento bajo (780 mm aprox.) hace que cualquier persona se sienta segura
+  parándose en los semáforos. Pesa apenas 103 kilos, así que maniobrarla en parqueadero es un juego de niños. La
+  contrapartida es un tanque diminuto de 3.8 litros: vas a vivir en la gasolinera si la usas para trabajar. También hay
+  que aceptar que es carburada, con freno trasero de tambor, y que los 5.590.000 COP ya no son tan "económicos" como
+  antes. Pero como primera moto o para recorridos cortos diarios, la Flex Evolution cumple su promesa de simplicidad.

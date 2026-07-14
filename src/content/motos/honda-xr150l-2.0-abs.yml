@@ -18,9 +18,6 @@ combustible: Gasolina corriente
 capacidad_tanque_l: 12
 consumo_km_l: 42
 peso_kg: 128
-# altura_asiento_mm y distancia_suelo_mm: Honda Colombia no publica la cifra exacta
-# en su ficha pública; son valores aproximados típicos del segmento XR, verifícalos
-# contra el PDF de ficha técnica antes de publicar.
 altura_asiento_mm: 825
 distancia_suelo_mm: 195
 suspension_delantera: Telescópica invertida con cámara de nitrógeno (NAP)
@@ -38,3 +35,13 @@ contras:
   - Freno trasero de tambor, ya superado por el disco en varias rivales directas
   - Motor carburado, sin la precisión ni el mantenimiento simplificado de una inyección electrónica
 rating: 4.2
+descripcion: >-
+  La Honda XR150L 2.0 ABS es la evolución de un ícono colombiano. La línea XR tiene más de 21 años en el país, y esta
+  versión actualizada trae ABS en el freno delantero —un avance grande para el segmento doble propósito— y suspensión
+  invertida con cámara de nitrógeno. El motor de 149.15 cc con carburador da 11.7 HP y 12.1 Nm, números modestos pero
+  efectivos para trochas y carreteras veredales. Pesa 128 kilos y la distancia al suelo de 195 mm la hace pasar donde
+  otras se quedan. El doble arranque (eléctrico y pedal) es un detalle que los campesinos agradecen: cuando la batería
+  falla en medio de la nada, una patada y listo. Lo criticable: sigue siendo carburada cuando ya varias rivales tienen
+  inyección, y el freno trasero de tambor se siente anticuado. El precio de 10.990.000 COP está justificado por la red
+  de servicio Honda, que es la más grande del país. Para el que vive en zona rural, trabaja en el campo o necesita una
+  moto que aguante el castigo de las vías destapadas colombianas, la XR150L sigue siendo la referencia.

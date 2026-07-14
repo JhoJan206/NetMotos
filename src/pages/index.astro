@@ -12,7 +12,7 @@ const posts = (await getCollection('blog'))
 const motos = await getCollection('motos')
 const motosDataMap = motos.map(m => m.data)
 
-const idsDestacadas = ['akt-nkd-125', 'yamaha-nmax-155', 'hero-xtreme-160r', 'akt-ttr-125', 'tvs-apache-rtr-160', 'yamaha-mt-15']
+const idsDestacadas = ['akt-nkd-125', 'yamaha-nmax-155', 'hero-hunk-160r', 'akt-ttr-125', 'tvs-apache-rtr-160', 'yamaha-mt-15']
 const destacadas = idsDestacadas
   .map(id => motosDataMap.find(m => m.id === id))
   .filter(Boolean)
@@ -42,6 +42,19 @@ const schema = {
       </div>
     </div>
   </section>
+
+  <div class="ticker-bar">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">23+ fichas técnicas actualizadas</span>
+      <span class="ticker-sep">•</span>
+      <span class="ticker-item">Compara modelos lado a lado</span>
+      <span class="ticker-sep">•</span>
+      <span class="ticker-item">Calcula tu consumo de gasolina</span>
+      <span class="ticker-sep">•</span>
+      <span class="ticker-item">Guías para elegir tu primera moto</span>
+      <span class="ticker-sep">•</span>
+    </div>
+  </div>
 
   <section class="container section">
     <div class="section-title">
@@ -119,3 +132,106 @@ const schema = {
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .ticker-bar {
+    width: 100%;
+    overflow: hidden;
+    background: var(--color-secondary);
+    padding: 12px 0;
+    position: relative;
+    box-shadow: inset 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+  .ticker-bar::before,
+  .ticker-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 48px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .ticker-bar::before {
+    left: 0;
+    background: linear-gradient(to right, var(--color-secondary), transparent);
+  }
+
+  .ticker-bar::after {
+    right: 0;
+    background: linear-gradient(to left, var(--color-secondary), transparent);
+  }
+
+  .ticker-track {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  .ticker-track.paused {
+    animation-play-state: paused;
+  }
+
+  .ticker-item {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0 4px;
+    letter-spacing: 0.01em;
+  }
+
+  .ticker-sep {
+    color: var(--color-accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0 16px;
+    user-select: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track {
+      animation: none !important;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    var track = document.getElementById('tickerTrack')
+    if (!track || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+
+    var html = track.innerHTML
+    var itemCount = track.children.length
+    track.innerHTML = html + html
+    var oneSet = track.scrollWidth / 2
+    track.innerHTML = html + html + html
+    var pos = 0
+    var playing = true
+
+    function tick() {
+      if (!playing) { requestAnimationFrame(tick); return }
+      pos -= 0.4
+      if (pos <= -oneSet) {
+        pos += oneSet
+        for (var i = 0; i < itemCount; i++) {
+          track.appendChild(track.children[0])
+        }
+      }
+      track.style.transform = 'translateX(' + pos + 'px)'
+      requestAnimationFrame(tick)
+    }
+
+    var bar = track.parentElement
+    bar.addEventListener('mouseenter', function() { playing = false })
+    bar.addEventListener('mouseleave', function() { playing = true })
+    bar.addEventListener('touchstart', function() { playing = false })
+    bar.addEventListener('touchend', function() { playing = true })
+
+    requestAnimationFrame(tick)
+  })()
+</script>

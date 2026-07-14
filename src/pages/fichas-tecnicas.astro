@@ -27,9 +27,17 @@ const schema = {
 >
   <div class="page-wrapper">
     <div class="container">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Fichas Técnicas</span>
+      </nav>
       <div class="section-title">
         <h2>Fichas Técnicas</h2>
       </div>
+      <p class="listing-intro">
+        Explora nuestro catálogo completo de fichas técnicas de motos disponibles en Colombia. Cada ficha incluye especificaciones detalladas de motor, transmisión, suspensión, frenos, consumo de combustible y precio actualizado. Puedes filtrar por marca, tipo de moto, cilindraje o rango de precio para encontrar la moto que se ajuste a lo que buscas. También puedes agregar modelos al comparador para ver sus diferencias lado a lado antes de tomar una decisión de compra.
+      </p>
       <MotoSearchFilter client:load motos={JSON.stringify(motos)} />
     </div>
   </div>

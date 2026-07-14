@@ -166,11 +166,17 @@
   .footer-inner { grid-template-columns: 1fr; }
 }
 
+.listing-intro {
+  margin-bottom: 20px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
 /* ===== HERO ===== */
 .hero {
   background: linear-gradient(135deg, var(--color-secondary), #0F1B2D);
   color: white;
-  padding: 120px 0 100px;
+  padding: 120px 0 50px;
   margin-top: calc(-1 * var(--nav-height));
   padding-top: calc(var(--nav-height) + 100px);
   position: relative;
@@ -440,6 +446,50 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  cursor: zoom-in;
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.lightbox[aria-hidden="false"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
 }
 
 .ficha-placeholder {

@@ -1,0 +1,49 @@
+id: hero-hunk-160r
+slug: hero-hunk-160r
+marca: Hero
+modelo: Hunk 160R
+nombre_completo: Hero Hunk 160R
+anio: 2024
+tipo: Naked
+cilindraje: 163
+potencia_hp: 15.2
+potencia_rpm: 8500
+torque_nm: 14
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10
+consumo_km_l: 44
+peso_kg: 129
+altura_asiento_mm: 795
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica 37mm
+suspension_trasera: Monoamortiguador Nitrox
+freno_delantero: Disco 276mm + ABS
+freno_trasero: Disco 220mm
+llanta_delantero: 100/80-17
+llanta_trasero: 130/70-17
+precio_cop: 5490000
+imagen: /images/motos/hero-hunk-160r.webp
+pros:
+  - Inyección electrónica
+  - ABS delantero
+  - Motor potente para su cilindraje
+contras:
+  - Red de servicio limitada
+  - Disponibilidad de repuestos
+  - Consumo medio
+rating: 4.2
+descripcion: >-
+  La Hero Hunk 160R llega a un segmento caliente —el de las naked de 160 cc— con argumentos sólidos. Su motor de 163
+  cc con inyección electrónica genera 15.2 HP y 14 Nm de torque, números que la ponen por encima de la FZ 3.0 y cerca de
+  la Apache RTR 160. Pesa solo 129 kilos, lo que se traduce en una relación peso-potencia muy divertida para ciudad.
+  Trae ABS en el freno delantero, disco atrás y horquilla de 37 mm que aguanta el ritmo. El diseño es moderno, con ese
+  tanque anguloso que le da carácter. El problema histórico de Hero es la red de servicio: si bien ha crecido, todavía
+  no tiene la capilaridad de Honda o Yamaha. Los 5.490.000 COP la hacen tentadora frente a una CB125F que vale casi lo
+  mismo con menos potencia. Para el motero que ya tuvo una 125 y quiere dar el paso sin llegar a los 200 cc, la Hunk
+  160R es de las opciones más divertidas del mercado colombiano. El consumo de 44 km/l no es el mejor del segmento pero
+  tampoco duele.

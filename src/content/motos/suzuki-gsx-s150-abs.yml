@@ -8,7 +8,7 @@ tipo: Deportiva
 cilindraje: 147
 potencia_hp: 18.9
 potencia_rpm: 10500
-torque_nm: 14.0
+torque_nm: 14
 torque_rpm: 9000
 alimentacion: Inyección electrónica
 encendido: Electrónico (ECU)
@@ -35,3 +35,13 @@ contras:
   - Tanque de solo 11 litros, autonomía algo corta para carretera
   - Menos torque en bajo régimen que una naked de mayor cilindraje como la CB190R
 rating: 4.4
+descripcion: >-
+  La Suzuki GSX-S150 ABS es un caso aparte en el mercado colombiano: una 150 cc con refrigeración líquida, DOHC y 6
+  velocidades, algo que nadie más ofrece en este cilindraje. Sus 18.9 HP a 10.500 rpm la convierten en una moto que pide
+  ser exigida, y los 130 kilos de peso la hacen increíblemente ágil en ciudad y en carretera de montaña. Trae ABS de
+  doble canal y frenos de disco en ambas ruedas. Pero también hay que conocer sus limitaciones: el torque de 14 Nm llega
+  a 9.000 rpm, lo que significa que en bajas revoluciones no es tan contundente como una naked de mayor cilindraje. Para
+  ciudad, hay que llevarla relativamente alta de vueltas para sentirla viva. El precio de 12.990.000 COP es alto para
+  una 150, y el tanque de 11 litros da una autonomía justa de unos 400 km. Está pensada para el que valora la tecnología
+  de un motor de alta compresión y no le importa pagar más por tener algo distinto. La postura deportiva no es la más
+  cómoda para trayectos largos, pero en una carretera de curvas es una delicia.
