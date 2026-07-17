@@ -114,9 +114,7 @@ export default function BlogFilter({ posts: postsJson }: { posts: string }) {
           )}
         </div>
         <aside className="blog-sidebar">
-          <div className="ad-slot" style={{ background: '#F0F0F0', border: '1px dashed #D0D0D0', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '250px', color: '#999', fontSize: '0.8rem', textAlign: 'center', padding: '8px' }}>
-            <span>Espacio publicitario</span>
-          </div>
+          <div style={{ display: 'none' }}></div>
           <div className="sidebar-card">
             <h4>¿Buscas moto?</h4>
             <p>Revisa nuestras fichas técnicas con especificaciones completas y precios actualizados.</p>

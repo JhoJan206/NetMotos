@@ -180,8 +180,10 @@ export default function MotoSearchFilter({ motos: motosJson }: { motos: string }
           )}
         </div>
         <aside className="fichas-sidebar">
-          <div className="ad-slot" style={{ background: '#F0F0F0', border: '1px dashed #D0D0D0', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '250px', color: '#999', fontSize: '0.8rem', textAlign: 'center', padding: '8px' }}>
-            <span>Espacio publicitario</span>
+          <div className="sidebar-card">
+            <h4>¿Buscas noticias?</h4>
+            <p>Mantente al día con las últimas noticias, lanzamientos y guías del mundo de las motos en Colombia.</p>
+            <a href="/blog" className="btn btn-primary btn-sm">Ver noticias</a>
           </div>
         </aside>
       </div>
