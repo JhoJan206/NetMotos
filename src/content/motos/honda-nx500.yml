@@ -1,0 +1,57 @@
+id: honda-nx500
+slug: honda-nx500
+marca: Honda
+modelo: Nx500
+nombre_completo: Honda Nx500
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 471
+potencia_hp: 47.5
+potencia_rpm: 8600
+torque_nm: 43
+torque_rpm: 6500
+alimentacion: Inyección electrónica PGM-FI
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 17.7
+consumo_km_l: 24
+peso_kg: 196
+altura_asiento_mm: 830
+distancia_suelo_mm: 190
+suspension_delantera: Horquilla telescópica invertida 41 mm ajustable
+suspension_trasera: Monoamortiguador Pro-Link ajustable en precarga
+freno_delantero: Doble disco 296 mm con ABS
+freno_trasero: Disco 240 mm con ABS
+llanta_delantero: 110/80-19
+llanta_trasero: 160/60-17
+precio_cop: 54900000
+imagen: /images/motos/honda-nx500.webp
+pros:
+  - Motor bicilíndrico suave, potente y muy confiable a largo plazo
+  - Autonomía sobresaliente gracias al tanque de 17.7 litros
+  - Excelente equilibrio entre uso urbano, ruta y trocha liviana
+contras:
+  - Precio la ubica fuera del alcance de la mayoría de compradores
+  - Peso considerable para maniobras en trocha exigente
+  - Pocos concesionarios fuera de las ciudades principales
+rating: 4.6
+descripcion: >-
+  La Nx500 es el escalón que muchos motociclistas sueñan alcanzar después
+  de años en cilindrajes medianos: una adventure bicilíndrica, seria,
+  hecha por Honda, con la solidez mecánica que caracteriza a la marca. No
+  es la más potente de su segmento, pero es probablemente la más
+  equilibrada.
+
+  El motor de 471cc entrega una potencia lineal y fácil de dosificar, algo
+  que se agradece tanto en trocha destapada como en carretera a
+  velocidades altas. El tanque grande le da una autonomía que pocas
+  rivales igualan, ideal para viajes largos sin depender de estaciones de
+  servicio cada rato.
+
+  Su competencia natural son la Kawasaki Versys 650 y algunas Royal
+  Enfield de mayor cilindraje, aunque compite en un nicho más reducido en
+  Colombia por su precio. Es una moto pensada para el motociclista
+  experimentado que ya tuvo varias motos antes y busca dar el salto a
+  algo más grande, confiable y con verdadera vocación de viaje.

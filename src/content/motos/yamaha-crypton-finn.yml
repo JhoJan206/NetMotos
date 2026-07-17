@@ -1,0 +1,57 @@
+id: yamaha-crypton-finn
+slug: yamaha-crypton-finn
+marca: Yamaha
+modelo: Crypton Finn
+nombre_completo: Yamaha Crypton Finn FI
+anio: 2026
+tipo: Clásica
+cilindraje: 114
+potencia_hp: 8.9
+potencia_rpm: 7500
+torque_nm: 8.8
+torque_rpm: 5000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico y pedal
+transmision: Manual 4 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10.6
+consumo_km_l: 48
+peso_kg: 106
+altura_asiento_mm: 770
+distancia_suelo_mm: 155
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Doble amortiguador con resorte helicoidal
+freno_delantero: Tambor 130 mm
+freno_trasero: Tambor 110 mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 9100000
+imagen: /images/motos/yamaha-crypton-finn.webp
+pros:
+  - Consumo de combustible entre los más altos de todo el mercado colombiano
+  - Respaldo y confiabilidad de la marca Yamaha en una moto muy económica
+  - Bajo costo de mantenimiento y repuestos accesibles
+contras:
+  - Sin freno de disco en ninguna de las dos ruedas
+  - Potencia mínima, pensada solo para trayectos urbanos cortos
+  - Diseño básico sin mayor diferenciación frente a otras 110-125cc
+rating: 4.1
+descripcion: >-
+  La Crypton Finn es la respuesta de Yamaha al segmento de motos
+  utilitarias económicas, un terreno dominado tradicionalmente por Bajaj
+  y AKT. Con inyección electrónica de fábrica y el respaldo de marca
+  Yamaha, se posiciona como una opción confiable para quien necesita
+  transporte básico sin gastar de más.
+
+  Su punto fuerte es clarísimo: el consumo de combustible. Rueda con
+  tranquilidad más de 45 km por litro en uso urbano normal, lo que la
+  vuelve una de las motos más baratas de mantener día a día en todo el
+  catálogo colombiano. A cambio, no hay lujos: frenos de tambor en ambas
+  ruedas y una potencia justa para moverse en ciudad sin afanes.
+
+  Compite directamente con la Bajaj Boxer CT100 y la AKT NKD 125. Es la
+  moto ideal para el trabajador independiente, el domiciliario o el
+  estudiante que necesita movilidad económica y confiable, priorizando el
+  ahorro en gasolina y mantenimiento por encima de cualquier otra
+  característica.

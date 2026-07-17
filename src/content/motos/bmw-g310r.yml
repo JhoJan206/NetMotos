@@ -1,0 +1,57 @@
+id: bmw-g310r
+slug: bmw-g310r
+marca: BMW
+modelo: G 310 R
+nombre_completo: BMW G 310 R
+anio: 2026
+tipo: Naked
+cilindraje: 313
+potencia_hp: 34
+potencia_rpm: 9250
+torque_nm: 28
+torque_rpm: 7250
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 11
+consumo_km_l: 27
+peso_kg: 158
+altura_asiento_mm: 785
+distancia_suelo_mm: 174
+suspension_delantera: Horquilla telescópica invertida 41 mm
+suspension_trasera: Monoamortiguador ajustable en precarga
+freno_delantero: Disco 300 mm con ABS
+freno_trasero: Disco 240 mm con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 150/60-17
+precio_cop: 27990000
+imagen: /images/motos/bmw-g310r.webp
+pros:
+  - Acabados y calidad de construcción propios de la marca alemana
+  - Motor con cilindro invertido (culata atrás) que baja el centro de gravedad
+  - Manejo muy equilibrado en curvas y frenadas
+contras:
+  - Tanque pequeño (11 litros) para el segmento de 300cc
+  - Precio elevado frente a rivales japonesas del mismo cilindraje
+  - Red de concesionarios BMW Motorrad limitada en Colombia
+rating: 4.5
+descripcion: >-
+  La G 310 R es la puerta de entrada al mundo BMW Motorrad en Colombia, y
+  se nota que la marca no quiso hacer una moto "de entrada" cualquiera. El
+  motor con la culata orientada hacia atrás es un detalle técnico poco
+  común en este segmento, pensado para mejorar el equilibrio y la
+  respuesta del chasis.
+
+  En curvas es donde más se disfruta: el centro de gravedad bajo y el
+  chasis bien calibrado le dan una sensación de manejo que se acerca más
+  a una moto europea de mayor cilindraje que a una naked asiática típica
+  de 300cc. En ciudad también se comporta con soltura, aunque el tanque
+  pequeño obliga a tanquear más seguido de lo ideal para salidas largas.
+
+  Compite con la KTM 250 Duke y la Kawasaki Z400, diferenciándose por el
+  prestigio de marca y la calidad de construcción típica alemana. Es la
+  moto ideal para el motociclista que quiere entrar al segmento premium
+  europeo sin comprar una moto de gran cilindraje, priorizando manejo
+  refinado y estatus de marca sobre el precio de compra.

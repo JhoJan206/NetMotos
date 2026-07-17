@@ -1,0 +1,57 @@
+id: royal-enfield-hunter-350
+slug: royal-enfield-hunter-350
+marca: Royal Enfield
+modelo: Hunter 350
+nombre_completo: Royal Enfield HNTR 350
+anio: 2026
+tipo: Naked
+cilindraje: 349
+potencia_hp: 20.2
+potencia_rpm: 6100
+torque_nm: 27
+torque_rpm: 4000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 13
+consumo_km_l: 34
+peso_kg: 181
+altura_asiento_mm: 790
+distancia_suelo_mm: 150
+suspension_delantera: Telescópica 41 mm
+suspension_trasera: Doble amortiguador ajustable en precarga
+freno_delantero: Disco 300 mm con ABS de doble canal
+freno_trasero: Disco 270 mm con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 140/70-17
+precio_cop: 15990000
+imagen: /images/motos/royal-enfield-hunter-350.webp
+pros:
+  - Precio de entrada a la marca Royal Enfield, el más accesible del portafolio
+  - Chasis más ágil y liviano que el resto de modelos de la marca
+  - Sonido de escape distintivo, muy valorado por los fanáticos de la marca
+contras:
+  - Suspensión trasera de recorrido corto, se nota en vías destapadas
+  - Potencia justa para dos pasajeros con equipaje en pendientes
+  - Freno trasero algo esponjoso comparado con la competencia japonesa
+rating: 4.5
+descripcion: >-
+  La Hunter 350, conocida también como HNTR 350, es la moto con la que
+  Royal Enfield decidió pelear directamente en el segmento urbano de
+  350cc, dejando de lado por un momento el aire retro-touring de sus
+  otros modelos. Es más ágil, más liviana y más asequible que el resto de
+  la gama de la marca.
+
+  En ciudad se mueve con una soltura que sorprende viniendo de una marca
+  conocida por motos más pesadas: el chasis responde rápido en tráfico y
+  el motor de 350cc sobra para moverse con autoridad entre carros. Las
+  llantas de rin 17 adelante y atrás también le dan un comportamiento más
+  cercano al de una naked moderna que al de una clásica tradicional.
+
+  Compite con su hermana Meteor 350 (más orientada a crucero) y, en
+  espíritu retro, con la Yamaha FZ y la TVS Apache RTR 160. Es la moto
+  ideal para quien quiere entrar al mundo Royal Enfield sin pagar el
+  precio de una Classic 350, priorizando agilidad urbana sin perder el
+  carácter de la marca.

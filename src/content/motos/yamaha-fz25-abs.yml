@@ -1,0 +1,57 @@
+id: yamaha-fz25-abs
+slug: yamaha-fz25-abs
+marca: Yamaha
+modelo: FZ25 ABS
+nombre_completo: Yamaha FZ25 ABS
+anio: 2026
+tipo: Naked
+cilindraje: 249
+potencia_hp: 20.9
+potencia_rpm: 8000
+torque_nm: 20.1
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 14
+consumo_km_l: 33
+peso_kg: 148
+altura_asiento_mm: 795
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica
+suspension_trasera: Monoamortiguador tipo mono cross
+freno_delantero: Disco 282 mm con ABS
+freno_trasero: Disco 220 mm con ABS
+llanta_delantero: 100/80-17
+llanta_trasero: 130/70-17
+precio_cop: 15300000
+imagen: /images/motos/yamaha-fz25-abs.webp
+pros:
+  - Doble disco con ABS de serie en un segmento donde no siempre es lo común
+  - Motor Blue Core eficiente, con buen equilibrio entre potencia y consumo
+  - Tablero digital completo y buen respaldo de la red Yamaha
+contras:
+  - Potencia modesta frente a naked bicilíndricas de cilindraje similar
+  - Diseño que ya lleva varios años sin cambios mayores
+  - Suspensión trasera de recorrido corto para vías destapadas
+rating: 4.4
+descripcion: >-
+  La FZ25 es la naked monocilíndrica de 250cc con la que Yamaha lleva
+  años defendiendo terreno en Colombia frente a la ofensiva de marcas
+  indias como TVS y Bajaj. Su motor Blue Core prioriza la eficiencia
+  sobre la potencia bruta, lo que se traduce en un consumo bastante
+  competitivo para el segmento.
+
+  En ciudad se mueve con soltura gracias a su peso liviano de 148 kg, y
+  el doble disco con ABS de serie da tranquilidad en frenadas de
+  emergencia, algo que todavía no todas las rivales del segmento
+  ofrecen. En carretera cumple sin sobresaltos, aunque el motor
+  monocilíndrico se siente algo justo frente a las naked bicilíndricas
+  como la Yamaha MT-03.
+
+  Compite de frente con la Suzuki Gixxer 250 y la TVS Apache RTR 200 4V.
+  Es la moto ideal para el motociclista que quiere una naked de 250cc
+  confiable, con buen respaldo de marca y consumo eficiente, sin
+  necesitar todavía la potencia (ni el precio) de una bicilíndrica.

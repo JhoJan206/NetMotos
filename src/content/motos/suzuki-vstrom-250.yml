@@ -1,0 +1,57 @@
+id: suzuki-vstrom-250
+slug: suzuki-vstrom-250
+marca: Suzuki
+modelo: V-Strom 250 SX
+nombre_completo: Suzuki V-Strom 250 SX
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 249
+potencia_hp: 24
+potencia_rpm: 8000
+torque_nm: 22
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 17.3
+consumo_km_l: 30
+peso_kg: 188
+altura_asiento_mm: 800
+distancia_suelo_mm: 175
+suspension_delantera: Horquilla telescópica 41 mm
+suspension_trasera: Monoamortiguador de enlace, ajustable en precarga
+freno_delantero: Disco 290 mm con ABS
+freno_trasero: Disco 240 mm con ABS
+llanta_delantero: 110/80-19
+llanta_trasero: 140/70-17
+precio_cop: 23900000
+imagen: /images/motos/suzuki-vstrom-250.webp
+pros:
+  - Motor bicilíndrico suave, poco común en este segmento de precio
+  - Tanque de 17.3 litros, de los más grandes en motos medias
+  - Confiabilidad Suzuki respaldada por buena red de repuestos
+contras:
+  - Potencia modesta para el peso de la moto (188 kg)
+  - Suspensión enfocada más en carretera que en trocha exigente
+  - Precio superior al de rivales con motor monocilíndrico
+rating: 4.4
+descripcion: >-
+  La V-Strom 250 SX le da a Colombia algo poco frecuente en el segmento de
+  250cc: un motor de dos cilindros, que entrega una suavidad de marcha muy
+  distinta a la vibración típica de los monocilíndricos de esta gama. Es
+  una moto pensada para carretera larga con toques de trocha liviana, no
+  para enduro pesado.
+
+  El tanque grande es su mejor argumento para viajar: con 17.3 litros la
+  autonomía supera con facilidad los 400 km, algo valioso en las rutas
+  colombianas donde las estaciones de servicio no siempre están cerca. El
+  peso se siente en trocha destapada, pero en asfalto se mueve con
+  estabilidad y buen freno.
+
+  Compite de frente con la Bajaj Dominar 400 y la Kawasaki Versys-X 300,
+  peleando terreno gracias a su motor bicilíndrico como diferenciador. Es
+  la moto ideal para quien prioriza comodidad de marcha en carretera sobre
+  capacidad todoterreno pura, y que valora tener un motor más refinado
+  aunque cueste un poco más que la competencia monocilíndrica.

@@ -1,0 +1,57 @@
+id: royal-enfield-meteor-350
+slug: royal-enfield-meteor-350
+marca: Royal Enfield
+modelo: Meteor 350
+nombre_completo: Royal Enfield Meteor 350
+anio: 2026
+tipo: Clásica
+cilindraje: 349
+potencia_hp: 20.2
+potencia_rpm: 6100
+torque_nm: 27
+torque_rpm: 4000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 15
+consumo_km_l: 32
+peso_kg: 191
+altura_asiento_mm: 765
+distancia_suelo_mm: 170
+suspension_delantera: Telescópica 41 mm
+suspension_trasera: Doble amortiguador con precarga ajustable
+freno_delantero: Disco 300 mm con ABS de doble canal
+freno_trasero: Disco 270 mm con ABS
+llanta_delantero: 100/90-19
+llanta_trasero: 140/70-17
+precio_cop: 17990000
+imagen: /images/motos/royal-enfield-meteor-350.webp
+pros:
+  - Sonido y carácter de motor clásico, único en su segmento de precio
+  - Posición de manejo tipo crucero, muy cómoda para trayectos largos
+  - Tanque de 15 litros con buena autonomía para ruta
+contras:
+  - Peso elevado (191 kg) que exige algo de fuerza en maniobras lentas
+  - Torque disponible desde bajas rpm, pero potencia máxima modesta
+  - Costo de mantenimiento superior al de marcas indias más económicas
+rating: 4.4
+descripcion: >-
+  La Meteor 350 es la puerta de entrada al mundo Royal Enfield para el
+  motociclista colombiano que busca algo distinto a las naked deportivas
+  del mercado. Con su estilo crucero relajado y ese sonido de escape
+  grave tan característico de la marca, se siente como ninguna otra moto
+  en su rango de precio.
+
+  Su fuerte es la comodidad: la posición de manejo erguida y los pies
+  adelantados hacen que trayectos largos en carretera se sientan
+  relajados, muy distinto a la postura deportiva de una naked
+  convencional. El torque disponible desde rpm bajas facilita adelantar
+  sin tener que exprimir el motor.
+
+  Compite con la Hunter 350 de la misma marca (más orientada a ciudad) y,
+  en un segmento distinto, con las cruceras chinas de bajo costo. Es la
+  moto ideal para el motociclista que valora el carácter y la estética
+  clásica sobre la potencia pura, y que quiere una moto para rodar
+  tranquilo los fines de semana con estilo propio.

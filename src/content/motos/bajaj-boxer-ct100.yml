@@ -1,0 +1,57 @@
+id: bajaj-boxer-ct100
+slug: bajaj-boxer-ct100
+marca: Bajaj
+modelo: Boxer CT100
+nombre_completo: Bajaj Boxer CT100
+anio: 2026
+tipo: Clásica
+cilindraje: 100
+potencia_hp: 8.2
+potencia_rpm: 7500
+torque_nm: 8.1
+torque_rpm: 5000
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 4 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 8.5
+consumo_km_l: 45
+peso_kg: 112
+altura_asiento_mm: 765
+distancia_suelo_mm: 165
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Doble amortiguador con resorte helicoidal
+freno_delantero: Tambor 110 mm
+freno_trasero: Tambor 110 mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 6290000
+imagen: /images/motos/bajaj-boxer-ct100.webp
+pros:
+  - Consumo de combustible extremadamente bajo, ideal para trabajo diario
+  - Repuestos económicos y disponibles en cualquier pueblo del país
+  - Mecánica sencilla y muy fácil de mantener
+contras:
+  - Sin freno de disco ni ABS en ninguna versión
+  - Potencia justa para dos pasajeros en subidas largas
+  - Diseño que no ha cambiado mucho en más de una década
+rating: 4.2
+descripcion: >-
+  La Boxer CT100 es la moto que uno ve trabajando desde que sale el sol hasta
+  que se esconde: domicilios, mensajería, vendedores ambulantes y hasta taxis
+  informales en pueblos pequeños. No es rápida ni bonita en el sentido
+  moderno, pero cumple exactamente lo que promete: rodar todos los días sin
+  dar problemas y sin comerse la plata en gasolina.
+
+  En ciudad rinde tranquilamente más de 40 km por litro manejando con
+  cabeza, y en carretera destapada se defiende gracias a su chasis liviano y
+  su buena distancia al piso. El motor de 100cc no es potente, así que
+  adelantar en vía con tráfico pesado o subir con parrillero exige
+  paciencia, pero para trayectos urbanos cortos sobra.
+
+  La relación precio-calidad es su mayor argumento: compite directamente con
+  la AKT NKD 125 y la Suzuki GN 125, siendo más económica que ambas al
+  arranque pero con menos cilindraje. Es la moto ideal para quien necesita
+  transporte básico, confiable y barato de mantener, no para quien busca
+  comodidad o prestaciones.

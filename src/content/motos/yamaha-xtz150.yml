@@ -1,0 +1,57 @@
+id: yamaha-xtz150
+slug: yamaha-xtz150
+marca: Yamaha
+modelo: XTZ150
+nombre_completo: Yamaha XTZ150
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 150
+potencia_hp: 13.1
+potencia_rpm: 8000
+torque_nm: 12.6
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 10
+consumo_km_l: 38
+peso_kg: 128
+altura_asiento_mm: 800
+distancia_suelo_mm: 205
+suspension_delantera: Telescópica de largo recorrido
+suspension_trasera: Monoamortiguador
+freno_delantero: Disco 220 mm
+freno_trasero: Tambor 130 mm
+llanta_delantero: 80/100-19
+llanta_trasero: 100/90-17
+precio_cop: 14500000
+imagen: /images/motos/yamaha-xtz150.webp
+pros:
+  - Precio de entrada competitivo para una doble propósito de marca japonesa
+  - Peso liviano (128 kg) que facilita el manejo en trocha
+  - Buen consumo de combustible, ideal para uso rural frecuente
+contras:
+  - Freno trasero de tambor en lugar de disco
+  - Potencia limitada para carretera a velocidad sostenida alta
+  - Sin ABS en ninguna versión disponible
+rating: 4.2
+descripcion: >-
+  La XTZ150 es la doble propósito de entrada de Yamaha, pensada para el
+  comprador que necesita una moto liviana capaz de moverse tanto en
+  ciudad como en caminos destapados, sin pagar el precio de una XTZ250 o
+  una XRE 300. Es una moto muy popular en zonas rurales y fincas por su
+  bajo costo de mantenimiento.
+
+  Su peso liviano de apenas 128 kg la hace muy fácil de manejar en trocha
+  y de levantar si se cae, algo valioso para el usuario que recién
+  empieza a rodar fuera del asfalto. El consumo de combustible es de los
+  mejores de su categoría, rindiendo bien tanto en ciudad como en
+  carretera destapada.
+
+  Compite con la AKT TTR 125 y, en un segmento algo superior, con la
+  Suzuki GN 125 en su versión adaptada. Es la moto ideal para el
+  comprador rural o el motociclista urbano que necesita una doble
+  propósito básica, económica y liviana, sin pretensiones de velocidad
+  ni de equipamiento avanzado.

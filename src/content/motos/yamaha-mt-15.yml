@@ -27,7 +27,7 @@ freno_delantero: Disco 282mm + ABS
 freno_trasero: Disco 220mm + ABS
 llanta_delantero: 100/80-17
 llanta_trasero: 140/70-17
-precio_cop: 9890000
+precio_cop: 15500000
 pros:
   - Motor potente (18.6 HP)
   - Horquilla invertida

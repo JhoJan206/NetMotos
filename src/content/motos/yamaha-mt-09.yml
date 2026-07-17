@@ -1,0 +1,59 @@
+id: yamaha-mt-09
+slug: yamaha-mt-09
+marca: Yamaha
+modelo: MT-09
+nombre_completo: Yamaha MT-09
+anio: 2026
+tipo: Naked
+cilindraje: 890
+potencia_hp: 117.4
+potencia_rpm: 10000
+torque_nm: 93
+torque_rpm: 7000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 14
+consumo_km_l: 20
+peso_kg: 188
+altura_asiento_mm: 825
+distancia_suelo_mm: 135
+suspension_delantera: Horquilla telescópica invertida (USD) ajustable
+suspension_trasera: Monoamortiguador ajustable en precarga y rebote
+freno_delantero: Doble disco 298 mm con ABS
+freno_trasero: Disco 245 mm con ABS
+llanta_delantero: 120/70-17
+llanta_trasero: 180/55-17
+precio_cop: 63000000
+imagen: /images/motos/yamaha-mt-09.webp
+pros:
+  - Motor tricilíndrico CP3 con carácter y sonido únicos en el segmento
+  - "Electrónica completa: modos de manejo, control de tracción y quickshifter"
+  - Manejo ágil pese a la potencia, gracias a un chasis muy bien logrado
+contras:
+  - Precio fuera del alcance de la mayoría de motociclistas colombianos
+  - Consumo de combustible alto frente a naked de menor cilindraje
+  - Suspensión de fábrica exigente para uso 100% urbano diario
+rating: 4.8
+descripcion: >-
+  La MT-09 es, para muchos motociclistas colombianos con presupuesto
+  amplio, la naked que representa el techo del segmento "accesible" antes
+  de saltar a las superbikes. El motor tricilíndrico CP3 de 890cc entrega
+  una potencia brutal con un sonido que ninguna bicilíndrica logra
+  igualar, y viene acompañado de electrónica de nivel superior: modos de
+  manejo, control de tracción y quickshifter de serie.
+
+  En carretera con curvas es una experiencia distinta a todo lo demás en
+  este análisis: acelera con una contundencia que exige respeto y el
+  chasis responde de forma precisa pese al peso considerable. En ciudad,
+  aunque se maneja bien gracias a su buena maniobrabilidad, la potencia
+  disponible obliga a manejar con la cabeza fría en tráfico pesado.
+
+  Compite en un nicho reducido en Colombia junto a la Kawasaki Z900 y la
+  Triumph Street Triple, motos que pocos compradores nacionales pueden
+  pagar de contado. Es la moto ideal para el motociclista experimentado
+  que ya pasó por varias motos medianas y quiere el salto definitivo a
+  una naked de referencia mundial, sin llegar todavía al terreno de las
+  superbikes carenadas.

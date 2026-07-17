@@ -1,0 +1,57 @@
+id: yamaha-r15
+slug: yamaha-r15
+marca: Yamaha
+modelo: R15
+nombre_completo: Yamaha R15 V4
+anio: 2026
+tipo: Deportiva
+cilindraje: 155
+potencia_hp: 18.4
+potencia_rpm: 10000
+torque_nm: 14.2
+torque_rpm: 7500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 11
+consumo_km_l: 33
+peso_kg: 142
+altura_asiento_mm: 815
+distancia_suelo_mm: 170
+suspension_delantera: Horquilla telescópica invertida (USD)
+suspension_trasera: Monoamortiguador con enlace
+freno_delantero: Disco 282 mm con ABS
+freno_trasero: Disco 220 mm con ABS
+llanta_delantero: 100/80-17
+llanta_trasero: 140/70-17
+precio_cop: 16100000
+imagen: /images/motos/yamaha-r15.webp
+pros:
+  - Manejo de precisión digno de una deportiva de cilindraje mayor
+  - Suspensión invertida y ABS de serie en un segmento donde no es lo común
+  - Bajo consumo comparado con otras deportivas de su rango de potencia
+contras:
+  - Posición de manejo exigente para trayectos largos en ciudad
+  - Espacio de parrillero muy reducido
+  - Mantenimiento algo más costoso que una naked del mismo cilindraje
+rating: 4.6
+descripcion: >-
+  La R15 es la moto que muchos jóvenes colombianos sueñan tener antes de
+  dar el salto a cilindrajes mayores. Hereda la tecnología de la familia R
+  de Yamaha en un paquete de 155cc, con suspensión invertida, ABS y un
+  chasis que responde con una precisión que pocas rivales de su rango de
+  precio logran igualar.
+
+  En ciudad el motor se siente algo apretado a bajas revoluciones, pero
+  cuando sube de vueltas revela por qué tiene tanta fama entre los que
+  buscan sensaciones deportivas reales sin gastar en una 300cc. La
+  posición de manejo agachada es divertida en curvas, aunque cansa en
+  trancones largos.
+
+  Su rival directo es la Suzuki Gixxer SF 250 y, en menor medida, la TVS
+  Apache RTR 200 4V. Es la moto ideal para el motociclista joven que quiere
+  la experiencia más cercana posible a una superbike sin gastar el
+  presupuesto de una moto de 300cc o más, priorizando manejo deportivo
+  sobre comodidad.

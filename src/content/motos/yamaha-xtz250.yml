@@ -1,0 +1,56 @@
+id: yamaha-xtz250
+slug: yamaha-xtz250
+marca: Yamaha
+modelo: XTZ250
+nombre_completo: Yamaha XTZ250
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 250
+potencia_hp: 20.5
+potencia_rpm: 7500
+torque_nm: 21.5
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 16
+consumo_km_l: 31
+peso_kg: 148
+altura_asiento_mm: 830
+distancia_suelo_mm: 225
+suspension_delantera: Telescópica de largo recorrido
+suspension_trasera: Monoamortiguador con enlace
+freno_delantero: Disco 245 mm
+freno_trasero: Disco 203 mm
+llanta_delantero: 90/90-19
+llanta_trasero: 120/80-18
+precio_cop: 25900000
+imagen: /images/motos/yamaha-xtz250.webp
+pros:
+  - Tanque de 16 litros, de los más grandes en doble propósito de 250cc
+  - Discos de freno en ambas ruedas, algo que su hermana XTZ150 no ofrece
+  - Buena distancia al piso para trocha exigente
+contras:
+  - Sin ABS de serie en el mercado colombiano
+  - Precio superior al de la Honda XR150L y otras doble propósito rivales
+  - Motor se siente algo justo comparado con la Honda XRE 300
+rating: 4.3
+descripcion: >-
+  La XTZ250 es el escalón intermedio de Yamaha en doble propósito: más
+  cilindraje, más tanque y frenos de disco en ambas ruedas frente a la
+  XTZ150, pero sin llegar al precio de una XRE 300 o una Dominar 400. Es
+  la opción para quien quiere algo más serio para carretera sin gastar
+  el presupuesto de las adventure medianas.
+
+  El tanque de 16 litros le da una autonomía que se agradece en viajes
+  largos por carretera, y la distancia al piso de 225 mm permite meterla
+  en trocha sin miedo excesivo a golpear el motor. En carretera pavimentada
+  se siente cómoda para trayectos medios, aunque a velocidad sostenida
+  alta el motor pide algo más de fuerza.
+
+  Compite con la Honda XR150L 2.0 y, subiendo de presupuesto, con la
+  Hero Xpulse 200. Es la moto ideal para el motociclista que quiere una
+  doble propósito de Yamaha con más autonomía y mejores frenos que la
+  XTZ150, sin necesitar todavía la capacidad todoterreno de una XRE 300.

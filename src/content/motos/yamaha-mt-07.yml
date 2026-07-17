@@ -1,0 +1,58 @@
+id: yamaha-mt-07
+slug: yamaha-mt-07
+marca: Yamaha
+modelo: MT-07
+nombre_completo: Yamaha MT-07
+anio: 2026
+tipo: Naked
+cilindraje: 689
+potencia_hp: 73.4
+potencia_rpm: 8750
+torque_nm: 67
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 14
+consumo_km_l: 22
+peso_kg: 184
+altura_asiento_mm: 805
+distancia_suelo_mm: 140
+suspension_delantera: Horquilla telescópica 41 mm
+suspension_trasera: Monoamortiguador ajustable en precarga
+freno_delantero: Doble disco 298 mm con ABS
+freno_trasero: Disco 245 mm con ABS
+llanta_delantero: 120/70-17
+llanta_trasero: 160/60-17
+precio_cop: 57000000
+imagen: /images/motos/yamaha-mt-07.webp
+pros:
+  - Motor bicilíndrico CP2 con torque abundante desde bajas revoluciones
+  - Peso relativamente bajo para su cilindraje, muy manejable
+  - Precio más accesible que la MT-09 dentro de la familia MT
+contras:
+  - Precio todavía elevado frente a naked de 300-400cc
+  - Suspensión no ajustable en la horquilla delantera
+  - Frenos suficientes pero no del nivel de la MT-09
+rating: 4.7
+descripcion: >-
+  La MT-07 ocupa un punto dulce dentro de la familia MT de Yamaha: mucho
+  más accesible en precio que la MT-09, pero con un motor bicilíndrico
+  CP2 que entrega torque de sobra para cualquier situación de manejo real
+  en Colombia, desde adelantar en carretera hasta moverse con autoridad
+  en ciudad.
+
+  Lo que más se destaca al manejarla es lo fácil que resulta dosificar su
+  potencia: el motor entrega torque desde rpm bajas de forma muy lineal,
+  sin sustos ni tirones bruscos, lo que la hace tan buena para el
+  motociclista con experiencia como para quien recién está subiendo de
+  cilindraje. El peso relativamente bajo para 689cc ayuda en maniobras a
+  baja velocidad.
+
+  Compite con la Kawasaki Z650 y, en un segmento de precio inferior, con
+  motos de 400cc como la Kawasaki Z400. Es la moto ideal para el
+  motociclista que quiere una naked de cilindraje mediano-grande con
+  motor bicilíndrico serio, sin necesitar la potencia extrema (ni el
+  precio) de la MT-09.

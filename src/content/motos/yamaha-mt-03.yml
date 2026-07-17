@@ -1,0 +1,58 @@
+id: yamaha-mt-03
+slug: yamaha-mt-03
+marca: Yamaha
+modelo: MT-03
+nombre_completo: Yamaha MT-03
+anio: 2026
+tipo: Naked
+cilindraje: 321
+potencia_hp: 42
+potencia_rpm: 10750
+torque_nm: 29.6
+torque_rpm: 9000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 14
+consumo_km_l: 27
+peso_kg: 168
+altura_asiento_mm: 780
+distancia_suelo_mm: 160
+suspension_delantera: Horquilla telescópica 37 mm
+suspension_trasera: Monoamortiguador ajustable en precarga
+freno_delantero: Disco 298 mm con ABS
+freno_trasero: Disco 220 mm con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 140/70-17
+precio_cop: 31900000
+imagen: /images/motos/yamaha-mt-03.webp
+pros:
+  - Motor bicilíndrico suave con entrega de potencia lineal y confiable
+  - Embrague antirrebote (slipper) y conectividad Y-Connect de serie
+  - Chasis ágil, ideal como escalón hacia motos de mayor cilindraje
+contras:
+  - Precio elevado frente a naked monocilíndricas de cilindraje similar
+  - Espacio de parrillero reducido, poco práctico para dos personas
+  - Consumo superior al de rivales monocilíndricas de 250-300cc
+rating: 4.6
+descripcion: >-
+  La MT-03 lleva años siendo la naked bicilíndrica de referencia para el
+  motociclista colombiano que quiere dar el salto desde una moto de
+  125-200cc sin comprar directamente una MT-07. Su motor de dos cilindros
+  entrega una suavidad de marcha que ninguna monocilíndrica de la
+  competencia logra igualar en este rango de precio.
+
+  En 2026 llega con embrague antirrebote y el sistema de conectividad
+  Y-Connect, mejoras que responden a la presión de marcas como CFMoto y
+  KTM, que han subido la apuesta tecnológica en este segmento. En
+  carretera con curvas se siente equilibrada y predecible, ideal para
+  ganar confianza sin sustos.
+
+  Su rival más directo hoy es la KTM 250 Duke y la CFMoto 450NK, ambas
+  con paquetes electrónicos más agresivos pero sin el respaldo de marca y
+  reventa que tiene Yamaha en Colombia. Es la moto ideal para el
+  motociclista que valora la fiabilidad mecánica y el valor de reventa
+  por encima de la última tecnología en pantalla, y que busca un motor
+  bicilíndrico como primer paso hacia cilindrajes mayores.

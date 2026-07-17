@@ -1,0 +1,56 @@
+id: kawasaki-ninja-400
+slug: kawasaki-ninja-400
+marca: Kawasaki
+modelo: Ninja 400
+nombre_completo: Kawasaki Ninja 400
+anio: 2026
+tipo: Deportiva
+cilindraje: 399
+potencia_hp: 48.3
+potencia_rpm: 10000
+torque_nm: 38
+torque_rpm: 8000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 14
+consumo_km_l: 26
+peso_kg: 168
+altura_asiento_mm: 785
+distancia_suelo_mm: 165
+suspension_delantera: Horquilla telescópica 41 mm
+suspension_trasera: Monoamortiguador Uni-Trak ajustable en precarga
+freno_delantero: Disco 310 mm
+freno_trasero: Disco 220 mm
+llanta_delantero: 110/70-17
+llanta_trasero: 150/60-17
+precio_cop: 35990000
+imagen: /images/motos/kawasaki-ninja-400.webp
+pros:
+  - Motor bicilíndrico de los más potentes en su rango de cilindraje
+  - Chasis liviano y ágil, fácil de llevar al límite en curvas
+  - Imagen y prestigio de marca que sostiene un buen valor de reventa
+contras:
+  - Precio de los más altos entre las deportivas de 400cc
+  - Espacio de almacenamiento y comodidad de parrillero muy limitados
+  - Mantenimiento y repuestos más costosos que rivales monocilíndricas
+rating: 4.7
+descripcion: >-
+  La Ninja 400 es probablemente la deportiva bicilíndrica más deseada del
+  mercado colombiano en este rango de cilindraje. Con casi 48 caballos y un
+  chasis liviano, ofrece una experiencia de aceleración y sonido de escape
+  que ninguna monocilíndrica de la competencia logra replicar.
+
+  En carretera con curvas revela por qué tiene tanta fama: el motor
+  bicilíndrico entrega potencia de forma progresiva y suave, sin los
+  tirones típicos de un solo cilindro, mientras el chasis liviano permite
+  cambios de dirección rápidos. En ciudad se comporta bien también, aunque
+  la posición deportiva cansa en trayectos largos con tráfico.
+
+  Su rival más directo es la KTM RC 390, con la diferencia de que la Ninja
+  ofrece un motor más refinado a cambio de un precio superior. Es la moto
+  ideal para el motociclista que quiere el prestigio y la experiencia de
+  manejo de una deportiva bicilíndrica real, y que está dispuesto a pagar
+  el premium que eso implica frente a las opciones monocilíndricas.

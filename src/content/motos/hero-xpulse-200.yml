@@ -1,0 +1,56 @@
+id: hero-xpulse-200
+slug: hero-xpulse-200
+marca: Hero
+modelo: Xpulse 200
+nombre_completo: Hero Xpulse 200 4V
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 199
+potencia_hp: 19.1
+potencia_rpm: 8250
+torque_nm: 17.35
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 32
+peso_kg: 158
+altura_asiento_mm: 825
+distancia_suelo_mm: 220
+suspension_delantera: Horquilla telescópica de largo recorrido
+suspension_trasera: Monoamortiguador con enlace, 10 posiciones de precarga
+freno_delantero: Disco 276 mm con ABS
+freno_trasero: Disco 220 mm con ABS
+llanta_delantero: 90/90-21
+llanta_trasero: 120/80-18
+precio_cop: 15990000
+imagen: /images/motos/hero-xpulse-200.webp
+pros:
+  - Buena distancia al piso y suspensión de largo recorrido para trocha
+  - Precio competitivo frente a otras doble propósito de 200cc
+  - Tanque de 13 litros con buena autonomía para su tamaño
+contras:
+  - Motor se siente justo de potencia en carretera a alta velocidad
+  - Red de servicio Hero más reducida que la de Honda o Suzuki
+  - Vibración perceptible a revoluciones altas sostenidas
+rating: 4.3
+descripcion: >-
+  La Xpulse 200 le apunta directamente al motociclista que quiere una
+  doble propósito con vocación real de trocha, sin pagar el precio de una
+  Honda XRE 300. Con buena distancia al piso y suspensión de recorrido
+  largo, se defiende bien en caminos destapados y terrenos irregulares.
+
+  En ciudad cumple sin problema, aunque su fuerte está en las vías
+  destapadas donde la suspensión absorbe bien los baches y piedras. En
+  carretera pavimentada a velocidad de crucero el motor se siente algo
+  exigido, así que no es la mejor opción para viajes largos de autopista
+  a alta velocidad constante.
+
+  Compite de frente con la Bajaj Pulsar NS200 en versión doble propósito y,
+  en un segmento superior de precio, con la propia XRE 300. Es la moto
+  ideal para quien busca su primera doble propósito seria para explorar
+  caminos rurales y fincas los fines de semana, sin gastar el presupuesto
+  de las marcas japonesas.

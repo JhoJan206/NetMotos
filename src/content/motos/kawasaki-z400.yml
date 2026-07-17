@@ -1,0 +1,56 @@
+id: kawasaki-z400
+slug: kawasaki-z400
+marca: Kawasaki
+modelo: Z400
+nombre_completo: Kawasaki Z400
+anio: 2026
+tipo: Naked
+cilindraje: 399
+potencia_hp: 45
+potencia_rpm: 10000
+torque_nm: 37
+torque_rpm: 8000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 14
+consumo_km_l: 26
+peso_kg: 167
+altura_asiento_mm: 785
+distancia_suelo_mm: 165
+suspension_delantera: Horquilla telescópica 41 mm
+suspension_trasera: Monoamortiguador Uni-Trak ajustable
+freno_delantero: Disco 310 mm con ABS
+freno_trasero: Disco 220 mm con ABS
+llanta_delantero: 110/70-17
+llanta_trasero: 150/60-17
+precio_cop: 33990000
+imagen: /images/motos/kawasaki-z400.webp
+pros:
+  - Mismo motor bicilíndrico de la Ninja 400, con manejo más cómodo
+  - Posición de manejo erguida, mejor para uso diario en ciudad
+  - ABS de serie y frenos de buen desempeño
+contras:
+  - Precio alto frente a naked monocilíndricas de la competencia
+  - Diseño más discreto comparado con la versión carenada Ninja
+  - Repuestos y mantenimiento costosos frente a marcas indias
+rating: 4.5
+descripcion: >-
+  La Z400 es básicamente la Ninja 400 sin carenado, pensada para quien
+  quiere el mismo motor bicilíndrico contundente pero en una postura más
+  cómoda para el uso diario en ciudad. Es la naked "premium" del segmento
+  de 400cc en Colombia.
+
+  Comparte mecánica con la Ninja, así que el desempeño en aceleración y
+  sonido es prácticamente idéntico, pero la posición erguida la hace más
+  amigable para trancones largos y trayectos urbanos frecuentes. En
+  carretera con curvas sigue siendo muy divertida gracias a su chasis
+  liviano.
+
+  Compite con la KTM 250 Duke y, en menor medida, con la Yamaha MT-15,
+  aunque ninguna de las dos iguala su motor de dos cilindros. Es la moto
+  ideal para el motociclista que quiere el carácter de una deportiva
+  bicilíndrica pero en formato naked, priorizando comodidad diaria sobre
+  el carenado deportivo de la Ninja.
