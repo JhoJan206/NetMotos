@@ -1,7 +1,7 @@
 /* ===== NAVBAR ===== */
 .navbar {
   position: fixed;
-  top: 0;
+  top: 6px;
   left: 0;
   right: 0;
   height: var(--nav-height);

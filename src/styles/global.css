@@ -234,6 +234,21 @@ input, select, textarea {
   }
 }
 
+.colombia-flag {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  z-index: 1001;
+  background: linear-gradient(
+    to right,
+    #FCD116 0% 33.33%,
+    #003893 33.33% 66.66%,
+    #CE1126 66.66% 100%
+  );
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
