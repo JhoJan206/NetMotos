@@ -677,6 +677,28 @@
 
 .filtros-bar select:focus { border-color: var(--color-primary); }
 
+.filtros-bar--secondary {
+  margin-top: -16px;
+}
+
+.sort-select {
+  border-width: 3px !important;
+  border-color: var(--color-primary) !important;
+  font-weight: 700;
+  background: var(--color-surface);
+}
+
+.sort-select option {
+  font-weight: 400;
+}
+
+.result-count {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
 .comparador-flotante {
   display: flex;
   align-items: center;

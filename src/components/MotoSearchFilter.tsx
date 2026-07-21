@@ -37,6 +37,7 @@ export default function MotoSearchFilter({ motos: motosJson }: { motos: string }
   const allMotos: Moto[] = JSON.parse(motosJson)
   const [busqueda, setBusqueda] = useState('')
   const [filtros, setFiltros] = useState({ marca: '', tipo: '', rangoCilindraje: '', precioMax: '' })
+  const [orden, setOrden] = useState('default')
   const [comparadas, setComparadas] = useState<string[]>([])
 
   const fuseInstance = useMemo(() => new Fuse(allMotos, {
@@ -70,8 +71,12 @@ export default function MotoSearchFilter({ motos: motosJson }: { motos: string }
       if (rango) result = result.filter(m => m.cilindraje >= rango.min && m.cilindraje < rango.max)
     }
     if (filtros.precioMax) result = result.filter(m => m.precio_cop <= Number(filtros.precioMax))
+    if (orden === 'precio-asc') result.sort((a, b) => a.precio_cop - b.precio_cop)
+    if (orden === 'precio-desc') result.sort((a, b) => b.precio_cop - a.precio_cop)
+    if (orden === 'cilind-asc') result.sort((a, b) => a.cilindraje - b.cilindraje)
+    if (orden === 'cilind-desc') result.sort((a, b) => b.cilindraje - a.cilindraje)
     return result
-  }, [busqueda, filtros, allMotos, fuseInstance])
+  }, [busqueda, filtros, orden, allMotos, fuseInstance])
 
   const marcas = [...new Set(allMotos.map(m => m.marca))].sort()
   const tipos = [...new Set(allMotos.map(m => m.tipo))].sort()
@@ -101,6 +106,15 @@ export default function MotoSearchFilter({ motos: motosJson }: { motos: string }
           value={busqueda}
           onChange={e => setBusqueda(e.target.value)}
         />
+      </div>
+      <div className="filtros-bar filtros-bar--secondary">
+        <select className="sort-select" value={orden} onChange={e => setOrden(e.target.value)}>
+          <option value="default">↩ Ordenar por: Predeterminado</option>
+          <option value="precio-asc">↩ Precio: menor a mayor</option>
+          <option value="precio-desc">↩ Precio: mayor a menor</option>
+          <option value="cilind-asc">↩ Cilindraje: menor a mayor</option>
+          <option value="cilind-desc">↩ Cilindraje: mayor a menor</option>
+        </select>
         <select value={filtros.marca} onChange={e => setFiltros(f => ({ ...f, marca: e.target.value }))}>
           <option value="">Todas las marcas</option>
           {marcas.map(m => <option key={m} value={m}>{m}</option>)}
@@ -122,6 +136,10 @@ export default function MotoSearchFilter({ motos: motosJson }: { motos: string }
           <option value="50000000">Hasta $50M</option>
           <option value="999999999">Más de $50M</option>
         </select>
+      </div>
+
+      <div className="result-count">
+        {motosFiltradas.length} moto{motosFiltradas.length !== 1 ? 's' : ''} encontrada{motosFiltradas.length !== 1 ? 's' : ''}
       </div>
 
       {comparadas.length > 0 && (
