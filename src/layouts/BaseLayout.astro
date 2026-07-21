@@ -21,7 +21,15 @@ const description = Astro.props.description || 'Fichas técnicas de motos en Col
 const url = `https://netmotos.lat${canonical}`
 const fullTitle = `${title} | NetMotos`
 
-const schemas: any[] = []
+const schemas: any[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'NetMotos',
+    url: 'https://netmotos.lat',
+    logo: 'https://netmotos.lat/images/logo-netmotos.png',
+  },
+]
 if (Astro.props.schema) schemas.push(Astro.props.schema)
 if (breadcrumbs && breadcrumbs.length > 0) {
   schemas.push({
