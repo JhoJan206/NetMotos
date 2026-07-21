@@ -1,0 +1,51 @@
+id: akt-dynamic-pro-cbs
+slug: akt-dynamic-pro-cbs
+marca: AKT
+modelo: Dynamic Pro CBS
+nombre_completo: AKT Dynamic Pro CBS
+anio: 2026
+tipo: Scooter
+cilindraje: 124.6
+potencia_hp: 9.2
+potencia_rpm: 7500
+torque_nm: 9.4
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Automática CVT
+combustible: Gasolina corriente
+capacidad_tanque_l: 5.5
+consumo_km_l: 40
+peso_kg: 108
+altura_asiento_mm: 765
+distancia_suelo_mm: 145
+suspension_delantera: Telescópica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 190 mm con CBS
+freno_trasero: Tambor 110 mm con CBS
+llanta_delantero: 90/90-14
+llanta_trasero: 90/90-14
+precio_cop: 8090000
+imagen: /images/motos/akt-dynamic-pro-cbs.webp
+pros:
+  - Frenos CBS de fábrica en un scooter de precio de entrada
+  - Consumo de combustible entre los mejores de la gama automática de AKT
+  - Peso liviano, muy fácil de maniobrar en tráfico y parqueaderos
+contras:
+  - Cilindraje de 125cc, algo justo para dos pasajeros con equipaje
+  - Baúl bajo asiento reducido comparado con scooters de mayor tamaño
+  - Aceleración inicial modesta frente a scooters con relación más deportiva
+rating: 4.2
+descripcion: >-
+  La Dynamic Pro CBS es el scooter de entrada de AKT, pensado para competir directamente en el segmento más económico de
+  scooters de 125cc. Su gran diferencial frente a otras opciones de este precio es el sistema de frenado combinado CBS,
+  que reparte la frenada entre ambas ruedas para mayor seguridad.
+
+  En el uso diario es un scooter sencillo y correcto: liviano, fácil de maniobrar entre el tráfico y con un consumo de
+  combustible que lo hace muy económico de mantener. No tiene las prestaciones de un scooter más grande, pero cumple
+  perfectamente para trayectos cortos dentro de la ciudad.
+
+  Compite con la Honda Nav-i y la AKT Jet Evo, esta última de la misma marca. Es el scooter ideal para el comprador con
+  presupuesto ajustado que busca movilidad urbana básica con un plus de seguridad en los frenos, sin necesitar mayor
+  cilindraje ni equipamiento.

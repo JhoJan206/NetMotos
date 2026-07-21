@@ -1,0 +1,39 @@
+id: akt-special-110-x
+slug: akt-special-110-x
+marca: AKT
+modelo: Special 110 X
+nombre_completo: AKT Special 110 X
+anio: 2026
+tipo: Naked
+cilindraje: 107
+potencia_hp: 7.21
+potencia_rpm: 8000
+torque_nm: 7.7
+torque_rpm: 5500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Semi-automática 4 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 3.78
+consumo_km_l: 50
+peso_kg: 98
+altura_asiento_mm: 770
+distancia_suelo_mm: 140
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Doble amortiguador regulable
+freno_delantero: Disco lobulado
+freno_trasero: Tambor
+llanta_delantero: 2.50-17
+llanta_trasero: 2.75-17
+precio_cop: 4990000
+imagen: /images/motos/akt-special-110-x.webp
+pros:
+  - Peso muy liviano (98 kg), ideal para principiantes
+  - Consumo de combustible extremadamente bajo
+  - Precio de entrada de los más bajos del mercado colombiano
+contras:
+  - Solo 4 velocidades semi-automáticas, sin embrague
+  - Freno trasero de tambor, sin ABS
+  - Potencia muy limitada para dos pasajeros o pendientes
+rating: 4.2

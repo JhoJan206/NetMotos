@@ -1,0 +1,48 @@
+id: akt-jet-evo
+slug: akt-jet-evo
+marca: AKT
+modelo: Jet Evo
+nombre_completo: AKT Jet Evo
+anio: 2026
+tipo: Scooter
+cilindraje: 149.6
+potencia_hp: 14
+potencia_rpm: 8500
+torque_nm: 13.5
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Automática CVT
+combustible: Gasolina corriente
+capacidad_tanque_l: 12.1
+consumo_km_l: 33
+peso_kg: 145
+altura_asiento_mm: 775
+distancia_suelo_mm: 150
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Doble amortiguador
+freno_delantero: Disco 220 mm con ABS doble canal
+freno_trasero: Disco 220 mm con ABS doble canal
+llanta_delantero: 100/90-14
+llanta_trasero: 120/80-14
+precio_cop: 12590000
+imagen: /images/motos/akt-jet-evo.webp
+pros:
+  - ABS de doble canal y control de tracción TCS de serie
+  - Inyección electrónica con refrigeración líquida
+  - Frenos de disco en ambas ruedas con ABS doble canal
+contras:
+  - Pérdida del piso plano frente a la generación anterior Jet14
+  - Peso elevado (145 kg) para un scooter de 150cc
+  - Precio más alto que scooters de entrada de la misma marca
+rating: 4.4
+descripcion: >-
+  La Jet Evo es la evolución del popular Jet14 de AKT, resultado de la alianza con SYM Taiwán. Llega al mercado
+  colombiano en 2026 con un salto enorme en seguridad: ABS de doble canal y control de tracción TCS, algo inédito en
+  scooters de este precio en Colombia. El motor de 149.6 cc con inyección electrónica y refrigeración líquida entrega 14
+  HP que se sienten con soltura tanto en ciudad como en carretera. El chasis pierde el piso plano del Jet14, pero gana
+  en comportamiento dinámico y estabilidad en curvas. La frenada con ABS doble canal es de otro nivel frente a la
+  competencia del segmento. Compite con la Yamaha NMAX 155 y la Honda PCX 160, aunque a un precio más bajo que ambas. Es
+  el scooter ideal para el comprador que prioriza la seguridad por encima de todo, sin gastar en scooters premium
+  japoneses.

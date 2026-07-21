@@ -1,0 +1,39 @@
+id: akt-ttr-200
+slug: akt-ttr-200
+marca: AKT
+modelo: TTR 200
+nombre_completo: AKT TTR 200
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 197
+potencia_hp: 16.5
+potencia_rpm: 8500
+torque_nm: 15.5
+torque_rpm: 6500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 11
+consumo_km_l: 33
+peso_kg: 129
+altura_asiento_mm: 840
+distancia_suelo_mm: 225
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Unishock
+freno_delantero: Disco lobulado 260 mm
+freno_trasero: Disco lobulado 220 mm
+llanta_delantero: 90/90-19
+llanta_trasero: 110/90-17
+precio_cop: 9190000
+imagen: /images/motos/akt-ttr-200.webp
+pros:
+  - Doble disco lobulado en ambas ruedas, único en el segmento
+  - Caja de 6 velocidades para mejor aprovechamiento del torque
+  - Relación precio-cilindraje de las más competitivas del mercado
+contras:
+  - Motor a carburador, sin inyección electrónica
+  - Sin ABS en ninguna de las dos ruedas
+  - Suspensión convencional, no invertida como algunas rivales
+rating: 4.4

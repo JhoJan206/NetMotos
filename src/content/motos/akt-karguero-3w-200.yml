@@ -1,0 +1,48 @@
+id: akt-karguero-3w-200
+slug: akt-karguero-3w-200
+marca: AKT
+modelo: Karguero 3W 200
+nombre_completo: AKT Karguero 3W 200
+anio: 2026
+tipo: Motocarro
+cilindraje: 197
+potencia_hp: 12.07
+potencia_rpm: 7000
+torque_nm: 13.9
+torque_rpm: 5500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13.4
+consumo_km_l: 0
+peso_kg: 377
+altura_asiento_mm: 0
+distancia_suelo_mm: 305
+suspension_delantera: Telescópica reforzada 49.95 mm
+suspension_trasera: Ballestas 5 hojas
+freno_delantero: Disco hidráulico
+freno_trasero: Tambor hidráulico
+llanta_delantero: 4.50-12
+llanta_trasero: 4.50-12
+precio_cop: 15090000
+imagen: /images/motos/akt-karguero-3w-200.webp
+pros:
+  - Capacidad de carga útil de 410 kg
+  - Suspensión delantera reforzada y ballestas traseras de 5 hojas
+  - Relación precio-capacidad de carga más competitiva del mercado
+contras:
+  - Velocidad limitada para viajes largos interurbanos
+  - Consumo de combustible elevado por su peso de 377 kg
+  - Sin ABS ni asistencias electrónicas de frenado
+rating: 4.1
+descripcion: >-
+  El Karguero 3W 200 es el motocarro de carga de AKT, diseñado para el transporte de mercancía en zonas urbanas y
+  rurales de Colombia. Con un motor de 197 cc OHV que entrega 12.07 HP y 13.9 Nm de torque, está optimizado para carga
+  más que para velocidad. Su volco con laterales abatibles permite cargar hasta 410 kg de forma práctica, y la
+  suspensión delantera telescópica reforzada de 49.95 mm combinada con ballestas traseras de 5 hojas ofrece estabilidad
+  incluso a plena carga. Los frenos son de disco hidráulico adelante y tambor hidráulico atrás. El tanque de 13.4 litros
+  le da una autonomía adecuada para jornadas de trabajo urbano. Compite directamente con el Tuk Tuk 200 de la misma AKT
+  y con motocarros de otras marcas. Es el vehículo ideal para el emprendedor que necesita un transporte de carga
+  económico, confiable y con respaldo de red de servicio a nivel nacional.

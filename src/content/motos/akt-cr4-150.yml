@@ -1,0 +1,50 @@
+id: akt-cr4-150
+slug: akt-cr4-150
+marca: AKT
+modelo: CR4 150
+nombre_completo: AKT CR4 150
+anio: 2026
+tipo: Naked
+cilindraje: 149.5
+potencia_hp: 12.5
+potencia_rpm: 8000
+torque_nm: 12.3
+torque_rpm: 6500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12.5
+consumo_km_l: 36
+peso_kg: 124
+altura_asiento_mm: 790
+distancia_suelo_mm: 170
+suspension_delantera: Telescópica invertida de estilo deportivo
+suspension_trasera: Monoamortiguador
+freno_delantero: Disco 240 mm con CBS
+freno_trasero: Disco 200 mm con CBS
+llanta_delantero: 90/90-17
+llanta_trasero: 100/80-17
+precio_cop: 6990000
+imagen: /images/motos/akt-cr4-150.webp
+pros:
+  - Más potencia que la CR4 125 sin subir mucho de precio
+  - Frenos de disco en ambas ruedas con sistema CBS
+  - Buen equilibrio entre precio y desempeño dentro del catálogo AKT
+contras:
+  - Motor a carburador, sin la eficiencia de una inyección electrónica
+  - Sigue siendo un cilindraje limitado para carretera a velocidad alta
+  - Diferencias frente a la CR4 125 son notorias más en potencia que en equipamiento
+rating: 4.4
+descripcion: >-
+  La CR4 150 toma el mismo diseño exitoso de la CR4 125 y le suma cilindraje, dándole un poco más de fuerza para quien
+  encuentra la versión de 125cc algo justa. Es la opción intermedia dentro de la familia CR4 para quien quiere más
+  potencia sin llegar todavía a la versión 200 Pro.
+
+  El aumento de cilindraje se nota principalmente al retomar velocidad después de un semáforo o al subir con parrillero,
+  situaciones donde la 125 se queda un poco corta. El resto de la experiencia es muy similar: frenos CBS en ambas ruedas
+  y un diseño que sigue destacando frente a otras naked económicas.
+
+  Compite con la Bajaj Pulsar NS125 y la Hero Hunk 125R. Es la moto ideal para el motociclista que ya conoce el segmento
+  de 125cc y quiere un poco más de potencia sin subir demasiado de precio ni de cilindraje.

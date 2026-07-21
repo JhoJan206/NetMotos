@@ -3,47 +3,46 @@ slug: akt-ttr-125
 marca: AKT
 modelo: TTR 125
 nombre_completo: AKT TTR 125
-anio: 2024
+anio: 2026
 tipo: Doble Propósito
-cilindraje: 124
-potencia_hp: 9.5
-potencia_rpm: 7500
-torque_nm: 8.7
-torque_rpm: 5500
+cilindraje: 124.9
+potencia_hp: 10.3
+potencia_rpm: 8000
+torque_nm: 9.3
+torque_rpm: 7000
 alimentacion: Carburador
 encendido: Electrónico CDI
 arranque: Eléctrico y pedal
 transmision: Manual 5 velocidades
 combustible: Gasolina corriente
-capacidad_tanque_l: 7.5
+capacidad_tanque_l: 11
 consumo_km_l: 45
-peso_kg: 115
+peso_kg: 120
 altura_asiento_mm: 820
-distancia_suelo_mm: 200
-suspension_delantera: Horquilla telescópica
-suspension_trasera: Doble amortiguador
-freno_delantero: Disco 240mm
-freno_trasero: Tambor 130mm
-llanta_delantero: 2.75-21
-llanta_trasero: 3.50-18
-precio_cop: 4590000
+distancia_suelo_mm: 255
+suspension_delantera: Telescópica hidráulica
+suspension_trasera: Unishock
+freno_delantero: Disco 240 mm con CBS
+freno_trasero: Tambor 130 mm
+llanta_delantero: 90/90-19
+llanta_trasero: 110/90-17
+precio_cop: 7390000
 imagen: /images/motos/akt-ttr-125.webp
 pros:
-  - Excelente para terreno rural
-  - Buena distancia al suelo
-  - Neumáticos mixtos
+  - Frenos CBS de fábrica, mayor seguridad en frenada
+  - Distancia al suelo de 255 mm para terrenos irregulares
+  - Red de servicio y repuestos AKT en todo Colombia
 contras:
-  - Potencia baja para carretera
-  - Sin ABS
-  - Asiento alto
-rating: 4
+  - Motor a carburador, sin inyección electrónica
+  - Freno trasero de tambor, sin ABS
+  - Potencia justa para carretera a velocidad alta
+rating: 4.3
 descripcion: >-
-  Para el campo colombiano, la AKT TTR 125 es una de esas herramientas que sabes que van a responder. Con un enfoque
-  claro de doble propósito, sus 9.5 HP y 115 kilos van bien tanto en carretera destapada como entre pueblo y pueblo. La
-  distancia al suelo de 200 mm y las llantas mixtas 2.75-21 adelante y 3.50-18 atrás son su mejor carta de presentación
-  para terrenos irregulares. El asiento está a 820 mm, así que si mides menos de 1.70 vas a sentirla un poco alta al
-  principio, pero te acostumbras. En ciudad no es la más práctica: el manillar ancho y la postura erguida están pensados
-  para otra cosa. Y en carretera pavimentada los 9.5 HP se quedan justos para adelantar. Lo bueno: la red de AKT está
-  por todo Colombia y los repuestos son económicos. Lo malo: sin ABS, freno trasero de tambor y un tanque de solo 7.5
-  litros que te obliga a planear las paradas si te vas lejos. Es una moto de nicho, pero en su nicho no tiene
-  competencia seria a este precio.
+  La TTR 125 de AKT se renueva para 2026 con frenos CBS y un diseño más robusto, manteniendo su enfoque de doble
+  propósito para el campo colombiano. Sus 124.9 cc con carburador entregan 10.3 HP que van bien tanto en carretera
+  destapada como en recorridos urbanos. La distancia al suelo de 255 mm y las llantas 90/90-19 adelante y 110/90-17
+  atrás la hacen competente en terrenos irregulares. El asiento a 820 mm sigue siendo alto para pilotos de baja
+  estatura, pero la postura erguida y el manillar ancho son cómodos para manejo fuera de pavimento. En ciudad no es la
+  más práctica por su altura y suspensión blanda, pero cumple. Lo mejor: el CBS suma seguridad al frenar y los repuestos
+  AKT se consiguen en cualquier pueblo de Colombia. Lo justo: sigue con carburador y tambor trasero. Compite con la
+  Honda XR150L y la Hero Xpulse 200, pero a un precio más bajo.

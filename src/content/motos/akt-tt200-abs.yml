@@ -1,0 +1,51 @@
+id: akt-tt200-abs
+slug: akt-tt200-abs
+marca: AKT
+modelo: TT200 con ABS
+nombre_completo: AKT TT200 con ABS
+anio: 2026
+tipo: Doble Propósito
+cilindraje: 197.6
+potencia_hp: 16.8
+potencia_rpm: 8000
+torque_nm: 15.8
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 33
+peso_kg: 138
+altura_asiento_mm: 830
+distancia_suelo_mm: 210
+suspension_delantera: Telescópica de largo recorrido
+suspension_trasera: Monoamortiguador con enlace
+freno_delantero: Disco 260 mm con ABS
+freno_trasero: Disco 220 mm
+llanta_delantero: 80/100-21
+llanta_trasero: 110/90-18
+precio_cop: 9790000
+imagen: /images/motos/akt-tt200-abs.webp
+pros:
+  - ABS de serie, poco común en doble propósito económicas de 200cc
+  - Buena distancia al piso (210 mm) para trocha moderada
+  - Precio competitivo frente a doble propósito de marcas más establecidas
+contras:
+  - Suspensión menos sofisticada que la de rivales japonesas del segmento
+  - Motor comparte base con la CR4 200 Pro, sin diferenciación mecánica fuerte
+  - Red de servicio AKT aún más pequeña que la de Honda o Yamaha
+rating: 4.4
+descripcion: >-
+  La TT200 con ABS es la apuesta de AKT en el segmento de doble propósito, un terreno donde marcas como Honda y Yamaha
+  llevan años dominando en Colombia. Con ABS delantero de serie y buena distancia al piso, busca convencer al comprador
+  que quiere una enduro liviana sin pagar el precio de las marcas japonesas.
+
+  En trocha se comporta de forma correcta gracias a su suspensión de largo recorrido, aunque no tiene la sofisticación
+  de una Honda XR150L o una Hero Xpulse 200. En carretera cumple bien para trayectos medios, con un motor que comparte
+  base con la CR4 200 Pro.
+
+  Compite directamente con la Honda XR150L y la Hero Xpulse 200, siendo la opción más económica de las tres. Es la moto
+  ideal para el comprador que quiere una doble propósito de 200cc con ABS, priorizando el precio por encima del
+  prestigio de marca o la sofisticación mecánica.

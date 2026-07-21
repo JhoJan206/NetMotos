@@ -1,0 +1,51 @@
+id: akt-250r
+slug: akt-250r
+marca: AKT
+modelo: 250 R
+nombre_completo: AKT 250 R
+anio: 2026
+tipo: Naked
+cilindraje: 249.4
+potencia_hp: 20.8
+potencia_rpm: 8000
+torque_nm: 19.6
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 14
+consumo_km_l: 28
+peso_kg: 145
+altura_asiento_mm: 800
+distancia_suelo_mm: 175
+suspension_delantera: Telescópica invertida (USD)
+suspension_trasera: Monoamortiguador ajustable en precarga
+freno_delantero: Disco 280 mm con ABS de un canal
+freno_trasero: Disco 220 mm
+llanta_delantero: 100/80-17
+llanta_trasero: 130/70-17
+precio_cop: 11590000
+imagen: /images/motos/akt-250r.webp
+pros:
+  - El cilindraje más alto disponible en el catálogo AKT a este precio
+  - ABS delantero de serie, algo poco común en naked económicas de 250cc
+  - Buen desempeño para carretera gracias a su potencia y torque
+contras:
+  - Peso considerable (145 kg) para una naked de este segmento
+  - Marca AKT con menor valor de reventa que rivales japonesas o indias
+  - Acabados y calidad de pintura por debajo del estándar de Bajaj o TVS
+rating: 4.5
+descripcion: >-
+  La 250 R es la moto insignia de AKT en el segmento naked, y con razón: es la que más cilindraje ofrece dentro de un
+  catálogo tradicionalmente enfocado en motos económicas de 125 a 200cc. Con casi 21 caballos y ABS delantero de serie,
+  le pelea de frente a marcas con más trayectoria en este rango de cilindraje.
+
+  En carretera es donde más se disfruta: la potencia sobra para adelantar con confianza y el ABS delantero da
+  tranquilidad extra en frenadas de emergencia sobre pavimento mojado, algo común en las vías colombianas. En ciudad, el
+  peso se nota un poco más que en las CR4 de menor cilindraje.
+
+  Compite con la Bajaj Pulsar NS200 FI ABS y la Suzuki Gixxer SF 250. Es la moto ideal para el comprador que quiere el
+  mayor cilindraje posible dentro del presupuesto de una marca económica, priorizando potencia sobre el prestigio de
+  marca de la competencia asiática establecida.

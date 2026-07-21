@@ -1,0 +1,51 @@
+id: akt-cr4-200-pro
+slug: akt-cr4-200-pro
+marca: AKT
+modelo: CR4 200 Pro
+nombre_completo: AKT CR4 200 Pro
+anio: 2026
+tipo: Naked
+cilindraje: 197.6
+potencia_hp: 16.8
+potencia_rpm: 8000
+torque_nm: 15.8
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 32
+peso_kg: 132
+altura_asiento_mm: 795
+distancia_suelo_mm: 175
+suspension_delantera: Telescópica invertida (USD)
+suspension_trasera: Monoamortiguador ajustable en precarga
+freno_delantero: Disco 260 mm con CBS
+freno_trasero: Disco 220 mm con CBS
+llanta_delantero: 90/90-17
+llanta_trasero: 110/80-17
+precio_cop: 8590000
+imagen: /images/motos/akt-cr4-200-pro.webp
+pros:
+  - Inyección electrónica de fábrica, a diferencia de sus hermanas CR4 125 y 150
+  - Diseño robusto e imponente dentro del segmento de 200cc económicas
+  - Relación precio-cilindraje de las más competitivas del mercado
+contras:
+  - Peso algo elevado (132 kg) frente a otras naked de 200cc
+  - Sin ABS, solo sistema de frenado combinado CBS
+  - Acabados que todavía no igualan a marcas indias como Bajaj o TVS
+rating: 4.5
+descripcion: >-
+  La CR4 200 Pro es el tope de gama de la familia CR4, y la única de las tres que da el salto a inyección electrónica,
+  dejando atrás el carburador de las versiones 125 y 150. Es la apuesta de AKT por competir de frente en el segmento de
+  naked de 200cc, tradicionalmente dominado por Bajaj y TVS.
+
+  Con casi 17 caballos, tiene la potencia suficiente para moverse con autoridad tanto en ciudad como en carretera, y los
+  frenos CBS en ambas ruedas dan una capacidad de frenado que compite bien con motos de marcas más establecidas. El peso
+  se siente un poco en maniobras lentas, pero en movimiento se comporta de forma estable.
+
+  Compite directamente con la Bajaj Pulsar NS200 y la TVS Apache RTR 200 4V, ofreciendo un precio bastante más bajo que
+  ambas. Es la moto ideal para el comprador que quiere el mayor cilindraje posible dentro del presupuesto de una moto
+  económica, sin gastar en las marcas asiáticas más establecidas.
