@@ -1,0 +1,56 @@
+id: bajaj-dominar-250
+slug: bajaj-dominar-250
+marca: Bajaj
+modelo: Dominar 250
+nombre_completo: Bajaj Dominar 250
+anio: 2026
+tipo: Naked
+cilindraje: 248.8
+potencia_hp: 26.6
+potencia_rpm: 8750
+torque_nm: 21.5
+torque_rpm: 6500
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 6 velocidades
+combustible: Gasolina extra
+capacidad_tanque_l: 13
+consumo_km_l: 30
+peso_kg: 164
+altura_asiento_mm: 800
+distancia_suelo_mm: 157
+suspension_delantera: Telescópica convencional 37 mm
+suspension_trasera: Monoamortiguador con enlace
+freno_delantero: Disco 300 mm con ABS de doble canal
+freno_trasero: Disco 230 mm con ABS
+llanta_delantero: 100/80-17
+llanta_trasero: 130/70-17
+precio_cop: 15799000
+imagen: /images/motos/bajaj-dominar-250.webp
+pros:
+  - Hereda gran parte del ADN de la Dominar 400 a un precio más bajo
+  - Peso más liviano que la Dominar 400, más manejable en ciudad
+  - ABS de doble canal de serie, poco común en el segmento de 250cc
+contras:
+  - Suspensión delantera convencional, no invertida como en la Dominar 400
+  - Potencia inferior a rivales bicilíndricas como la Suzuki V-Strom 250
+  - Sigue siendo pesada frente a naked monocilíndricas puras de 250cc
+rating: 4.5
+descripcion: >-
+  La Dominar 250 es la versión "de entrada" a la filosofía touring de
+  Bajaj, ofreciendo buena parte de lo que hace atractiva a la Dominar 400
+  pero con un cilindraje menor y, sobre todo, un precio bastante más
+  accesible. Es la opción para quien quiere una moto seria de carretera
+  sin llegar todavía al peso y precio de la 400.
+
+  El motor de 250cc entrega una potencia que sorprende para el
+  cilindraje, con más de 26 caballos, suficiente para sostener
+  velocidad de crucero en carretera sin sentirse ahogada. El ABS de
+  doble canal de serie es un plus de seguridad que muchas rivales de
+  este precio todavía no ofrecen.
+
+  Compite con la Suzuki V-Strom 250 y la Kawasaki Versys-X 300, aunque
+  con un precio más bajo que ambas. Es la moto ideal para el
+  motociclista que quiere el estilo touring de la familia Dominar, con
+  un presupuesto más ajustado que el que exige la versión de 400cc.

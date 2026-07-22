@@ -1,8 +1,8 @@
 id: bajaj-boxer-ct100
 slug: bajaj-boxer-ct100
 marca: Bajaj
-modelo: Boxer CT100
-nombre_completo: Bajaj Boxer CT100
+modelo: Boxer CT100 ES
+nombre_completo: Bajaj Boxer CT100 ES
 anio: 2026
 tipo: Clásica
 cilindraje: 100
@@ -26,7 +26,7 @@ freno_delantero: Tambor 110 mm
 freno_trasero: Tambor 110 mm
 llanta_delantero: 2.75-18
 llanta_trasero: 3.00-18
-precio_cop: 6290000
+precio_cop: 6199000
 imagen: /images/motos/bajaj-boxer-ct100.webp
 pros:
   - Consumo de combustible extremadamente bajo, ideal para trabajo diario

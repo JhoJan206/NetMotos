@@ -1,0 +1,57 @@
+id: bajaj-boxer-150x
+slug: bajaj-boxer-150x
+marca: Bajaj
+modelo: Boxer 150X
+nombre_completo: Bajaj Boxer 150X
+anio: 2026
+tipo: Clásica
+cilindraje: 149.5
+potencia_hp: 12
+potencia_rpm: 7500
+torque_nm: 13.25
+torque_rpm: 5500
+alimentacion: Carburador
+encendido: Electrónico CDI
+arranque: Eléctrico y pedal
+transmision: Manual 4 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 13
+consumo_km_l: 45
+peso_kg: 130
+altura_asiento_mm: 780
+distancia_suelo_mm: 175
+suspension_delantera: Telescópica SNS (resorte anidado)
+suspension_trasera: Doble amortiguador hidráulico
+freno_delantero: Tambor 130 mm
+freno_trasero: Tambor 130 mm
+llanta_delantero: 2.75-18
+llanta_trasero: 3.00-18
+precio_cop: 7499000
+imagen: /images/motos/bajaj-boxer-150x.webp
+pros:
+  - Diseñada específicamente para terreno destapado y uso de trabajo pesado
+  - Indicador de marchas y medidor de combustible, poco comunes en motos de trabajo
+  - Consumo de combustible muy bajo pese al aumento de cilindraje frente a la CT100
+contras:
+  - Sin freno de disco en ninguna rueda
+  - Motor a carburador, sin la precisión de una inyección electrónica
+  - Diseño netamente utilitario, sin pretensiones estéticas
+rating: 4.4
+descripcion: >-
+  La Boxer 150X es la respuesta de Bajaj para quien necesita una moto de
+  trabajo que aguante terreno difícil sin sacrificar la economía que ha
+  hecho famosa a la línea Boxer en Colombia. Sube el cilindraje frente a
+  la CT100, pero mantiene la filosofía de bajo consumo y bajo costo de
+  mantenimiento.
+
+  Su suspensión SNS y las llantas pensadas para que el barro no se pegue
+  la hacen una opción sólida para quien trabaja en zonas rurales o
+  reparte mercancía por caminos destapados. El indicador de marchas y el
+  medidor de combustible son detalles que se agradecen en una moto de
+  este segmento, donde muchas veces ni siquiera vienen de fábrica.
+
+  Compite con la Suzuki GN 125 y con motos utilitarias de marcas chinas
+  de menor respaldo. Es la moto ideal para el trabajador que necesita
+  resistencia y bajo consumo por encima de cualquier lujo, ya sea para
+  mensajería rural, agricultura o transporte de trabajo diario en
+  terreno exigente.
