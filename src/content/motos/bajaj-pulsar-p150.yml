@@ -1,0 +1,55 @@
+id: bajaj-pulsar-p150
+slug: bajaj-pulsar-p150
+marca: Bajaj
+modelo: Pulsar P150
+nombre_completo: Bajaj Pulsar P150
+anio: 2026
+tipo: Naked
+cilindraje: 149.68
+potencia_hp: 14.2
+potencia_rpm: 8500
+torque_nm: 13.5
+torque_rpm: 6000
+alimentacion: Inyección electrónica
+encendido: Electrónico ECU
+arranque: Eléctrico
+transmision: Manual 5 velocidades
+combustible: Gasolina corriente
+capacidad_tanque_l: 12
+consumo_km_l: 40
+peso_kg: 140
+altura_asiento_mm: 790
+distancia_suelo_mm: 165
+suspension_delantera: Telescópica
+suspension_trasera: Monoamortiguador Nitrox
+freno_delantero: Disco 260 mm con ABS
+freno_trasero: Disco 200 mm
+llanta_delantero: 90/90-17
+llanta_trasero: 120/80-17
+precio_cop: 8999000
+imagen: /images/motos/bajaj-pulsar-p150.webp
+pros:
+  - ABS delantero de serie, algo llamativo para una 150cc de este precio
+  - El 95% del torque disponible desde apenas 3.500 rpm, muy fácil de manejar
+  - Diseño alineado con las Pulsar de nueva generación (N160, N250)
+contras:
+  - Compite en un segmento muy saturado con opciones de varias marcas
+  - Sin freno de disco trasero con ABS, solo el delantero
+  - Sucesora de la UG150, todavía construyendo reputación propia en el mercado
+rating: 4.4
+descripcion: >-
+  La Pulsar P150 llega como sucesora de la histórica UG150, heredando un
+  motor derivado del N160 pero reducido a 150cc, buscando un equilibrio
+  sensato entre rendimiento, practicidad y precio. Es de las pocas 150cc
+  del mercado colombiano que ya trae ABS delantero de fábrica.
+
+  Lo que más se agradece al manejarla es la disponibilidad de torque
+  desde revoluciones bajas: el 95% del par máximo ya está presente a
+  solo 3.500 rpm, lo que la hace muy fácil de dosificar tanto en ciudad
+  como en carretera, sin necesidad de exprimir el motor constantemente.
+
+  Compite de frente con la Suzuki Gixxer 150 ABS, la Yamaha FZ Versión
+  3.0 y la TVS Apache RTR 160 4V FI ABS. Es la moto ideal para el
+  motociclista que busca una naked de 150cc con ABS y buen torque de
+  entrada, en un segmento donde la oferta es amplia pero pocas ofrecen
+  frenos asistidos a este precio.
