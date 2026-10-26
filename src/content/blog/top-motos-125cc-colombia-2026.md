@@ -7,9 +7,6 @@ excerpt: "Ranking de las motos 125cc más vendidas en Colombia en 2026, con dato
 cover_image: "/images/blog/top-motos-125cc.webp"
 author: "Jhojan Jacome"
 ---
-
-# Las Motos 125cc Más Vendidas en Colombia en 2026
-
 A diferencia de un ranking de opinión, esto son matrículas reales. Con datos de Andemos, RUNT y los reportes de Fenalco/ANDI, así se ha visto el segmento de 125cc (y motos de trabajo cercanas) mes a mes durante 2026. El mercado de motos viene de un semestre histórico: **654.146 motocicletas matriculadas** entre enero y junio, un 33,7% más que en el mismo periodo de 2025.
 
 ## 1. AKT NKD 125 (AK125NKD EIII)

@@ -16,14 +16,11 @@ No test or lint commands exist.
 - Content via Astro content collections (`src/content/`)
 - Deployed on Vercel, site URL `https://netmotos.lat`
 
-### Two synchronized data sources for motorcycles
+### Data source for motorcycles
 
-| Source | Format | Location |
-|--------|--------|----------|
-| Primary | YAML (1 file per bike) | `src/content/motos/*.yml` |
-| Legacy | JSON (single array) | `src/data/motos.json` |
+Single source of truth: YAML, one file per bike in `src/content/motos/*.yml`.
 
-Both must be kept in sync. The `scripts/migrate-motos.js` utility regenerates YAML from JSON (run with `node scripts/migrate-motos.js`).
+There is no JSON mirror. Do not reintroduce `src/data/motos.json`.
 
 ## Moto schema (31 fields, `src/content/config.ts`)
 

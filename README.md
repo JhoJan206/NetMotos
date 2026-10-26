@@ -21,7 +21,6 @@ NetMotos es un sitio de contenido orientado al mercado colombiano de motocicleta
 src/
 ├── components/   # Componentes Astro y React (Navbar, Footer, comparador, calculadora, etc.)
 ├── content/      # Fichas técnicas (motos) y artículos de blog
-├── data/         # Datos auxiliares en JSON
 ├── layouts/      # Layouts base con SEO, Open Graph y Analytics
 ├── pages/        # Rutas del sitio (index, marcas, fichas, blog, guías, etc.)
 ├── styles/       # Estilos globales y de componentes

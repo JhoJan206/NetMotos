@@ -7,9 +7,6 @@ excerpt: "Guía de seguridad vial para motociclistas en Colombia en 2026. Equipo
 cover_image: "/images/blog/seguridad-vial.webp"
 author: "Jhojan Jacome"
 ---
-
-# Seguridad Vial en Moto: Equipo Esencial (2026)
-
 Colombia sigue ocupando uno de los primeros lugares en accidentalidad de motociclistas en Latinoamérica. Protegerte no es una opción, es una responsabilidad — y en 2026 el país empieza además a exigir más seguridad de fábrica en las motos nuevas.
 
 ## Equipo Obligatorio por Ley

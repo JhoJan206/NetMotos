@@ -7,9 +7,6 @@ excerpt: "Descubre las motos con mejor consumo de gasolina en Colombia en 2026. 
 cover_image: "/images/blog/motos-economicas.webp"
 author: "Jhojan Jacome"
 ---
-
-# Las Motos Más Económicas en Consumo de Gasolina en 2026
-
 El precio de la gasolina corriente en Colombia ha subido varias veces en 2026 por la volatilidad del petróleo y el desmonte gradual de subsidios: hoy el promedio nacional ronda los **$15.850 - $16.000 por galón**, con variaciones según ciudad (Villavicencio, Cali y Bogotá entre las más caras; Pasto y Cúcuta entre las más económicas). En ese contexto, el consumo de tu moto pesa más que nunca en el bolsillo.
 
 ## Ranking de Consumo 2026

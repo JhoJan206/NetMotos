@@ -7,9 +7,6 @@ excerpt: "El Ministerio de Transporte y la ANSV confirmaron que los sistemas ABS
 cover_image: "/images/blog/abs-cbs.webp"
 author: "Jhojan Jacome"
 ---
-
-# ABS y CBS Obligatorios en Motos Nuevas desde Octubre 2026
-
 El mercado de motos colombiano está en pleno auge —solo en el primer semestre de 2026 se matricularon más de 654.000 motocicletas nuevas— y en medio de ese crecimiento llega una de las regulaciones más importantes para la seguridad vial: la obligatoriedad de sistemas de frenado avanzados en motos nuevas.
 
 ## ¿Qué Dice la Nueva Normativa?

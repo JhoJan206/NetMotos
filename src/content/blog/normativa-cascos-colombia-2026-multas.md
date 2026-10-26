@@ -7,9 +7,6 @@ excerpt: "Todo sobre la normativa de cascos para motociclistas en Colombia en 20
 cover_image: "/images/blog/normativa-cascos.webp"
 author: "Jhojan Jacome"
 ---
-
-# Normativa de Cascos en Colombia 2026
-
 La Resolución 23385 de 2020 del Ministerio de Transporte sigue siendo la base legal que regula el uso del casco para motociclistas en Colombia, complementada por la Resolución 20223040010485 de 2022 sobre requisitos técnicos. Aquí te contamos qué sigue igual y qué cambió de cara a 2026.
 
 ## Certificaciones Válidas en Colombia

@@ -1,4 +1,5 @@
 {
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/_astro/(.*)",
@@ -16,6 +17,9 @@
     }
   ],
   "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/marcas/royal%20enfield", "destination": "/marcas/royal-enfield", "permanent": true },
+    { "source": "/marcas/royal enfield", "destination": "/marcas/royal-enfield", "permanent": true },
     { "source": "/sitemap.xml", "destination": "/sitemap-index.xml", "permanent": true }
   ]
 }

@@ -5,7 +5,7 @@ interface FormState {
   kmMes: number
   precioGalon: number
   consumoKmL: number
-  cilindraje: string
+  categoria: string
 }
 
 interface Resultados {
@@ -17,21 +17,14 @@ interface Resultados {
   totalMes: number
 }
 
-const soatPorCilindraje: Record<string, number> = {
-  '100': 256200,
-  '200': 343300,
-  '400': 543300,
-  '600': 761400,
-  'mayor': 989800,
-}
+const LITROS_POR_GALON = 3.785
 
-const mantenimientoAnual: Record<string, number> = {
-  '100': 350000,
-  '125': 400000,
-  '200': 500000,
-  '400': 600000,
-  '600': 800000,
-  'mayor': 1200000,
+const CATEGORIAS: Record<string, { label: string; soat: number; mantenimiento: number }> = {
+  ciclomotor: { label: 'Ciclomotor (hasta 50cc)', soat: 124100, mantenimiento: 250000 },
+  menos100: { label: 'Menos de 100cc', soat: 256200, mantenimiento: 350000 },
+  '100a200': { label: '100cc a 200cc', soat: 343300, mantenimiento: 450000 },
+  motocarro: { label: 'Motocarro o tricimoto', soat: 386900, mantenimiento: 600000 },
+  mas200: { label: 'Más de 200cc', soat: 761400, mantenimiento: 800000 },
 }
 
 export default function CalculadoraForm() {
@@ -39,20 +32,23 @@ export default function CalculadoraForm() {
     kmMes: 500,
     precioGalon: 16000,
     consumoKmL: 50,
-    cilindraje: '125',
+    categoria: '100a200',
   })
 
   const [resultados, setResultados] = useState<Resultados | null>(null)
 
   const calcular = (e: React.FormEvent) => {
     e.preventDefault()
-    const kmAno = form.kmMes * 12
-    const galonesAno = kmAno / form.consumoKmL
-    const costoAnoGasolina = galonesAno * form.precioGalon
-    const costoMesGasolina = (form.kmMes / form.consumoKmL) * form.precioGalon
-    const cil = form.cilindraje
-    const soat = soatPorCilindraje[cil] || soatPorCilindraje['125']
-    const mantenimiento = mantenimientoAnual[cil] || mantenimientoAnual['125']
+
+    const consumo = form.consumoKmL > 0 ? form.consumoKmL : 1
+    const litrosAno = (form.kmMes * 12) / consumo
+    const litrosMes = form.kmMes / consumo
+    const costoAnoGasolina = (litrosAno / LITROS_POR_GALON) * form.precioGalon
+    const costoMesGasolina = (litrosMes / LITROS_POR_GALON) * form.precioGalon
+
+    const categoria = CATEGORIAS[form.categoria] ?? CATEGORIAS['100a200']
+    const soat = categoria.soat
+    const mantenimiento = categoria.mantenimiento
 
     setResultados({
       costoMesGasolina: Math.round(costoMesGasolina),
@@ -60,7 +56,7 @@ export default function CalculadoraForm() {
       soat,
       mantenimiento,
       totalAno: Math.round(costoAnoGasolina + soat + mantenimiento),
-      totalMes: Math.round(costoMesGasolina + (soat / 12) + (mantenimiento / 12)),
+      totalMes: Math.round(costoMesGasolina + soat / 12 + mantenimiento / 12),
     })
   }
 
@@ -73,7 +69,9 @@ export default function CalculadoraForm() {
             type="number"
             value={form.kmMes}
             onChange={e => setForm(f => ({ ...f, kmMes: Number(e.target.value) }))}
-            min={1} max={10000} required
+            min={1}
+            max={10000}
+            required
           />
         </div>
         <div className="calc-field">
@@ -82,29 +80,36 @@ export default function CalculadoraForm() {
             type="number"
             value={form.precioGalon}
             onChange={e => setForm(f => ({ ...f, precioGalon: Number(e.target.value) }))}
-            min={1000} max={50000} required
+            min={1000}
+            max={50000}
+            required
           />
         </div>
         <div className="calc-field">
-          <label>Consumo de tu moto (km/l)</label>
+          <label>Consumo de tu moto (km por litro)</label>
           <input
             type="number"
             value={form.consumoKmL}
             onChange={e => setForm(f => ({ ...f, consumoKmL: Number(e.target.value) }))}
-            min={10} max={100} required step="0.5"
+            min={10}
+            max={100}
+            required
+            step="0.5"
           />
         </div>
         <div className="calc-field">
-          <label>Cilindraje (para SOAT y mantenimiento)</label>
-          <select value={form.cilindraje} onChange={e => setForm(f => ({ ...f, cilindraje: e.target.value }))}>
-            <option value="100">Menos de 100cc</option>
-            <option value="200">100cc - 200cc</option>
-            <option value="400">200cc - 400cc</option>
-            <option value="600">400cc - 600cc</option>
-            <option value="mayor">Más de 600cc</option>
+          <label>Cilindraje (define el SOAT)</label>
+          <select value={form.categoria} onChange={e => setForm(f => ({ ...f, categoria: e.target.value }))}>
+            {Object.entries(CATEGORIAS).map(([value, { label }]) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
           </select>
         </div>
-        <button type="submit" className="btn btn-primary">Calcular</button>
+        <button type="submit" className="btn btn-primary">
+          Calcular
+        </button>
       </form>
 
       {resultados && (

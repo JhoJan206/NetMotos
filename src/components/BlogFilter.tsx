@@ -114,7 +114,6 @@ export default function BlogFilter({ posts: postsJson }: { posts: string }) {
           )}
         </div>
         <aside className="blog-sidebar">
-          <div style={{ display: 'none' }}></div>
           <div className="sidebar-card">
             <h4>¿Buscas moto?</h4>
             <p>Revisa nuestras fichas técnicas con especificaciones completas y precios actualizados.</p>

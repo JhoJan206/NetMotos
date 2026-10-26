@@ -7,9 +7,6 @@ excerpt: "La Feria 2 Ruedas y la Expo2Ruedas 2026 dejaron varios lanzamientos im
 cover_image: "/images/blog/lanzamientos-2026.webp"
 author: "Jhojan Jacome"
 ---
-
-# Lanzamientos de Motos 2026 en Colombia
-
 La Feria 2 Ruedas y la Expo2Ruedas 2026 fueron el escenario perfecto para que varias marcas renovaran su portafolio de cara al segundo semestre. Estos son los lanzamientos más destacados que ya están disponibles o próximos a llegar.
 
 ## Honda PCX160 ABS: El Scooter Premium se Renueva

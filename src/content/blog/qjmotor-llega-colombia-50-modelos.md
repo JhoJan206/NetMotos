@@ -7,9 +7,6 @@ excerpt: "La marca china QJMOTOR desembarcó oficialmente en Colombia durante la
 cover_image: "/images/blog/qjmotor.webp"
 author: "Jhojan Jacome"
 ---
-
-# QJMOTOR Llega a Colombia: 50 Modelos y Nueva Competencia
-
 El mercado colombiano de motos sigue atrayendo a nuevos actores globales. La última en sumarse es **QJMOTOR**, la marca china que anunció su desembarco formal durante la Feria 2 Ruedas 2026, celebrada en Plaza Mayor, Medellín.
 
 ## El Stand Más Grande de la Feria

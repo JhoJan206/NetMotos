@@ -3,20 +3,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro'
 import MotoCard from '../../components/MotoCard.astro'
 import AdSlot from '../../components/AdSlot.astro'
 import { getCollection } from 'astro:content'
+import { slugify } from '../../utils/slugify'
 
 export async function getStaticPaths() {
   const motos = await getCollection('motos')
-  const marcas = [...new Set(motos.map(m => m.data.marca.toLowerCase()))]
+  const marcas = [...new Set(motos.map(m => m.data.marca))]
   return marcas.map(marca => ({
-    params: { marca },
+    params: { marca: slugify(marca) },
     props: {
-      marcaCapitalized: marca.charAt(0).toUpperCase() + marca.slice(1),
-      motos: motos.filter(m => m.data.marca.toLowerCase() === marca).map(m => m.data),
+      marcaNombre: marca,
+      motos: motos.filter(m => m.data.marca === marca).map(m => m.data),
     },
   }))
 }
 
-const { marcaCapitalized, motos } = Astro.props
+const { marcaNombre, motos } = Astro.props
+const marcaSlug = slugify(marcaNombre)
 
 const MARCAS_INFO: Record<string, string> = {
   AKT: 'AKT Motos es la marca colombiana más importante del sector, con una red de concesionarios que cubre prácticamente todos los municipios del país. Su portafolio está pensado para el mercado local: motos económicas, resistentes y con repuestos disponibles en cualquier taller. La NKD 125, la TTR 125 doble propósito y la Flex Evolution semiautomática son algunos de sus modelos más vendidos. AKT compite directamente con Bajaj y Hero en el segmento de entrada, pero su ventaja diferencial es la capilaridad: encuentras servicio técnico y repuestos originales hasta en pueblos donde otras marcas no llegan. También han incursionado en cilindradas mayores con modelos adventure y naked, aunque su fortaleza sigue estando en las motos de 125 a 200 cc. Para el comprador colombiano que prioriza el costo de mantenimiento y la disponibilidad de repuestos sobre las prestaciones, AKT es casi siempre la opción más práctica.',
@@ -30,7 +32,7 @@ const MARCAS_INFO: Record<string, string> = {
   'Royal Enfield': 'Royal Enfield es una marca británica con más de 120 años de historia, y desde 2023 cuenta con una planta de ensamble en Antioquia que refuerza su presencia en Colombia. La Classic 350 es su modelo insignia: un motor de 349 cc con 27 Nm de torque, inyección electrónica, ABS de doble canal y un diseño clásico con llantas de rayos y faro redondo. El ensamble local permite que la Classic 350 tenga componentes nacionales en pintura y detalles, conectándola con el mercado colombiano de una forma que ninguna otra moto importada logra. El precio de $19.900.000 la coloca en un segmento aspiracional, compitiendo más con motos de mayor cilindraje que con las naked y deportivas de su mismo rango de precio. La red de servicio Royal Enfield ha crecido significativamente desde el inicio del ensamble local, con concesionarios en las principales ciudades. Para el motero que busca una experiencia de manejo pausada y con carácter, donde el estilo y la presencia pesan tanto como las prestaciones, la Royal Enfield Classic 350 es una decisión que va más allá de lo racional y se acerca más a una declaración de principios.',
 }
 
-const marcaInfo = MARCAS_INFO[marcaCapitalized] || `${marcaCapitalized} es una marca de motos disponible en Colombia con modelos para todos los segmentos y necesidades.`
+const marcaInfo = MARCAS_INFO[marcaNombre] || `${marcaNombre} es una marca de motos disponible en Colombia con modelos para todos los segmentos y necesidades.`
 const precios = motos.map(m => m.precio_cop)
 const minPrecio = Math.min(...precios)
 const maxPrecio = Math.max(...precios)
@@ -38,20 +40,20 @@ const maxPrecio = Math.max(...precios)
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: `Motos ${marcaCapitalized} en Colombia`,
-  description: `Catálogo de motos ${marcaCapitalized} disponibles en Colombia. Precios desde $${minPrecio.toLocaleString('es-CO')} hasta $${maxPrecio.toLocaleString('es-CO')}.`,
+  name: `Motos ${marcaNombre} en Colombia`,
+  description: `Catálogo de motos ${marcaNombre} disponibles en Colombia. Precios desde $${minPrecio.toLocaleString('es-CO')} hasta $${maxPrecio.toLocaleString('es-CO')}.`,
 }
 ---
 
 <BaseLayout
-  title={`Motos ${marcaCapitalized} en Colombia - Fichas Técnicas y Precios`}
-  description={`Encuentra todas las motos ${marcaCapitalized} disponibles en Colombia. ${motos.length} modelos con fichas técnicas, precios actualizados, especificaciones y comparativas.`}
-  canonical={`/marcas/${marcaCapitalized.toLowerCase()}`}
+  title={`Motos ${marcaNombre} en Colombia - Fichas Técnicas y Precios`}
+  description={`Encuentra todas las motos ${marcaNombre} disponibles en Colombia. ${motos.length} modelos con fichas técnicas, precios actualizados, especificaciones y comparativas.`}
+  canonical={`/marcas/${marcaSlug}`}
   schema={schema}
   breadcrumbs={[
     { name: 'Inicio', path: '/' },
     { name: 'Fichas Técnicas', path: '/fichas-tecnicas' },
-    { name: marcaCapitalized, path: `/marcas/${marcaCapitalized.toLowerCase()}` },
+    { name: marcaNombre, path: `/marcas/${marcaSlug}` },
   ]}
 >
   <div class="page-wrapper">
@@ -61,10 +63,10 @@ const schema = {
         <span>/</span>
         <a href="/fichas-tecnicas">Fichas Técnicas</a>
         <span>/</span>
-        <span>{marcaCapitalized}</span>
+        <span>{marcaNombre}</span>
       </nav>
       <div class="marca-header">
-        <h1>Motos {marcaCapitalized}</h1>
+        <h1>Motos {marcaNombre}</h1>
         <p class="marca-desc">{marcaInfo}</p>
         <div class="marca-stats">
           <span>{motos.length} modelos</span>

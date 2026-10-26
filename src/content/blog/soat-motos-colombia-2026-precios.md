@@ -7,9 +7,6 @@ excerpt: "Conoce los precios oficiales del SOAT para motos en Colombia 2026 seg�
 cover_image: "/images/blog/soat.webp"
 author: "Jhojan Jacome"
 ---
-
-# SOAT para Motos en Colombia 2026
-
 El SOAT (Seguro Obligatorio de Accidentes de Tránsito) sigue siendo un requisito indispensable para circular en Colombia. La Superintendencia Financiera publicó las tarifas oficiales vigentes desde el 1 de enero de 2026 y, para la mayoría de motociclistas, la noticia es buena: los valores por cilindraje se mantuvieron prácticamente iguales a los de 2025.
 
 ## Precios SOAT 2026 por Categoría

@@ -7,9 +7,6 @@ excerpt: "Todo lo que necesitas saber sobre el mantenimiento de tu moto 125cc en
 cover_image: "/images/blog/guia-mantenimiento.webp"
 author: "Jhojan Jacome"
 ---
-
-# Guía de Mantenimiento Básico para Motos 125cc (2026)
-
 Mantener tu moto en buen estado no solo alarga su vida útil, sino que también evita accidentes y multas. Aquí te contamos los cuidados esenciales, con costos referenciales actualizados.
 
 ## 1. Cambio de Aceite

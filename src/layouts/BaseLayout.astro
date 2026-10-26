@@ -14,9 +14,10 @@ export interface Props {
   image?: string
   breadcrumbs?: { name: string; path: string }[]
   articleMeta?: any
+  noindex?: boolean
 }
 
-const { title, canonical, breadcrumbs } = Astro.props
+const { title, canonical, breadcrumbs, noindex = false } = Astro.props
 const description = Astro.props.description || 'Fichas técnicas de motos en Colombia de todos los segmentos y cilindrajes. Compara modelos, calcula consumo y descubre la moto ideal para ti.'
 const url = `https://netmotos.lat${canonical}`
 const fullTitle = `${title} | NetMotos`
@@ -54,12 +55,13 @@ if (breadcrumbs && breadcrumbs.length > 0) {
     <meta name="google-adsense-account" content="ca-pub-9384689460941433" />
     <meta name="google-site-verification" content="Yz6TABaQi_-gc8BdJiSN6ZeaG0zApNmJwDhCpnjualQ" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9384689460941433" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="/images/Logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={url} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -81,8 +83,8 @@ if (breadcrumbs && breadcrumbs.length > 0) {
       </>
     )}
 
-    {schemas.map((s, i) => (
-      <script key={i} type="application/ld+json" set:html={JSON.stringify(s)} />
+    {schemas.map(s => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}
 
     <script is:inline>
