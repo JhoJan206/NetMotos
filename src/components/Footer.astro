@@ -1,3 +1,11 @@
+---
+import { getCollection } from 'astro:content'
+import { slugify } from '../utils/slugify'
+
+const motos = await getCollection('motos')
+const marcas = [...new Set(motos.map(moto => moto.data.marca))].sort((a, b) => a.localeCompare(b, 'es'))
+---
+
 <footer class="footer">
     <div class="container footer-inner">
     <div class="footer-col">
@@ -14,6 +22,12 @@
       <h4>Contenido</h4>
       <a href="/blog">Noticias</a>
       <a href="/guias">Guías de Compra</a>
+    </div>
+    <div class="footer-col footer-col--marcas">
+      <h4>Marcas</h4>
+      {marcas.map(marca => (
+        <a href={`/marcas/${slugify(marca)}`}>{marca}</a>
+      ))}
     </div>
     <div class="footer-col">
       <h4>Más</h4>

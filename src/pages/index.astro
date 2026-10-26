@@ -16,22 +16,9 @@ const idsDestacadas = ['akt-nkd-125', 'yamaha-nmax-155', 'hero-hunk-160r', 'akt-
 const destacadas = idsDestacadas
   .map(id => motosDataMap.find(m => m.id === id))
   .filter(Boolean)
-
-const schema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: 'NetMotos',
-  url: 'https://netmotos.lat',
-  description: 'Fichas técnicas de motos en Colombia de todos los segmentos y cilindrajes. Compara modelos, calcula consumo y descubre la moto ideal.',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: 'https://netmotos.lat/fichas-tecnicas?q={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
-}
 ---
 
-<BaseLayout title="Inicio" canonical="/" schema={schema} breadcrumbs={[{ name: 'Inicio', path: '/' }]}>
+<BaseLayout title="Inicio" canonical="/" breadcrumbs={[{ name: 'Inicio', path: '/' }]}>
   <section class="hero">
     <div class="container hero-content">
       <h1>La guía definitiva de motos en Colombia</h1>

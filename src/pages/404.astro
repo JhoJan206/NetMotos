@@ -2,12 +2,21 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 
-<BaseLayout title="Página no encontrada" canonical="/404" noindex>
+<BaseLayout
+  title="Página no encontrada"
+  description="La página que buscas no existe o cambió de dirección. Explora las fichas técnicas de motos en Colombia, el comparador o vuelve al inicio."
+  canonical="/404"
+  noindex
+>
   <div class="page-wrapper">
     <div class="container" style="text-align:center;padding:80px 24px">
       <h1 style="font-size:4rem;color:#E63946;margin:0">404</h1>
-      <p style="font-size:1.2rem;color:#666;margin:16px 0 32px">Página no encontrada</p>
-      <a href="/" class="btn btn-primary">Volver al inicio</a>
+      <p style="font-size:1.2rem;color:#666;margin:16px 0 32px">No encontramos esta página. Puede que el enlace esté roto o que el contenido se haya movido.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="/" class="btn btn-primary">Volver al inicio</a>
+        <a href="/fichas-tecnicas" class="btn btn-outline">Ver fichas técnicas</a>
+        <a href="/blog" class="btn btn-outline">Ver noticias</a>
+      </div>
     </div>
   </div>
 </BaseLayout>

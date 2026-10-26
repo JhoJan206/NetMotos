@@ -4,6 +4,8 @@ import AdSlot from '../../components/AdSlot.astro'
 import CompararBoton from '../../components/CompararBoton'
 import { getCollection } from 'astro:content'
 import { formatCOP } from '../../utils/formatCurrency'
+import { slugify } from '../../utils/slugify'
+import { findRelatedPosts } from '../../utils/related'
 
 export async function getStaticPaths() {
   const motos = await getCollection('motos')
@@ -14,6 +16,23 @@ export async function getStaticPaths() {
 }
 
 const { moto } = Astro.props
+const marcaSlug = slugify(moto.marca)
+const motoPath = `/fichas-tecnicas/${moto.slug}`
+const motoUrl = `https://netmotos.lat${motoPath}`
+const image = moto.imagen || '/images/logo-netmotos.png'
+const imageUrl = image.startsWith('http') ? image : `https://netmotos.lat${image}`
+
+const posts = (await getCollection('blog')).map(post => ({ ...post.data, slug: post.slug }))
+const relatedPosts = findRelatedPosts(moto, posts, 3)
+
+const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+const fechaActualizacion = (() => {
+  if (!moto.actualizado) return ''
+  const [year, month] = moto.actualizado.split('-')
+  return `${MESES[Number(month) - 1]} de ${year}`
+})()
+
+const reviewBody = `La ${moto.nombre_completo} obtiene ${moto.rating} de 5 en nuestra evaluación editorial. Destaca por ${moto.pros.slice(0, 2).map(p => p.toLowerCase()).join(' y ')}. Entre sus puntos débiles: ${moto.contras.slice(0, 2).map(c => c.toLowerCase()).join(' y ')}.`
 
 const MOTO_COLORS = ['#E63946', '#1D3557', '#F4A261', '#2A9D8F', '#6B4CE6', '#E07A2F']
 let hash = 0
@@ -51,6 +70,10 @@ const schema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: moto.nombre_completo,
+  url: motoUrl,
+  image: [imageUrl],
+  sku: moto.id,
+  mpn: moto.id,
   brand: { '@type': 'Brand', name: moto.marca },
   description: moto.descripcion || `Ficha técnica de la ${moto.nombre_completo}. ${moto.cilindraje}cc, ${moto.potencia_hp} HP, consumo ${moto.consumo_km_l} km/l. Precio en Colombia: ${formatCOP(moto.precio_cop)}.`,
   category: `Moto ${moto.tipo}`,
@@ -63,10 +86,25 @@ const schema = {
   },
   offers: {
     '@type': 'Offer',
+    url: motoUrl,
     price: moto.precio_cop,
     priceCurrency: 'COP',
     availability: 'https://schema.org/InStock',
-    seller: { '@type': 'Organization', name: moto.marca },
+    itemCondition: 'https://schema.org/NewCondition',
+  },
+  review: {
+    '@type': 'Review',
+    name: `Reseña de la ${moto.nombre_completo}`,
+    reviewBody,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: moto.rating,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    author: { '@type': 'Organization', name: 'NetMotos', url: 'https://netmotos.lat' },
+    publisher: { '@type': 'Organization', name: 'NetMotos', url: 'https://netmotos.lat' },
+    datePublished: moto.actualizado,
   },
 }
 
@@ -77,9 +115,10 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
 <BaseLayout
   title={`${moto.nombre_completo} - Ficha Técnica, Precio en Colombia`}
   description={`Ficha técnica de la ${moto.nombre_completo}: ${moto.cilindraje}cc, ${moto.potencia_hp} HP, consumo ${moto.consumo_km_l} km/l, precio ${formatCOP(moto.precio_cop)}. Pros, contras y especificaciones completas.`}
-  canonical={`/fichas-tecnicas/${moto.slug}`}
+  canonical={motoPath}
   schema={schema}
   type="product"
+  image={moto.imagen}
   breadcrumbs={[
     { name: 'Inicio', path: '/' },
     { name: 'Fichas Técnicas', path: '/fichas-tecnicas' },
@@ -108,11 +147,14 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
         </div>
         <div class="ficha-header-info">
           <div class="ficha-bread">
-            <span class="tag tag-guias">{moto.marca}</span>
+            <a href={`/marcas/${marcaSlug}`} class="tag tag-guias">{moto.marca}</a>
             <span class="tag tag-lanzamientos">{moto.tipo}</span>
           </div>
           <h1>{moto.nombre_completo}</h1>
-          <p class="ficha-anio">Modelo {moto.anio}</p>
+          <p class="ficha-anio">
+            Modelo {moto.anio}
+            {fechaActualizacion && <span> · Actualizada en {fechaActualizacion}</span>}
+          </p>
           <div class="ficha-highlights">
             <div class="highlight">
               <span class="highlight-value">{moto.cilindraje}cc</span>
@@ -187,6 +229,23 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
                   </a>
                 ))}
               </div>
+              <p class="ficha-marca-link">
+                <a href={`/marcas/${marcaSlug}`}>Ver todas las motos {moto.marca} →</a>
+              </p>
+            </section>
+          )}
+
+          {relatedPosts.length > 0 && (
+            <section class="ficha-section">
+              <h2>Artículos relacionados</h2>
+              <ul class="ficha-related-list">
+                {relatedPosts.map(post => (
+                  <li>
+                    <a href={`/blog/${post.slug}`}>{post.title}</a>
+                    <span class="ficha-related-meta">{post.category} · {post.date}</span>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 

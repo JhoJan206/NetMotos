@@ -1,6 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro'
 import AdSlot from '../components/AdSlot.astro'
+import { getCollection } from 'astro:content'
+import { findRelatedMotos } from '../utils/related'
 
 export interface Props {
   post: {
@@ -11,12 +13,18 @@ export interface Props {
     date: string
     author?: string
     cover_image?: string
+    body?: string
   }
 }
 
 const { post } = Astro.props
 const isoDate = post.date ? new Date(post.date).toISOString().split('T')[0] : ''
+const postUrl = `https://netmotos.lat/blog/${post.slug}`
+const image = post.cover_image || '/images/logo-netmotos.png'
+const imageUrl = image.startsWith('http') ? image : `https://netmotos.lat${image}`
 
+const motos = (await getCollection('motos')).map(moto => moto.data)
+const relatedMotos = findRelatedMotos(post, motos, 4)
 function generateKeywords(title: string, category: string) {
   const words = new Set<string>()
   const t = title.toLowerCase()
@@ -41,18 +49,24 @@ const color = CATEGORY_COLORS[post.category] || '#1D3557'
 
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'NewsArticle',
+  '@type': 'BlogPosting',
   headline: post.title,
   description: post.excerpt,
+  image: [imageUrl],
   datePublished: isoDate,
   dateModified: isoDate,
+  inLanguage: 'es-CO',
   author: { '@type': 'Person', name: post.author || 'NetMotos' },
-  publisher: { '@type': 'Organization', name: 'NetMotos' },
-  image: post.cover_image || '',
+  publisher: {
+    '@type': 'Organization',
+    name: 'NetMotos',
+    url: 'https://netmotos.lat',
+    logo: { '@type': 'ImageObject', url: 'https://netmotos.lat/images/logo-netmotos.png' },
+  },
   articleSection: post.category,
   keywords: tags.join(', '),
-  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://netmotos.lat/blog/${post.slug}` },
-  url: `https://netmotos.lat/blog/${post.slug}`,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+  url: postUrl,
 }
 ---
 
@@ -62,7 +76,7 @@ const schema = {
   canonical={`/blog/${post.slug}`}
   schema={schema}
   type="article"
-  image={post.cover_image || ''}
+  image={image}
   breadcrumbs={[
     { name: 'Inicio', path: '/' },
     { name: 'Noticias', path: '/blog' },
@@ -112,6 +126,20 @@ const schema = {
           <div class="blog-post-ad">
             <AdSlot id="blog-post-inline" />
           </div>
+
+          {relatedMotos.length > 0 && (
+            <section class="blog-related">
+              <h2>Fichas técnicas relacionadas</h2>
+              <ul class="blog-related-list">
+                {relatedMotos.map(moto => (
+                  <li>
+                    <a href={`/fichas-tecnicas/${moto.slug}`}>{moto.nombre_completo}</a>
+                    <span class="blog-related-meta">{moto.cilindraje}cc · {moto.tipo}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           <div class="blog-post-nav">
             <a href="/blog" class="btn btn-outline">← Volver al blog</a>

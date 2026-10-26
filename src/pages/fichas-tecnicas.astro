@@ -1,9 +1,20 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
-import MotoSearchFilter from '../components/MotoSearchFilter'
+import MotoCard from '../components/MotoCard.astro'
 import { getCollection } from 'astro:content'
 
-const motos = (await getCollection('motos')).map(m => m.data)
+const motos = (await getCollection('motos'))
+  .map(m => m.data)
+  .sort((a, b) => a.nombre_completo.localeCompare(b.nombre_completo, 'es'))
+
+const marcas = [...new Set(motos.map(m => m.marca))].sort((a, b) => a.localeCompare(b, 'es'))
+const tipos = [...new Set(motos.map(m => m.tipo))].sort((a, b) => a.localeCompare(b, 'es'))
+
+const normalizar = texto =>
+  texto
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
 
 const schema = {
   '@context': 'https://schema.org',
@@ -36,7 +47,226 @@ const schema = {
       <p class="listing-intro">
         Explora nuestro catálogo completo de fichas técnicas de motos disponibles en Colombia. Cada ficha incluye especificaciones detalladas de motor, transmisión, suspensión, frenos, consumo de combustible y precio actualizado. Puedes filtrar por marca, tipo de moto, cilindraje o rango de precio para encontrar la moto que se ajuste a lo que buscas. También puedes agregar modelos al comparador para ver sus diferencias lado a lado antes de tomar una decisión de compra.
       </p>
-      <MotoSearchFilter client:load motos={JSON.stringify(motos)} />
+
+      <div class="filtros-bar">
+        <input
+          id="f-busqueda"
+          type="text"
+          class="search-input"
+          placeholder="Buscar por nombre, marca o modelo..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="filtros-bar filtros-bar--secondary">
+        <select id="f-orden" class="sort-select">
+          <option value="default">Ordenar por: Predeterminado</option>
+          <option value="precio-asc">Precio: menor a mayor</option>
+          <option value="precio-desc">Precio: mayor a menor</option>
+          <option value="cilind-asc">Cilindraje: menor a mayor</option>
+          <option value="cilind-desc">Cilindraje: mayor a menor</option>
+        </select>
+        <select id="f-marca">
+          <option value="">Todas las marcas</option>
+          {marcas.map(marca => <option value={marca}>{marca}</option>)}
+        </select>
+        <select id="f-tipo">
+          <option value="">Todos los tipos</option>
+          {tipos.map(tipo => <option value={tipo}>{tipo}</option>)}
+        </select>
+        <select id="f-cilindraje">
+          <option value="">Rango cilindraje</option>
+          <option value="125cc">125cc</option>
+          <option value="150-200cc">150-200cc</option>
+          <option value="200-400cc">200-400cc</option>
+          <option value="400-600cc">400-600cc</option>
+          <option value="600cc+">600cc+</option>
+        </select>
+        <select id="f-precio">
+          <option value="">Precio máximo</option>
+          <option value="5000000">Hasta $5M</option>
+          <option value="10000000">Hasta $10M</option>
+          <option value="15000000">Hasta $15M</option>
+          <option value="25000000">Hasta $25M</option>
+          <option value="50000000">Hasta $50M</option>
+          <option value="999999999">Más de $50M</option>
+        </select>
+      </div>
+
+      <p class="result-count" id="f-count">{motos.length} motos encontradas</p>
+
+      <div class="comparador-flotante" id="f-flotante" hidden>
+        <span id="f-flotante-count">0 motos en comparador</span>
+        <a href="/comparador" class="btn btn-primary btn-sm">Ver Comparador</a>
+      </div>
+
+      <div class="fichas-layout">
+        <div class="fichas-main">
+          <div class="empty-state" id="f-empty" hidden>
+            <p>No encontramos motos con esos filtros. Intenta con otros criterios.</p>
+          </div>
+          <div class="grid-3" id="fichas-grid">
+            {motos.map((moto, index) => (
+              <MotoCard
+                moto={moto}
+                compare
+                attrs={{
+                  'data-id': moto.id,
+                  'data-order': index,
+                  'data-nombre': normalizar(moto.nombre_completo),
+                  'data-marca': moto.marca,
+                  'data-tipo': moto.tipo,
+                  'data-cc': moto.cilindraje,
+                  'data-precio': moto.precio_cop,
+                }}
+              />
+            ))}
+          </div>
+        </div>
+        <aside class="fichas-sidebar">
+          <div class="sidebar-card">
+            <h4>¿Buscas noticias?</h4>
+            <p>Mantente al día con las últimas noticias, lanzamientos y guías del mundo de las motos en Colombia.</p>
+            <a href="/blog" class="btn btn-primary btn-sm">Ver noticias</a>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  .moto-card[hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  const norm = texto =>
+    (texto || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+
+  const grid = document.getElementById('fichas-grid')
+
+  if (grid) {
+    const cards = Array.from(grid.querySelectorAll('.moto-card'))
+    const input = document.getElementById('f-busqueda')
+    const selectOrden = document.getElementById('f-orden')
+    const selectMarca = document.getElementById('f-marca')
+    const selectTipo = document.getElementById('f-tipo')
+    const selectCc = document.getElementById('f-cilindraje')
+    const selectPrecio = document.getElementById('f-precio')
+    const contador = document.getElementById('f-count')
+    const vacio = document.getElementById('f-empty')
+    const flotante = document.getElementById('f-flotante')
+    const flotanteCount = document.getElementById('f-flotante-count')
+
+    const RANGOS = {
+      '125cc': [0, 130],
+      '150-200cc': [130, 200],
+      '200-400cc': [200, 400],
+      '400-600cc': [400, 600],
+      '600cc+': [600, Infinity],
+    }
+
+    const coincide = card => {
+      const consulta = norm(input.value.trim())
+      if (consulta && !card.dataset.nombre.includes(consulta)) return false
+      if (selectMarca.value && card.dataset.marca !== selectMarca.value) return false
+      if (selectTipo.value && card.dataset.tipo !== selectTipo.value) return false
+      if (selectCc.value) {
+        const [min, max] = RANGOS[selectCc.value]
+        const cilindraje = Number(card.dataset.cc)
+        if (cilindraje < min || cilindraje >= max) return false
+      }
+      if (selectPrecio.value && Number(card.dataset.precio) > Number(selectPrecio.value)) return false
+      return true
+    }
+
+    const ordenar = () => {
+      const modo = selectOrden.value
+      const porNumero = (campo, reverso) => (a, b) =>
+        reverso ? Number(b.dataset[campo]) - Number(a.dataset[campo]) : Number(a.dataset[campo]) - Number(b.dataset[campo])
+
+      let comparador = null
+      if (modo === 'precio-asc') comparador = porNumero('precio', false)
+      else if (modo === 'precio-desc') comparador = porNumero('precio', true)
+      else if (modo === 'cilind-asc') comparador = porNumero('cc', false)
+      else if (modo === 'cilind-desc') comparador = porNumero('cc', true)
+      else comparador = (a, b) => Number(a.dataset.order) - Number(b.dataset.order)
+
+      const fragmento = document.createDocumentFragment()
+      for (const card of [...cards].sort(comparador)) fragmento.appendChild(card)
+      grid.appendChild(fragmento)
+    }
+
+    const aplicar = () => {
+      let visibles = 0
+      for (const card of cards) {
+        const ok = coincide(card)
+        card.hidden = !ok
+        if (ok) visibles++
+      }
+      const plural = visibles === 1 ? '' : 's'
+      contador.textContent = `${visibles} moto${plural} encontrada${plural}`
+      if (vacio) vacio.hidden = visibles !== 0
+      ordenar()
+    }
+
+    const leerComparador = () => {
+      try {
+        return JSON.parse(sessionStorage.getItem('comparador') || '[]')
+      } catch {
+        return []
+      }
+    }
+
+    const pintarComparador = () => {
+      const lista = leerComparador()
+      const ids = lista.map(item => item.id)
+
+      for (const boton of grid.querySelectorAll('.moto-compare')) {
+        const dentro = ids.includes(boton.dataset.compareId)
+        boton.textContent = dentro ? 'Quitar' : 'Comparar'
+        boton.classList.toggle('btn-primary', !dentro)
+        boton.classList.toggle('btn-outline', dentro)
+      }
+
+      if (flotante && flotanteCount) {
+        flotante.hidden = lista.length === 0
+        flotanteCount.textContent = `${lista.length} moto${lista.length === 1 ? '' : 's'} en comparador`
+      }
+    }
+
+    for (const boton of grid.querySelectorAll('.moto-compare')) {
+      boton.addEventListener('click', () => {
+        const id = boton.dataset.compareId
+        let lista = leerComparador()
+        const existe = lista.some(item => item.id === id)
+
+        if (existe) {
+          lista = lista.filter(item => item.id !== id)
+        } else {
+          if (lista.length >= 3) lista = lista.slice(1)
+          lista.push({ id })
+        }
+
+        sessionStorage.setItem('comparador', JSON.stringify(lista))
+        pintarComparador()
+      })
+    }
+
+    const consultaInicial = new URLSearchParams(location.search).get('q')
+    if (consultaInicial) input.value = consultaInicial
+
+    input.addEventListener('input', aplicar)
+    for (const select of [selectOrden, selectMarca, selectTipo, selectCc, selectPrecio]) {
+      select.addEventListener('change', aplicar)
+    }
+
+    pintarComparador()
+    aplicar()
+  }
+</script>

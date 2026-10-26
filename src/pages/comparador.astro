@@ -3,7 +3,18 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import ComparadorApp from '../components/ComparadorApp'
 import { getCollection } from 'astro:content'
 
-const motos = (await getCollection('motos')).map(m => m.data)
+const CAMPOS = [
+  'id', 'slug', 'marca', 'modelo', 'nombre_completo', 'tipo', 'imagen',
+  'cilindraje', 'potencia_hp', 'torque_nm', 'alimentacion', 'transmision', 'combustible',
+  'capacidad_tanque_l', 'consumo_km_l', 'peso_kg', 'altura_asiento_mm', 'distancia_suelo_mm',
+  'suspension_delantera', 'suspension_trasera', 'freno_delantero', 'freno_trasero', 'precio_cop',
+]
+
+const motos = (await getCollection('motos')).map(moto => {
+  const slim = {}
+  for (const campo of CAMPOS) slim[campo] = moto.data[campo]
+  return slim
+})
 
 const schema = {
   '@context': 'https://schema.org',

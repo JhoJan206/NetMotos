@@ -129,8 +129,13 @@
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 40px;
+}
+
+.footer-col--marcas {
+  columns: 2;
+  column-gap: 16px;
 }
 
 .footer-col h3, .footer-col h4 {
@@ -152,8 +157,13 @@
 
 .footer-col a:hover { color: var(--color-accent); }
 
+@media (max-width: 1024px) {
+  .footer-inner { grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+}
+
 @media (max-width: 768px) {
   .footer-inner { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .footer-col--marcas { columns: 1; }
 }
 
 @media (max-width: 480px) {
@@ -507,6 +517,51 @@
 .ficha-anio {
   color: var(--color-text-muted);
   margin-bottom: 20px;
+}
+
+.ficha-anio span {
+  color: var(--color-text-muted);
+}
+
+a.tag {
+  text-decoration: none;
+}
+
+.ficha-marca-link {
+  margin-top: 16px;
+}
+
+.ficha-marca-link a {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.ficha-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.ficha-related-list li {
+  border-left: 3px solid var(--color-border);
+  padding-left: 12px;
+}
+
+.ficha-related-list a {
+  display: block;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.ficha-related-list a:hover {
+  color: var(--color-primary);
+}
+
+.ficha-related-meta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
 }
 
 .ficha-highlights {
@@ -1178,6 +1233,47 @@
 .blog-post-ad { margin: 32px 0; }
 
 .blog-post-nav { margin-top: 32px; }
+
+.blog-related {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border);
+}
+
+.blog-related h2 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.blog-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.blog-related-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.blog-related-list a {
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.blog-related-list a:hover {
+  color: var(--color-primary);
+}
+
+.blog-related-meta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
 
 .blog-post-sidebar { position: sticky; top: calc(var(--nav-height) + 20px); align-self: start; }
 

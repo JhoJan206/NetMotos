@@ -49,6 +49,7 @@ const motos = defineCollection({
     contras: z.array(z.string()),
     rating: z.number(),
     descripcion: z.string().optional(),
+    actualizado: z.string().optional(),
   }),
 })
 

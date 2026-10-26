@@ -22,6 +22,9 @@ const description = Astro.props.description || 'Fichas técnicas de motos en Col
 const url = `https://netmotos.lat${canonical}`
 const fullTitle = `${title} | NetMotos`
 
+const rawImage = Astro.props.image || '/images/logo-netmotos.png'
+const image = rawImage.startsWith('http') ? rawImage : `https://netmotos.lat${rawImage}`
+
 const schemas: any[] = [
   {
     '@context': 'https://schema.org',
@@ -29,6 +32,11 @@ const schemas: any[] = [
     name: 'NetMotos',
     url: 'https://netmotos.lat',
     logo: 'https://netmotos.lat/images/logo-netmotos.png',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://netmotos.lat/fichas-tecnicas?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
   },
 ]
 if (Astro.props.schema) schemas.push(Astro.props.schema)
@@ -68,10 +76,12 @@ if (breadcrumbs && breadcrumbs.length > 0) {
     <meta property="og:url" content={url} />
     <meta property="og:type" content={Astro.props.type || 'website'} />
     <meta property="og:site_name" content="NetMotos" />
-    {Astro.props.image && <meta property="og:image" content={Astro.props.image.startsWith('http') ? Astro.props.image : `https://netmotos.lat${Astro.props.image}`} />}
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content={fullTitle} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
 
     {Astro.props.articleMeta && (
       <>
