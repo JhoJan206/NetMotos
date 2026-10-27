@@ -29,24 +29,104 @@ llanta_trasero: 130/70-17
 precio_cop: 11590000
 imagen: /images/motos/akt-250r.webp
 pros:
-  - El cilindraje más alto disponible en el catálogo AKT a este precio
-  - ABS delantero de serie, algo poco común en naked económicas de 250cc
-  - Buen desempeño para carretera gracias a su potencia y torque
+  - "El cilindraje más alto disponible en el catálogo AKT a este precio"
+  - "ABS delantero de serie, algo poco común en naked económicas de 250cc"
+  - "Buen desempeño para carretera gracias a su potencia y torque"
 contras:
-  - Peso considerable (145 kg) para una naked de este segmento
-  - Marca AKT con menor valor de reventa que rivales japonesas o indias
-  - Acabados y calidad de pintura por debajo del estándar de Bajaj o TVS
+  - "Peso considerable (145 kg) para una naked de este segmento"
+  - "Marca AKT con menor valor de reventa que rivales japonesas o indias"
+  - "Acabados y calidad de pintura por debajo del estándar de Bajaj o TVS"
 rating: 4.5
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La 250 R es la moto insignia de AKT en el segmento naked, y con razón: es la que más cilindraje ofrece dentro de un
-  catálogo tradicionalmente enfocado en motos económicas de 125 a 200cc. Con casi 21 caballos y ABS delantero de serie,
-  le pelea de frente a marcas con más trayectoria en este rango de cilindraje.
-
-  En carretera es donde más se disfruta: la potencia sobra para adelantar con confianza y el ABS delantero da
-  tranquilidad extra en frenadas de emergencia sobre pavimento mojado, algo común en las vías colombianas. En ciudad, el
-  peso se nota un poco más que en las CR4 de menor cilindraje.
-
-  Compite con la Bajaj Pulsar NS200 FI ABS y la Suzuki Gixxer SF 250. Es la moto ideal para el comprador que quiere el
-  mayor cilindraje posible dentro del presupuesto de una marca económica, priorizando potencia sobre el prestigio de
-  marca de la competencia asiática establecida.
+  La AKT 250 R es la naked de mayor cilindraje del portafolio de AKT y, con 11.590.000
+  pesos, una de las 250 más económicas del país. Entrega 20,8 HP, 19,6 Nm, inyección
+  electrónica y ABS delantero de un canal en una moto de 145 kilos. Es para ti si quieres
+  dar el salto a 250 con presupuesto contenido y no te importa que la marca no tenga el
+  prestigio de Bajaj o Yamaha. No es para ti si te importa la reventa, si quieres ABS de
+  doble canal o si esperas acabados de gama alta: aquí el dinero se gastó en el motor y en
+  el ABS, no en los plásticos.
+uso_diario: >-
+  Los 20,8 HP mueven 145 kilos con soltura suficiente para ciudad y carretera: en tráfico
+  se puede rodar en tercera sin tirones, y en vía abierta mantiene 100-110 km/h con
+  reserva. La caja de cinco marchas es la limitación frente a rivales de seis: la última
+  es larga y deja un hueco entre cuarta y quinta que se nota en ascensos. La posición de
+  manejo es erguida, con manubrio relativamente alto, cómoda para trayectos de una hora.
+  El asiento a 800 mm queda en el promedio del segmento. El ABS de un solo canal actúa
+  sobre el disco delantero de 280 mm, que es lo que evita la mayoría de las caídas por
+  frenada brusca; el trasero es disco sin ABS, suficiente pero sin asistencia. El motor
+  refrigerado por aceite calienta en tráfico denso y el ventilador se activa seguido, algo
+  normal en este cilindraje. El consumo de 28 km/l con tanque de 14 litros da unos 390 km
+  de autonomía, una cifra correcta para 250.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 42000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 28000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 265000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 225000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 140000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1150000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El dato que más pesa es el salto de categoría del SOAT:
+  pasar de 200 cc duplica ese costo fijo, de 343.000 a 761.000 pesos al año. Quien viene
+  de una 200 debe tenerlo claro antes de subir de cilindraje, porque es dinero que se paga
+  incluso si la moto no se mueve.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la AKT 250 R entrega 3 caballos menos, pierde la sexta
+  marcha y cuesta 1,6 millones menos, pero paga el doble de SOAT. Contra la Yamaha FZ25,
+  la diferencia es de marca y de acabado: la Yamaha cuesta 3,7 millones más y ofrece una
+  red de servicio que la AKT no tiene. Y si lo que buscas es cilindraje con equipo
+  completo, la Bajaj Dominar 250 es el siguiente escalón natural.
+faq:
+  - pregunta: "¿Cuánto consume realmente la AKT 250 R?"
+    respuesta: >-
+      El homologado es 28 km/l. En ciudad con tráfico denso baja a 23-25; en carretera a 90
+      km/h sube a 31-33. Con 14 litros de tanque la autonomía práctica está entre 330 y 450 km
+      según el uso.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es su terreno natural. Mantiene 110 km/h con comodidad y llega a 135 en plano. La
+      quinta marcha larga y el asiento firme permiten trayectos de 200 km sin drama. Es la AKT
+      con la que sí se puede viajar.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es lo más eficiente: consumo de 25 km/l en ciudad, SOAT de categoría alta y llantas
+      más caras. Sirve si el trabajo exige velocidad o recorridos largos, pero para reparto
+      urbano una 125 o 150 cuesta la mitad de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la AKT 250 R?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Son 418.000 pesos más al año que una 200 cc, un dato que casi nunca
+      aparece en los comparativos de precio de compra.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No como primera moto. Con 20,8 HP y 145 kilos exige criterio, y su ABS de un solo canal
+      protege solo la rueda delantera. Es una buena segunda moto para quien ya tiene un año de
+      experiencia en 125 o 150.
+veredicto: >-
+  La 250 R demuestra que se puede tener cilindraje y ABS por menos de doce millones. Sus
+  debilidades son de marca, de acabado y de una caja de cinco marchas que se queda corta;
+  sus fortalezas son el motor, el precio y la red de repuestos AKT. Una compra racional,
+  no emocional.

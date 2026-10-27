@@ -29,21 +29,111 @@ llanta_trasero: 120/80-14
 precio_cop: 12590000
 imagen: /images/motos/akt-jet-evo.webp
 pros:
-  - ABS de doble canal y control de tracción TCS de serie
-  - Inyección electrónica con refrigeración líquida
-  - Frenos de disco en ambas ruedas con ABS doble canal
+  - "ABS de doble canal y control de tracción TCS de serie"
+  - "Inyección electrónica con refrigeración líquida"
+  - "Frenos de disco en ambas ruedas con ABS doble canal"
 contras:
-  - Pérdida del piso plano frente a la generación anterior Jet14
-  - Peso elevado (145 kg) para un scooter de 150cc
-  - Precio más alto que scooters de entrada de la misma marca
+  - "Pérdida del piso plano frente a la generación anterior Jet14"
+  - "Peso elevado (145 kg) para un scooter de 150cc"
+  - "Precio más alto que scooters de entrada de la misma marca"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Jet Evo es la evolución del popular Jet14 de AKT, resultado de la alianza con SYM Taiwán. Llega al mercado
-  colombiano en 2026 con un salto enorme en seguridad: ABS de doble canal y control de tracción TCS, algo inédito en
-  scooters de este precio en Colombia. El motor de 149.6 cc con inyección electrónica y refrigeración líquida entrega 14
-  HP que se sienten con soltura tanto en ciudad como en carretera. El chasis pierde el piso plano del Jet14, pero gana
-  en comportamiento dinámico y estabilidad en curvas. La frenada con ABS doble canal es de otro nivel frente a la
-  competencia del segmento. Compite con la Yamaha NMAX 155 y la Honda PCX 160, aunque a un precio más bajo que ambas. Es
-  el scooter ideal para el comprador que prioriza la seguridad por encima de todo, sin gastar en scooters premium
-  japoneses.
+  La AKT Jet Evo es la apuesta de AKT por el scooter premium: 149,6 cc refrigerados por
+  líquido, 14 HP, ABS de doble canal, control de tracción y un tanque de 12,1 litros por
+  12.590.000 pesos. Es, en ficha técnica, el scooter más equipado del mercado colombiano
+  por debajo de los 13 millones. Es para ti si quieres un scooter para todo uso, con
+  seguridad activa real y autonomía de moto. No es para ti si necesitas piso plano —la Jet
+  Evo perdió el túnel abierto de la generación anterior— o si 145 kilos te parecen
+  demasiado para maniobrar en parqueadero.
+uso_diario: >-
+  El motor refrigerado por líquido es la diferencia de fondo frente a otros scooters de
+  150: mantiene la temperatura estable en tráfico denso y no pierde rendimiento después de
+  media hora de recorrido urbano. Con 14 HP, la Jet Evo mantiene 100 km/h sin esfuerzo y
+  llega a 115 en plano, algo que ningún scooter de 125 puede hacer. El ABS de doble canal
+  y el control de tracción son el argumento más serio: en pavimento mojado, sobre pintura
+  vial o en una frenada de emergencia, la moto no bloquea ni se va de atrás. El tanque de
+  12,1 litros da entre 350 y 400 km de autonomía, cifra de moto, no de scooter. La contra
+  es el peso: 145 kilos se sienten al maniobrar en parqueadero y en pendientes a baja
+  velocidad. El asiento a 775 mm es accesible y la posición cómoda. El baúl bajo el
+  asiento acepta un casco integral en la mayoría de tallas.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 42000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 42000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 175000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 105000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 250000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 215000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 130000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 980000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es más caro que el de un scooter de 125
+  por tres razones: aceite sintético, refrigerante y llantas de mayor medida. A cambio, el
+  intervalo de la correa CVT es más largo (20.000 km) y el motor refrigerado por líquido
+  sufre menos desgaste térmico en tráfico.
+comparativa: >-
+  Frente a la Yamaha NMAX 155, la Jet Evo cuesta 4,2 millones menos y ofrece 1 caballo
+  menos, pero iguala el ABS de doble canal y el control de tracción: es la alternativa de
+  precio del segmento premium. Contra la AKT Dynamic RX Fi, la Jet Evo representa un salto
+  de categoría completo: ABS, control de tracción, refrigeración líquida y un tanque del
+  doble de tamaño. Y si el uso es sobre todo urbano y el presupuesto es limitado, la
+  Dynamic Pro CBS hace el mismo trabajo por 4,5 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Jet Evo?"
+    respuesta: >-
+      El homologado es 33 km/l. En ciudad con tráfico denso baja a 28-30; en vías rápidas a 80
+      km/h sube a 36-38. Con 12,1 litros de tanque la autonomía práctica es de 340 a 460 km,
+      la mejor del segmento de scooters de 150.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es el scooter que mejor lo hace por debajo de los 13 millones: mantiene 100 km/h y
+      tiene autonomía para trayectos de 200 km. La posición erguida y la falta de parabrisas
+      cansan después de una hora, pero la moto tiene capacidad real de vía rápida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve por agilidad y autonomía, pero es caro para reparto: 12,5 millones de inversión y
+      un mantenimiento que supera los 900.000 pesos al año. Quien reparte con Jet Evo lo hace
+      por comodidad y seguridad, no por rentabilidad. Para volumen, una 125 con cadena.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Jet Evo?"
+    respuesta: >-
+      Con 149,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es
+      una ventaja frente a un scooter de 300 cc, que pagaría 761.000, y explica por qué las
+      marcas siguen apostando por motores de 150.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es de las mejores opciones para empezar con seguridad: sin embrague, con ABS de doble
+      canal y control de tracción que cubren los errores típicos del novato en mojado. El peso
+      de 145 kilos es su única exigencia: hay que practicar maniobras lentas antes de meterse
+      al tráfico.
+veredicto: >-
+  La Jet Evo es el scooter que demuestra que se puede tener seguridad de gama alta sin
+  pagar precio de NMAX. Su única concesión frente a la generación anterior es el piso
+  plano, y a cambio entrega ABS, control de tracción y autonomía real. Una de las compras
+  más completas del mercado.

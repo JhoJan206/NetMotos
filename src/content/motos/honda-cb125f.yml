@@ -29,22 +29,103 @@ llanta_trasero: 90/90-18
 precio_cop: 5190000
 imagen: /images/motos/honda-cb125f.webp
 pros:
-  - Inyección electrónica PGM-FI
-  - Excelente consumo
-  - Respaldo de la marca Honda
+  - "\"Inyección electrónica PGM-FI\""
+  - "\"Excelente consumo\""
+  - "\"Respaldo de la marca Honda\""
 contras:
-  - Freno trasero de tambor
-  - Diseño conservador
-  - Potencia modesta
+  - "\"Freno trasero de tambor\""
+  - "\"Diseño conservador\""
+  - "\"Potencia modesta\""
 rating: 4.3
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  ¿Por qué la gente sigue comprando la Honda CB125F? Porque es una Honda, y en Colombia eso pesa. El motor de 124 cc con
-  inyección PGM-FI da 10.8 HP pero lo importante es que arranca siempre, frío o caliente, sin pensar. Pesa 116 kilos,
-  tiene el asiento más bajo del segmento (771 mm) y un consumo de 52 km/l que la vuelve ultraeconómica. La inyección
-  electrónica marca la diferencia frente a las rivales carburadas: mejor arranque, menor contaminación y ese andar suave
-  que Honda sabe darle. El diseño es conservador, sin aspavientos, y el freno trasero de tambor delata que es una moto
-  de presupuesto. Pero la red de servicio Honda está en cada esquina del país, y los repuestos se consiguen hasta en la
-  tienda de la esquina. Esa tranquilidad vale los 5.190.000 COP. No es la moto más emocionante del catálogo, pero es
-  probablemente la decisión más sensata para el que necesita transporte confiable y sin dolores de cabeza. Si priorizas
-  la paz mental sobre las prestaciones, esta es tu moto.
+  La Honda CB125F es la 125 urbana que compra quien quiere una moto para diez años y no
+  para tres. Con inyección PGM-FI, 10,8 HP, 116 kilos y el asiento más bajo del segmento
+  (771 mm), apunta a un público muy concreto: quien la usa a diario, no quiere sorpresas y
+  valora el respaldo de la red Honda por encima del precio de lista. Es para ti si buscas
+  fiabilidad, reventa y bajo consumo. No es para ti si quieres diseño llamativo, freno
+  trasero de disco o prestaciones: la CB125F es deliberadamente conservadora.
+uso_diario: >-
+  La inyección cambia la experiencia frente a las 125 carburadas: arranca en frío al
+  primer toque, no necesita starter y mantiene el ralentí estable con humedad o a 2.800
+  metros de altura, algo que en Bogotá se agradece todos los días. La entrega de potencia
+  es suave y predecible, ideal para quien nunca ha manejado moto. Pesa 116 kilos, el peso
+  más bajo entre las 125 de marca japonesa, y eso se traduce en maniobras fáciles entre
+  carros y al parquear. El asiento a 771 mm permite que pilotos de 1,60 m apoyen bien los
+  pies. En carretera se defiende hasta 80 km/h con comodidad y llega a 90 en plano, pero
+  el motor de dos válvulas está pensado para economía, no para velocidad. El consumo
+  declarado de 52 km/l es alcanzable en uso real: entre 45 y 50 en ciudad. La suspensión
+  es blanda, cómoda en huecos, aunque se hunde con dos pasajeros.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 60000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 30000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 35000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 150000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 200000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 180000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 55000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 700000
+costos_nota: >-
+  Estimación para Colombia en 2026, 12.000 km al año y mano de obra incluida en taller
+  autorizado Honda; en taller independiente baja entre 20 % y 30 %. El SOAT y la
+  técnico-mecánica van aparte. La CB125F tiene intervalos de servicio más largos que las
+  125 carburadas, y ese es el ahorro silencioso de la inyección: menos visitas al taller
+  por año, no necesariamente repuestos más baratos.
+comparativa: >-
+  Frente a la AKT NKD 125, la CB125F cuesta unos 300.000 pesos más y ofrece inyección,
+  mejor acabado y una reventa claramente superior; a cambio, los repuestos son más caros y
+  la red de talleres no llega a tantos municipios. Contra la Bajaj CT 125, la Honda gana
+  en refinamiento y pierde en precio y en economía de mantenimiento. Y si el presupuesto
+  aprieta pero quieres inyección, la TVS Raider 125 o la Bajaj Pulsar N125 FI son las
+  alternativas directas a revisar.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CB125F?"
+    respuesta: >-
+      Honda declara 52 km/l. En ciudad, con tráfico denso, el registro real ronda 45-48 km/l;
+      en carretera a 70 km/h se acerca a 55. Con 11 litros de tanque eso da entre 480 y 580 km
+      de autonomía, una de las mejores cifras del segmento.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos de 100 a 150 km sin problema, a 75-80 km/h. Por encima de 85 el motor de dos
+      válvulas se queda sin aire y el consumo sube. Es una moto para vías secundarias y
+      trayectos urbanos largos, no para autopista sostenida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, aunque no es la más barata de operar: sus repuestos cuestan más que los de Bajaj o
+      AKT. A cambio ofrece algo que un repartidor valora mucho: la moto no se queda varada. Si
+      el volumen de pedidos es alto y el presupuesto ajustado, una CT 125 sale más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CB125F?"
+    respuesta: >-
+      Con 124 cc entra en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      180.000 de revisión técnico-mecánica. Es el costo fijo que hay que tener en cuenta al
+      comparar con una 100 cc, que paga unos 87.000 pesos menos.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es una de las mejores opciones para empezar. Peso bajo, asiento de 771 mm, inyección que
+      no se ahoga y una entrega de potencia que no asusta. La única tarea pendiente es el
+      freno trasero de tambor, que exige acostumbrarse a frenar con el delantero como eje
+      principal.
+veredicto: >-
+  La CB125F no gana ningún comparativo de ficha técnica y aun así es una de las 125 más
+  recomendables del país: arranca siempre, gasta poco, se revende bien y no da guerra.
+  Para quien compra moto una vez cada muchos años, eso vale más que dos caballos extra.

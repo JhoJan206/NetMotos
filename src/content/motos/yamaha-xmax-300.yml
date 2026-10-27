@@ -29,24 +29,106 @@ llanta_trasero: 140/70-14
 precio_cop: 34700000
 imagen: /images/motos/yamaha-xmax-300.webp
 pros:
-  - Baúl bajo el asiento con espacio para dos cascos integrales
-  - Comportamiento muy estable en carretera para ser un scooter
-  - Acabados y tecnología muy por encima del scooter promedio colombiano
+  - "Baúl bajo el asiento con espacio para dos cascos integrales"
+  - "Comportamiento muy estable en carretera para ser un scooter"
+  - "Acabados y tecnología muy por encima del scooter promedio colombiano"
 contras:
-  - Precio alto frente a scooters de 150-160cc
-  - Peso considerable que se nota al maniobrarlo parqueado
-  - Repuestos y mantenimiento más costosos que un scooter convencional
+  - "Precio alto frente a scooters de 150-160cc"
+  - "Peso considerable que se nota al maniobrarlo parqueado"
+  - "Repuestos y mantenimiento más costosos que un scooter convencional"
 rating: 4.7
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La XMAX 300 es la maxiscooter que le demuestra a Colombia que un scooter también puede ser una moto seria para
-  carretera, no solo para mandados cortos. Con casi 28 caballos y un chasis pensado para estabilidad a velocidad alta,
-  se siente más cercana a una naked de 300cc que a un scooter urbano tradicional.
-
-  En ciudad su tamaño se nota, pero se compensa con un espacio de almacenamiento enorme bajo el asiento y una posición
-  de manejo muy cómoda. En carretera es donde realmente sorprende: mantiene velocidades de crucero altas sin esfuerzo y
-  el freno de disco doble con ABS da confianza real en frenadas fuertes.
-
-  Compite contra las scooter premium importadas como la Kymco Xtown 300 y, en un escalón de precio superior, la BMW C
-  400 X. Es la moto ideal para el motociclista urbano que quiere comodidad de scooter sin sacrificar desempeño en
-  carretera, aunque el precio deja claro que no es un scooter para todo el mundo.
+  La Yamaha XMAX 300 es el scooter de gama alta de Yamaha para Colombia: 292 cc, 27,6 HP,
+  29 Nm, ABS de doble canal, control de tracción y un baúl con espacio para dos cascos
+  integrales por 34.700.000 pesos. Es la alternativa a un carro pequeño para quien hace
+  trayectos urbanos largos y quiere comodidad sin renunciar a prestaciones. Es para ti si
+  haces vías rápidas y necesitas capacidad de carga. No es para ti si tu presupuesto es
+  limitado o si tu recorrido es de menos de 10 km diarios.
+uso_diario: >-
+  El motor de 292 cc entrega 27,6 HP y 29 Nm con una suavidad que es la marca de la casa:
+  la transmisión CVT no tiene tirones y la respuesta es inmediata en cualquier rango de
+  velocidad. Con 27 caballos, la XMAX mantiene 120 km/h sin esfuerzo y adelanta con
+  autoridad, algo que ningún scooter de 150 puede hacer. El baúl bajo el asiento, con
+  espacio para dos cascos integrales, es el argumento práctico más fuerte: convierte el
+  scooter en un vehículo de carga ligera. La posición es erguida, con las piernas
+  adelantadas y el torso protegido por un parabrisas que funciona de verdad. Pesa 181
+  kilos, que se sienten al maniobrarlo parqueado, aunque en movimiento es muy estable. El
+  ABS de doble canal y el control de tracción son equipamiento de moto grande. El consumo
+  de 26 km/l con 13 litros da unos 340 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 135000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 62000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 55000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 58000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 320000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 185000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 420000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 360000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 215000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2150000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Yamaha. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento del CVT —correa y rodillos— es
+  el rubro que no existe en una moto con cadena, y en un scooter de 300 pesa más que en
+  uno de 125. A eso se suman llantas de 13 y 14 pulgadas y SOAT de categoría alta.
+comparativa: >-
+  Frente a la Yamaha NMAX 155, la XMAX cuesta 17,9 millones más y ofrece 12,6 caballos
+  adicionales, un baúl para dos cascos y estabilidad de carretera: es otro vehículo.
+  Contra la AKT Jet Evo, la XMAX cuesta 22,1 millones más y ofrece 13,6 caballos
+  adicionales y capacidad de carga muy superior. Y si el uso es exclusivamente urbano, la
+  NMAX hace el 80 % del trabajo por la mitad del dinero.
+faq:
+  - pregunta: "¿Cuánto consume realmente la XMAX 300?"
+    respuesta: >-
+      El homologado es 26 km/l. En ciudad con tráfico el registro está entre 22 y 24; en
+      carretera a 110 km/h sube a 28-30. Con 13 litros de tanque la autonomía práctica va de
+      290 a 390 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es el scooter que mejor lo hace: mantiene 120 km/h sin esfuerzo y llega a 140. La
+      posición erguida, el parabrisas y el peso contenido permiten trayectos de 250 km con
+      comodidad. Es un scooter con capacidad real de vía rápida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, sobre todo por el baúl para dos cascos y la comodidad en trayectos largos. Pero
+      cuesta 34,7 millones y su mantenimiento supera los dos millones al año: para reparto
+      intenso, una 125 con cadena es mucho más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la XMAX 300?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es más del doble de lo que paga una 150, un salto que conviene
+      considerar antes de subir de cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con cuidado. No hay embrague ni cambios, lo que facilita el aprendizaje, y el ABS y el
+      control de tracción cubren errores. Pero pesa 181 kilos y tiene 27 caballos: no es un
+      juguete. Es una buena primera moto para alguien con criterio y contextura.
+veredicto: >-
+  La XMAX 300 es el scooter que reemplaza un carro para trayectos urbanos largos: 27
+  caballos, baúl para dos cascos y estabilidad de moto grande. Su precio y su
+  mantenimiento son de vehículo premium, y ahí está su límite.

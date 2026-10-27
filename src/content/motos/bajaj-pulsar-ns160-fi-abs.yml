@@ -29,29 +29,100 @@ llanta_trasero: 130/70-17
 precio_cop: 11199000
 imagen: /images/motos/bajaj-pulsar-ns160-fi-abs.webp
 pros:
-  - Suspensión invertida (USD) de serie, poco común en naked de 160cc
-  - ABS de doble canal con tres modos de calibración
-  - Tablero digital con conectividad, buen nivel de equipamiento
+  - "Suspensión invertida (USD) de serie, poco común en naked de 160cc"
+  - "ABS de doble canal con tres modos de calibración"
+  - "Tablero digital con conectividad, buen nivel de equipamiento"
 contras:
-  - Precio superior al de la N160 Pro, su hermana de menor equipamiento
-  - Peso considerable (152 kg) frente a naked de 150cc de la competencia
-  - Segmento de 160cc con oferta amplia y muy competida en precio
+  - "Precio superior al de la N160 Pro, su hermana de menor equipamiento"
+  - "Peso considerable (152 kg) frente a naked de 150cc de la competencia"
+  - "Segmento de 160cc con oferta amplia y muy competida en precio"
 rating: 4.5
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La NS160 FI ABS es la naked deportiva de Bajaj en el segmento de
-  160cc, con un nivel de equipamiento que incluye suspensión invertida y
-  ABS de doble canal con tres modos, características que normalmente se
-  ven en motos de mayor cilindraje. Es la hermana "deportiva" dentro de
-  la familia de 160cc de la marca.
-
-  En carretera con curvas es donde se nota la diferencia frente a
-  rivales más básicas: la horquilla USD da mayor precisión en el manejo
-  y el ABS con distintos modos permite adaptar el frenado según el
-  terreno. El motor entrega casi 17 caballos, suficiente para moverse
-  con soltura tanto en ciudad como en carretera.
-
-  Compite con la Suzuki Gixxer 150 ABS y la TVS Apache RTR 160. Es la
-  moto ideal para el motociclista que quiere una naked de 160cc con
-  equipamiento de gama alta (USD y ABS multimodo), sin necesitar el
-  cilindraje ni el precio de una 200cc.
+  La Bajaj Pulsar NS160 FI ABS es la versión deportiva de la familia 160 de Bajaj: 164,82
+  cc, 16,75 HP, inyección electrónica, ABS de doble canal con tres modos, suspensión
+  invertida y caja de cinco marchas, por 11.199.000 pesos. Es la naked de 160 más potente
+  del mercado y una de las mejor equipadas. Es para ti si quieres prestaciones de 200 con
+  precio de 160 y no te importa un peso algo elevado. No es para ti si buscas comodidad
+  pura o si haces trayectos muy cortos: aquí el enfoque es claramente deportivo.
+uso_diario: >-
+  Los 16,75 HP a 8.500 rpm dan una respuesta más viva que la N160 Pro, con un empuje que
+  se siente desde las 5.000 rpm y se mantiene hasta el corte. Eso permite adelantar con
+  autoridad en carretera y mantener 110 km/h sin que el motor parezca forzado. La
+  suspensión invertida aporta precisión en curva, y el ABS de doble canal con tres modos
+  —carretera, lluvia y off-road— es un equipo que ninguna otra 160 ofrece en Colombia. En
+  ciudad, la posición deportiva y el asiento a 795 mm resultan cómodos para trayectos de
+  45 minutos. Pesa 152 kilos, lo que da estabilidad pero exige algo de fuerza en maniobras
+  lentas. El motor calienta en tráfico denso y el ventilador entra seguido. El consumo de
+  38 km/l con 12 litros de tanque da unos 420 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 82000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 38000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 27000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 170000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 245000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 205000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 130000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 980000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Los 164,82 cc la mantienen en la categoría intermedia del
+  SOAT, así que paga lo mismo que una 125. Es el gran argumento del segmento 160: casi
+  prestaciones de 200 con costos fijos de 125.
+comparativa: >-
+  Frente a la Bajaj Pulsar N160 Pro, la NS160 cuesta 200.000 pesos más y ofrece 0,75
+  caballos adicionales, ABS con tres modos y un enfoque más deportivo, aunque comparte
+  casi todo el resto. Contra la Yamaha MT-15, la Bajaj cuesta 4,3 millones menos y pierde
+  1,85 caballos y la sexta marcha, pero gana en comodidad y en costo de mantenimiento. Y
+  si el presupuesto llega a trece millones, la NS200 ofrece 7,4 caballos más y sexta
+  marcha por dos millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la NS160 FI ABS?"
+    respuesta: >-
+      El homologado es 38 km/l. En ciudad con tráfico denso baja a 32-35; en carretera a 90
+      km/h sube a 41-43. Con 12 litros de tanque la autonomía práctica va de 380 a 490 km,
+      suficiente para una semana de uso mixto.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura: mantiene 110 km/h y tiene reserva hasta 125. Es una de las 160 con
+      mejor capacidad de vía rápida, gracias a los 16,75 caballos y a la estabilidad del
+      chasis. Para trayectos de 150 km es una moto válida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, pero no es lo más rentable: 33 km/l en ciudad y mantenimiento cercano al millón
+      anual. Para reparto intenso, una 125 es más eficiente. Para trabajo mixto con recorridos
+      largos y exigentes, la NS160 da prestaciones que una 125 no puede.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NS160?"
+    respuesta: >-
+      Con 164,82 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la técnico-mecánica. Es la misma tarifa que una 125, y una de las razones por las que el
+      segmento 160 creció tanto en Colombia.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No es la mejor primera moto. Con 16,75 caballos y 152 kilos, exige criterio y respeto.
+      El ABS de tres modos ayuda, pero la posición deportiva y la respuesta del motor invitan
+      a correr. Es una excelente segunda moto.
+veredicto: >-
+  La NS160 FI ABS es la deportiva de 160 más completa del mercado: 16,75 caballos, ABS de
+  tres modos y suspensión invertida por once millones. Su única competencia real es su
+  propia hermana N160 Pro, que ofrece casi lo mismo por menos dinero y con más confort.

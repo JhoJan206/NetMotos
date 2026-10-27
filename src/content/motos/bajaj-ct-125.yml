@@ -29,21 +29,104 @@ llanta_trasero: 3.00-18
 precio_cop: 6899000
 imagen: /images/motos/bajaj-ct-125.webp
 pros:
-  - Mejor precio del segmento
-  - Tanque grande (12L)
-  - Bajo consumo de combustible
+  - "\"Mejor precio del segmento\""
+  - "\"Tanque grande (12L)\""
+  - "\"Bajo consumo de combustible\""
 contras:
-  - Marca con menos tradición en Colombia
-  - Calidad de acabados media
-  - Servicio técnico limitado en ciudades pequeñas
+  - "\"Marca con menos tradición en Colombia\""
+  - "\"Calidad de acabados media\""
+  - "\"Servicio técnico limitado en ciudades pequeñas\""
 rating: 4
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  Por 3.990.000 COP la Bajaj CT 125 se convierte en la entrada más barata del segmento, y eso solo ya la pone en el
-  radar de cualquiera que necesite una moto nueva sin endeudarse hasta el cuello. Trae un motor de 124.6 cc con 10.8 HP
-  y un consumo que roza los 55 km/l, combinado con un tanque de 12 litros que te da semanas sin ver una bomba. Es
-  liviana —118 kilos— y el asiento a 785 mm queda bien para la mayoría. Lo que más se siente es que es una moto pensada
-  en función del precio: acabados funcionales pero sin muchos detalles, carburador en vez de inyección, y el respaldo de
-  marca apenas está creciendo en Colombia. Si vives en una ciudad grande, probablemente consigas servicio técnico sin
-  problema; en pueblos pequeños la cosa se complica. Aun así, para el que busca lo más económico del mercado y no le
-  interesa presumir, es un negocio redondo.
+  La Bajaj CT 125 es la hermana mayor de la CT100: mismo espíritu de trabajo, pero con
+  124,6 cc, caja de cinco marchas y freno de disco delantero. Con 10,8 HP y un consumo
+  declarado de 55 km/l, es probablemente la moto nueva más económica de mantener en
+  Colombia por kilómetro recorrido. Es para ti si haces muchos kilómetros urbanos o
+  intermunicipales cortos y quieres el menor gasto posible. No es para ti si buscas
+  acabados cuidados, tablero moderno o una moto con la que presumir: aquí todo está
+  pensado para durar, no para lucir.
+uso_diario: >-
+  La diferencia con la CT100 se siente de inmediato en la quinta marcha: permite cruceros
+  de 70-75 km/h sin que el motor vaya sufriendo, lo que la vuelve mucho más usable en
+  trayectos intermunicipales. En ciudad, la posición de manejo es erguida y el manubrio
+  ancho da control, aunque el asiento a 785 mm ya pide algo más de estatura que su
+  hermana. El tanque de 12 litros es el argumento más fuerte: a 55 km/l homologados, la
+  autonomía teórica pasa de 600 km, y en la práctica ronda los 480-520 km, lo que
+  significa tanquear una vez por semana o menos. La suspensión es firme y pensada para
+  carga; sola se siente seca en vías rotas, pero con peso atrás trabaja mejor. El freno de
+  disco delantero de 240 mm marca una diferencia real frente a la CT100 en frenadas de
+  emergencia. En carretera sostiene 80 km/h sin drama, aunque con viento lateral se nota
+  liviana.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 42000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 22000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 16000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 115000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 170000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 155000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 620000
+costos_nota: >-
+  Cifras estimadas para 2026 con 12.000 km al año y mano de obra incluida. El SOAT sube de
+  categoría frente a la CT100 y eso se siente en el bolsillo, pero el consumo de 55 km/l
+  lo compensa con creces para quien rueda mucho. Los repuestos de la familia CT comparten
+  buena parte de la cadena de distribución con otras Bajaj, así que se consiguen incluso
+  en talleres pequeños de municipios intermedios.
+comparativa: >-
+  Frente a la CT100, la CT 125 cuesta unos 700.000 pesos más y ofrece 2,6 caballos
+  adicionales, quinta marcha, disco delantero y tres litros más de tanque: es el salto más
+  rentable de todo el segmento económico. Contra la Honda CB125F, la diferencia se
+  invierte: la Honda tiene inyección y un acabado claramente superior, mientras la Bajaj
+  apuesta por repuestos más baratos y una postura más de trabajo. Y si el uso es mixto con
+  destapado, la AKT TTR 125 ofrece más recorrido de suspensión por un precio parecido.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CT 125?"
+    respuesta: >-
+      El homologado es 55 km/l. En ciudad con tráfico real se mueve entre 45 y 50; en
+      carretera plana a 70 km/h llega a 58-60. Es una de las motos más eficientes que se
+      venden en el país, y con el tanque de 12 litros permite más de 500 km entre tanqueadas.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos intermedios sí, mucho mejor que la CT100. Sostiene 75-80 km/h sin esfuerzo y con
+      pasajero se defiende en planos. En ascensos largos toca bajar a cuarta, y a 90 km/h el
+      motor ya va alto. Es una moto para vías secundarias, no para autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y es de las mejores del mercado para eso. Combina el consumo más bajo del segmento
+      con tanque grande, disco delantero y repuestos baratos. Muchos repartidores la eligen
+      justamente porque el gasto semanal de gasolina es notablemente menor que el de una 150.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CT 125?"
+    respuesta: >-
+      Por sus 124,6 cc entra en la categoría de 100 a 200 cc, con una tarifa cercana a los
+      343.000 pesos anuales, más la revisión técnico-mecánica. Es el punto donde la 125 deja
+      de ser gratis frente a la 100: hay que sumar unos 90.000 pesos al año solo en SOAT.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Bastante. Es liviana, la entrega de potencia es lineal y la quinta marcha perdona los
+      errores de cambio. El único punto de atención es la altura del asiento para pilotos muy
+      bajos y la ausencia de ABS, que obliga a dosificar bien el freno delantero en mojado.
+veredicto: >-
+  Si el criterio es pesos por kilómetro, la CT 125 es difícil de superar: consume como una
+  100, tiene freno de disco y un tanque que parece de otra categoría. No emociona, pero
+  cumple con una eficiencia que se traduce en dinero real cada mes.

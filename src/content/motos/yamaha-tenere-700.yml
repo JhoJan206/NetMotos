@@ -29,25 +29,104 @@ llanta_trasero: 150/70-18
 precio_cop: 73000000
 imagen: /images/motos/yamaha-tenere-700.webp
 pros:
-  - Distancia al piso de 240 mm, de las mejores entre las adventure vendidas en Colombia
-  - Motor bicilíndrico CP2 con torque abundante y respuesta lineal off-road
-  - Chasis angosto y liviano para su cilindraje, pensado para pilotar de pie
+  - "Distancia al piso de 240 mm, de las mejores entre las adventure vendidas en Colombia"
+  - "Motor bicilíndrico CP2 con torque abundante y respuesta lineal off-road"
+  - "Chasis angosto y liviano para su cilindraje, pensado para pilotar de pie"
 contras:
-  - Altura de asiento (875 mm) exigente para pilotos de estatura baja
-  - Precio elevado frente a doble propósito monocilíndricas de la competencia
-  - Sin protección de carenado completo para viajes largos en autopista
+  - "Altura de asiento (875 mm) exigente para pilotos de estatura baja"
+  - "Precio elevado frente a doble propósito monocilíndricas de la competencia"
+  - "Sin protección de carenado completo para viajes largos en autopista"
 rating: 4.7
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Ténéré 700 es la adventure con la que Yamaha le habla directamente al motociclista colombiano que sueña con hacer
-  travesías largas fuera del asfalto, tipo Ruta 40 o cruces por trocha en los Andes. Su chasis angosto y su suspensión
-  de largo recorrido están pensados desde el diseño para pilotar de pie en terreno difícil, no solo para verse
-  aventurera parqueada.
-
-  El motor bicilíndrico CP2, el mismo espíritu que el de la MT-07, entrega torque de forma lineal y predecible, ideal
-  para dosificar potencia en subidas técnicas o terreno resbaloso. La distancia al piso de 240 mm y el recorrido de
-  suspensión de más de 200 mm le permiten pasar obstáculos que dejarían varada a cualquier doble propósito convencional.
-
-  Compite con la Honda CB500X y, en un segmento de precio similar, con la KTM 390 Adventure. Es la moto ideal para el
-  motociclista experimentado que realmente piensa usar la capacidad todoterreno de la moto, no solo para quien busca la
-  estética adventure sin salirse nunca del pavimento.
+  La Yamaha Ténéré 700 es la adventure de referencia de la gama media: motor bicilíndrico
+  CP2 de 689 cc, 72,4 HP, 67 Nm, 240 mm de distancia al piso, 204 kilos y un precio de
+  73.000.000 de pesos. Es una moto de concepto rally: chasis angosto, suspensión de largo
+  recorrido y una postura pensada para pilotar de pie. Es para ti si haces trocha de
+  verdad y quieres una adventure que no se quede corta fuera del asfalto. No es para ti si
+  tu uso es urbano o si esperas comodidad de turismo puro.
+uso_diario: >-
+  La Ténéré 700 está construida alrededor de una idea: que puedas ir de pie sobre la moto
+  durante kilómetros. El chasis angosto, las estriberas anchas y el manubrio alto lo
+  permiten, y los 240 mm de distancia al piso y la suspensión de largo recorrido absorben
+  piedra, arena y barro con una soltura que ninguna adventure de asfalto iguala. El motor
+  CP2 de 72,4 HP entrega 67 Nm con un torque que aparece desde muy abajo, ideal para salir
+  de un obstáculo sin patinar el embrague. En carretera mantiene 130 km/h con el motor
+  relajado, aunque la falta de carenado completo deja el torso expuesto al viento. El
+  asiento a 875 mm es el más alto del catálogo y exige estatura. Los frenos de disco con
+  ABS, desconectable en la rueda trasera, funcionan bien en ambas superficies. El consumo
+  de 21 km/l con 16 litros da unos 330 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 225000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 105000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 110000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 68000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 380000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 590000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 490000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 295000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 3250000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra de concesionario
+  Yamaha. El SOAT y la técnico-mecánica van aparte. Es una de las fichas más caras de
+  mantener: llantas de doble propósito que se gastan rápido, kit de arrastre reforzado,
+  aceite sintético en cantidad de bicilíndrico y frenos de gama alta. Es el costo real de
+  una adventure de 700 cc.
+comparativa: >-
+  Frente a la Yamaha MT-07, la Ténéré cuesta 16 millones más y ofrece 1 caballo menos, con
+  20 kilos más y capacidad de trocha real: es la misma base mecánica con otro propósito.
+  Contra la Honda NX500, la Ténéré cuesta unos 18 millones más y ofrece 24,9 caballos
+  adicionales y 50 mm más de distancia al piso. Y si el objetivo es una adventure de 300
+  para uso mixto, la Kawasaki Versys-X 300 cuesta la mitad y hace el 70 % del trabajo.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Ténéré 700?"
+    respuesta: >-
+      El homologado es 21 km/l. En trocha con primera y segunda constantes baja a 16-18; en
+      carretera a 110 km/h sube a 23-25. Con 16 litros de tanque la autonomía práctica va de
+      260 a 400 km, muy dependiente del terreno.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, y con soltura: mantiene 140 km/h con el motor relajado y tiene reserva hasta 190. El
+      problema no es la mecánica sino la protección aerodinámica y el asiento alto, que cansan
+      en trayectos largos de autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Cuesta 73 millones, pesa 204 kilos y su mantenimiento supera los tres millones al
+      año. Es una moto de aventura y viaje. Para trabajo, una 125 cuesta siete veces menos de
+      operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Ténéré 700?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 73 millones, el SOAT representa apenas el 1 % del
+      valor: el costo fijo no es el problema.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. Con 875 mm de asiento, 204 kilos y 72 caballos, es una moto que exige estatura y
+      experiencia. En trocha perdona por la suspensión, pero en ciudad y en parqueadero
+      castiga. Es una moto para pilotos con recorrido.
+veredicto: >-
+  La Ténéré 700 es la adventure que de verdad va fuera del asfalto, y eso se paga: 73
+  millones y más de tres millones al año de mantenimiento. Quien la usa para lo que fue
+  hecha no encuentra nada mejor; quien la quiere para ir a la oficina está pagando de más.

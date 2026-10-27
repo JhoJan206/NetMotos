@@ -29,29 +29,102 @@ llanta_trasero: 130/70-17
 precio_cop: 15999000
 imagen: /images/motos/bajaj-pulsar-rs200-fi-abs.webp
 pros:
-  - La única deportiva carenada de 200cc con motor derivado de KTM en su rango de precio
-  - ABS de doble canal de serie, poco común en deportivas de este cilindraje
-  - Frenos de disco grandes (300 mm delantero) para su categoría
+  - "La única deportiva carenada de 200cc con motor derivado de KTM en su rango de precio"
+  - "ABS de doble canal de serie, poco común en deportivas de este cilindraje"
+  - "Frenos de disco grandes (300 mm delantero) para su categoría"
 contras:
-  - Posición de manejo agachada, poco práctica para uso urbano diario
-  - Peso considerable (165 kg) frente a otras deportivas de 200cc
-  - Carenado completo que encarece reparaciones en caso de caída
+  - "Posición de manejo agachada, poco práctica para uso urbano diario"
+  - "Peso considerable (165 kg) frente a otras deportivas de 200cc"
+  - "Carenado completo que encarece reparaciones en caso de caída"
 rating: 4.5
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La RS200 FI ABS lleva años siendo la única deportiva completamente
-  carenada de 200cc con motor de raíces KTM disponible en Colombia,
-  heredando parte de la ingeniería del proyecto conjunto Bajaj-KTM. Es
-  la moto para quien quiere sentirse en una superbike sin gastar el
-  presupuesto de una 400cc o más.
-
-  El motor entrega su mejor desempeño a revoluciones altas, con casi 25
-  caballos que se sienten con ganas en carretera con curvas. El carenado
-  completo mejora la aerodinámica en autopista, aunque en ciudad la
-  posición agachada y el calor del motor cerca de las piernas la hacen
-  menos cómoda que una naked equivalente.
-
-  Compite con la KTM 200 Duke (en versión naked) y con la Yamaha R15 en
-  formato carenado. Es la moto ideal para el motociclista que quiere la
-  experiencia visual y de manejo de una deportiva completa, sin
-  necesitar todavía el presupuesto de una 300 o 400cc carenada.
+  La Bajaj Pulsar RS200 FI ABS es la única deportiva carenada de 200 cc con motor derivado
+  de KTM que se vende en Colombia: 24,1 HP, inyección electrónica, seis marchas, ABS de
+  doble canal y carenado completo por 15.999.000 pesos. Es una moto controvertida: ofrece
+  prestaciones de 250 con precio de 200, pero paga el precio del carenado en peso y en
+  comodidad. Es para ti si quieres una deportiva carenada real sin irte a los 30 millones.
+  No es para ti si tu uso es urbano diario: la posición agachada y el calor del motor en
+  tráfico la hacen incómoda.
+uso_diario: >-
+  El motor de 199,5 cc entrega 24,1 HP y empuja con fuerza desde 6.000 rpm, con una
+  respuesta que en carretera de montaña se disfruta. La caja de seis marchas permite
+  mantener el motor en la zona buena y la sexta da cruceros de 120 km/h sin forzar. Pero
+  en ciudad la moto se pelea con su propia naturaleza: la posición agachada carga las
+  muñecas, las estriberas retrasadas obligan a llevar las rodillas dobladas y el motor,
+  refrigerado por aceite, calienta en tráfico lento. Pesa 165 kilos, que es mucho para el
+  cilindraje, y se sienten en maniobras de parqueadero. Los frenos son excelentes: disco
+  de 300 mm adelante con ABS de doble canal, y 230 mm atrás. El carenado protege bien del
+  viento en autopista, que es donde la moto tiene sentido. El consumo de 32 km/l con 14
+  litros da unos 400 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 92000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 42000
+  - concepto: "Bujías (tres unidades)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 72000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 180000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 275000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 230000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 150000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1220000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Hay un costo que no aparece en la tabla y que conviene
+  advertir: cualquier caída implica reparar plásticos de carenado, y un juego completo de
+  laterales supera los 600.000 pesos. Es la letra pequeña de las deportivas carenadas.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la RS200 cuesta 2,8 millones más y ofrece las mismas
+  prestaciones con carenado y peor ergonomía: la diferencia es estética y aerodinámica.
+  Contra la Yamaha R15, la Bajaj gana 5,7 caballos y pierde en refinamiento, acabado y
+  reventa, por 4,4 millones menos. Y si el presupuesto llega a 17 millones, la Suzuki
+  Gixxer SF 250 ofrece 2 caballos más y un motor más moderno.
+faq:
+  - pregunta: "¿Cuánto consume realmente la RS200?"
+    respuesta: >-
+      El homologado es 32 km/l. En ciudad con tráfico denso baja a 26-29; en carretera a 100
+      km/h sube a 34-36. Con 14 litros de tanque la autonomía práctica va de 360 a 490 km,
+      suficiente para un viaje de un día.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno natural. Mantiene 120 km/h con comodidad y llega a 140 en plano. El
+      carenado protege del viento y el ABS de doble canal da confianza en frenadas fuertes.
+      Para trayectos de 200 a 300 km es una moto competente.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. La posición agachada, el calor del motor en tráfico y el costo de reparar plásticos
+      la hacen poco práctica para reparto. Es una moto de disfrute y de carretera, no una
+      herramienta de trabajo.
+  - pregunta: "¿Cuánto cuesta el SOAT de la RS200?"
+    respuesta: >-
+      Con 199,5 cc se queda por debajo de los 200, así que paga la categoría de 100 a 200 cc:
+      alrededor de 343.000 pesos al año. Es una ventaja enorme frente a una 250, que pagaría
+      761.000 por prestaciones similares.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. La posición deportiva, el peso de 165 kilos y los 24 caballos exigen experiencia.
+      Además, una caída en una moto carenada es mucho más costosa que en una naked. Es una
+      segunda o tercera moto, no una primera.
+veredicto: >-
+  La RS200 es la deportiva carenada más accesible con prestaciones reales. Su problema no
+  es la mecánica sino el uso: en carretera es divertida y competente, en ciudad es
+  incómoda y cara de reparar. Quien la compre para viajar no se arrepiente; quien la
+  compre para el tráfico diario sí.

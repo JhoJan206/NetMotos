@@ -29,25 +29,104 @@ llanta_trasero: 140/70-17
 precio_cop: 15990000
 imagen: /images/motos/royal-enfield-hunter-350.webp
 pros:
-  - Precio de entrada a la marca Royal Enfield, el más accesible del portafolio
-  - Chasis más ágil y liviano que el resto de modelos de la marca
-  - Sonido de escape distintivo, muy valorado por los fanáticos de la marca
+  - "Precio de entrada a la marca Royal Enfield, el más accesible del portafolio"
+  - "Chasis más ágil y liviano que el resto de modelos de la marca"
+  - "Sonido de escape distintivo, muy valorado por los fanáticos de la marca"
 contras:
-  - Suspensión trasera de recorrido corto, se nota en vías destapadas
-  - Potencia justa para dos pasajeros con equipaje en pendientes
-  - Freno trasero algo esponjoso comparado con la competencia japonesa
+  - "Suspensión trasera de recorrido corto, se nota en vías destapadas"
+  - "Potencia justa para dos pasajeros con equipaje en pendientes"
+  - "Freno trasero algo esponjoso comparado con la competencia japonesa"
 rating: 4.5
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Hunter 350, conocida también como HNTR 350, es la moto con la que Royal Enfield decidió pelear directamente en el
-  segmento urbano de 350cc, dejando de lado por un momento el aire retro-touring de sus otros modelos. Es más ágil, más
-  liviana y más asequible que el resto de la gama de la marca.
-
-  En ciudad se mueve con una soltura que sorprende viniendo de una marca conocida por motos más pesadas: el chasis
-  responde rápido en tráfico y el motor de 350cc sobra para moverse con autoridad entre carros. Las llantas de rin 17
-  adelante y atrás también le dan un comportamiento más cercano al de una naked moderna que al de una clásica
-  tradicional.
-
-  Compite con su hermana Meteor 350 (más orientada a crucero) y, en espíritu retro, con la Yamaha FZ y la TVS Apache RTR
-  160. Es la moto ideal para quien quiere entrar al mundo Royal Enfield sin pagar el precio de una Classic 350,
-  priorizando agilidad urbana sin perder el carácter de la marca.
+  La Royal Enfield Hunter 350 es la puerta de entrada a la marca en Colombia: 349 cc, 20,2
+  HP, 27 Nm y 181 kilos por 15.990.000 pesos. Es la Royal más liviana y ágil del
+  portafolio, con un chasis más corto que el de la Classic y una postura neutra que
+  funciona igual en ciudad que en carretera. Es para ti si quieres el carácter de un motor
+  clásico con una moto manejable y a precio contenido. No es para ti si necesitas potencia
+  para dos personas con equipaje en pendiente o si haces trocha: la suspensión trasera de
+  recorrido corto y los 150 mm al piso no están hechos para eso.
+uso_diario: >-
+  La Hunter se siente inmediatamente más ágil que sus hermanas: 181 kilos y una distancia
+  entre ejes corta la hacen manejable en tráfico y fácil de parquear, algo que en una
+  Classic de 195 kilos no ocurre. El motor es el mismo de 349 cc con 27 Nm a 4.000 rpm,
+  así que se puede rodar en cuarta o quinta a velocidad de ciudad sin tocar el cambio, y
+  el sonido de escape sigue siendo el gran atractivo de la marca. La posición es erguida,
+  con el manubrio ancho y las estriberas centradas, cómoda para trayectos de una hora. Los
+  frenos con ABS de doble canal funcionan bien, aunque el trasero se siente algo esponjoso
+  frente a la competencia japonesa. La suspensión trasera de recorrido corto es el punto
+  débil: en vías rotas o en resaltos se siente seca y hace tope con pasajero. En carretera
+  mantiene 100 km/h con comodidad y llega a 115 en plano, sin resto para adelantar con
+  autoridad.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 95000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 52000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 36000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 225000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 300000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 265000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 155000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1450000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Royal Enfield.
+  El SOAT y la técnico-mecánica van aparte. El mantenimiento de la Hunter es ligeramente
+  más económico que el de la Classic por peso y por desgaste de llanta, pero sigue siendo
+  el de una moto de 350 con SOAT de categoría alta. Los repuestos de la marca se consiguen
+  en los concesionarios, no en talleres de barrio.
+comparativa: >-
+  Frente a la Royal Enfield Classic 350, la Hunter cuesta 4 millones menos y ofrece el
+  mismo motor con 14 kilos menos y una postura más neutra: para uso urbano es la compra
+  más lógica de la marca. Contra la Honda CB190R 2.0, la Royal cuesta 3,2 millones más y
+  ofrece 3,2 caballos adicionales, más torque y un carácter que la Honda no tiene, aunque
+  pierde red de servicio y reventa. Y si el objetivo es una 350 para carretera con
+  parrillero, la Meteor 350 es más adecuada por posición y tanque.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Hunter 350?"
+    respuesta: >-
+      El homologado es 34 km/l. En ciudad con tráfico el registro está entre 29 y 32; en
+      carretera a 90 km/h sube a 37-39. Con 13 litros de tanque la autonomía práctica es de
+      380 a 500 km, una de las mejores del segmento de 350.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, a ritmo tranquilo. Mantiene 100 km/h con comodidad y llega a 115 en plano. El motor
+      vibra por encima de 105 y la posición erguida expone al viento, así que es una moto para
+      rutas de 150 a 200 km a 90 km/h, no para autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Cuesta 16 millones, pesa 181 kilos y su mantenimiento supera el millón cuatrocientos
+      mil al año. Es una moto de disfrute. Para trabajo hay opciones que cuestan una fracción
+      de eso, tanto de compra como de operación.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Hunter 350?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el doble de lo que paga una 200, y el principal costo fijo de tener
+      una 350 en Colombia.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es la Royal más amable para empezar: 181 kilos, asiento a 790 mm, motor de torque
+      bajo y ABS de doble canal. La advertencia es la altura de 150 mm al piso, que obliga a
+      pasar resaltos con cuidado, y la suspensión trasera firme.
+veredicto: >-
+  La Hunter 350 es la Royal Enfield más racional del portafolio: mismo carácter, menos
+  peso, menos precio y una postura que sirve para todo. Su límite es la suspensión trasera
+  y la falta de potencia con dos personas, no su capacidad de enamorar.

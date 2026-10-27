@@ -29,29 +29,101 @@ llanta_trasero: 120/80-17
 precio_cop: 10999000
 imagen: /images/motos/bajaj-pulsar-n160-pro.webp
 pros:
-  - Suspensión invertida (USD) y ABS de doble canal a un precio más bajo que la NS160
-  - Iluminación full LED e instrumentación digital con Bluetooth
-  - Embrague antirrebote (slipper), poco común en este rango de precio
+  - "Suspensión invertida (USD) y ABS de doble canal a un precio más bajo que la NS160"
+  - "Iluminación full LED e instrumentación digital con Bluetooth"
+  - "Embrague antirrebote (slipper), poco común en este rango de precio"
 contras:
-  - Menos "deportiva" en carácter que la NS160 FI ABS
-  - Llanta trasera más angosta que la de su hermana NS160
-  - Segmento de 160cc saturado de opciones muy similares en precio
+  - "Menos \"deportiva\" en carácter que la NS160 FI ABS"
+  - "Llanta trasera más angosta que la de su hermana NS160"
+  - "Segmento de 160cc saturado de opciones muy similares en precio"
 rating: 4.4
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La N160 Pro es la versión naked "de calle" dentro de la familia de
-  160cc de Bajaj, posicionada como una alternativa algo más accesible
-  que la NS160 FI ABS pero sin sacrificar equipamiento importante:
-  suspensión invertida, ABS de doble canal, iluminación full LED,
-  conectividad Bluetooth y embrague antirrebote vienen de serie.
-
-  En el uso diario se comporta como una naked bien equipada para su
-  precio: el motor entrega 16 caballos que alcanzan de sobra para ciudad
-  y carretera, y el embrague antirrebote facilita las reducciones de
-  marcha bruscas sin que la rueda trasera se bloquee. La llanta trasera
-  más angosta que la NS160 la hace algo más ágil en tráfico.
-
-  Compite con la TVS Apache RTR 160 y la Yamaha FZ Versión 3.0. Es la
-  moto ideal para el motociclista que quiere equipamiento de gama media-
-  alta (USD, ABS doble canal, LED) en una naked de 160cc, sin pagar el
-  precio de la versión NS más orientada al manejo deportivo.
+  La Bajaj Pulsar N160 Pro es la versión de equipamiento alto de la familia N160: 164,82
+  cc, 16 HP, ABS de doble canal, suspensión invertida, embrague antirrebote y conectividad
+  Bluetooth por 10.999.000 pesos. Es la naked de 160 con mejor relación equipo-precio del
+  mercado y una alternativa directa a la NS160, con la que comparte motor pero no enfoque.
+  Es para ti si quieres una 160 completa, con ABS real y equipo moderno, sin llegar a los
+  once millones y medio. No es para ti si buscas carácter deportivo: la N160 Pro es más
+  equilibrada y menos agresiva que la NS160.
+uso_diario: >-
+  El motor de 164,82 cc entrega 16 HP de forma muy lineal, con un empuje consistente desde
+  4.000 rpm que permite rodar en tercera por ciudad sin tirones y mantener 100 km/h en
+  carretera con reserva. El embrague antirrebote es el detalle que más se agradece en uso
+  real: reduce el rebote de la rueda trasera al bajar marchas rápido, algo que en tráfico
+  con frenadas bruscas se nota. La suspensión invertida mejora la precisión en curva y el
+  ABS de doble canal actúa sobre disco de 260 mm adelante y 230 mm atrás, un equipo serio
+  para el precio. Pesa 150 kilos, lo que la hace estable pero algo pesada en maniobras
+  lentas. El asiento a 790 mm es accesible. El consumo de 38 km/l con 12 litros de tanque
+  da unos 420 km de autonomía, correcto para 16 caballos.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 78000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 36000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 26000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 235000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 200000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 125000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 950000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Con 164,82 cc sigue en la categoría de 100 a 200 cc, así
+  que el SOAT es el mismo de una 125: 343.000 pesos. Esa es una ventaja enorme frente a
+  una 200, que paga exactamente lo mismo pero con menos margen de crecimiento.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS160 FI ABS, la N160 Pro cuesta un millón menos y ofrece el
+  mismo motor, ABS y suspensión invertida, con un enfoque menos deportivo y una llanta
+  trasera más angosta. Contra la Yamaha MT-15, la Bajaj cuesta 4,5 millones menos y pierde
+  2,6 caballos y la sexta marcha, aunque gana en comodidad y en precio de mantenimiento. Y
+  si el presupuesto aprieta, la Pulsar N125 FI ofrece 4,16 caballos menos por 2,9 millones
+  menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la N160 Pro?"
+    respuesta: >-
+      El homologado es 38 km/l. En ciudad con tráfico el registro está entre 33 y 36; en
+      carretera a 90 km/h sube a 41-43. Con 12 litros de tanque la autonomía práctica es de
+      380 y 490 km según el uso.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura. Mantiene 100-110 km/h sin esfuerzo y tiene reserva para adelantar. El
+      asiento firme y la posición erguida permiten trayectos de 150 km sin fatiga. Es una 160
+      con capacidad real de vía rápida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, pero no es lo más eficiente: 35 km/l en ciudad y mantenimiento de 950.000 pesos
+      al año. Para reparto intenso una 125 sigue siendo más rentable. Para trabajo mixto con
+      recorridos largos, en cambio, es una buena herramienta.
+  - pregunta: "¿Cuánto cuesta el SOAT de la N160 Pro?"
+    respuesta: >-
+      Con 164,82 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es
+      la misma tarifa de una 125, lo que hace que subir de cilindraje dentro de ese rango no
+      tenga costo fiscal adicional.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con criterio, sí. La entrega es lineal y el ABS de doble canal cubre los errores típicos
+      del novato. El peso de 150 kilos y los 16 caballos exigen respeto, así que conviene
+      practicar maniobras en parqueadero antes de salir al tráfico.
+veredicto: >-
+  La N160 Pro demuestra que no hay que gastar once millones y medio para tener ABS de
+  doble canal, suspensión invertida y embrague antirrebote. Es la 160 más equilibrada del
+  mercado y probablemente la compra más sensata del segmento.

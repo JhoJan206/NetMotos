@@ -29,24 +29,100 @@ llanta_trasero: 120/80-18
 precio_cop: 25900000
 imagen: /images/motos/yamaha-xtz250.webp
 pros:
-  - Tanque de 16 litros, de los más grandes en doble propósito de 250cc
-  - Discos de freno en ambas ruedas, algo que su hermana XTZ150 no ofrece
-  - Buena distancia al piso para trocha exigente
+  - "Tanque de 16 litros, de los más grandes en doble propósito de 250cc"
+  - "Discos de freno en ambas ruedas, algo que su hermana XTZ150 no ofrece"
+  - "Buena distancia al piso para trocha exigente"
 contras:
-  - Sin ABS de serie en el mercado colombiano
-  - Precio superior al de la Honda XR150L y otras doble propósito rivales
-  - Motor se siente algo justo comparado con la Honda XRE 300
+  - "Sin ABS de serie en el mercado colombiano"
+  - "Precio superior al de la Honda XR150L y otras doble propósito rivales"
+  - "Motor se siente algo justo comparado con la Honda XRE 300"
 rating: 4.3
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La XTZ250 es el escalón intermedio de Yamaha en doble propósito: más cilindraje, más tanque y frenos de disco en ambas
-  ruedas frente a la XTZ150, pero sin llegar al precio de una XRE 300 o una Dominar 400. Es la opción para quien quiere
-  algo más serio para carretera sin gastar el presupuesto de las adventure medianas.
-
-  El tanque de 16 litros le da una autonomía que se agradece en viajes largos por carretera, y la distancia al piso de
-  225 mm permite meterla en trocha sin miedo excesivo a golpear el motor. En carretera pavimentada se siente cómoda para
-  trayectos medios, aunque a velocidad sostenida alta el motor pide algo más de fuerza.
-
-  Compite con la Honda XR150L 2.0 y, subiendo de presupuesto, con la Hero Xpulse 200. Es la moto ideal para el
-  motociclista que quiere una doble propósito de Yamaha con más autonomía y mejores frenos que la XTZ150, sin necesitar
-  todavía la capacidad todoterreno de una XRE 300.
+  La Yamaha XTZ250 es la doble propósito de 250 de Yamaha: 20,5 HP, 21,5 Nm, 225 mm de
+  distancia al piso, discos de freno en las dos ruedas y un tanque de 16 litros por
+  25.900.000 pesos. Es la moto que elige quien necesita más motor que una 150 para trocha
+  y carretera, sin llegar a una adventure de 300. Es para ti si haces recorridos rurales
+  largos y quieres autonomía. No es para ti si esperas ABS o si tu presupuesto está por
+  debajo de los 25 millones.
+uso_diario: >-
+  Los 20,5 HP y 21,5 Nm mueven 148 kilos con soltura suficiente para trocha y carretera:
+  en caminos empinados se sube en segunda sin exigir el embrague, y en asfalto mantiene
+  95-100 km/h con comodidad. Los 225 mm de distancia al piso y la suspensión de largo
+  recorrido absorben terreno roto con más autoridad que una 150, aunque sin llegar a la
+  capacidad de una enduro pura. Los discos de freno en las dos ruedas son una ventaja
+  frente a la XTZ150, que todavía usa tambor trasero. El asiento a 830 mm exige cierta
+  estatura. El tanque de 16 litros con un consumo de 31 km/l da casi 500 km de autonomía
+  teórica, la mejor del segmento de doble propósito de 250. Pesa 148 kilos, un peso
+  contenido. El motor se siente algo justo frente a una XRE 300 en carretera, y la
+  ausencia de ABS es su deuda pendiente en seguridad.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 78000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 36000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 24000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 265000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 230000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 125000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1280000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte. El salto de categoría del SOAT es el rubro que más pesa:
+  pasar de 200 cc duplica ese costo fijo, de 343.000 a 761.000 pesos al año. A eso se
+  suman llantas de doble propósito y un kit de arrastre que sufre con el polvo.
+comparativa: >-
+  Frente a la Yamaha XTZ150, la XTZ250 cuesta 11,4 millones más y ofrece 7,4 caballos
+  adicionales, disco trasero, 20 mm más de altura al piso y seis litros más de tanque: es
+  un salto de categoría. Contra la Honda XRE 300, la Yamaha cuesta 7,6 millones menos y
+  pierde 5,5 caballos y ABS, aunque gana en autonomía. Y si el objetivo es una doble
+  propósito con ABS y precio contenido, la AKT TT200 ABS cuesta 16 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la XTZ250?"
+    respuesta: >-
+      El homologado es 31 km/l. En trocha con pendientes y carga baja a 25-28; en carretera a
+      85 km/h sube a 33-35. Con 16 litros de tanque la autonomía práctica va de 400 a 560 km,
+      la mejor del segmento.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 100 km/h y capacidad de llegar a 115. Es una doble propósito con
+      enlace asfáltico competente, apta para trayectos de 200 km en vías secundarias. Por
+      encima de 100 el motor va alto y las llantas de tacos restan estabilidad.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zona rural, sí, y es de las mejores herramientas por autonomía y capacidad de carga.
+      Su limitación es el precio: 25,9 millones es mucho para reparto. Para trabajo puro, la
+      XTZ150 o la Boxer 150X cuestan la mitad.
+  - pregunta: "¿Cuánto cuesta el SOAT de la XTZ250?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el doble de lo que paga una 200, y una de las razones por las que
+      muchos compradores rurales prefieren quedarse en ese cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      En trocha sí, porque la suspensión y el peso contenido perdonan. En ciudad es exigente
+      por el asiento de 830 mm y la falta de ABS. Como primera moto rural es razonable; como
+      primera moto urbana, no.
+veredicto: >-
+  La XTZ250 es la doble propósito de 250 con más autonomía del mercado: 16 litros y casi
+  500 km teóricos. Le falta ABS y algo de motor en carretera, pero para el trabajo rural
+  colombiano sigue siendo una de las opciones más sensatas.

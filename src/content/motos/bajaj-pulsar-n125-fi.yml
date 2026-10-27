@@ -29,30 +29,101 @@ llanta_trasero: 110/80-17
 precio_cop: 8099000
 imagen: /images/motos/bajaj-pulsar-n125-fi.webp
 pros:
-  - Sistema Start-Stop poco común en el segmento de 125cc
-  - Tablero digital con conectividad Bluetooth para notificaciones del celular
-  - Distancia al piso de 198 mm, de las mejores en naked urbanas de 125cc
+  - "Sistema Start-Stop poco común en el segmento de 125cc"
+  - "Tablero digital con conectividad Bluetooth para notificaciones del celular"
+  - "Distancia al piso de 198 mm, de las mejores en naked urbanas de 125cc"
 contras:
-  - Sin ABS, solo sistema de frenado combinado CBS
-  - Freno trasero de tambor en lugar de disco
-  - Modelo nuevo en el mercado, aún sin trayectoria larga de confiabilidad
+  - "Sin ABS, solo sistema de frenado combinado CBS"
+  - "Freno trasero de tambor en lugar de disco"
+  - "Modelo nuevo en el mercado, aún sin trayectoria larga de confiabilidad"
 rating: 4.4
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Pulsar N125 FI es la apuesta más reciente de Bajaj para el segmento
-  urbano de 125cc en Colombia, con un diseño inspirado en las supermotos
-  austríacas de la casa y una lista de equipamiento que sorprende para su
-  categoría: inyección electrónica, sistema Start-Stop y tablero digital
-  con conectividad Bluetooth.
-
-  Su peso liviano de apenas 125 kg y la distancia entre ejes reducida la
-  hacen muy ágil para moverse en tráfico pesado, girar en espacios
-  cerrados y estacionar sin complicaciones. La distancia al piso de 198
-  mm también ayuda a sortear huecos y resaltos sin sustos, algo poco
-  frecuente en una naked de este cilindraje.
-
-  Compite con la TVS Raider 125 FI y la Hero Hunk 125R, ofreciendo un
-  equilibrio entre tecnología y precio que la posiciona en un punto medio
-  del segmento. Es la moto ideal para el motociclista urbano joven que
-  busca tecnología moderna en una 125cc, sin necesitar ABS ni frenos de
-  disco en ambas ruedas.
+  La Bajaj Pulsar N125 FI es la 125 más equipada de Bajaj: inyección electrónica, sistema
+  Start-Stop, tablero digital con conectividad Bluetooth, frenos CBS y 198 mm de distancia
+  al piso por 8.099.000 pesos. Es una 125 con pretensiones de moto moderna, y eso explica
+  su precio, casi 2 millones por encima de una Discover o una CT 125. Es para ti si
+  quieres tecnología y altura al piso para vías en mal estado, y no te importa pagar por
+  ello. No es para ti si buscas la 125 más económica de operar: aquí pagas por equipo, no
+  por economía.
+uso_diario: >-
+  Los 198 mm de distancia al piso son el dato más útil en Colombia: permiten pasar
+  resaltos, huecos y rieles que una 125 convencional golpea. Eso, sumado a una suspensión
+  algo más larga, la hace notablemente más tolerante en vías rotas. El motor de 11,84 HP
+  con inyección entrega de forma lineal y el sistema Start-Stop apaga el motor en
+  detenciones largas, lo que en tráfico denso reduce consumo y ruido (y sorprende la
+  primera vez). Pesa 125 kilos, diez más que una NKD. El tablero digital con Bluetooth
+  muestra notificaciones del celular, una función curiosa pero de utilidad discutible en
+  movimiento. Los frenos son disco delantero de 240 mm con CBS y tambor trasero: el CBS
+  ayuda, pero no reemplaza el ABS. El consumo de 45 km/l con 10 litros de tanque da unos
+  420 km de autonomía.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 3.500 km"
+    costo_cop: 60000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 7.000 km"
+    costo_cop: 30000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 24000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 140000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 175000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 55000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 760000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. La electrónica adicional —tablero, módulo de conectividad y
+  Start-Stop— no encarece el mantenimiento rutinario, pero sí es un componente más que
+  puede fallar con los años. Es el riesgo de comprar tecnología en un segmento económico.
+comparativa: >-
+  Frente a la Bajaj Discover 125 Sport, la N125 FI cuesta 1,1 millones más y ofrece
+  Start-Stop, conectividad y 33 mm más de distancia al piso, aunque pierde 0,16 caballos.
+  Contra la Honda CB125F, la Bajaj gana en equipo y altura, y pierde en acabado, reventa y
+  red de servicio, por 2,9 millones menos. Y si el presupuesto lo permite, la Pulsar N160
+  Pro ofrece ABS de doble canal y 4 caballos más por 2,9 millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Pulsar N125 FI?"
+    respuesta: >-
+      El homologado es 45 km/l. En ciudad con tráfico y Start-Stop activo el registro está
+      entre 40 y 43; en carretera a 80 km/h sube a 48. Con 10 litros de tanque la autonomía
+      práctica es de 400 a 480 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos de 80 a 100 km sin problema, a 80-85 km/h. Con 11,84 HP tiene más reserva que una
+      125 básica, aunque el asiento y la ausencia de protección aerodinámica limitan los
+      trayectos largos. No es una moto de viaje.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y los 198 mm al piso son una ventaja real en barrios con vías en mal estado. El
+      precio de entrada y el mantenimiento son más altos que los de una CT 125, así que la
+      rentabilidad depende de si aprovechas la altura y el equipo.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Pulsar N125 FI?"
+    respuesta: >-
+      Con 124,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Sobre
+      una moto de 8,1 millones, eso equivale al 4,2 % del valor, una proporción que conviene
+      tener presente al comparar con opciones más baratas.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí: la entrega de potencia es dócil, el peso es contenido y el CBS ayuda en las
+      frenadas. La conectividad y el tablero digital pueden distraer al principio, así que
+      conviene configurarlos antes de salir a rodar y no tocarlos en movimiento.
+veredicto: >-
+  La Pulsar N125 FI es la 125 más "moderna" de Bajaj y se paga como tal. Si valoras altura
+  al piso, conectividad y Start-Stop, tiene sentido; si solo quieres moverte barato, una
+  CT 125 o una Discover hacen lo mismo por menos dinero.

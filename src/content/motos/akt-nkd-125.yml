@@ -37,13 +37,108 @@ contras:
   - Sin ABS
   - Acabados básicos
 rating: 4.2
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  Si estás buscando una moto para el día a día en ciudad sin gastar un platal, la AKT NKD 125 es de esas opciones que
-  uno mira dos veces. Sus 10.5 HP y 120 kilos la hacen ágil entre el tráfico, y con 50 km/l no vas a vivir pendiente del
-  tanque. El asiento a 775 mm la vuelve muy amigable para pilotos de cualquier estatura, ideal para quien está empezando
-  o necesita un vehículo de trabajo liviano. Donde más destaca es en la disponibilidad de repuestos —al ser AKT,
-  consigues todo en cualquier pueblo— y el mantenimiento no duele. Claro, no esperes lujos: carburador, freno trasero de
-  tambor y una potencia que en carretera se queda corta por encima de los 80 km/h. Pero para el trancón de Bogotá,
-  Medallo o Cali, cumple y sobra. Un detalle: el tanque de 11 litros te da una autonomía brutal, ideal para los que
-  hacen domicilios o recorren la ciudad todo el día.
+  La AKT NKD 125 es la moto que compra quien necesita moverse todos los días y no
+  quiere pensar en ella: arranca, gasta poco y se arregla en cualquier taller del país.
+  Con 124 cc, 10,5 HP y 120 kilos, es una naked urbana pensada para trayectos cortos y
+  para trabajar sobre ella. Es para ti si buscas el costo por kilómetro más bajo
+  posible, si mides menos de 1,75 m o si es tu primera moto. No es para ti si haces
+  carretera a diario, si viajas con parrillero por vías de montaña o si esperas frenos
+  ABS: para eso hay que subir de cilindraje y de presupuesto.
+uso_diario: >-
+  En ciudad la NKD 125 se siente cómoda desde el primer semáforo. Pesa 120 kilos y el
+  asiento queda a 775 mm, así que se maneja con las dos plantas en el piso para casi
+  cualquier estatura, y se mueve entre el tráfico con un giro de manubrio. El motor es
+  de carrera larga y bastante elástico: acepta ir en tercera a 2.000 rpm sin protestar,
+  lo que en trancones de Bogotá o Medellín se traduce en menos cambios y menos
+  esfuerzo. En carretera cambia la historia. Por encima de 80 km/h el motor va alto de
+  revoluciones y la moto se siente liviana frente al viento y al paso de buses; se
+  puede sostener 90 km/h en tramos planos, pero no es una moto para autopista. Con
+  parrillero y pendiente larga toca bajar a segunda y acompañar con el embrague. Las
+  llantas de 18 pulgadas de perfil alto ayudan mucho en huecos y vías destapadas, y la
+  suspensión de doble amortiguador trasero, aunque básica, no hace tope con carga.
+  El tanque de 11 litros es su mejor carta en uso intensivo: a 50 km/l da más de 500 km
+  de autonomía, algo que un domiciliario agradece porque deja de pasar por la bomba
+  cada dos días.
+costos:
+  - concepto: Aceite de motor 20W-50 y filtro
+    intervalo: Cada 3.000 km
+    costo_cop: 55000
+  - concepto: Filtro de aire
+    intervalo: Cada 6.000 km
+    costo_cop: 25000
+  - concepto: Bujía
+    intervalo: Cada 8.000 km
+    costo_cop: 18000
+  - concepto: Kit de arrastre (cadena, piñón y catalina)
+    intervalo: Cada 15.000 km
+    costo_cop: 130000
+  - concepto: Llanta trasera 3.00-18
+    intervalo: Cada 12.000 km
+    costo_cop: 190000
+  - concepto: Llanta delantera 2.75-18
+    intervalo: Cada 18.000 km
+    costo_cop: 170000
+  - concepto: Pastillas de freno delanteras
+    intervalo: Cada 10.000 km
+    costo_cop: 45000
+  - concepto: SOAT categoría 100-200 cc
+    intervalo: Anual
+    costo_cop: 343300
+  - concepto: Revisión técnico-mecánica
+    intervalo: Anual
+    costo_cop: 180000
+costo_anual_cop: 760000
+costos_nota: >-
+  Cifras estimadas para Colombia en 2026, con mano de obra incluida y un uso de
+  12.000 km al año; los precios varían entre ciudades y concesionarios. El SOAT y la
+  revisión técnico-mecánica van aparte del total porque se pagan una vez al año y no
+  dependen del kilometraje. Lo que hace barata a la NKD no es que cada repuesto sea
+  barato —que también— sino que ninguno es difícil de conseguir: en una carretera
+  perdida encuentras aceite, cadena y bujía. Ese es el ahorro real.
+comparativa: >-
+  Contra la Bajaj CT 100, la NKD 125 gana en potencia y en freno de disco delantero,
+  pero pierde en precio de entrada y en simplicidad mecánica. Frente a la Honda CB125F
+  la diferencia es de acabado y de inyección: la Honda cuesta más, arranca más fina en
+  frío y aguanta mejor el maltrato, mientras la AKT compensa con repuestos más baratos
+  y una red de talleres que llega a municipios donde Honda no tiene concesionario.
+  Si lo tuyo es el destapado, la AKT TTR 125 comparte motor y agrega recorrido de
+  suspensión y llantas con más tacos. Y si quieres el mismo tamaño con más músculo,
+  la AKT 250R o una 150 como la AKT CR4 150 son el paso natural.
+faq:
+  - pregunta: ¿Cuánto consume realmente la AKT NKD 125?
+    respuesta: >-
+      El dato homologado ronda los 50 km/l. En uso urbano real, con trancones y
+      arranques constantes, lo normal es moverse entre 42 y 46 km/l; en carretera a
+      70 km/h sostenidos se llega a 52-55 km/l. Con el tanque de 11 litros eso son
+      entre 460 y 600 km por tanque, según el puño derecho.
+  - pregunta: ¿Aguanta carretera?
+    respuesta: >-
+      Tramo corto sí, trayecto largo no. Puede mantener 85-90 km/h en plano, pero por
+      encima de 80 el motor va revolucionado, el consumo sube y el viento mueve la
+      moto. Sirve para ir de un pueblo a otro a 60-70 km/h; para viajar 400 km en un
+      día conviene una 200 o una 250.
+  - pregunta: ¿Sirve para domicilios y trabajo?
+    respuesta: >-
+      Es una de las mejores opciones del mercado para eso. Combustible barato,
+      mantenimiento de bajo costo, autonomía de más de 500 km y repuestos en cualquier
+      ciudad. Muchos domiciliarios la eligen justamente porque una caída o un daño se
+      arregla el mismo día sin dejar de facturar.
+  - pregunta: ¿Cuánto cuesta el SOAT de la NKD 125?
+    respuesta: >-
+      Por estar entre 100 y 200 cc, paga la tarifa intermedia: alrededor de 343.000
+      pesos al año, más la revisión técnico-mecánica. Es una de las razones por las
+      que una 125 sigue siendo más económica que una 250, que casi duplica el SOAT.
+  - pregunta: ¿Es buena para principiantes?
+    respuesta: >-
+      Sí, es una de las más amigables. Pesa poco, el asiento es bajo, el motor perdona
+      los errores de cambio, no tiene reacciones bruscas y la caída en una maniobra
+      equivocada cuesta poco de reparar. La única advertencia es el freno de tambor
+      trasero y la ausencia de ABS: hay que aprender a frenar con criterio desde el
+      primer día.
+veredicto: >-
+  La NKD 125 no sorprende a nadie y ese es exactamente su mérito. Por menos de cinco
+  millones entrega lo que el 80 % de los motociclistas colombianos necesita: bajo
+  consumo, mantenimiento barato y repuestos en la esquina. Si buscas prestaciones,
+  mira otra cosa; si buscas que la moto deje de ser un gasto, esta es la respuesta.

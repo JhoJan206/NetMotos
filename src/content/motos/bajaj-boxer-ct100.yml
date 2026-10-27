@@ -29,24 +29,108 @@ llanta_trasero: 3.00-18
 precio_cop: 6199000
 imagen: /images/motos/bajaj-boxer-ct100.webp
 pros:
-  - Consumo de combustible extremadamente bajo, ideal para trabajo diario
-  - Repuestos económicos y disponibles en cualquier pueblo del país
-  - Mecánica sencilla y muy fácil de mantener
+  - "\"Consumo de combustible extremadamente bajo, ideal para trabajo diario\""
+  - "\"Repuestos económicos y disponibles en cualquier pueblo del país\""
+  - "\"Mecánica sencilla y muy fácil de mantener\""
 contras:
-  - Sin freno de disco ni ABS en ninguna versión
-  - Potencia justa para dos pasajeros en subidas largas
-  - Diseño que no ha cambiado mucho en más de una década
+  - "\"Sin freno de disco ni ABS en ninguna versión\""
+  - "\"Potencia justa para dos pasajeros en subidas largas\""
+  - "\"Diseño que no ha cambiado mucho en más de una década\""
 rating: 4.2
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Boxer CT100 es la moto que uno ve trabajando desde que sale el sol hasta que se esconde: domicilios, mensajería,
-  vendedores ambulantes y hasta taxis informales en pueblos pequeños. No es rápida ni bonita en el sentido moderno, pero
-  cumple exactamente lo que promete: rodar todos los días sin dar problemas y sin comerse la plata en gasolina.
-
-  En ciudad rinde tranquilamente más de 40 km por litro manejando con cabeza, y en carretera destapada se defiende
-  gracias a su chasis liviano y su buena distancia al piso. El motor de 100cc no es potente, así que adelantar en vía
-  con tráfico pesado o subir con parrillero exige paciencia, pero para trayectos urbanos cortos sobra.
-
-  La relación precio-calidad es su mayor argumento: compite directamente con la AKT NKD 125 y la Suzuki GN 125, siendo
-  más económica que ambas al arranque pero con menos cilindraje. Es la moto ideal para quien necesita transporte básico,
-  confiable y barato de mantener, no para quien busca comodidad o prestaciones.
+  La Bajaj Boxer CT100 es la moto de trabajo por definición en Colombia: 100 cc, 8,2 HP y
+  112 kilos para cargar lo que sea por donde sea. Está pensada para quien la usa como
+  herramienta — domicilios, mercado, herramienta de obra, vereda — y necesita que arranque
+  todos los días sin pedir nada a cambio. Es para ti si tu prioridad es el costo por
+  kilómetro y no te importa que la moto sea espartana. No es para ti si haces carretera,
+  si viajas con parrillero con frecuencia o si vives en una ciudad con pendientes fuertes:
+  con 8 caballos y caja de cuatro marchas, ahí se queda corta.
+uso_diario: >-
+  En plano y a poca velocidad es donde la CT100 se siente en casa. La primera y la segunda
+  son cortísimas, pensadas para arrancar cargada, y la cuarta es tan larga que funciona
+  casi como sobremarcha: en ciudad se maneja prácticamente entre segunda y tercera. El
+  motor de 100 cc vibra, es cierto, y a 70 km/h ya va trabajando, pero no se queja. El
+  asiento a 765 mm es el más bajo del segmento de trabajo, así que cualquier persona la
+  domina desde el primer día. Donde brilla de verdad es en el destapado suave: la altura
+  al piso de 165 mm y las llantas de perfil alto aguantan huecos que una moto de calle
+  sufriría. Con parrillero y mercado en pendiente larga hay que ayudarse con primera y
+  tener paciencia, porque el torque máximo llega a 5.000 rpm y arriba de ahí no hay mucho
+  más. Los frenos de tambor en las dos ruedas exigen distancia de frenado; no son
+  peligrosos, pero no perdonan el descuido en mojado.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 2.500 km"
+    costo_cop: 40000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 20000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 15000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 110000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 150000
+  - concepto: "Zapatas de freno traseras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 35000
+  - concepto: "SOAT categoría menos de 100 cc"
+    intervalo: "Anual"
+    costo_cop: 256200
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 590000
+costos_nota: >-
+  Estimación para Colombia en 2026 con 12.000 km al año y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte porque son pagos anuales fijos, no dependen del uso. Lo
+  importante de la CT100 es que casi todo se consigue en tiendas de barrio: cadena, bujía,
+  zapata y aceite existen en cualquier municipio, y un mantenimiento básico no pasa de
+  60.000 pesos. Ese es el ahorro que ningún comparativo de fichas técnicas muestra.
+comparativa: >-
+  Contra la AKT NKD 125, la CT100 pierde 2 caballos y el freno de disco delantero, pero
+  gana unos 1,3 millones en el precio de entrada y baja de categoría de SOAT, que es un
+  ahorro anual real. Frente a la Honda CB125F, la diferencia es de tecnología: la Honda
+  tiene inyección y mejor acabado, la Bajaj tiene repuestos más baratos y una tolerancia
+  al maltrato que pocas motos igualan. Si necesitas un poco más de motor sin salir del
+  segmento económico, la Bajaj CT 125 o la AKT CHR 125 son el siguiente escalón natural.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Boxer CT100?"
+    respuesta: >-
+      El dato de ficha ronda los 45 km/l. En uso de trabajo urbano, con carga y arranques
+      constantes, lo normal es 38 a 42 km/l; en carretera plana a 60 km/h se llega a 50. Con
+      8,5 litros de tanque la autonomía práctica es de 330 a 380 km, suficiente para dos o
+      tres días de domicilios sin tanquear.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos entre municipios, sí. Viajes largos, no. A 70 km/h va en su límite cómodo
+      y cualquier subida la obliga a bajar de marcha. Sirve para ir al pueblo vecino por una
+      vía secundaria; no sirve para una autopista ni para sostener 80 km/h durante una hora.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Es literalmente para eso. Su razón de existir es el reparto y el trabajo de carga.
+      Aguanta peso, se arregla en cualquier taller, el mantenimiento es el más barato del
+      mercado y el SOAT está en la categoría más baja. Por eso es la moto más vista en plazas
+      de mercado y obras del país.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CT100?"
+    respuesta: >-
+      Al tener 100 cc exactos entra en la categoría de menos de 100 cc, la más económica:
+      alrededor de 256.000 pesos al año. Es la mitad de lo que paga una moto de más de 200 cc,
+      y eso se nota en el presupuesto de quien la usa para trabajar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, aunque con matices. Es liviana, baja y muy dócil, pero sus frenos de tambor y su
+      falta de ABS obligan a aprender a frenar con anticipación. Si el principiante va a rodar
+      en ciudad con lluvia, conviene una moto con disco delantero; si es para trocha y trabajo
+      tranquilo, la CT100 perdona mucho.
+veredicto: >-
+  La CT100 no compite por diseño ni por tecnología: compite por cuenta de cobro. Si la
+  pregunta es cuánto cuesta moverte y trabajar todos los días con el menor gasto posible,
+  esta sigue siendo una de las respuestas más sólidas del mercado colombiano, incluso con
+  una década de diseño encima.

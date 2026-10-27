@@ -29,25 +29,104 @@ llanta_trasero: 140/70-17
 precio_cop: 31900000
 imagen: /images/motos/yamaha-mt-03.webp
 pros:
-  - Motor bicilíndrico suave con entrega de potencia lineal y confiable
-  - Embrague antirrebote (slipper) y conectividad Y-Connect de serie
-  - Chasis ágil, ideal como escalón hacia motos de mayor cilindraje
+  - "Motor bicilíndrico suave con entrega de potencia lineal y confiable"
+  - "Embrague antirrebote (slipper) y conectividad Y-Connect de serie"
+  - "Chasis ágil, ideal como escalón hacia motos de mayor cilindraje"
 contras:
-  - Precio elevado frente a naked monocilíndricas de cilindraje similar
-  - Espacio de parrillero reducido, poco práctico para dos personas
-  - Consumo superior al de rivales monocilíndricas de 250-300cc
+  - "Precio elevado frente a naked monocilíndricas de cilindraje similar"
+  - "Espacio de parrillero reducido, poco práctico para dos personas"
+  - "Consumo superior al de rivales monocilíndricas de 250-300cc"
 rating: 4.6
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La MT-03 lleva años siendo la naked bicilíndrica de referencia para el motociclista colombiano que quiere dar el salto
-  desde una moto de 125-200cc sin comprar directamente una MT-07. Su motor de dos cilindros entrega una suavidad de
-  marcha que ninguna monocilíndrica de la competencia logra igualar en este rango de precio.
-
-  En 2026 llega con embrague antirrebote y el sistema de conectividad Y-Connect, mejoras que responden a la presión de
-  marcas como CFMoto y KTM, que han subido la apuesta tecnológica en este segmento. En carretera con curvas se siente
-  equilibrada y predecible, ideal para ganar confianza sin sustos.
-
-  Su rival más directo hoy es la KTM 250 Duke y la CFMoto 450NK, ambas con paquetes electrónicos más agresivos pero sin
-  el respaldo de marca y reventa que tiene Yamaha en Colombia. Es la moto ideal para el motociclista que valora la
-  fiabilidad mecánica y el valor de reventa por encima de la última tecnología en pantalla, y que busca un motor
-  bicilíndrico como primer paso hacia cilindrajes mayores.
+  La Yamaha MT-03 es la naked de 321 cc de Yamaha: motor bicilíndrico, 42 HP, 29,6 Nm,
+  embrague antirrebote, conectividad Y-Connect y ABS de doble canal por 31.900.000 pesos.
+  Es el escalón natural entre una 250 y una 600, y una de las naked más equilibradas del
+  mercado. Es para ti si quieres una moto para todo uso con prestaciones reales y
+  refinamiento japonés. No es para ti si tu prioridad es el precio: por la mitad hay 300
+  monocilíndricas que cumplen en ciudad.
+uso_diario: >-
+  El bicilíndrico de 321 cc entrega 42 HP de forma lineal, con un torque de 29,6 Nm a
+  9.000 rpm que obliga a subir de vueltas para aprovecharlo, pero que recompensa con una
+  respuesta suave y sin vibraciones hasta 130 km/h. Es un motor que se siente más grande
+  de lo que es, y eso es exactamente lo que se busca en una naked de entrada a la gama
+  media. El embrague antirrebote es un detalle que se agradece en tráfico y en bajadas
+  rápidas, y la conectividad Y-Connect añade información de la moto en el celular. Pesa
+  168 kilos, un peso contenido que la hace ágil en curva y manejable en ciudad. La
+  posición es erguida, con el asiento a 780 mm accesible. El ABS de doble canal frena
+  sobre disco de 298 mm adelante. El consumo de 27 km/l con 14 litros da unos 380 km de
+  autonomía. El asiento del parrillero es pequeño y duro, poco práctico para dos personas.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 155000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 72000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 88000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 58000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 265000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 370000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 315000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 195000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1850000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Yamaha. El
+  SOAT y la técnico-mecánica van aparte. El bicilíndrico exige más aceite, dos bujías y
+  llantas de medida deportiva, así que el mantenimiento es el de una moto de gama media,
+  no el de una 250 india. Quien viene de una 200 debe presupuestar entre 700.000 y 800.000
+  pesos más al año.
+comparativa: >-
+  Frente a la Yamaha FZ25, la MT-03 cuesta 16,6 millones más y ofrece 21,1 caballos
+  adicionales, un motor bicilíndrico, embrague antirrebote y conectividad: es un salto de
+  categoría completo. Contra la Kawasaki Z400, la Yamaha cuesta 2 millones menos y ofrece
+  3 caballos menos, con un motor similar en concepto. Y si el presupuesto aprieta pero
+  quieres una naked de 300, la BMW G 310 R ofrece 34 caballos por 4 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la MT-03?"
+    respuesta: >-
+      El homologado es 27 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      22 y 25; en carretera a 100 km/h sube a 29-31. Con 14 litros de tanque la autonomía
+      práctica va de 310 a 430 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, y bien. Mantiene 130 km/h con el motor relajado y llega a 160 en plano. El
+      bicilíndrico no vibra y el chasis es estable, así que trayectos de 300 km son viables.
+      El asiento del parrillero, en cambio, no está hecho para viajes largos.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es lo más eficiente: consume 24 km/l en ciudad y su mantenimiento ronda el millón
+      ochocientos mil anual. Es una moto de disfrute y de uso mixto. Para trabajo, una 125
+      cuesta cuatro veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la MT-03?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 250 o una 900, porque el SOAT no escala por
+      encima de ese umbral de cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con criterio, sí. La entrega es lineal y el embrague antirrebote perdona errores, pero
+      42 caballos exigen respeto. Es una buena segunda moto para quien ya tiene experiencia en
+      250, más que una primera moto.
+veredicto: >-
+  La MT-03 es la naked de entrada a la gama media que hace todo bien: motor suave,
+  prestaciones suficientes, chasis ágil y equipo completo. Su precio la pone fuera del
+  alcance de muchos, pero dentro de su categoría es una de las compras más equilibradas.

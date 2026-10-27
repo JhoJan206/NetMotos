@@ -29,22 +29,100 @@ llanta_trasero: 130/70-17
 precio_cop: 5490000
 imagen: /images/motos/hero-hunk-160r.webp
 pros:
-  - Inyección electrónica
-  - ABS delantero
-  - Motor potente para su cilindraje
+  - "Inyección electrónica"
+  - "ABS delantero"
+  - "Motor potente para su cilindraje"
 contras:
-  - Red de servicio limitada
-  - Disponibilidad de repuestos
-  - Consumo medio
+  - "Red de servicio limitada"
+  - "Disponibilidad de repuestos"
+  - "Consumo medio"
 rating: 4.2
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Hero Hunk 160R llega a un segmento caliente —el de las naked de 160 cc— con argumentos sólidos. Su motor de 163 cc
-  con inyección electrónica genera 15.2 HP y 14 Nm de torque, números que la ponen por encima de la FZ 3.0 y cerca de la
-  Apache RTR 160. Pesa solo 129 kilos, lo que se traduce en una relación peso-potencia muy divertida para ciudad. Trae
-  ABS en el freno delantero, disco atrás y horquilla de 37 mm que aguanta el ritmo. El diseño es moderno, con ese tanque
-  anguloso que le da carácter. El problema histórico de Hero es la red de servicio: si bien ha crecido, todavía no tiene
-  la capilaridad de Honda o Yamaha. Los 5.490.000 COP la hacen tentadora frente a una CB125F que vale casi lo mismo con
-  menos potencia. Para el motero que ya tuvo una 125 y quiere dar el paso sin llegar a los 200 cc, la Hunk 160R es de
-  las opciones más divertidas del mercado colombiano. El consumo de 44 km/l no es el mejor del segmento pero tampoco
-  duele.
+  La Hero Hunk 160R es una 160 con inyección electrónica, ABS delantero, 15,2 HP y doble
+  disco por 5.490.000 pesos. En ficha técnica es una de las propuestas más agresivas del
+  segmento en relación precio-equipo. Es para ti si quieres salir de la 125 con
+  prestaciones reales sin gastar diez millones. No es para ti si valoras la red de
+  servicio por encima de todo: Hero tiene menos puntos de atención en el país y eso pesa
+  en el día a día.
+uso_diario: >-
+  Los 15,2 HP del motor de 163 cc con inyección entregan una respuesta notablemente más
+  viva que cualquier 125: permite mantener 90-95 km/h en carretera sin esfuerzo y llegar a
+  110 en plano. La inyección resuelve el arranque en frío y estabiliza el ralentí en
+  altura. Pesa 129 kilos, lo que la hace ágil en ciudad y fácil de maniobrar. El asiento a
+  795 mm es accesible y la posición erguida, cómoda para trayectos de una hora. El ABS
+  delantero sobre disco de 276 mm da margen en frenadas de emergencia, y el disco trasero
+  de 220 mm completa un equipo serio. El tanque de 10 litros es el punto débil: con 44
+  km/l da unos 440 km, pero obliga a tanquear más seguido que rivales con 12 o 13 litros.
+  La suspensión es firme y estable en curva, algo seca en vías rotas.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 68000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 32000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 23000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 150000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 210000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 17.000 km"
+    costo_cop: 180000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 100000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 840000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es contenido, con intervalos de aceite de
+  4.000 km gracias a la inyección. El riesgo, otra vez, es la disponibilidad de repuestos:
+  conviene confirmar que hay concesionario o taller con inventario cerca antes de comprar.
+comparativa: >-
+  Frente a la Hero Hunk 125R, la 160R cuesta 900.000 pesos más y ofrece 4,2 caballos
+  adicionales, inyección y ABS: es un salto enorme por muy poco dinero. Contra la Bajaj
+  Pulsar N160 Pro, la Hero cuesta 5,5 millones menos y pierde ABS de doble canal,
+  suspensión invertida y conectividad, aunque gana 0,8 caballos en ficha. Y si el
+  presupuesto llega a nueve millones, la Pulsar P150 ofrece un paquete más equilibrado y
+  una red de servicio mucho mayor.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Hunk 160R?"
+    respuesta: >-
+      El homologado es 44 km/l. En ciudad con tráfico denso baja a 38-41; en carretera a 85
+      km/h sube a 46-48. Con 10 litros de tanque la autonomía práctica va de 390 a 480 km,
+      algo corta frente a rivales con tanque de 12 litros.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura: mantiene 95 km/h sin esfuerzo y llega a 110 en plano. Es una 160 con
+      capacidad real de vía rápida. El tanque de 10 litros obliga a planear las paradas cada
+      400 km aproximadamente.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, con la misma advertencia que su hermana 125: la red de servicio. Mecánicamente es
+      una buena herramienta, con consumo razonable y repuestos baratos. Pero si trabajas con
+      la moto todos los días, un repuesto que no llega es dinero perdido.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Hunk 160R?"
+    respuesta: >-
+      Con 163 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es la
+      misma tarifa de una 125, y sobre una moto de 5,49 millones representa el 6,3 % del
+      valor: una de las proporciones más altas del segmento.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, con criterio. La inyección y la entrega progresiva la hacen fácil de manejar, y el
+      ABS delantero cubre el error más común del novato. Los 15,2 caballos invitan a acelerar
+      más de lo prudente, así que conviene respetar los primeros meses.
+veredicto: >-
+  En ficha técnica, la Hunk 160R es casi imbatible: 15,2 caballos, inyección, ABS y doble
+  disco por 5,49 millones. En la vida real, la compra depende de una sola pregunta: ¿hay
+  taller Hero cerca de donde vives o trabajas?

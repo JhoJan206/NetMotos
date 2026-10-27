@@ -39,7 +39,11 @@ const schemas: any[] = [
     },
   },
 ]
-if (Astro.props.schema) schemas.push(Astro.props.schema)
+const extraSchema = Astro.props.schema
+if (extraSchema) {
+  if (Array.isArray(extraSchema)) schemas.push(...extraSchema)
+  else schemas.push(extraSchema)
+}
 if (breadcrumbs && breadcrumbs.length > 0) {
   schemas.push({
     '@context': 'https://schema.org',

@@ -29,24 +29,105 @@ llanta_trasero: 140/70-17
 precio_cop: 16100000
 imagen: /images/motos/yamaha-r15.webp
 pros:
-  - Manejo de precisión digno de una deportiva de cilindraje mayor
-  - Suspensión invertida y ABS de serie en un segmento donde no es lo común
-  - Bajo consumo comparado con otras deportivas de su rango de potencia
+  - "Manejo de precisión digno de una deportiva de cilindraje mayor"
+  - "Suspensión invertida y ABS de serie en un segmento donde no es lo común"
+  - "Bajo consumo comparado con otras deportivas de su rango de potencia"
 contras:
-  - Posición de manejo exigente para trayectos largos en ciudad
-  - Espacio de parrillero muy reducido
-  - Mantenimiento algo más costoso que una naked del mismo cilindraje
+  - "Posición de manejo exigente para trayectos largos en ciudad"
+  - "Espacio de parrillero muy reducido"
+  - "Mantenimiento algo más costoso que una naked del mismo cilindraje"
 rating: 4.6
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La R15 es la moto que muchos jóvenes colombianos sueñan tener antes de dar el salto a cilindrajes mayores. Hereda la
-  tecnología de la familia R de Yamaha en un paquete de 155cc, con suspensión invertida, ABS y un chasis que responde
-  con una precisión que pocas rivales de su rango de precio logran igualar.
-
-  En ciudad el motor se siente algo apretado a bajas revoluciones, pero cuando sube de vueltas revela por qué tiene
-  tanta fama entre los que buscan sensaciones deportivas reales sin gastar en una 300cc. La posición de manejo agachada
-  es divertida en curvas, aunque cansa en trancones largos.
-
-  Su rival directo es la Suzuki Gixxer SF 250 y, en menor medida, la TVS Apache RTR 200 4V. Es la moto ideal para el
-  motociclista joven que quiere la experiencia más cercana posible a una superbike sin gastar el presupuesto de una moto
-  de 300cc o más, priorizando manejo deportivo sobre comodidad.
+  La Yamaha R15 V4 es la deportiva carenada de 155 cc más vendida del país: motor con
+  refrigeración líquida, 18,4 HP, seis marchas, horquilla invertida y ABS de doble canal
+  por 16.100.000 pesos. Es una moto que se compra con los ojos y se justifica con el
+  chasis: su parte ciclo está más cerca de una deportiva de 300 que de una 150. Es para ti
+  si quieres una deportiva carenada para carretera y curvas, y aceptas una posición
+  exigente. No es para ti si haces ciudad a diario o si necesitas llevar parrillero con
+  frecuencia.
+uso_diario: >-
+  El motor de 155 cc con refrigeración líquida entrega 18,4 HP a 10.000 rpm, lo que
+  significa que hay que subirlo de vueltas para encontrar la potencia: por debajo de 7.000
+  rpm es una moto dócil, y arriba se transforma en una deportiva que llega a 130 km/h. La
+  caja de seis marchas permite mantenerlo en la zona buena sin esfuerzo, y el chasis, con
+  horquilla invertida y basculante reforzado, da una precisión en curva que ninguna otra
+  150 del mercado iguala. La posición es de deportiva: estriberas retrasadas, torso
+  inclinado sobre el tanque y muñecas cargadas. En trayectos de 30 minutos es tolerable;
+  en tráfico de una hora, incómoda. El asiento a 815 mm exige estatura y el del parrillero
+  es simbólico. Los frenos con ABS de doble canal son un equipo serio. El consumo de 33
+  km/l con 11 litros da unos 360 km de autonomía, corta para su vocación.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 92000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 45000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 48000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 42000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 285000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 245000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 155000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1220000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Yamaha. El
+  SOAT y la técnico-mecánica van aparte. Con 155 cc se mantiene en la categoría intermedia
+  del SOAT, una ventaja frente a una 250. Pero el mantenimiento es de deportiva: aceite
+  sintético, refrigerante, llantas de 17 pulgadas y pastillas en las dos ruedas. A eso se
+  suma el costo de los plásticos en caso de caída.
+comparativa: >-
+  Frente a la Yamaha MT-15, la R15 cuesta 600.000 pesos más y ofrece el mismo motor con
+  carenado y una posición más agresiva: es la misma moto con otra ergonomía. Contra la
+  Suzuki Gixxer SF 250, la Yamaha cuesta un millón menos y pierde 7,7 caballos y 90 cc,
+  aunque gana en ciclo y en red de servicio. Y si el objetivo es una deportiva de 400, la
+  Kawasaki Ninja 400 ofrece 29,9 caballos más por 19,9 millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la R15 V4?"
+    respuesta: >-
+      El homologado es 33 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      27 y 30; en carretera a 100 km/h sube a 35-37. Con 11 litros de tanque la autonomía
+      práctica va de 300 a 400 km, justa para su vocación deportiva.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es su terreno. Mantiene 110 km/h sin esfuerzo y llega a 130 en plano, con un chasis
+      que da confianza en curva. La posición deportiva cansa después de 150 km y el tanque
+      obliga a parar, pero la moto está hecha para vía rápida.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. La posición agachada, el calor del motor en tráfico, el consumo de 28 km/l en ciudad
+      y el costo de reparar plásticos la hacen inviable para trabajo. Es una moto de disfrute
+      y de carretera.
+  - pregunta: "¿Cuánto cuesta el SOAT de la R15 V4?"
+    respuesta: >-
+      Con 155 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más la
+      técnico-mecánica. Es la misma tarifa de una 125, aunque su precio de lista sea el de una
+      moto superior.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No la recomendaría como primera moto. La posición deportiva, el asiento alto y un motor
+      que entrega lo mejor arriba exigen experiencia. Es una excelente segunda moto para quien
+      ya maneja una 150 de posición neutra.
+veredicto: >-
+  La R15 V4 es la deportiva de 150 con mejor parte ciclo del mercado: horquilla invertida,
+  ABS doble y un chasis que perdona menos pero enseña más. Su precio y su ergonomía la
+  limitan al uso deportivo, y ahí es difícil de superar.

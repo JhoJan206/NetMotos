@@ -29,25 +29,105 @@ llanta_trasero: 160/60-17
 precio_cop: 57000000
 imagen: /images/motos/yamaha-mt-07.webp
 pros:
-  - Motor bicilíndrico CP2 con torque abundante desde bajas revoluciones
-  - Peso relativamente bajo para su cilindraje, muy manejable
-  - Precio más accesible que la MT-09 dentro de la familia MT
+  - "Motor bicilíndrico CP2 con torque abundante desde bajas revoluciones"
+  - "Peso relativamente bajo para su cilindraje, muy manejable"
+  - "Precio más accesible que la MT-09 dentro de la familia MT"
 contras:
-  - Precio todavía elevado frente a naked de 300-400cc
-  - Suspensión no ajustable en la horquilla delantera
-  - Frenos suficientes pero no del nivel de la MT-09
+  - "Precio todavía elevado frente a naked de 300-400cc"
+  - "Suspensión no ajustable en la horquilla delantera"
+  - "Frenos suficientes pero no del nivel de la MT-09"
 rating: 4.7
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La MT-07 ocupa un punto dulce dentro de la familia MT de Yamaha: mucho más accesible en precio que la MT-09, pero con
-  un motor bicilíndrico CP2 que entrega torque de sobra para cualquier situación de manejo real en Colombia, desde
-  adelantar en carretera hasta moverse con autoridad en ciudad.
-
-  Lo que más se destaca al manejarla es lo fácil que resulta dosificar su potencia: el motor entrega torque desde rpm
-  bajas de forma muy lineal, sin sustos ni tirones bruscos, lo que la hace tan buena para el motociclista con
-  experiencia como para quien recién está subiendo de cilindraje. El peso relativamente bajo para 689cc ayuda en
-  maniobras a baja velocidad.
-
-  Compite con la Kawasaki Z650 y, en un segmento de precio inferior, con motos de 400cc como la Kawasaki Z400. Es la
-  moto ideal para el motociclista que quiere una naked de cilindraje mediano-grande con motor bicilíndrico serio, sin
-  necesitar la potencia extrema (ni el precio) de la MT-09.
+  La Yamaha MT-07 es una de las naked más vendidas del mundo y la razón es simple: motor
+  bicilíndrico CP2 de 689 cc con 73,4 HP y 67 Nm, 184 kilos y un precio de 57.000.000 de
+  pesos que, dentro de la gama media-alta, es competitivo. Es la moto que muchos
+  motociclistas compran cuando quieren subir de cilindraje sin entrar en el territorio de
+  las 1000. Es para ti si buscas torque abundante, uso diario y viajes de fin de semana.
+  No es para ti si tu presupuesto está por debajo de los 50 millones o si buscas
+  electrónica de última generación.
+uso_diario: >-
+  El motor CP2 es el corazón de esta moto: 67 Nm de torque disponibles desde 4.000 rpm
+  significan que se puede rodar en sexta a 60 km/h y salir con fuerza sin bajar marcha, y
+  que adelantar en carretera es cuestión de girar el puño. Es un motor con carácter, con
+  un sonido grave característico y una entrega lineal que perdona mucho. Con 184 kilos, la
+  MT-07 es notablemente liviana para su cilindraje, y eso se traduce en una moto ágil en
+  curva y fácil de manejar en ciudad, algo que no ocurre con otras naked de 700. La
+  posición es erguida, con el manubrio ancho y las estriberas centradas, cómoda para
+  trayectos de dos horas. El ABS de doble canal frena sobre discos de 298 mm. La
+  suspensión delantera no es ajustable, un detalle que se nota en conducción deportiva. El
+  consumo de 22 km/l con 14 litros da unos 300 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 215000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 95000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 105000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 65000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 340000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 490000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 410000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 285000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2450000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Yamaha. El
+  SOAT y la técnico-mecánica van aparte. Es una moto de 700 cc y el mantenimiento lo
+  refleja: llantas de 17 pulgadas que cuestan cerca de 500.000 pesos, aceite sintético en
+  cantidad de bicilíndrico y pastillas en las dos ruedas. Quien sube de una 300 debe
+  duplicar su presupuesto de mantenimiento.
+comparativa: >-
+  Frente a la Yamaha MT-03, la MT-07 cuesta 25,1 millones más y ofrece 31,4 caballos
+  adicionales y 37,4 Nm más de torque: es un salto de categoría real. Contra la Yamaha
+  MT-09, la MT-07 cuesta 6 millones menos y pierde 44 caballos y el motor tricilíndrico,
+  aunque gana en peso y en sencillez. Y si el objetivo es una naked de 400 con precio
+  contenido, la Kawasaki Z400 ofrece 45 caballos por 34 millones.
+faq:
+  - pregunta: "¿Cuánto consume realmente la MT-07?"
+    respuesta: >-
+      El homologado es 22 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      17 y 20; en carretera a 110 km/h sube a 24-26. Con 14 litros de tanque la autonomía
+      práctica va de 240 a 360 km, corta para una moto con vocación de viaje.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con mucha soltura. Mantiene 140 km/h con el motor relajado y tiene reserva hasta
+      200. El CP2 no vibra y el chasis es estable. La autonomía y la falta de protección
+      aerodinámica son sus límites, no la mecánica.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Consume 18 km/l en ciudad, pesa 184 kilos y su mantenimiento ronda los dos millones
+      y medio al año. Es una moto de disfrute. Para trabajo, una 125 cuesta cinco veces menos
+      de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la MT-07?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que paga una 250, así que el costo fijo no es el
+      problema: el problema es el mantenimiento y el consumo.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. Con 73,4 caballos y 67 Nm de torque desde muy abajo, la MT-07 es una moto que
+      responde con contundencia y que puede sorprender a un novato. Es una excelente segunda o
+      tercera moto para quien ya tiene experiencia.
+veredicto: >-
+  La MT-07 es probablemente la mejor relación precio-diversión de la gama media: motor con
+  carácter, peso contenido y una posición que sirve para todo. No es la más equipada ni la
+  más potente, pero sí una de las más equilibradas.

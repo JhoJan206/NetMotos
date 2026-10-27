@@ -29,21 +29,100 @@ llanta_trasero: 130/70-17
 precio_cop: 12799999
 imagen: /images/motos/tvs-apache-rtr-200-4v-xc-fi-abs.webp
 pros:
-  - 3 modos de manejo (Sport, Urbano, Lluvia) seleccionables, poco frecuente en esta categoría
-  - Refrigeración por aceite que reduce hasta 10°C la temperatura del motor en tráfico
+  - "3 modos de manejo (Sport, Urbano, Lluvia) seleccionables, poco frecuente en esta categoría"
+  - "Refrigeración por aceite que reduce hasta 10°C la temperatura del motor en tráfico"
 contras:
-  - Conectividad SmartXonnect depende de la app, que no todos los usuarios activan
-  - Suspensión trasera ajustable, pero de fábrica llega en posición algo dura para trayectos largos
+  - "Conectividad SmartXonnect depende de la app, que no todos los usuarios activan"
+  - "Suspensión trasera ajustable, pero de fábrica llega en posición algo dura para trayectos largos"
 rating: 4.4
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La TVS Apache RTR 200 4V XC FI ABS es de esas motos que mirás la ficha técnica y decís "esto tiene todo". Tres modos
-  de manejo seleccionables (Sport, Urbano, Lluvia), inyección electrónica, ABS de doble canal, refrigeración por aceite
-  y una suspensión Kayaba ajustable en 7 posiciones. El motor de 197.75 cc genera 20.23 HP y 18.1 Nm, números que la
-  colocan justo entre las 200 cc de acceso y las naked de mayor cilindraje. Pesa 152 kilos y el asiento a 800 mm queda
-  bien para la mayoría. El precio de 12.799.999 COP compite directamente con la Pulsar NS200 y le gana en equipamiento
-  —ninguna de esas tiene modos de manejo. La refrigeración por aceite baja hasta 10°C la temperatura en tráfico, una
-  ventaja real en ciudades calurosas como Cali o Barranquilla. El punto flaco: la conectividad SmartXonnect depende de
-  una app que no todos se molestan en instalar. Y la suspensión trasera viene con ajuste de fábrica más firme de lo
-  ideal para carretera. Pero en relación precio-equipamiento, es dificil de superar. Eso sí, verifica que haya servicio
-  TVS en tu zona.
+  La TVS Apache RTR 200 4V XC FI ABS es una naked deportiva de 197,75 cc con inyección
+  electrónica, 20,23 HP, ABS de doble canal y tres modos de manejo, por 12.799.999 pesos.
+  Es una de las 200 mejor equipadas del mercado y la única de su rango con modos
+  seleccionables. Es para ti si quieres prestaciones de 200 con un paquete tecnológico
+  completo y no te importa la red de servicio. No es para ti si buscas la moto más barata
+  de mantener: el mantenimiento de una 200 con ABS y modos de manejo no es el de una 125.
+uso_diario: >-
+  Los tres modos de manejo —Sport, Urbano y Lluvia— cambian la respuesta del acelerador de
+  forma perceptible, y esa es una función que ninguna otra 200 ofrece en Colombia. En modo
+  Sport la moto entrega los 20,23 HP con una respuesta inmediata y una caja de cinco
+  marchas que invita a subir de vueltas; en Urbano suaviza la entrega y en Lluvia la
+  limita para evitar pérdidas de tracción. La refrigeración por aceite, según TVS, reduce
+  hasta 10 °C la temperatura del motor en tráfico, y en la práctica el ventilador entra
+  menos que en motos de aire convencionales. Pesa 152 kilos, lo que da estabilidad en
+  carretera pero exige algo de fuerza en maniobras lentas. La posición es deportiva, con
+  el torso inclinado y las estriberas retrasadas, cómoda para trayectos de 45 minutos. El
+  ABS de doble canal sobre discos de 270 y 240 mm frena con autoridad. El consumo de 34
+  km/l con 12 litros de tanque da unos 400 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 40000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 28000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 255000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 215000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 135000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1030000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Con 197,75 cc se queda por debajo del umbral de 200 y paga
+  la categoría intermedia: 343.000 pesos en lugar de 761.000. Esa es la gran ventaja
+  fiscal de las "casi 200" y una de las razones por las que este cilindraje creció tanto
+  en Colombia.
+comparativa: >-
+  Frente a la TVS Apache RTR 160 4V, la 200 cuesta 7,1 millones más y ofrece 4,23 caballos
+  adicionales, ABS, inyección y modos de manejo: el salto es de categoría. Contra la Bajaj
+  Pulsar NS200, la TVS cuesta 400.000 pesos menos y ofrece 3,9 caballos menos, aunque gana
+  en modos de manejo y en equipamiento digital. Y si el presupuesto llega a 16 millones,
+  la Bajaj Pulsar NS400Z ofrece 19 caballos más por cinco millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la RTR 200 4V?"
+    respuesta: >-
+      El homologado es 34 km/l. En ciudad con tráfico y modo Sport el registro está entre 28 y
+      31; en carretera a 90 km/h sube a 36-38. Con 12 litros de tanque la autonomía práctica
+      va de 340 a 460 km, dependiente del modo de manejo.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura: mantiene 105-110 km/h sin esfuerzo y llega a 125 en plano. La posición
+      deportiva cansa después de dos horas, pero la moto tiene capacidad real de vía rápida y
+      el ABS de doble canal da confianza.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, pero no es lo más rentable: consume 30 km/l en ciudad y el mantenimiento supera
+      el millón anual. Para reparto intenso, una 125 cuesta la mitad de operar. Para trabajo
+      mixto con recorridos largos, la RTR 200 da prestaciones que una 125 no tiene.
+  - pregunta: "¿Cuánto cuesta el SOAT de la RTR 200 4V?"
+    respuesta: >-
+      Con 197,75 cc se queda por debajo de los 200, así que paga la categoría de 100 a 200 cc:
+      alrededor de 343.000 pesos al año. Son 418.000 pesos menos que una 250, un ahorro anual
+      que mucha gente no considera al comparar cilindrajes.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No es la mejor primera moto: 20,23 caballos y 152 kilos exigen criterio, y la posición
+      deportiva no es la más amable para aprender. Los modos de manejo ayudan, sobre todo el
+      de Lluvia, pero es una excelente segunda moto para quien ya domina una 150.
+veredicto: >-
+  La RTR 200 4V XC es la 200 con más tecnología por peso del mercado: tres modos de
+  manejo, ABS doble y refrigeración por aceite por menos de trece millones. Su limitación
+  es la red de servicio de TVS, no su ficha técnica.

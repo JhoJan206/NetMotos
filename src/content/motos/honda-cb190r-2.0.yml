@@ -29,20 +29,99 @@ llanta_trasero: 140/70-17
 precio_cop: 12790000
 imagen: /images/motos/honda-cb190r-2.0.webp
 pros:
-  - Refrigeración por aire de bajo mantenimiento con el respaldo y red de servicio de Honda
-  - ABS delantero de serie, algo que varias rivales de su precio no ofrecen
+  - "Refrigeración por aire de bajo mantenimiento con el respaldo y red de servicio de Honda"
+  - "ABS delantero de serie, algo que varias rivales de su precio no ofrecen"
 contras:
-  - El motor enfriado por aire se nota más caliente en tráfico pesado que las versiones refrigeradas por líquido
-  - Consumo un poco más alto que naked de menor cilindraje como la FZ 3.0
+  - "El motor enfriado por aire se nota más caliente en tráfico pesado que las versiones refrigeradas por líquido"
+  - "Consumo un poco más alto que naked de menor cilindraje como la FZ 3.0"
 rating: 4.3
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Honda CB190R 2.0 ocupa un espacio interesante: no es una 150 cualquiera pero tampoco llega a ser una 200. Sus 184.4
-  cc con inyección PGM-FI dan 17 HP y 15.5 Nm, suficiente para moverse con soltura en ciudad y carretera sin pagar el
-  salto a los 200 cc. Pesa 142 kilos y tiene el asiento más bajo de las naked de su categoría (770 mm), ideal para
-  pilotos de baja estatura. La suspensión delantera invertida le da un toque deportivo que se nota en las curvas, y el
-  ABS delantero de serie es un plus de seguridad que varias rivales en su precio no ofrecen. El precio de 12.790.000 COP
-  está en el rango de la GSX-S150 y la FZ 3.0, y compite ofreciendo la red de servicio más grande de Colombia. El motor
-  enfriado por aire es de bajo mantenimiento pero se calienta más en tráfico pesado. El consumo de 35 km/l es normal
-  para su cilindraje pero más alto que una FZ 3.0. Es para el que quiere una naked con presencia, respaldo de marca y un
-  motor que responde bien en el rango medio sin tener que ir a revoluciones altas todo el tiempo.
+  La Honda CB190R 2.0 es la naked de 184 cc de Honda para el mercado colombiano: 17 HP,
+  inyección PGM-FI, ABS delantero y freno de disco trasero por 12.790.000 pesos. Es la
+  opción de quien quiere una moto de marca japonesa con algo más de motor que una 150, sin
+  llegar a una 250. Es para ti si valoras fiabilidad, red de servicio y reventa por encima
+  de la ficha técnica. No es para ti si buscas la mejor relación precio-potencia: una
+  Bajaj NS200 ofrece 7 caballos más por 400.000 pesos adicionales.
+uso_diario: >-
+  El motor de 184,4 cc refrigerado por aire entrega 17 HP con una suavidad característica
+  de Honda: no hay picos, no hay sorpresas, la potencia está disponible de forma lineal
+  desde las 3.000 rpm. En ciudad eso se traduce en una moto fácil de manejar, que se puede
+  llevar en cuarta sin tirones y que sale de un semáforo con carga sin esfuerzo. En
+  carretera mantiene 100 km/h con comodidad y llega a 115 en plano. La posición es erguida
+  y el asiento a 770 mm, el más bajo del segmento de 200, permite que pilotos de baja
+  estatura apoyen bien los pies. Pesa 142 kilos, un peso contenido. El ABS delantero es un
+  plus, aunque el freno trasero de disco no tiene ABS. En tráfico denso el motor
+  refrigerado por aire calienta más que uno líquido, y el ventilador trabaja seguido. El
+  consumo de 35 km/l con 12 litros da unos 420 km de autonomía. La caja de cinco marchas
+  está bien escalonada para ciudad, con una quinta larga que baja las revoluciones a 80 km/h
+  y ayuda al consumo, aunque en subida con parrillero obliga a bajar a cuarta.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 72000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 34000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 38000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 225000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 17.000 km"
+    costo_cop: 195000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 110000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 900000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Honda. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento es más caro que el de una 160
+  india por llantas y repuestos de marca, pero la red Honda llega a más municipios que
+  cualquier otra y el valor de reventa compensa parte de esa diferencia.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la Honda cuesta 400.000 pesos más y ofrece 7,1 caballos
+  menos, sin sexta marcha: en ficha técnica pierde claramente. Contra la Yamaha FZ25, la
+  CB190R cuesta 2,5 millones menos y pierde 3,9 caballos, aunque gana en asiento bajo y en
+  agilidad urbana. Y si el objetivo es una 150 con inyección y buen respaldo, la Honda
+  CB125F cuesta 7,6 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CB190R?"
+    respuesta: >-
+      El homologado es 35 km/l. En ciudad con tráfico el registro está entre 30 y 33; en
+      carretera a 90 km/h sube a 38. Con 12 litros de tanque la autonomía práctica es de 360 a
+      460 km, correcta para el cilindraje.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 100 km/h y capacidad de llegar a 115. La posición erguida y el
+      asiento permiten trayectos de 150 km sin fatiga. Por encima de 110 el motor refrigerado
+      por aire pierde brío y el consumo sube.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, y la red de servicio Honda es un argumento fuerte para quien trabaja con la moto.
+      El consumo de 32 km/l en ciudad es aceptable y el mantenimiento es predecible. Para
+      reparto intenso, una 125 sigue siendo más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CB190R?"
+    respuesta: >-
+      Con 184,4 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es la
+      misma tarifa de una 125, una ventaja frente a las 250, que pagan 761.000 pesos.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las mejores primeras motos "grandes": asiento bajo de 770 mm, entrega muy
+      lineal, peso contenido y ABS delantero. Los 17 caballos son suficientes para aprender
+      sin sustos y para no aburrirse al año siguiente.
+veredicto: >-
+  La CB190R no gana comparativos de ficha y aun así vende: Honda ofrece algo que no
+  aparece en la tabla, que es la tranquilidad de que la moto va a arrancar mañana y que
+  hay un taller a 30 kilómetros. Quien paga por eso, no se equivoca.

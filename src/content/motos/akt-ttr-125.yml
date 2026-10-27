@@ -29,21 +29,106 @@ llanta_trasero: 110/90-17
 precio_cop: 7390000
 imagen: /images/motos/akt-ttr-125.webp
 pros:
-  - Frenos CBS de fábrica, mayor seguridad en frenada
-  - Distancia al suelo de 255 mm para terrenos irregulares
-  - Red de servicio y repuestos AKT en todo Colombia
+  - "\"Frenos CBS de fábrica, mayor seguridad en frenada\""
+  - "\"Distancia al suelo de 255 mm para terrenos irregulares\""
+  - "\"Red de servicio y repuestos AKT en todo Colombia\""
 contras:
-  - Motor a carburador, sin inyección electrónica
-  - Freno trasero de tambor, sin ABS
-  - Potencia justa para carretera a velocidad alta
+  - "\"Motor a carburador, sin inyección electrónica\""
+  - "\"Freno trasero de tambor, sin ABS\""
+  - "\"Potencia justa para carretera a velocidad alta\""
 rating: 4.3
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La TTR 125 de AKT se renueva para 2026 con frenos CBS y un diseño más robusto, manteniendo su enfoque de doble
-  propósito para el campo colombiano. Sus 124.9 cc con carburador entregan 10.3 HP que van bien tanto en carretera
-  destapada como en recorridos urbanos. La distancia al suelo de 255 mm y las llantas 90/90-19 adelante y 110/90-17
-  atrás la hacen competente en terrenos irregulares. El asiento a 820 mm sigue siendo alto para pilotos de baja
-  estatura, pero la postura erguida y el manillar ancho son cómodos para manejo fuera de pavimento. En ciudad no es la
-  más práctica por su altura y suspensión blanda, pero cumple. Lo mejor: el CBS suma seguridad al frenar y los repuestos
-  AKT se consiguen en cualquier pueblo de Colombia. Lo justo: sigue con carburador y tambor trasero. Compite con la
-  Honda XR150L y la Hero Xpulse 200, pero a un precio más bajo.
+  La AKT TTR 125 es la doble propósito de entrada de AKT: 124,9 cc, 10,3 HP, 255 mm de
+  distancia al piso y un asiento a 820 mm que la delata de inmediato como moto de trocha.
+  Está hecha para el motociclista rural colombiano, el que sale de la vereda a la cabecera
+  municipal por una vía destapada y no quiere sufrir cada hueco. Es para ti si vives o
+  trabajas fuera del casco urbano y necesitas altura libre y suspensión larga. No es para
+  ti si solo ruedas en ciudad: ahí pagas un precio alto en comodidad, altura y centro de
+  gravedad sin aprovechar nada.
+uso_diario: >-
+  En destapado es donde la TTR 125 justifica cada peso. Los 255 mm al piso y las llantas
+  de tacos de perfil alto permiten pasar rieles, piedra suelta y barro liviano sin golpear
+  el cárter, y la suspensión de recorrido largo absorbe lo que una moto de calle sentiría
+  como un golpe seco. En ciudad, en cambio, se nota torpe: el asiento alto obliga a
+  estirarse al detenerse, el manubrio ancho complica filtrar entre carros y los tacos
+  cantan en asfalto mojado. Las llantas de tacos son el punto crítico para uso urbano:
+  frenan peor en seco y bastante peor en agua. El motor de 10,3 HP mueve bien la moto sola
+  y con carga moderada, pero en subidas largas con parrillero hay que recurrir a primera.
+  Los frenos CBS de serie son un plus real frente a otras doble propósito económicas,
+  aunque el tambor trasero sigue siendo el eslabón débil en bajadas largas.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 50000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 25000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 18000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 140000
+  - concepto: "Llanta trasera de tacos"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 210000
+  - concepto: "Llanta delantera de tacos"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 190000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 45000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 820000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte. Esta moto cuesta más de mantener que una 125 de calle
+  por una razón concreta: las llantas de tacos se gastan más rápido y el kit de arrastre
+  sufre mucho con polvo y barro, así que su intervalo real se acorta. Es el precio de
+  tener tracción fuera del asfalto.
+comparativa: >-
+  Frente a la AKT NKD 125, la TTR comparte motor pero cambia por completo el carácter:
+  gana 100 mm de altura al piso, suspensión más larga y llantas de tacos, y pierde
+  comodidad y estabilidad en asfalto. Contra la Honda XR150L 2.0 ABS, la diferencia está
+  en el freno: la Honda ofrece ABS delantero y una red de servicio más amplia, a cambio de
+  unos 3,5 millones más. Y si el uso es más de trabajo pesado que de trocha, la Bajaj
+  Boxer 150X es la alternativa directa.
+faq:
+  - pregunta: "¿Cuánto consume realmente la TTR 125?"
+    respuesta: >-
+      El dato de ficha es 45 km/l. En destapado con pendientes y carga baja a 38-40; en
+      asfalto a 70 km/h se acerca a 48. Con 11 litros de tanque la autonomía práctica está
+      entre 420 y 500 km, suficiente para una semana de recorridos rurales.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, mejor que una 125 de calle en vías en mal estado, pero con límites. Sostiene 75-80
+      km/h en plano y la posición alta da buena visibilidad. Las llantas de tacos y la altura
+      generan algo de inestabilidad por encima de 85 km/h, así que no es una moto para
+      autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zonas rurales o periurbanas con vías destapadas, sí, y es de las mejores opciones. En
+      casco urbano pavimentado no tiene sentido: gastas llantas de tacos y pierdes agilidad.
+      Para domicilios en ciudad hay opciones más eficientes y más baratas de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la TTR 125?"
+    respuesta: >-
+      Con 124,9 cc queda en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año,
+      más la revisión técnico-mecánica. Es el mismo costo fijo que cualquier 125,
+      independientemente de que sea doble propósito.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      En trocha sí, porque perdona mucho. En ciudad es exigente: la altura del asiento de 820
+      mm y el peso del manubrio hacen que los primeros días cuesten. Un principiante urbano
+      debería empezar en una 125 de calle y pasar a doble propósito después de tener
+      confianza.
+veredicto: >-
+  La TTR 125 hace una sola cosa y la hace bien: llevar a alguien de un punto rural a otro
+  sin destrozar la moto ni el cuerpo. Si tu ruta tiene tierra, piedra o barro, es una
+  compra sensata; si tu ruta es asfalto puro, estarías pagando por capacidad que nunca vas
+  a usar.

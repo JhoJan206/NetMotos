@@ -29,22 +29,102 @@ llanta_delantero: 2.75-18
 llanta_trasero: 3.50-16
 precio_cop: 5390000
 pros:
-  - Confiabilidad legendaria de Suzuki
-  - Posición de manejo cómoda
-  - Buena reventa
+  - "Confiabilidad legendaria de Suzuki"
+  - "Posición de manejo cómoda"
+  - "Buena reventa"
 contras:
-  - Tecnología básica
-  - Tanque pequeño
-  - Sin ABS
+  - "Tecnología básica"
+  - "Tanque pequeño"
+  - "Sin ABS"
 rating: 4.5
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  Hay motos que envejecen bien, y la Suzuki GN 125 es el ejemplo perfecto. Salió hace décadas y sigue vigente porque
-  hace lo básico sin complicaciones. Su carburador Mikuni y motor de 124 cc entregan 11.2 HP con una suavidad que solo
-  Suzuki sabe darle a un monocilíndrico. Pesa 115 kilos y el asiento a 760 mm —el más bajo de la lista— la hace ideal
-  para quienes buscan seguridad al maniobrar. El tanque es pequeño (9.5 litros) y la tecnología es básica, pero la
-  confiabilidad es legendaria. En el mercado colombiano, la GN 125 tiene un estatus casi de culto: se revende fácil, los
-  repuestos originales aguantan años y cualquier taller la conoce. A 5.390.000 COP no es la más barata del segmento,
-  pero la depreciación es mínima. Para el que quiere una naked simple, bien hecha y que no va a dejar botado, la GN 125
-  sigue siendo una de las mejores decisiones que puede tomar. La desventaja: si buscas tecnología, ABS o diseño moderno,
-  esta no es tu moto.
+  La Suzuki GN 125 es una de las motos más antiguas que siguen en el catálogo colombiano,
+  y eso es exactamente su argumento: 124 cc, 11,2 HP, carburador Mikuni y una mecánica que
+  cualquier taller del país conoce, por 5.390.000 pesos. Es una 125 de concepto clásico,
+  con tanque de 9,5 litros, asiento a 760 mm y 115 kilos. Es para ti si quieres una moto
+  sencilla, confiable y barata de reparar. No es para ti si buscas inyección, ABS o
+  diseño: aquí nada de eso existe.
+uso_diario: >-
+  La GN 125 es una moto que se maneja sin pensar. Pesa 115 kilos, el asiento a 760 mm
+  permite apoyar los pies completos y el motor de 11,2 HP entrega de forma lineal, con una
+  caja de cinco marchas bien escalonada para ciudad. En tráfico se mueve con soltura y en
+  carretera mantiene 75-80 km/h con comodidad, llegando a 90 en plano. El carburador
+  Mikuni es el punto débil en frío: pide starter y unos segundos de calentamiento, y en
+  altura el ralentí puede volverse irregular. El freno delantero de disco de 275 mm
+  funciona bien; el tambor trasero de 130 mm es el punto flojo y no hay ABS. La posición
+  es erguida y cómoda, con un manubrio relativamente alto. El consumo de 48 km/l con 9,5
+  litros da unos 450 km de autonomía. La suspensión es suave y absorbe bien el asfalto
+  roto, aunque se hunde con dos personas.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 46000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 24000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 17000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 125000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 180000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 165000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 42000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 690000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es de los más baratos del mercado: el
+  motor es conocido por todos los talleres, los repuestos se consiguen en cualquier ciudad
+  y los intervalos son cortos pero económicos. Su gran ventaja es que no depende de un
+  concesionario para funcionar.
+comparativa: >-
+  Frente a la AKT NKD 125, la GN cuesta 500.000 pesos más y ofrece 0,7 caballos
+  adicionales y la confiabilidad Suzuki, aunque pierde el respaldo de una red de talleres
+  AKT en municipios pequeños. Contra la Honda CB125F, la Suzuki cuesta 200.000 pesos más y
+  pierde inyección, peso y acabado, aunque gana en simplicidad mecánica. Y si el
+  presupuesto llega a 6,6 millones, la AKT CR4 125 ofrece doble disco con CBS por un
+  millón más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la GN 125?"
+    respuesta: >-
+      El homologado es 48 km/l. En ciudad con tráfico el registro está entre 42 y 45; en
+      carretera a 70 km/h sube a 50. Con 9,5 litros de tanque la autonomía práctica es de 400
+      a 480 km, suficiente para una semana de uso urbano.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos, sí. Mantiene 75-80 km/h con comodidad y llega a 90 en plano, pero por
+      encima de 80 el motor va alto y no hay resto para adelantar. Es una moto urbana con
+      capacidad de vía secundaria, no de autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y es una de las más rentables: bajo consumo, mantenimiento barato y repuestos en
+      cualquier taller. Su desventaja frente a una moto de trabajo moderna es el tanque de 9,5
+      litros y la ausencia de freno trasero de disco.
+  - pregunta: "¿Cuánto cuesta el SOAT de la GN 125?"
+    respuesta: >-
+      Con 124 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 5,39 millones representa el 6,4 % del valor, una
+      proporción alta que conviene presupuestar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una escuela excelente: liviana, baja, con potencia dócil y una mecánica simple
+      que enseña cómo funciona una moto. La advertencia es el tambor trasero y la ausencia de
+      ABS, que obligan a aprender a frenar con criterio desde el primer día.
+veredicto: >-
+  La GN 125 no intenta ser moderna: intenta seguir funcionando. Y lo logra mejor que
+  muchas motos más caras, porque su mecánica es simple, conocida y reparable en cualquier
+  parte. Para quien compra transporte y no tecnología, sigue siendo una opción válida.

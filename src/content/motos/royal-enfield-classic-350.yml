@@ -29,20 +29,102 @@ llanta_trasero: 120/80-18
 precio_cop: 19900000
 imagen: /images/motos/royal-enfield-classic-350.webp
 pros:
-  - Ensamblada en Antioquia, con componentes de origen nacional en pintura y detalles
-  - Torque generoso (27 Nm) disponible desde bajas revoluciones, ideal para ciudad
+  - "Ensamblada en Antioquia, con componentes de origen nacional en pintura y detalles"
+  - "Torque generoso (27 Nm) disponible desde bajas revoluciones, ideal para ciudad"
 contras:
-  - Precio elevado tras el ajuste del nuevo impoconsumo de 2026
-  - Peso considerable (195 kg) frente a otras 350cc del mercado, exige más práctica al maniobrar en bajo
+  - "Precio elevado tras el ajuste del nuevo impoconsumo de 2026"
+  - "Peso considerable (195 kg) frente a otras 350cc del mercado, exige más práctica al maniobrar en bajo"
 rating: 4.5
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Royal Enfield Classic 350 no es una moto, es una declaración de principios. Con su motor de 349 cc y 27 Nm de
-  torque disponibles desde las 4.000 rpm, se mueve con una cadencia relajada que no busca las revoluciones sino el
-  carácter. Ensamblada en Antioquia, lleva componentes nacionales en pintura y detalles que la conectan con el mercado
-  colombiano de una forma que ninguna otra moto importada logra. Pesa 195 kilos, y eso se nota al empujarla en
-  parqueadero, pero en movimiento el chasis de doble cuna la hace flotar sobre los baches. Las llantas de rayos, el faro
-  redondo y el asiento de cuero son un homenaje a las motos de los 50, pero con ABS de doble canal, inyección
-  electrónica y suspensión trasera ajustable. El precio de 19.900.000 COP duele —sobre todo con el impoconsumo de 2026—
-  pero es de esas compras que trascienden lo racional. Para el que quiere una experiencia de manejo pausada, con estilo
-  y presencia, sin importar la velocidad, la Classic 350 es la única opción real en Colombia.
+  La Royal Enfield Classic 350 es una moto que no se compra con la cabeza: se compra con
+  el oído. Motor monocilíndrico de 349 cc, 20,2 HP, 27 Nm a solo 4.000 rpm y un sonido que
+  ninguna moto moderna replica, por 19.900.000 pesos. Está ensamblada en Antioquia, con
+  componentes de origen nacional en pintura y detalles, y eso explica parte de su precio
+  tras el ajuste del impoconsumo de 2026. Es para ti si valoras el carácter, la estética
+  clásica y una conducción relajada. No es para ti si buscas prestaciones, ligereza o una
+  moto para carretera rápida.
+uso_diario: >-
+  La Classic 350 es una moto de torque, no de potencia. Los 27 Nm llegan a 4.000 rpm, así
+  que se puede rodar en quinta a 50 km/h sin que el motor proteste y salir de un semáforo
+  sin tocar el cambio. Ese es el placer de esta moto: no hay que trabajarla, solo
+  acompañarla. La posición es erguida, con el manubrio alto y las estriberas centradas,
+  cómoda para trayectos largos a velocidad moderada. El asiento a 805 mm es accesible. El
+  peso es el punto crítico: 195 kilos son muchos para 20 caballos, y se sienten en
+  maniobras lentas, en parqueadero y en pendientes a baja velocidad. La suspensión es
+  suave y absorbe bien el asfalto roto, aunque en vías destapadas se queda corta. Los
+  frenos son disco de 300 mm adelante y 270 mm atrás, ambos con ABS de doble canal, y
+  funcionan bien para el ritmo de la moto. En carretera mantiene 100 km/h con comodidad,
+  aunque por encima de 110 el motor vibra y no hay mucho más.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 98000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 55000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 38000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 235000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 320000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 280000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 165000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1520000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Royal Enfield.
+  El SOAT y la técnico-mecánica van aparte. Los intervalos de servicio son largos (5.000
+  km para aceite), lo que compensa en parte el precio de los repuestos. El punto a vigilar
+  es la red de servicio: aunque la marca creció mucho en Colombia, sigue teniendo menos
+  puntos de atención que Honda o Yamaha.
+comparativa: >-
+  Frente a la Royal Enfield Hunter 350, la Classic cuesta 4 millones más y ofrece el mismo
+  motor, con una postura más clásica y un peso 14 kilos mayor: es una decisión estética y
+  de confort, no mecánica. Contra la Royal Enfield Meteor 350, la Classic es más barata
+  por 2 millones y pierde la posición de crucero y dos litros de tanque. Y si el
+  presupuesto aprieta pero quieres una moto con carácter, la Hunter 350 hace lo mismo por
+  15,9 millones.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Classic 350?"
+    respuesta: >-
+      El homologado es 28 km/l. En ciudad con tráfico el registro está entre 25 y 27; en
+      carretera a 90 km/h sube a 31-33. Con 13 litros de tanque la autonomía práctica es de
+      320 a 430 km, suficiente para una semana de uso mixto.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, a ritmo tranquilo. Mantiene 100 km/h sin esfuerzo y llega a 120 en plano, pero por
+      encima de 110 el motor vibra y la moto se siente forzada. Es una moto para rutas de 200
+      km a 90 km/h, no para autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Pesa 195 kilos, cuesta 19,9 millones y su mantenimiento supera el millón y medio
+      anual. Es una moto de disfrute y de imagen. Para trabajo, una 125 cuesta una fracción de
+      lo que cuesta operar esta.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Classic 350?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 19,9 millones representa el 3,8 % del valor, una
+      proporción manejable frente a motos más económicas.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con matices. El motor es dócil y el torque bajo perdona los errores de cambio, pero 195
+      kilos son muchos para alguien sin experiencia, sobre todo en maniobras lentas y en
+      pendiente. Es una buena primera moto para quien tenga contextura y criterio.
+veredicto: >-
+  La Classic 350 no es rápida, no es liviana y no es barata. Es, en cambio, una de las
+  pocas motos que se disfruta a 60 km/h, y eso no aparece en ninguna ficha técnica. Quien
+  busca emociones medidas en caballos no la va a entender; quien busca carácter, sí.

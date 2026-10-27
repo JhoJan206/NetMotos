@@ -29,26 +29,106 @@ llanta_trasero: 180/55-17
 precio_cop: 76000000
 imagen: /images/motos/yamaha-yzf-r9.webp
 pros:
-  - Motor tricilíndrico CP3 con entrega de potencia amplia y contundente
-  - Suspensión KYB totalmente ajustable, orientada a uso de pista real
-  - 'Paquete electrónico completo: YRC, quickshifter y control de tracción'
+  - "Motor tricilíndrico CP3 con entrega de potencia amplia y contundente"
+  - "Suspensión KYB totalmente ajustable, orientada a uso de pista real"
+  - "'Paquete electrónico completo: YRC, quickshifter y control de tracción'"
 contras:
-  - Precio de los más altos entre las deportivas disponibles en Colombia
-  - Posición de manejo muy comprometida para uso urbano diario
-  - Segmento con poca oferta de repuestos de alta gama fuera de Bogotá
+  - "Precio de los más altos entre las deportivas disponibles en Colombia"
+  - "Posición de manejo muy comprometida para uso urbano diario"
+  - "Segmento con poca oferta de repuestos de alta gama fuera de Bogotá"
 rating: 4.8
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La YZF-R9 llega a Colombia en 2026 como la deportiva carenada más ambiciosa de Yamaha para el mercado nacional,
-  llenando el vacío que dejó la salida de la R6 y la R1 del catálogo homologado para calle. Usa el mismo motor
-  tricilíndrico CP3 de 890cc de la MT-09, pero con suspensión, frenos y electrónica llevados a un nivel mucho más
-  cercano a la pista.
-
-  Su comportamiento en curvas es de otro nivel frente al resto del catálogo Yamaha en Colombia: la suspensión KYB
-  totalmente ajustable permite afinar la moto para pista o carretera, y los frenos radiales con ABS dan una capacidad de
-  frenado que pocas motos vendidas legalmente en el país logran igualar. En ciudad, como es de esperarse en una
-  supersport, la posición agachada la hace poco práctica para el uso diario.
-
-  Compite en el segmento premium con la Ducati Panigale V2 y la Aprilia RS 660, aunque con un precio más competitivo
-  dentro de ese grupo. Es la moto ideal para el motociclista experimentado, con presupuesto alto, que quiere la
-  experiencia más cercana a una moto de competición sin salirse del catálogo homologado para calle en Colombia.
+  La Yamaha YZF-R9 es la deportiva de 890 cc que Yamaha creó para llenar el hueco entre la
+  R7 y la R1: motor tricilíndrico CP3 con 119 HP, 93 Nm, suspensiones KYB totalmente
+  ajustables, quickshifter, control de tracción y ABS por 76.000.000 de pesos. Es una
+  deportiva de pista con lo mínimo para circular, y eso define todo lo demás. Es para ti
+  si haces track days y quieres una moto de circuito con registro legal. No es para ti si
+  tu uso es urbano o si no tienes experiencia con motos de alta potencia.
+uso_diario: >-
+  El motor CP3 de 890 cc entrega 119 HP con una amplitud de respuesta que sorprende: se
+  puede rodar a 50 km/h en segunda sin tirones y en circuito mantener el acelerador
+  abierto hasta más de 200 km/h. La entrega es lineal y contundente, sin el pico violento
+  de un cuatro en línea, y el sonido del tricilíndrico es uno de los grandes atractivos.
+  El chasis, con suspensión KYB totalmente ajustable y pinzas radiales, está pensado para
+  circuito: la moto entra a curva con una precisión que exige confianza y devuelve
+  información constantemente. La posición es de pista, con estriberas muy retrasadas y el
+  torso sobre el tanque; en ciudad resulta incómoda después de 20 minutos. Pesa 200 kilos,
+  que desaparecen en movimiento. La electrónica incluye modos de manejo, control de
+  tracción y quickshifter. El consumo de 19 km/l con 16 litros da unos 300 km de
+  autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (tricilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 285000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 125000
+  - concepto: "Bujías (tres unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 175000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 75000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 420000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 7.000 km"
+    costo_cop: 620000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 510000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 380000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 3450000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Yamaha. El
+  SOAT y la técnico-mecánica van aparte. Es la ficha más cara de mantener del catálogo, y
+  con razón: tres bujías de iridio, casi cuatro litros de aceite sintético, llantas
+  deportivas que en uso de circuito duran menos de 5.000 km y frenos de gama alta. En uso
+  de pista, el costo real puede duplicarse.
+comparativa: >-
+  Frente a la Yamaha MT-09, la R9 cuesta 13 millones más y ofrece 1,6 caballos adicionales
+  con la misma base mecánica, más carenado, suspensiones de pista y una posición agresiva:
+  la diferencia es de propósito, no de potencia. Contra la Yamaha Ténéré 700, la R9 cuesta
+  3 millones más y ofrece 46,6 caballos adicionales, aunque pierde toda capacidad fuera
+  del asfalto. Y si el objetivo es una deportiva de 400 para iniciarse en circuito, la
+  Kawasaki Ninja 400 cuesta la mitad y perdona mucho más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la YZF-R9?"
+    respuesta: >-
+      El homologado es 19 km/l. En uso urbano el registro está entre 14 y 17; en carretera a
+      120 km/h sube a 21-23. Con 16 litros de tanque la autonomía práctica va de 220 a 370 km,
+      y en circuito baja a menos de 150 km por tanque.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con mucha soltura: mantiene 150 km/h con el motor relajado y supera los 240. El
+      carenado protege bien, pero la posición de pista castiga la espalda y las muñecas
+      después de 150 km. Es una moto para trayectos deportivos y circuito, no para turismo.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Consume 15 km/l en ciudad, cuesta 76 millones y su mantenimiento supera los tres
+      millones al año. Es una moto de pista con registro legal. Para trabajo, una 125 cuesta
+      quince veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la YZF-R9?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 76 millones representa el 1 % del valor: el SOAT es
+      irrelevante frente al costo de llantas y frenos.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No, en ningún sentido. Con 119 caballos, 93 Nm y una posición de pista, es una moto que
+      exige experiencia consolidada y, preferiblemente, formación en circuito. La electrónica
+      ayuda, pero no reemplaza años de rodaje.
+veredicto: >-
+  La YZF-R9 es la deportiva de pista más accesible de Yamaha y una de las motos más
+  exigentes del catálogo. Su motor tricilíndrico y su chasis justifican cada peso de los
+  76 millones; su costo de operación la reserva a quien de verdad la va a usar.

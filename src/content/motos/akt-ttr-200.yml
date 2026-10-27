@@ -29,12 +29,100 @@ llanta_trasero: 110/90-17
 precio_cop: 9190000
 imagen: /images/motos/akt-ttr-200.webp
 pros:
-  - Doble disco lobulado en ambas ruedas, único en el segmento
-  - Caja de 6 velocidades para mejor aprovechamiento del torque
-  - Relación precio-cilindraje de las más competitivas del mercado
+  - "Doble disco lobulado en ambas ruedas, único en el segmento"
+  - "Caja de 6 velocidades para mejor aprovechamiento del torque"
+  - "Relación precio-cilindraje de las más competitivas del mercado"
 contras:
-  - Motor a carburador, sin inyección electrónica
-  - Sin ABS en ninguna de las dos ruedas
-  - Suspensión convencional, no invertida como algunas rivales
+  - "Motor a carburador, sin inyección electrónica"
+  - "Sin ABS en ninguna de las dos ruedas"
+  - "Suspensión convencional, no invertida como algunas rivales"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
+descripcion: >-
+  La AKT TTR 200 es la doble propósito de 200 cc con caja de seis marchas: 197 cc, 16,5
+  HP, 225 mm al piso y doble disco lobulado, por 9.190.000 pesos. Es la versión más
+  campera del catálogo AKT y la única de la marca con seis velocidades en este cilindraje.
+  Es para ti si haces trocha con frecuencia y necesitas relaciones de caja que te permitan
+  subir despacio con carga sin sacrificar crucero. No es para ti si haces solo asfalto o
+  si quieres inyección: aquí el motor es carburado.
+uso_diario: >-
+  La sexta marcha es la diferencia que más se siente frente a la TT200. En trocha empinada
+  se puede subir en primera o segunda sin que el motor se quede, y en carretera la sexta
+  permite cruceros de 95 km/h a menos revoluciones, con menos vibración y menos consumo.
+  El motor carburado de 197 cc entrega 16,5 HP con un torque que aparece temprano, útil
+  para salir cargado en terreno suelto. Los 225 mm de distancia al piso son suficientes
+  para pasar troncos y zanjas moderadas, y el asiento a 840 mm es el más alto de esta
+  lista: exige estatura. El doble disco lobulado es una rareza en el segmento y frena con
+  contundencia, aunque no hay ABS. La suspensión convencional cumple bien en trocha, con
+  la limitación de no ser invertida. En asfalto, las llantas de tacos y la altura hacen
+  que la moto se sienta menos plantada que una naked.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 68000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 32000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 22000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 160000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 240000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 210000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 105000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1010000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte. El motor carburado exige aceite cada 3.000 km en lugar
+  de 4.000, y eso encarece el mantenimiento anual frente a la TT200 con inyección. Es el
+  precio de una mecánica más simple y más fácil de reparar en cualquier taller de pueblo.
+comparativa: >-
+  Frente a la AKT TT200 ABS, la TTR gana la sexta marcha y 15 mm de altura al piso, y
+  pierde inyección y ABS delantero, por 600.000 pesos menos. Contra la Yamaha XTZ250, la
+  AKT cuesta 16,8 millones menos y ofrece 4 caballos menos, sin la red de servicio ni la
+  reventa de la japonesa. Y si el uso es de trabajo pesado con carga, la Bajaj Boxer 150X
+  ofrece un tanque mayor y un enfoque más utilitario por menos dinero.
+faq:
+  - pregunta: "¿Cuánto consume realmente la TTR 200?"
+    respuesta: >-
+      El homologado es 33 km/l. En trocha con pendientes y carga baja a 26-28; en carretera a
+      85 km/h sube a 37. Con 11 litros de tanque la autonomía práctica va de 290 a 410 km, la
+      más corta del segmento por el tanque pequeño.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, y la sexta marcha ayuda mucho: mantiene 95 km/h con menos vibración que su hermana
+      TT200. Para trayectos de 150 km en vías secundarias es una moto válida, siempre que
+      aceptes el comportamiento de las llantas de tacos en asfalto.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zona rural, sí: aguanta carga, maltrato y caminos en mal estado. El tanque de 11
+      litros y el consumo de 28 km/l en trocha exigen tanquear con frecuencia. Para ciudad
+      pavimentada, una 150 de calle es más eficiente y más barata.
+  - pregunta: "¿Cuánto cuesta el SOAT de la TTR 200?"
+    respuesta: >-
+      Con 197 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 150, lo que hace que la TTR 200 tenga un
+      costo fijo sorprendentemente bajo para su cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      En trocha, sí; en ciudad, no. El asiento de 840 mm es el más alto del catálogo y la moto
+      pesa 129 kilos. Se necesita estatura y experiencia para manejarla con confianza en
+      tráfico. Como primera moto rural, en cambio, es muy tolerante.
+veredicto: >-
+  La TTR 200 es la AKT para quien de verdad usa la trocha: seis marchas, doble disco y 225
+  mm al piso por menos de diez millones. Le falta la inyección y el ABS de su hermana,
+  pero en un camino rural la caja de seis velocidades vale más que cualquiera de las dos.

@@ -29,23 +29,101 @@ llanta_trasero: 100/80-17
 precio_cop: 6990000
 imagen: /images/motos/akt-cr4-150.webp
 pros:
-  - Más potencia que la CR4 125 sin subir mucho de precio
-  - Frenos de disco en ambas ruedas con sistema CBS
-  - Buen equilibrio entre precio y desempeño dentro del catálogo AKT
+  - "Más potencia que la CR4 125 sin subir mucho de precio"
+  - "Frenos de disco en ambas ruedas con sistema CBS"
+  - "Buen equilibrio entre precio y desempeño dentro del catálogo AKT"
 contras:
-  - Motor a carburador, sin la eficiencia de una inyección electrónica
-  - Sigue siendo un cilindraje limitado para carretera a velocidad alta
-  - Diferencias frente a la CR4 125 son notorias más en potencia que en equipamiento
+  - "Motor a carburador, sin la eficiencia de una inyección electrónica"
+  - "Sigue siendo un cilindraje limitado para carretera a velocidad alta"
+  - "Diferencias frente a la CR4 125 son notorias más en potencia que en equipamiento"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La CR4 150 toma el mismo diseño exitoso de la CR4 125 y le suma cilindraje, dándole un poco más de fuerza para quien
-  encuentra la versión de 125cc algo justa. Es la opción intermedia dentro de la familia CR4 para quien quiere más
-  potencia sin llegar todavía a la versión 200 Pro.
-
-  El aumento de cilindraje se nota principalmente al retomar velocidad después de un semáforo o al subir con parrillero,
-  situaciones donde la 125 se queda un poco corta. El resto de la experiencia es muy similar: frenos CBS en ambas ruedas
-  y un diseño que sigue destacando frente a otras naked económicas.
-
-  Compite con la Bajaj Pulsar NS125 y la Hero Hunk 125R. Es la moto ideal para el motociclista que ya conoce el segmento
-  de 125cc y quiere un poco más de potencia sin subir demasiado de precio ni de cilindraje.
+  La AKT CR4 150 es la misma plataforma de la CR4 125 con 25 cc más y 3,2 caballos
+  adicionales: 149,5 cc, 12,5 HP y frenos de disco con CBS en las dos ruedas, por
+  6.990.000 pesos. Es la respuesta de AKT a quien necesita un poco más de motor sin salir
+  del segmento económico. Es para ti si la 125 te queda corta, haces trayectos con
+  parrillero o carretera corta, y quieres mantener el doble disco. No es para ti si
+  esperas un salto grande de prestaciones: 400.000 pesos compran 3,2 caballos, no una moto
+  nueva.
+uso_diario: >-
+  La diferencia frente a la 125 se siente sobre todo con carga y en subida. Donde la 125
+  pedía primera, la 150 sube en segunda sin quejarse, y eso cambia la experiencia en
+  ciudades con pendiente como Medellín, Manizales o Bucaramanga. En plano y solo, las dos
+  motos se parecen mucho; con parrillero, la 150 es claramente superior. La caja de cinco
+  marchas está bien escalonada y la quinta permite cruceros de 85 km/h sin que el motor
+  sufra. El motor a carburador arranca sin drama en clima cálido, aunque en frío pide
+  starter. Los frenos con CBS siguen siendo el punto fuerte: disco de 240 delante y 200
+  atrás. Pesa 124 kilos, cuatro más que la 125, sin que eso afecte la agilidad. El consumo
+  baja a 36 km/l, con lo que el tanque de 12,5 litros da unos 430 km de autonomía: hay que
+  tanquear con algo más de frecuencia que en la 125, pero el uso es más relajado.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 52000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 26000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 19000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 135000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 190000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 175000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 95000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 790000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. La CR4 150 cuesta unos 30.000 pesos más al año de mantener
+  que la 125, por aceite ligeramente más caro y mayor desgaste de arrastre. La diferencia
+  de consumo —36 frente a 40 km/l— es el costo real de los 3,2 caballos adicionales.
+comparativa: >-
+  Frente a la CR4 125, la 150 cuesta 400.000 pesos más y entrega 3,2 caballos y bastante
+  más torque: es la mejora más rentable del catálogo AKT. Contra la Honda CB125F, la CR4
+  150 gana en cilindraje y en doble disco, y pierde en inyección y en red de servicio. Y
+  si el uso incluye destapado, la AKT TTR 125 o la TT200 ABS ofrecen suspensión y altura
+  que la CR4 no tiene.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CR4 150?"
+    respuesta: >-
+      El homologado es 36 km/l. En ciudad con tráfico y parrillero baja a 31-34; en carretera
+      a 80 km/h sube a 39-41. Con 12,5 litros de tanque la autonomía práctica es de 390 a 500
+      km según el uso.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Mejor que la 125: mantiene 85 km/h sin esfuerzo y llega a 100 en plano. Para trayectos
+      de 100 a 120 km con parrillero es una moto válida. Por encima de eso, el motor carburado
+      y el asiento terminan cansando.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y es mejor que la 125 en zonas con pendiente porque no se queda en las lomas con el
+      morral lleno. El consumo es 4 km/l mayor, así que para reparto plano intenso la 125
+      sigue siendo más rentable. Es cuestión de geografía.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CR4 150?"
+    respuesta: >-
+      Con 149,5 cc sigue en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año.
+      Es la misma tarifa de la 125, lo que significa que los 3,2 caballos adicionales no
+      cuestan nada en SOAT, solo en gasolina.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, y con ventaja sobre una 200: la potencia es suficiente para aprender sin sustos y el
+      CBS da margen en las frenadas. Pesa 124 kilos, que es manejable, y la entrega de
+      potencia es muy predecible. Es un buen primer paso antes de una 200.
+veredicto: >-
+  Por 400.000 pesos, la CR4 150 corrige la única debilidad real de la CR4 125: la falta de
+  motor con carga. Sigue siendo una moto económica, con doble disco y un consumo
+  razonable. Probablemente sea la compra más equilibrada del catálogo AKT.

@@ -29,24 +29,100 @@ llanta_trasero: 3.00-18
 precio_cop: 9100000
 imagen: /images/motos/yamaha-crypton-finn.webp
 pros:
-  - Consumo de combustible entre los más altos de todo el mercado colombiano
-  - Respaldo y confiabilidad de la marca Yamaha en una moto muy económica
-  - Bajo costo de mantenimiento y repuestos accesibles
+  - "Consumo de combustible entre los más altos de todo el mercado colombiano"
+  - "Respaldo y confiabilidad de la marca Yamaha en una moto muy económica"
+  - "Bajo costo de mantenimiento y repuestos accesibles"
 contras:
-  - Sin freno de disco en ninguna de las dos ruedas
-  - Potencia mínima, pensada solo para trayectos urbanos cortos
-  - Diseño básico sin mayor diferenciación frente a otras 110-125cc
+  - "Sin freno de disco en ninguna de las dos ruedas"
+  - "Potencia mínima, pensada solo para trayectos urbanos cortos"
+  - "Diseño básico sin mayor diferenciación frente a otras 110-125cc"
 rating: 4.1
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Crypton Finn es la respuesta de Yamaha al segmento de motos utilitarias económicas, un terreno dominado
-  tradicionalmente por Bajaj y AKT. Con inyección electrónica de fábrica y el respaldo de marca Yamaha, se posiciona
-  como una opción confiable para quien necesita transporte básico sin gastar de más.
-
-  Su punto fuerte es clarísimo: el consumo de combustible. Rueda con tranquilidad más de 45 km por litro en uso urbano
-  normal, lo que la vuelve una de las motos más baratas de mantener día a día en todo el catálogo colombiano. A cambio,
-  no hay lujos: frenos de tambor en ambas ruedas y una potencia justa para moverse en ciudad sin afanes.
-
-  Compite directamente con la Bajaj Boxer CT100 y la AKT NKD 125. Es la moto ideal para el trabajador independiente, el
-  domiciliario o el estudiante que necesita movilidad económica y confiable, priorizando el ahorro en gasolina y
-  mantenimiento por encima de cualquier otra característica.
+  La Yamaha Crypton Finn FI es una moto de concepto utilitario con estética de cub
+  clásica: 114 cc, 8,9 HP, inyección electrónica y un consumo de 48 km/l por 9.100.000
+  pesos. Es la moto más económica de Yamaha en Colombia y una de las más eficientes en
+  combustible de todo el mercado. Es para ti si buscas movilidad urbana simple, con
+  respaldo de marca y bajo consumo. No es para ti si necesitas frenos de disco o si haces
+  carretera: con tambor en las dos ruedas y 8,9 caballos, sus límites son claros.
+uso_diario: >-
+  La Crypton está pensada para el uso más básico: trayectos urbanos cortos, un solo
+  ocupante, velocidades de 40 a 60 km/h. El motor de 114 cc con inyección arranca al
+  primer toque en frío y mantiene el ralentí estable en altura, algo que agradecen quienes
+  viven en ciudades por encima de 2.000 metros. Pesa solo 106 kilos, el asiento a 770 mm
+  es accesible y la posición es erguida y cómoda. La caja de cuatro marchas es corta: en
+  ciudad se maneja entre segunda y tercera, y la cuarta es prácticamente una sobremarcha
+  que sirve para mantener 60 km/h con poco esfuerzo. Los frenos son de tambor en las dos
+  ruedas, sin ABS: es el punto más criticado de la moto, sobre todo en pavimento mojado.
+  El tanque de 10,6 litros con un consumo de 48 km/l da más de 500 km de autonomía, una
+  cifra sobresaliente. La suspensión es blanda y absorbe bien el asfalto roto.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 3.500 km"
+    costo_cop: 52000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 7.000 km"
+    costo_cop: 26000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 20000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 125000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 160000
+  - concepto: "Zapatas de freno delanteras y traseras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 55000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 660000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Yamaha. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento es de los más económicos del
+  catálogo: zapatas en lugar de pastillas, llantas de medida pequeña y un motor sencillo.
+  El único costo que llama la atención es el precio de compra, alto para lo que ofrece en
+  equipamiento.
+comparativa: >-
+  Frente a la AKT Flex 125, la Crypton cuesta 3,2 millones más y ofrece inyección y
+  respaldo Yamaha, aunque pierde 1,7 caballos y la caja semiautomática no existe aquí.
+  Contra la Honda Navi, la Yamaha cuesta 1,4 millones más y ofrece un tanque casi del
+  doble de tamaño, aunque pierde la imagen y la practicidad del formato Navi. Y si el
+  presupuesto aprieta, la Bajaj CT100 cuesta la mitad y hace el mismo trabajo urbano.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Crypton Finn FI?"
+    respuesta: >-
+      El homologado es 48 km/l. En ciudad con tráfico y paradas constantes el registro está
+      entre 43 y 46; en tramos planos y largos se acerca a 50. Con 10,6 litros de tanque la
+      autonomía práctica es de 450 a 530 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Poco. A 60 km/h va cómoda y a 70 ya va al límite. Las cuatro marchas y los 8,9 caballos
+      no están pensados para sostener velocidades de vía rápida, y los frenos de tambor
+      tampoco. Es una moto urbana con capacidad de vía secundaria muy corta.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve para pedidos pequeños y trayectos cortos, sobre todo por el consumo y la
+      autonomía. Pero cuesta 9,1 millones y no tiene freno de disco: para reparto intenso, una
+      125 de trabajo cuesta la mitad y frena mejor.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Crypton Finn FI?"
+    respuesta: >-
+      Con 114 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es la
+      misma tarifa de una 125, y sobre una moto de 9,1 millones representa el 3,8 % del valor.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí en lo mecánico: es liviana, baja, con potencia muy contenida y sin reacciones
+      bruscas. El problema es la seguridad: sin freno de disco ni ABS, un novato en lluvia
+      tiene menos margen que en una moto con frenos modernos por menos dinero.
+veredicto: >-
+  La Crypton Finn FI es una moto honesta para lo que cuesta operarla: consumo récord,
+  inyección y respaldo Yamaha. Su problema es el precio de entrada y la ausencia de freno
+  de disco, dos argumentos que en 2026 pesan mucho frente a la competencia.

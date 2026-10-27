@@ -147,10 +147,12 @@ Con `review`, la puntuación queda respaldada por un texto visible (`reviewBody`
 
 ---
 
-## Fase 2 — Las 68 fichas técnicas profundas 🔒 EL NÚCLEO
+## Fase 2 — Las 68 fichas técnicas profundas ✅ COMPLETADA
 
-**Esfuerzo estimado:** 13 semanas, ~5 fichas por semana.
-**Por qué es la fase más importante:** es la causa directa del rechazo. 68 páginas de 161 palabras con una tabla de especificaciones del fabricante es exactamente lo que AdSense llama "poco valor".
+**Completada el 26 de octubre de 2026. Pendiente de desplegar.**
+**Esfuerzo real:** 1 día.
+
+**Por qué era la fase más importante:** es la causa directa del rechazo. 68 páginas de 161 palabras con una tabla de especificaciones del fabricante es exactamente lo que AdSense llama "poco valor".
 
 ### Estrategia
 
@@ -171,18 +173,18 @@ El trabajo se ordena en **4 oleadas por demanda de búsqueda**, no por orden alf
 
 ### Tareas
 
-- [ ] **F2-T1** — Escribir la **ficha modelo**: `akt-nkd-125.yml`. Aprobarla antes de escribir ninguna otra.
-- [ ] **F2-T2** — Construir la tabla de costos de mantenimiento por modelo (dato propio, no existe en ninguna web de la competencia).
-- [ ] **F2-T3** — Añadir el campo `actualizado` (fecha) a las fichas que se reescriban.
-- [ ] **F2-T4** — **Oleada 1 — 12 fichas:**
+- [x] **F2-T1** — Escribir la **ficha modelo**: `akt-nkd-125.yml`. Aprobarla antes de escribir ninguna otra.
+- [x] **F2-T2** — Construir la tabla de costos de mantenimiento por modelo (dato propio, no existe en ninguna web de la competencia). *Cifras estimadas 2026, no facturas reales.*
+- [x] **F2-T3** — Añadir el campo `actualizado` (fecha) a las fichas que se reescriban.
+- [x] **F2-T4** — **Oleada 1 — 12 fichas:**
   `akt-nkd-125`, `bajaj-boxer-ct100`, `bajaj-ct-125`, `yamaha-nmax-155`, `yamaha-fz-version-3.0`, `yamaha-mt-15`, `honda-xr150l-2.0-abs`, `honda-cb125f`, `akt-ttr-125`, `akt-flex-evolution-125`, `tvs-raider-125`, `bajaj-pulsar-ns200-fi-abs-sc`
-- [ ] **F2-T5** — **Oleada 2 — 16 fichas:**
+- [x] **F2-T5** — **Oleada 2 — 16 fichas:**
   `akt-250r`, `akt-chr-125`, `akt-cr4-125`, `akt-cr4-150`, `akt-cr4-200-pro`, `akt-dynamic-rx-fi`, `akt-dynamic-pro-cbs`, `akt-jet-evo`, `akt-special-110-x`, `akt-tt200-abs`, `akt-ttr-200`, `bajaj-boxer-150x`, `bajaj-discover-125-sport`, `bajaj-dominar-250`, `bajaj-pulsar-n125-fi`, `bajaj-pulsar-n160-pro`
-- [ ] **F2-T6** — **Oleada 3 — 20 fichas:**
+- [x] **F2-T6** — **Oleada 3 — 20 fichas:**
   `bajaj-pulsar-ns125`, `bajaj-pulsar-ns160-fi-abs`, `bajaj-pulsar-ns400z`, `bajaj-pulsar-p150`, `bajaj-pulsar-rs200-fi-abs`, `bajaj-dominar-400`, `hero-hunk-125r`, `hero-hunk-160r`, `hero-xpulse-200`, `honda-cb190r-2.0`, `honda-xre-300`, `honda-nx500`, `ktm-200-duke-2026`, `ktm-rc-390`, `royal-enfield-classic-350`, `royal-enfield-hunter-350`, `royal-enfield-meteor-350`, `suzuki-gixxer-sf-250`, `suzuki-gn-125`, `suzuki-gsx-s150-abs`
-- [ ] **F2-T7** — **Oleada 4 — 20 fichas:**
+- [x] **F2-T7** — **Oleada 4 — 20 fichas:**
   `suzuki-vstrom-250`, `tvs-apache-rtr-160`, `tvs-apache-rtr-200-4v-xc-fi-abs`, `yamaha-crypton-finn`, `yamaha-fz25-abs`, `yamaha-mt-03`, `yamaha-mt-07`, `yamaha-mt-09`, `yamaha-r15`, `yamaha-tenere-700`, `yamaha-xmax-300`, `yamaha-xtz150`, `yamaha-xtz250`, `yamaha-yzf-r9`, `kawasaki-ninja-400`, `kawasaki-versys-x-300`, `kawasaki-z400`, `bmw-g310r`, `honda-navi`, `akt-karguero-3w-200`
-- [ ] **F2-T8** — Escribir el párrafo de marca de BMW en `MARCAS_INFO` (`src/pages/marcas/[marca].astro`).
+- [x] **F2-T8** — Escribir el párrafo de marca de BMW en `MARCAS_INFO` (`src/pages/marcas/[marca].astro`). *Kawasaki tampoco tenía párrafo: se añadió también.*
 
 ### Plantilla obligatoria de cada ficha
 
@@ -213,12 +215,38 @@ Preguntas frecuentes — 5 FAQ con schema FAQPage
 Veredicto — 50 palabras + fecha de actualización visible
 ```
 
-### Criterio de salida
+### Criterio de salida (cumplido)
 
 - **68 / 68** fichas con 600+ palabras de texto propio.
 - **0 fichas** en `noindex`, archivadas o fusionadas.
 - Todas con sección de costos y 5 FAQ.
-- `aggregateRating` funcionando en las 68.
+
+### Resultado real
+
+| Métrica | Antes | Después |
+|---|---|---|
+| Palabras de texto propio por ficha (YAML) | mediana 161 | mínimo 600 · mediana 637 · máximo 813 |
+| Palabras renderizadas en la página | ~250 | mínimo 856 · mediana 938 · máximo 1.063 |
+| Secciones `<h2>` por ficha | 3 | 7 en las 68 |
+| FAQ por ficha | 0 | 5, con `FAQPage` en las 68 |
+| Filas de costos por ficha | 0 | 9-10 + resumen anual |
+| Sitemap | sin `lastmod` en fichas | 68 fichas con `lastmod` 2026-10-26 |
+
+**Cambios de criterio respecto al plan original:**
+
+1. **`aggregateRating` no se implementó.** Inventar una calificación agregada sin un sistema real de reseñas es una violación de las políticas de datos estructurados de Google y puede costar una acción manual. En su lugar, cada ficha emite un `review` editorial con `reviewRating` (el campo `rating` de la ficha) y `reviewBody` construido con los pros y contras reales del modelo. El `aggregateRating` queda para la Fase 8, cuando exista un widget de valoraciones verificables.
+2. **Los costos son estimaciones.** No hay facturas de mantenimiento propias todavía. Cada ficha lo dice explícitamente en `costos_nota` ("cifras estimadas para Colombia en 2026") para no publicar datos falsos como si fueran medidos.
+3. **SOAT y técnico-mecánica van en la tabla pero fuera del total anual.** El total de `costo_anual_cop` es solo mantenimiento (repuestos + mano de obra a 12.000 km/año), porque es el único rubro que escala con el uso. Los valores de SOAT coinciden con los de `CalculadoraForm.tsx` para que el sitio no se contradiga.
+4. **Error de dato corregido:** `bajaj-dominar-400.yml` declaraba `potencia_hp: 24.5` @ 9.750 rpm, un valor copiado de la Dominar 250. Se corrigió a `39.4` @ 8.800 rpm, que es la cifra real del modelo y la que ahora sostiene el texto de la ficha.
+5. **Motocarro:** `akt-karguero-3w-200` tiene `consumo_km_l: 0` y `altura_asiento_mm: 0` porque no aplican. La tabla de especificaciones ahora muestra "No aplica" en lugar de "0 km/l" y "0 mm", y su ficha de costos usa la categoría de SOAT de motocarro.
+6. **Fichas de modelos sin venta oficial** (`yamaha-yzf-r9`, `yamaha-mt-09`, `yamaha-tenere-700`, `bmw-g310r`, `honda-navi`) se escribieron con el ángulo de disponibilidad y precio de importación frente al modelo equivalente que sí se vende, sin inventar disponibilidad local.
+
+### Infraestructura nueva
+
+- `src/content/config.ts`: campos `uso_diario`, `costos[]`, `costo_anual_cop`, `costos_nota`, `comparativa`, `veredicto`, `faq[]` (todos opcionales, para no romper fichas futuras).
+- `src/pages/fichas-tecnicas/[slug].astro`: renderiza las cinco secciones nuevas, emite `Product` + `FAQPage` juntos y calcula el costo por kilómetro.
+- `src/layouts/BaseLayout.astro`: el prop `schema` acepta un objeto o un arreglo.
+- `src/styles/components.css`: estilos de tabla de costos, resumen, FAQ tipo acordeón y veredicto, con colapso móvil a 640 px.
 
 ---
 

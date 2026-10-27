@@ -29,12 +29,103 @@ llanta_trasero: 2.75-17
 precio_cop: 4990000
 imagen: /images/motos/akt-special-110-x.webp
 pros:
-  - Peso muy liviano (98 kg), ideal para principiantes
-  - Consumo de combustible extremadamente bajo
-  - Precio de entrada de los más bajos del mercado colombiano
+  - "Peso muy liviano (98 kg), ideal para principiantes"
+  - "Consumo de combustible extremadamente bajo"
+  - "Precio de entrada de los más bajos del mercado colombiano"
 contras:
-  - Solo 4 velocidades semi-automáticas, sin embrague
-  - Freno trasero de tambor, sin ABS
-  - Potencia muy limitada para dos pasajeros o pendientes
+  - "Solo 4 velocidades semi-automáticas, sin embrague"
+  - "Freno trasero de tambor, sin ABS"
+  - "Potencia muy limitada para dos pasajeros o pendientes"
 rating: 4.2
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
+descripcion: >-
+  La AKT Special 110 X es la moto más liviana y barata de este catálogo: 107 cc, 7,21 HP,
+  98 kilos y caja semiautomática de cuatro marchas por 4.990.000 pesos. No hay embrague,
+  no hay quinta, no hay ABS: hay una moto mínima para moverse en ciudad con el menor gasto
+  posible. Es para ti si nunca has manejado moto, si tu recorrido diario es corto y plano,
+  o si necesitas un vehículo auxiliar económico. No es para ti si hay pendientes en tu
+  ruta, si llevas parrillero o si sales a carretera: con 7,2 caballos y 3,78 litros de
+  tanque, el alcance es muy limitado.
+uso_diario: >-
+  Los 98 kilos son la clave: la Special se mueve con una facilidad que sorprende, incluso
+  para alguien que nunca ha manejado moto. La caja semiautomática de cuatro marchas se
+  opera con el pie y no exige modular embrague, así que el tráfico deja de ser un problema
+  para la mano izquierda. En plano y a velocidades de hasta 60 km/h es una moto
+  perfectamente funcional. El problema aparece en pendiente: con 7,2 HP, una loma larga
+  obliga a bajar a segunda y, con parrillero, a primera. En Bogotá o Medellín, eso se
+  convierte en una limitación diaria. Los 140 mm de distancia al piso son los más bajos
+  del catálogo, así que los resaltos hay que pasarlos despacio. El freno delantero de
+  disco lobulado funciona bien, pero el tambor trasero y la ausencia de ABS exigen
+  distancia. El consumo de 50 km/l es excelente, aunque el tanque de 3,78 litros obliga a
+  tanquear cada 150-180 km.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 40000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 20000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 15000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 105000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 160000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 145000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 38000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 640000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Es la moto más barata de mantener de todo el catálogo, con
+  una advertencia: al tener 107 cc cae en la categoría de 100 a 200 cc del SOAT y paga
+  343.000 pesos, apenas 3.000 menos que una 125. La ventaja fiscal de las motos pequeñas
+  solo existe por debajo de los 100 cc.
+comparativa: >-
+  Frente a la AKT Flex 125, la Special cuesta 900.000 pesos menos y ofrece 1,4 caballos
+  menos y un tanque igual de pequeño: la Flex es mejor moto por poco dinero más. Contra la
+  Bajaj Boxer CT100, la AKT gana en precio y en peso, y pierde en cilindraje, en torque y
+  en capacidad de trabajo. Y si el presupuesto llega a 5,5 millones, la Honda CB125F
+  ofrece inyección, 3,6 caballos más y una red de servicio incomparablemente mayor.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Special 110 X?"
+    respuesta: >-
+      El homologado es 50 km/l. En ciudad con paradas constantes el registro está entre 44 y
+      48; en tramos planos y largos se acerca a 52. Con 3,78 litros de tanque la autonomía
+      práctica es de 165 a 195 km, la más corta de esta lista.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Muy poco. A 60 km/h va cómoda; a 70 ya va al límite y por encima de eso la moto se
+      siente insegura por peso y por frenos. No es una moto para salir del perímetro urbano de
+      forma habitual.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Solo para pedidos muy cortos y livianos. El tanque de 3,78 litros obliga a tanquear casi
+      a diario y la falta de potencia con carga la hace lenta en pendientes. Para reparto, una
+      125 con tanque de 10 litros cuesta poco más y rinde el doble.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Special 110 X?"
+    respuesta: >-
+      Con 107 cc entra en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es
+      importante saberlo porque mucha gente cree que por ser "110" paga la tarifa mínima, y la
+      tarifa mínima es solo para motos de menos de 100 cc.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es la más fácil de aprender del mercado: 98 kilos, sin embrague, asiento a 770 mm y una
+      potencia que no asusta. Como escuela urbana es ideal. El riesgo es que después cuesta
+      adaptarse a una moto con embrague y a un peso mayor.
+veredicto: >-
+  La Special 110 X es una moto de propósito muy específico: ciudad plana, trayectos
+  cortos, un solo ocupante. Dentro de ese marco es barata y funcional; fuera de él, se
+  queda corta en todo. Quien la compre sabiendo para qué sirve no se va a arrepentir.

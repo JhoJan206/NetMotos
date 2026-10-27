@@ -29,20 +29,104 @@ llanta_trasero: 130/70-17
 precio_cop: 12990000
 imagen: /images/motos/suzuki-gsx-s150-abs.webp
 pros:
-  - De las pocas 150cc del mercado colombiano con refrigeración líquida, DOHC y ABS doble canal
-  - Peso muy bajo (130 kg) que la hace ágil entre semáforos y en parqueo
+  - "De las pocas 150cc del mercado colombiano con refrigeración líquida, DOHC y ABS doble canal"
+  - "Peso muy bajo (130 kg) que la hace ágil entre semáforos y en parqueo"
 contras:
-  - Tanque de solo 11 litros, autonomía algo corta para carretera
-  - Menos torque en bajo régimen que una naked de mayor cilindraje como la CB190R
+  - "Tanque de solo 11 litros, autonomía algo corta para carretera"
+  - "Menos torque en bajo régimen que una naked de mayor cilindraje como la CB190R"
 rating: 4.4
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Suzuki GSX-S150 ABS es un caso aparte en el mercado colombiano: una 150 cc con refrigeración líquida, DOHC y 6
-  velocidades, algo que nadie más ofrece en este cilindraje. Sus 18.9 HP a 10.500 rpm la convierten en una moto que pide
-  ser exigida, y los 130 kilos de peso la hacen increíblemente ágil en ciudad y en carretera de montaña. Trae ABS de
-  doble canal y frenos de disco en ambas ruedas. Pero también hay que conocer sus limitaciones: el torque de 14 Nm llega
-  a 9.000 rpm, lo que significa que en bajas revoluciones no es tan contundente como una naked de mayor cilindraje. Para
-  ciudad, hay que llevarla relativamente alta de vueltas para sentirla viva. El precio de 12.990.000 COP es alto para
-  una 150, y el tanque de 11 litros da una autonomía justa de unos 400 km. Está pensada para el que valora la tecnología
-  de un motor de alta compresión y no le importa pagar más por tener algo distinto. La postura deportiva no es la más
-  cómoda para trayectos largos, pero en una carretera de curvas es una delicia.
+  La Suzuki GSX-S150 ABS es una 150 con motor de refrigeración líquida, DOHC, cuatro
+  válvulas y 18,9 HP, por 12.990.000 pesos. Es una de las pocas motos de su cilindraje en
+  Colombia con esa arquitectura, y eso explica su precio: casi el doble que una 150
+  convencional. Es para ti si quieres prestaciones de 200 con cilindraje de 150 y una moto
+  ligera y ágil. No es para ti si buscas economía o si haces trayectos largos: su tanque
+  de 11 litros y su posición deportiva no están pensados para viajar.
+uso_diario: >-
+  El motor de 147 cc con refrigeración líquida y DOHC entrega 18,9 HP a 10.500 rpm, una
+  cifra que ninguna otra 150 de aire alcanza. Eso significa que hay que subirlo de vueltas
+  para aprovecharlo: por debajo de 6.000 rpm es dócil, casi perezoso, y arriba se
+  transforma en una moto que empuja con fuerza y llega a 120 km/h. La caja de seis marchas
+  es clave para mantenerlo en la zona buena. Con 130 kilos, es una de las motos más
+  livianas del segmento, y eso se traduce en agilidad extrema entre semáforos y en
+  parqueadero. La posición es deportiva, con el torso inclinado y las estriberas
+  retrasadas, cómoda para 30-40 minutos y exigente después. Los frenos de disco con ABS de
+  doble canal son un equipo serio para el precio. El tanque de 11 litros con 38 km/l da
+  unos 400 km de autonomía. El motor líquido, eso sí, cobra su precio en mantenimiento:
+  exige revisar el nivel de refrigerante y usar aceite sintético, dos cosas que una 150 de
+  aire no pide.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 42000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 42000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 250000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 215000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 140000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1080000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Suzuki. El
+  SOAT y la técnico-mecánica van aparte. Con 147 cc se mantiene en la categoría intermedia
+  del SOAT, una ventaja real. Pero el mantenimiento es de motor líquido: aceite sintético,
+  refrigerante y pastillas en las dos ruedas. Es más caro de operar que cualquier 150 de
+  aire.
+comparativa: >-
+  Frente a la Yamaha FZ 3.0, la GSX-S150 cuesta 2,5 millones más y ofrece 5,9 caballos
+  adicionales, refrigeración líquida y 7 kilos menos: en prestaciones es otra moto. Contra
+  la Yamaha MT-15, la Suzuki cuesta 2,5 millones menos y pierde 0,3 caballos, aunque gana
+  en peso y en precio de mantenimiento. Y si el objetivo es una 150 económica para uso
+  diario, la Honda CB125F cuesta la mitad y hace el mismo recorrido.
+faq:
+  - pregunta: "¿Cuánto consume realmente la GSX-S150?"
+    respuesta: >-
+      El homologado es 38 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      32 y 35; en carretera a 90 km/h sube a 40-42. Con 11 litros de tanque la autonomía
+      práctica va de 350 a 460 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura: mantiene 110 km/h y llega a 120 en plano. El motor líquido no pierde
+      rendimiento después de una hora y el chasis es estable. La limitación es la autonomía y
+      la posición deportiva, no la mecánica.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve por agilidad, pero no es lo más rentable: cuesta 13 millones, consume 34 km/l en
+      ciudad y el mantenimiento supera el millón anual. Para reparto intenso, una 125 de
+      trabajo cuesta la mitad de comprar y de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la GSX-S150?"
+    respuesta: >-
+      Con 147 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más la
+      técnico-mecánica. Es la misma tarifa de una 125, aunque la moto cueste 13 millones.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con matices. Es liviana y manejable, y el ABS de doble canal cubre los errores
+      iniciales. Pero la posición deportiva y un motor que entrega lo mejor arriba exigen
+      aprender a manejar las revoluciones. Una FZ 3.0 es más amable como primera moto.
+veredicto: >-
+  La GSX-S150 es la 150 más deportiva del mercado por menos de trece millones: motor
+  líquido, DOHC y ABS de doble canal en un paquete de 130 kilos. Su problema es el
+  contexto: por ese dinero hay 200 con más torque y por la mitad hay 125 que hacen lo
+  mismo en ciudad.

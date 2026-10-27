@@ -29,22 +29,104 @@ llanta_trasero: 110/80-17
 precio_cop: 5690000
 imagen: /images/motos/tvs-apache-rtr-160.webp
 pros:
-  - Motor potente y refinado
-  - Doble freno de disco
-  - Excelente relación peso-potencia
+  - "Motor potente y refinado"
+  - "Doble freno de disco"
+  - "Excelente relación peso-potencia"
 contras:
-  - Red de servicio limitada
-  - Consumo medio-alto
-  - Disponibilidad de repuestos
+  - "Red de servicio limitada"
+  - "Consumo medio-alto"
+  - "Disponibilidad de repuestos"
 rating: 4.3
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La TVS Apache RTR 160 4V es una de esas motos que sorprenden a quien no conoce la marca. Con 16 HP y 14.8 Nm, su motor
-  de 159.7 cc con inyección electrónica es de los más potentes del segmento, y el chasis de doble viga le da un
-  comportamiento deportivo que se agradece en carreteras de montaña. Trae doble freno de disco —algo que no todas las
-  160 ofrecen— y un monoamortiguador ajustable atrás. Pesa 136 kilos, bien equilibrados. El precio de 5.690.000 COP está
-  muy bien para lo que ofrece. El problema es el mismo de siempre con TVS: la red de servicio. En ciudades principales
-  como Bogotá, Medellín o Cali hay concesionarios, pero en pueblos pequeños la cobertura es prácticamente nula. Y los
-  repuestos, aunque están mejorando, no tienen la disponibilidad de Honda o Yamaha. Para el motero urbano que quiere
-  algo con carácter deportivo, que rinda bien en ciudad y que no sea lo mismo que todos tienen, la Apache RTR 160 es una
-  apuesta que vale la pena. Solo asegúrate de tener un taller TVS cerca.
+  La TVS Apache RTR 160 4V es una de las 160 con mejor relación precio-equipo del mercado:
+  16 HP, doble disco, 136 kilos y una parte ciclo derivada de la RTR 200, por 5.690.000
+  pesos. Ese precio es el dato más llamativo de la ficha y también el que explica su éxito
+  entre quienes quieren prestaciones sin gastar diez millones. Es para ti si buscas una
+  moto deportiva para ciudad y carretera corta con frenos serios. No es para ti si te
+  preocupa la red de servicio: TVS tiene menos concesionarios en Colombia que Honda,
+  Yamaha o Bajaj, y eso es una limitación real.
+uso_diario: >-
+  El motor de 159,7 cc entrega 16 HP con una respuesta viva que se siente desde las 5.000
+  rpm y se mantiene hasta el corte, con una caja de cinco marchas bien escalonada que
+  permite aprovecharlo en ciudad y en carretera. Con 136 kilos, la moto es ágil entre
+  carros y estable en curva, y el doble disco —270 mm adelante y 220 mm atrás— da una
+  frenada consistente, muy por encima de lo que se espera en este rango de precio. La
+  posición es deportiva, con el torso algo inclinado y las estriberas centradas, cómoda
+  para trayectos de 45 minutos. El asiento a 800 mm es accesible y la suspensión es firme,
+  estable en curva y algo seca en vías rotas. En carretera mantiene 100 km/h con comodidad
+  y llega a 115 en plano. El consumo de 42 km/l con 10 litros de tanque da unos 420 km de
+  autonomía, correcto. El punto flojo es el acabado: algunos plásticos y tornillería se
+  sienten por debajo de una japonesa.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 68000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 32000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 24000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 155000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 215000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 17.000 km"
+    costo_cop: 185000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 105000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 870000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El doble disco encarece el mantenimiento frente a una moto
+  con tambor trasero, pero la diferencia anual ronda los 40.000 pesos. El riesgo real no
+  es el costo sino la disponibilidad: fuera de las ciudades principales, un repuesto
+  específico de TVS puede tardar varios días.
+comparativa: >-
+  Frente a la Bajaj Pulsar P150, la Apache cuesta 3,3 millones menos y ofrece 1,8 caballos
+  y doble disco, aunque pierde ABS y red de servicio. Contra la Honda CB190R 2.0, la TVS
+  cuesta 7,1 millones menos y ofrece 1 caballo menos, sin ABS: la diferencia de precio es
+  enorme para la diferencia de prestaciones. Y si el presupuesto lo permite, la Apache RTR
+  200 4V ofrece 4,2 caballos más, ABS y modos de manejo por 7,1 millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la RTR 160 4V?"
+    respuesta: >-
+      El homologado es 42 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      35 y 38; en carretera a 85 km/h sube a 44-46. Con 10 litros de tanque la autonomía
+      práctica va de 350 a 460 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 100 km/h y capacidad de llegar a 115. Es una 160 con
+      prestaciones suficientes para trayectos de 150 km. Por encima de 105 el motor va alto y
+      el consumo sube, pero la moto se mantiene estable.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve por precio y por frenos, pero la red de servicio es el factor decisivo: si
+      trabajas en una ciudad intermedia sin concesionario TVS, un repuesto puede dejarte
+      parado. Para reparto de alto volumen, conviene verificar primero dónde hay taller
+      autorizado.
+  - pregunta: "¿Cuánto cuesta el SOAT de la RTR 160?"
+    respuesta: >-
+      Con 159,7 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la técnico-mecánica. Sobre una moto de 5,69 millones, el SOAT representa el 6 % del
+      valor, una proporción alta que conviene presupuestar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, sobre todo por los frenos: el doble disco perdona errores que en una moto con tambor
+      trasero terminan en caída. La posición deportiva y las 16 caballos invitan a acelerar,
+      así que conviene respetar los primeros meses de aprendizaje.
+veredicto: >-
+  La RTR 160 4V es una de las compras más inteligentes del segmento por ficha técnica: 16
+  caballos y doble disco por 5,69 millones no los ofrece nadie más. Su punto débil no es
+  la moto, es la posventa de TVS en Colombia.

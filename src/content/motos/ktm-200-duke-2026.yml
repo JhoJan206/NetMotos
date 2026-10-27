@@ -29,20 +29,106 @@ llanta_trasero: 150/60-17
 precio_cop: 18990000
 imagen: /images/motos/ktm-200-duke-2026.webp
 pros:
-  - Mejor relación peso-potencia de su segmento (140 kg y 24.7 HP)
-  - Garantía ampliada a 4 años sin límite de kilometraje desde 2026
+  - "Mejor relación peso-potencia de su segmento (140 kg y 24.7 HP)"
+  - "Garantía ampliada a 4 años sin límite de kilometraje desde 2026"
 contras:
-  - Precio bastante por encima de sus rivales asiáticas de 200cc
-  - Altura de asiento (815 mm) puede incomodar a pilotos de estatura baja
+  - "Precio bastante por encima de sus rivales asiáticas de 200cc"
+  - "Altura de asiento (815 mm) puede incomodar a pilotos de estatura baja"
 rating: 4.6
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  Si hay una naked que sabe a qué juega en las 200 cc, es la KTM 200 Duke. Con 24.7 HP y apenas 140 kilos, la relación
-  peso-potencia es la mejor del segmento, y eso se siente cada vez que abrís el acelerador. La horquilla invertida WP
-  APEX de 45 mm y el monoshock WP atrás son componentes que no ves en ninguna rival al mismo precio —de hecho, son los
-  mismos que usa la 390 Duke. El ABS de doble canal con pinza radial ByBre y disco de 320 mm adelante te para en seco.
-  Todo esto cuesta 18.990.000 COP, que es lo que duele: bastante más que la Pulsar NS200 o la Apache RTR 200. Pero la
-  diferencia en calidad de componentes es abismal. La altura del asiento (815 mm) puede ser un problema si eres bajito.
-  La 200 Duke pide gasolina extra, que en Colombia sale más cara, y el consumo de 30 km/l no ayuda. Pero para el que
-  busca la experiencia de manejo más cercana a una moto grande sin saltar a los 400 cc, la Duke 200 es imbatible. La
-  garantía de 4 años sin límite de kilometraje desde 2026 es un plus que quita varios miedos.
+  La KTM 200 Duke 2026 es la naked de entrada de la marca austriaca en Colombia: 199,5 cc,
+  24,7 HP, 140 kilos y una relación peso-potencia que ninguna otra moto de 200 puede
+  igualar. Cuesta 18.990.000 pesos, casi el doble que una Bajaj NS200 con potencia
+  similar, y esa diferencia se paga en chasis, suspensiones, frenos y garantía: cuatro
+  años sin límite de kilometraje desde 2026. Es para ti si quieres el comportamiento de
+  una moto europea y no te importa pagarlo. No es para ti si buscas el mejor precio por
+  caballo: en ese terreno la Bajaj gana por goleada.
+uso_diario: >-
+  Los 140 kilos son el dato que cambia todo. Con 24,7 HP, la 200 Duke tiene una relación
+  peso-potencia de 5,7 kilos por caballo, mejor que muchas 250 y que algunas 300. Eso se
+  traduce en una moto que se siente ligera en todas partes: entra a curva con un
+  pensamiento, cambia de dirección con un movimiento de cadera y frena con una
+  contundencia que sorprende. El motor entrega lo mejor arriba de 7.000 rpm, con un
+  carácter vivo que invita a subirlo de vueltas; por debajo de 4.000 es dócil pero no
+  perezoso. La horquilla invertida y el basculante trasero son componentes de moto
+  superior, y el disco delantero de 320 mm con pinza radial ByBre frena como el de una
+  moto de pista. En ciudad, el asiento a 815 mm y la suspensión firme se sienten: es
+  cómoda por tramos de 30 minutos, no para una hora de tráfico. El consumo de 30 km/l con
+  13,5 litros da unos 400 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 125000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 62000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 55000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 48000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 245000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 340000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 290000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 195000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1620000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario KTM. El SOAT y
+  la técnico-mecánica van aparte. Con 199,5 cc se queda por debajo del umbral de 200 y
+  paga la categoría intermedia del SOAT: 343.000 pesos en lugar de 761.000, una ventaja
+  real. Lo que sí cuesta como una moto grande es el mantenimiento: aceite sintético,
+  llantas deportivas y pastillas en las dos ruedas.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la KTM cuesta 5,8 millones más y ofrece 0,6 caballos
+  adicionales, 15 kilos menos, horquilla invertida, pinza radial y cuatro años de
+  garantía: la diferencia no está en el motor sino en todo lo demás. Contra la Bajaj
+  Pulsar NS400Z, la KTM cuesta 700.000 pesos menos y pierde 14,7 caballos, aunque gana en
+  ciclística y en acabado. Y si el objetivo es una 200 con ABS por menos de trece
+  millones, la NS200 sigue siendo la compra racional.
+faq:
+  - pregunta: "¿Cuánto consume realmente la 200 Duke?"
+    respuesta: >-
+      El homologado es 30 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      24 y 27; en carretera a 90 km/h sube a 32-34. Con 13,5 litros de tanque la autonomía
+      práctica va de 320 a 460 km según el puño derecho.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, y muy bien. Mantiene 110-120 km/h sin esfuerzo y llega a 140 en plano. La posición
+      es de naked deportiva, no de turística, así que trayectos de 200 km son viables pero
+      exigentes para el cuerpo. La moto, en cambio, no sufre.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es su propósito. Consume 25 km/l en ciudad, el mantenimiento supera el millón y medio
+      anual y el asiento firme castiga trayectos largos. Es una moto de disfrute. Para
+      trabajo, una 125 cuesta una cuarta parte de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la 200 Duke?"
+    respuesta: >-
+      Con 199,5 cc se queda por debajo de los 200, así que paga la categoría de 100 a 200 cc:
+      alrededor de 343.000 pesos al año. Es la mitad de lo que paga una 250 o una 390, un
+      detalle que mucha gente pasa por alto al comparar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No es la mejor primera moto. Los 24,7 caballos en 140 kilos hacen que la moto responda
+      con una contundencia que un novato puede subestimar, y la suspensión firme transmite
+      cada imperfección. Es una excelente segunda moto para quien ya domina una 150.
+veredicto: >-
+  La 200 Duke es la moto que demuestra que la diversión no depende del cilindraje: 140
+  kilos, componentes de gama alta y un chasis que perdona menos pero enseña más. Cuesta
+  como una 250 y rinde como una 300 en sensaciones; quien la compra por ficha técnica se
+  equivoca, quien la compra por comportamiento no.

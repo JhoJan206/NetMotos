@@ -29,25 +29,105 @@ llanta_trasero: 150/60-17
 precio_cop: 35990000
 imagen: /images/motos/kawasaki-ninja-400.webp
 pros:
-  - Motor bicilíndrico de los más potentes en su rango de cilindraje
-  - Chasis liviano y ágil, fácil de llevar al límite en curvas
-  - Imagen y prestigio de marca que sostiene un buen valor de reventa
+  - "Motor bicilíndrico de los más potentes en su rango de cilindraje"
+  - "Chasis liviano y ágil, fácil de llevar al límite en curvas"
+  - "Imagen y prestigio de marca que sostiene un buen valor de reventa"
 contras:
-  - Precio de los más altos entre las deportivas de 400cc
-  - Espacio de almacenamiento y comodidad de parrillero muy limitados
-  - Mantenimiento y repuestos más costosos que rivales monocilíndricas
+  - "Precio de los más altos entre las deportivas de 400cc"
+  - "Espacio de almacenamiento y comodidad de parrillero muy limitados"
+  - "Mantenimiento y repuestos más costosos que rivales monocilíndricas"
 rating: 4.7
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Ninja 400 es probablemente la deportiva bicilíndrica más deseada del mercado colombiano en este rango de
-  cilindraje. Con casi 48 caballos y un chasis liviano, ofrece una experiencia de aceleración y sonido de escape que
-  ninguna monocilíndrica de la competencia logra replicar.
-
-  En carretera con curvas revela por qué tiene tanta fama: el motor bicilíndrico entrega potencia de forma progresiva y
-  suave, sin los tirones típicos de un solo cilindro, mientras el chasis liviano permite cambios de dirección rápidos.
-  En ciudad se comporta bien también, aunque la posición deportiva cansa en trayectos largos con tráfico.
-
-  Su rival más directo es la KTM RC 390, con la diferencia de que la Ninja ofrece un motor más refinado a cambio de un
-  precio superior. Es la moto ideal para el motociclista que quiere el prestigio y la experiencia de manejo de una
-  deportiva bicilíndrica real, y que está dispuesto a pagar el premium que eso implica frente a las opciones
-  monocilíndricas.
+  La Kawasaki Ninja 400 es la deportiva de acceso de referencia del mercado: motor
+  bicilíndrico de 399 cc, 48,3 HP, 38 Nm, ABS de doble canal y 168 kilos por 35.990.000
+  pesos. Es la moto que domina la categoría de 400 en ventas y en prestigio, y su precio
+  lo refleja. Es para ti si quieres una deportiva carenada con prestaciones reales y valor
+  de reventa sólido. No es para ti si buscas comodidad para dos personas o si tu
+  presupuesto de mantenimiento es limitado.
+uso_diario: >-
+  El bicilíndrico de 399 cc entrega 48,3 HP con una linealidad que hace que la moto sea
+  fácil de manejar pese a sus prestaciones: se puede rodar en ciudad a 60 km/h sin que el
+  motor proteste y en carretera mantener 140 km/h con reserva hasta más de 180. La caja de
+  seis marchas tiene recorridos cortos y un embrague suave, y la posición, aunque
+  deportiva, es más tolerante que la de una supersport de 600: el torso va inclinado pero
+  las estriberas no están tan retrasadas. El chasis es liviano y ágil, y con 168 kilos la
+  moto se siente más pequeña de lo que es, lo que la hace muy fácil de llevar al límite en
+  curvas. El ABS de doble canal frena sobre disco de 310 mm adelante. El carenado protege
+  bien hasta 140 km/h. El asiento del parrillero es mínimo y el consumo de 26 km/l con 14
+  litros da unos 360 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 185000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 85000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 92000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 60000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 310000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 430000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 370000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 245000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2250000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Kawasaki. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento de una bicilíndrica deportiva es
+  más caro que el de una monocilíndrica equivalente: dos cilindros, más aceite, llantas
+  deportivas de 17 pulgadas y pastillas de gama alta. A eso se suma el costo de los
+  plásticos en caso de caída.
+comparativa: >-
+  Frente a la Kawasaki Z400, la Ninja cuesta 2 millones más y ofrece 3,3 caballos
+  adicionales y carenado, aunque pierde la posición erguida y la comodidad diaria. Contra
+  la KTM RC 390, la Ninja cuesta 5 millones más y ofrece 4,3 caballos adicionales y un
+  motor bicilíndrico mucho más suave, aunque pierde el ABS en curva. Y si el objetivo es
+  una deportiva de 400 con mejor relación precio-prestaciones, la KTM sigue siendo la
+  referencia.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Ninja 400?"
+    respuesta: >-
+      El homologado es 26 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      21 y 24; en carretera a 110 km/h sube a 28-30. Con 14 litros de tanque la autonomía
+      práctica va de 290 a 420 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno: mantiene 140 km/h con el motor relajado y tiene reserva hasta más de 180.
+      El carenado protege bien y el chasis es estable. La posición deportiva cansa después de
+      dos horas, pero la moto está hecha para viajar rápido.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Consume 23 km/l en ciudad, cuesta 36 millones y su mantenimiento supera los dos
+      millones al año. Es una moto de disfrute. Para trabajo, una 125 cuesta seis veces menos
+      de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Ninja 400?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 250, así que en una moto de 36 millones
+      representa apenas el 2 % del valor.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es una de las deportivas más amables para empezar en el mundo de las carenadas: entrega
+      lineal, embrague suave y peso contenido. Aun así, 48 caballos exigen respeto. Es una
+      buena segunda moto para quien ya tiene experiencia en 250.
+veredicto: >-
+  La Ninja 400 es la deportiva de 400 que mejor combina prestaciones, refinamiento y
+  reventa. Su precio es alto y su mantenimiento no es barato, pero dentro de la categoría
+  no tiene rival directo en equilibrio.

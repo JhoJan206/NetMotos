@@ -29,28 +29,102 @@ llanta_trasero: 120/80-17
 precio_cop: 8999000
 imagen: /images/motos/bajaj-pulsar-p150.webp
 pros:
-  - ABS delantero de serie, algo llamativo para una 150cc de este precio
-  - El 95% del torque disponible desde apenas 3.500 rpm, muy fácil de manejar
-  - Diseño alineado con las Pulsar de nueva generación (N160, N250)
+  - "ABS delantero de serie, algo llamativo para una 150cc de este precio"
+  - "El 95% del torque disponible desde apenas 3.500 rpm, muy fácil de manejar"
+  - "Diseño alineado con las Pulsar de nueva generación (N160, N250)"
 contras:
-  - Compite en un segmento muy saturado con opciones de varias marcas
-  - Sin freno de disco trasero con ABS, solo el delantero
-  - Sucesora de la UG150, todavía construyendo reputación propia en el mercado
+  - "Compite en un segmento muy saturado con opciones de varias marcas"
+  - "Sin freno de disco trasero con ABS, solo el delantero"
+  - "Sucesora de la UG150, todavía construyendo reputación propia en el mercado"
 rating: 4.4
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Pulsar P150 llega como sucesora de la histórica UG150, heredando un
-  motor derivado del N160 pero reducido a 150cc, buscando un equilibrio
-  sensato entre rendimiento, practicidad y precio. Es de las pocas 150cc
-  del mercado colombiano que ya trae ABS delantero de fábrica.
-
-  Lo que más se agradece al manejarla es la disponibilidad de torque
-  desde revoluciones bajas: el 95% del par máximo ya está presente a
-  solo 3.500 rpm, lo que la hace muy fácil de dosificar tanto en ciudad
-  como en carretera, sin necesidad de exprimir el motor constantemente.
-
-  Compite de frente con la Suzuki Gixxer 150 ABS, la Yamaha FZ Versión
-  3.0 y la TVS Apache RTR 160 4V FI ABS. Es la moto ideal para el
-  motociclista que busca una naked de 150cc con ABS y buen torque de
-  entrada, en un segmento donde la oferta es amplia pero pocas ofrecen
-  frenos asistidos a este precio.
+  La Bajaj Pulsar P150 es la reinterpretación moderna de la histórica Pulsar 150: motor de
+  149,68 cc con inyección electrónica, 14,2 HP, ABS delantero de serie y un diseño
+  alineado con las NS de nueva generación, por 8.999.000 pesos. Es una moto pensada para
+  quien quiere una 150 equilibrada, con frenos serios y precio contenido. Es para ti si
+  buscas una moto para todo uso, con algo más de motor que una 125 y sin llegar a los once
+  millones. No es para ti si quieres doble disco o ABS de doble canal: aquí solo hay ABS
+  delantero.
+uso_diario: >-
+  El motor de 149,68 cc entrega el 95 % del torque desde 3.500 rpm, según Bajaj, y en la
+  práctica eso se traduce en una moto muy fácil de manejar: se puede rodar en cuarta por
+  ciudad sin tirones y salir de un semáforo con carga sin esfuerzo. Los 14,2 HP permiten
+  mantener 90 km/h en carretera y llegar a 105 en plano. La caja de cinco marchas está
+  bien escalonada y la quinta es larga, lo que reduce revoluciones y consumo en vía
+  abierta. Pesa 140 kilos, un peso medio que da estabilidad sin volverla torpe. El asiento
+  a 790 mm y la posición erguida son cómodos para trayectos de una hora. El ABS delantero
+  funciona bien, pero el disco trasero es de 200 mm sin ABS, un esquema que ya empieza a
+  quedar corto frente a rivales con doble canal. El consumo de 40 km/l con 12 litros de
+  tanque da unos 440 km de autonomía.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 72000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 33000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 24000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 155000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 215000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 17.000 km"
+    costo_cop: 185000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 105000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 880000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Es más barata de mantener que la NS160 por llantas más
+  económicas y menor desgaste, y más cara que una 125 por la medida de los neumáticos y el
+  precio del aceite. Está en el punto medio del segmento.
+comparativa: >-
+  Frente a la Bajaj Pulsar N125 FI, la P150 cuesta 900.000 pesos más y ofrece 2,36
+  caballos adicionales, ABS delantero y un motor de mayor cilindraje: es el salto lógico
+  dentro de la marca. Contra la Honda CB190R 2.0, la Bajaj cuesta 3,9 millones menos y
+  pierde 2,8 caballos y acabado, aunque gana en precio de mantenimiento. Y si el
+  presupuesto lo permite, la Pulsar N160 Pro ofrece 1,8 caballos más y ABS de doble canal
+  por dos millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Pulsar P150?"
+    respuesta: >-
+      El homologado es 40 km/l. En ciudad con tráfico el registro está entre 34 y 37; en
+      carretera a 80 km/h sube a 43. Con 12 litros de tanque la autonomía práctica es de 410 a
+      510 km, una cifra sólida para el cilindraje.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 90 km/h y capacidad de llegar a 105 en plano. Es una moto
+      estable y bien plantada, apta para trayectos de 120 a 150 km. Por encima de 100 el motor
+      va alto y el consumo sube, pero no se siente insegura.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y es una de las 150 más equilibradas para eso: el torque desde 3.500 rpm permite
+      salir cargado sin esfuerzo y el consumo es razonable. Su límite es el mantenimiento,
+      algo más caro que el de una 125 de trabajo.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Pulsar P150?"
+    respuesta: >-
+      Con 149,68 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es
+      un costo fijo bajo para una moto de nueve millones, y una de las razones por las que el
+      segmento 150 sigue siendo el más vendido del país.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las mejores opciones para dar el salto desde una 125. El torque bajo hace
+      que la moto perdone los errores de cambio, el peso es manejable y el ABS delantero cubre
+      la frenada más crítica. La posición erguida facilita el aprendizaje en tráfico.
+veredicto: >-
+  La P150 es la 150 que hace todo bien y nada espectacular: motor elástico, ABS delantero,
+  precio contenido y mantenimiento razonable. En un segmento saturado, su virtud es no
+  tener defectos graves.

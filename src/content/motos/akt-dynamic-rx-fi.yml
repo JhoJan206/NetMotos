@@ -29,23 +29,105 @@ llanta_trasero: 100/80-14
 precio_cop: 9490000
 imagen: /images/motos/akt-dynamic-rx-fi.webp
 pros:
-  - Cilindraje de 150cc, superior al de la mayoría de scooters económicos
-  - Inyección electrónica de fábrica para mejor consumo y arranque
-  - Buen espacio de piso plano y baúl para uso diario
+  - "Cilindraje de 150cc, superior al de la mayoría de scooters económicos"
+  - "Inyección electrónica de fábrica para mejor consumo y arranque"
+  - "Buen espacio de piso plano y baúl para uso diario"
 contras:
-  - Freno trasero de tambor en lugar de disco
-  - Peso algo mayor que scooters de 125cc de la competencia
-  - Diseño menos moderno que el de rivales como la TVS Ntorq
+  - "Freno trasero de tambor en lugar de disco"
+  - "Peso algo mayor que scooters de 125cc de la competencia"
+  - "Diseño menos moderno que el de rivales como la TVS Ntorq"
 rating: 4.3
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Dynamic RX Fi es el scooter de mayor cilindraje dentro del catálogo automático de AKT, pensado para el comprador
-  que quiere más potencia que un scooter de 125cc sin llegar a las scooter premium importadas. Con 150cc e inyección
-  electrónica, se mueve con más soltura que la mayoría de scooters económicos del mercado.
-
-  En ciudad se comporta bien: acelera con autoridad para adelantarse en semáforos y mantiene velocidades de crucero
-  urbanas sin esfuerzo. El piso plano y el espacio de almacenamiento la hacen práctica para mandados y trabajo diario,
-  aunque el freno trasero de tambor es una limitación frente a scooters más equipados.
-
-  Compite con la Yamaha NMAX 155 en un segmento de precio bastante más bajo. Es el scooter ideal para quien quiere más
-  cilindraje que el scooter promedio de 125cc, sin gastar en las marcas japonesas premium.
+  La AKT Dynamic RX Fi es el scooter de 150 cc de AKT: 12 HP, inyección electrónica,
+  transmisión CVT, piso plano y un tanque de 6,5 litros. Con 9.490.000 pesos se ubica en
+  la franja media del segmento de scooters automáticos. Es para ti si quieres comodidad
+  urbana, algo más de motor que un 125 y no te importa que el freno trasero sea de tambor.
+  No es para ti si buscas carretera, si necesitas ABS o si el diseño te importa tanto como
+  la mecánica: aquí el equipamiento es correcto, no destacado.
+uso_diario: >-
+  El motor de 149,4 cc con inyección entrega 12 HP de forma muy suave, sin el tirón que a
+  veces tienen los CVT económicos. En ciudad eso se traduce en salidas limpias de semáforo
+  y una conducción relajada. El piso plano es el gran argumento práctico: se puede llevar
+  una caja o un mercado entre los pies sin colgarlo del manubrio, algo que los scooters
+  con túnel central no permiten. Pesa 118 kilos, el asiento a 770 mm permite apoyar bien
+  los pies y la posición es cómoda y erguida. El baúl bajo el asiento acepta un casco
+  abierto, no uno integral. La suspensión es firme atrás y algo seca en vías rotas. El
+  punto débil es el freno trasero de tambor: en un scooter que rueda a 80 km/h en vía
+  rápida, un disco trasero sería deseable. El consumo de 35 km/l con 6,5 litros da unos
+  230 km de autonomía, lo que obliga a tanquear cada semana.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 68000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 32000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 22000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 145000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 85000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 175000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 55000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 830000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento del CVT —correa y rodillos— es el costo
+  que no existe en una moto con cadena y que muchos compradores de scooter desconocen. En
+  este caso son unos 230.000 pesos cada 18.000 km, un gasto previsible que conviene
+  presupuestar.
+comparativa: >-
+  Frente a la AKT Dynamic Pro CBS, la RX Fi ofrece 2,8 caballos más y un tanque un litro
+  mayor por 1,4 millones adicionales: es el salto lógico dentro de la marca. Contra la
+  Yamaha NMAX 155, la RX cuesta 7,3 millones menos y pierde ABS de doble canal, control de
+  tracción y 3 caballos. Y si el presupuesto llega a 12,5 millones, la AKT Jet Evo ofrece
+  ABS de doble canal, control de tracción y 14 caballos: es otro nivel.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Dynamic RX Fi?"
+    respuesta: >-
+      El homologado es 35 km/l. En ciudad con tráfico y arranques constantes baja a 31-33; en
+      vías rápidas a 70 km/h sube a 38. Con 6,5 litros de tanque la autonomía práctica es de
+      200 a 250 km, lo que en uso intensivo significa tanquear dos veces por semana.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos sí: mantiene 90 km/h y llega a 105 en plano. Para trayectos de más de 80
+      km, la posición y la falta de protección aerodinámica cansan, y el tanque pequeño obliga
+      a parar. Es un scooter urbano con capacidad de vía rápida ocasional.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, y el piso plano es una ventaja real para llevar pedidos. Sin embargo, el consumo y
+      el tanque pequeño implican más tanqueadas, y el mantenimiento del CVT cuesta más que el
+      de una moto con cadena. Para reparto intenso, una 125 con cadena es más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Dynamic RX Fi?"
+    respuesta: >-
+      Con 149,4 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la revisión técnico-mecánica. Es el mismo valor que una moto de 125, aunque el scooter
+      cueste casi 10 millones.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las formas más fáciles de empezar: no hay embrague ni cambios, el peso es
+      contenido y la posición es cómoda. La advertencia es el tambor trasero: en lluvia hay
+      que frenar antes y con más suavidad que en una moto con ABS.
+veredicto: >-
+  La Dynamic RX Fi es un scooter correcto, cómodo y bien motorizado para su precio. Su
+  problema es la competencia interna: por 3 millones más, la Jet Evo ofrece ABS de doble
+  canal y control de tracción, dos cosas que en un vehículo de dos ruedas no deberían ser
+  opcionales.

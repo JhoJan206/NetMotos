@@ -29,20 +29,102 @@ llanta_trasero: 140/60-17
 precio_cop: 11800000
 imagen: /images/motos/yamaha-fz-version-3.0.webp
 pros:
-  - Tecnología Blue Core que le da uno de los mejores rendimientos de combustible de su segmento
-  - 15 años de trayectoria de la familia FZ en Colombia, con alta disponibilidad de repuestos
+  - "Tecnología Blue Core que le da uno de los mejores rendimientos de combustible de su segmento"
+  - "15 años de trayectoria de la familia FZ en Colombia, con alta disponibilidad de repuestos"
 contras:
-  - Potencia algo justa (13 HP) frente a naked de 160-200cc en precio similar
-  - Solo ABS monocanal (delantero), sin cobertura en la rueda trasera
+  - "Potencia algo justa (13 HP) frente a naked de 160-200cc en precio similar"
+  - "Solo ABS monocanal (delantero), sin cobertura en la rueda trasera"
 rating: 4.3
-actualizado: "2026-07-17"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Yamaha FZ Versión 3.0 FI es la evolución de un nombre que lleva 15 años en Colombia. Con el motor Blue Core de 149
-  cc y 13 HP, no es la más potente de su segmento, pero su entrega de torque plana y el consumo de 44 km/l la hacen una
-  de las más eficientes. Pesa 137 kilos y el asiento a 790 mm es cómodo, con una postura erguida que funciona bien en
-  ciudad. El tanque de 13 litros es el más grande de su categoría, dándote una autonomía que pasa holgadamente los 500
-  km. Trae inyección electrónica, freno de disco con ABS monocanal (solo adelante) y llanta trasera de 140/60-17. El
-  precio de 11.700.000 COP está en el rango de la CB190R y la GSX-S150, pero ofrece menos potencia que ambas. Donde gana
-  es en la trayectoria y confianza: la FZ es una moto conocida, con repuestos en todos lados, cualquier taller la
-  entiende, y su reventa es sólida. Para el que quiere una naked equilibrada, que no sorprende pero tampoco decepciona,
-  la FZ 3.0 es una compra inteligente. No es la más emocionante, pero es de las más sensatas.
+  La Yamaha FZ 3.0 es la naked de 150 cc que lleva quince años construyendo una reputación
+  de moto confiable y económica en Colombia. Esta versión suma inyección electrónica Blue
+  Core, ABS monocanal delantero y una estética más agresiva. Con 13 HP, 137 kilos y 44
+  km/l, no busca ser la más rápida: busca ser la más equilibrada. Es para ti si quieres
+  una moto de marca japonesa para uso diario, con consumo bajo y repuestos disponibles en
+  todo el país. No es para ti si vienes de una 200 o buscas emociones fuertes: 13 caballos
+  en una moto de 137 kilos son suficientes, pero no emocionantes.
+uso_diario: >-
+  La FZ 3.0 se siente sólida desde el arranque. El motor Blue Core de 149 cc entrega la
+  potencia de forma muy lineal, sin picos, y eso la hace fácil de manejar en tráfico y
+  predecible en carretera. La inyección mantiene el ralentí estable en altura y en frío,
+  algo que en Bogotá o Tunja marca diferencia. Con 137 kilos no es una pluma, pero el
+  centro de gravedad bajo la hace sentir más liviana de lo que es. El asiento a 790 mm
+  queda en el promedio del segmento, y la posición de manejo, ligeramente inclinada, cansa
+  menos de lo esperado en trayectos de una hora. En carretera mantiene 90 km/h con
+  comodidad y llega a 105 en plano; por encima de ahí el motor pide más de lo que tiene.
+  El ABS monocanal delantero es un plus real, aunque no cubre la rueda trasera. El consumo
+  de 44 km/l es alcanzable: en uso mixto real se mueve entre 38 y 42. El tanque de 13
+  litros da más de 450 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 40000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 30000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 240000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 210000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 70000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 890000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, mano de obra de taller autorizado y aceite
+  sintético, que es lo que recomienda Yamaha para este motor. El SOAT y la
+  técnico-mecánica van aparte. Los repuestos de la familia FZ tienen amplia
+  disponibilidad, incluso fuera de las ciudades principales, y eso reduce el riesgo de que
+  la moto se quede parada esperando una pieza.
+comparativa: >-
+  Frente a la Honda CB190R 2.0, la FZ pierde 4 caballos y gana economía: consume cerca de
+  7 km/l más y cuesta casi un millón menos. Contra la Yamaha MT-15, que comparte marca y
+  cilindraje similar, la FZ es 3,7 millones más barata y mucho más cómoda, aunque la MT-15
+  la supera en potencia, suspensión y equipo. Y si el presupuesto es el límite, la TVS
+  Raider 125 ofrece doble disco por menos de cinco millones, con 2 caballos menos y sin el
+  respaldo de la red Yamaha.
+faq:
+  - pregunta: "¿Cuánto consume realmente la FZ 3.0?"
+    respuesta: >-
+      Yamaha declara 44 km/l. En ciudad con tráfico denso el registro está entre 38 y 41; en
+      carretera a 80 km/h sube a 48. Con el tanque de 13 litros la autonomía real supera los
+      480 km, una de las mejores del segmento de 150 cc.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 90 km/h. Es una moto estable y bien plantada, apta para
+      trayectos de 150 a 200 km sin fatiga. Por encima de 100 km/h el motor va al límite y el
+      consumo sube, pero no se siente insegura.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, aunque su costo de mantenimiento es mayor que el de una 125 de trabajo. A cambio
+      ofrece algo que un repartidor agradece: la moto no se varada y el ABS delantero agrega
+      margen en tráfico. Para volúmenes altos de pedidos, una 125 sigue siendo más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la FZ 3.0?"
+    respuesta: >-
+      Con 149 cc entra en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es
+      importante saberlo porque muchas personas creen que por ser 150 paga la tarifa alta, y
+      no: el salto de categoría está por encima de los 200 cc.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es una excelente primera moto "en serio". La entrega de potencia es suave, la moto se
+      siente estable y el ABS delantero cubre el error más común de los novatos. Pesa 137
+      kilos, así que conviene practicar maniobras en parqueadero antes de meterse al tráfico.
+veredicto: >-
+  La FZ 3.0 no gana ninguna carrera y no lo pretende. Gana en lo que importa a diario:
+  arranca, consume poco, se consigue repuesto y no da sorpresas. Después de quince años en
+  el mercado colombiano, ese historial sigue siendo su mejor ficha técnica.

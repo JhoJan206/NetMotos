@@ -29,24 +29,111 @@ llanta_delantero: 100/80-17
 llanta_trasero: 140/70-17
 precio_cop: 15500000
 pros:
-  - Motor potente (18.6 HP)
-  - Horquilla invertida
-  - ABS de serie
-  - 6 velocidades
+  - "Motor potente (18.6 HP)"
+  - "Horquilla invertida"
+  - "ABS de serie"
+  - "6 velocidades"
 contras:
-  - Precio muy elevado para 155cc
-  - Postura deportiva (poco cómoda en ciudad)
-  - Consumo alto para su cilindraje
+  - "Precio muy elevado para 155cc"
+  - "Postura deportiva (poco cómoda en ciudad)"
+  - "Consumo alto para su cilindraje"
 rating: 4.4
-actualizado: "2026-07-17"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Yamaha MT-15 es la naked más picante del segmento de 155 cc, y no solo por su diseño de moto zombie que tanto
-  gusta. El motor de 155 cc con VVA (distribución variable) entrega 18.6 HP a 10.000 rpm, una cifra que deja atrás a
-  cualquier otra naked de cilindraje similar. Viene con horquilla invertida de 37 mm, ABS de doble canal, transmisión de
-  6 velocidades y llanta trasera de 140/70-17. Pesa 138 kilos y se siente aún más ligera en movimiento. El problema es
-  que todo esto cuesta 9.890.000 COP, que para 155 cc es un precio fuerte —casi el doble de una 125 básica. Además, la
-  postura es deportiva, inclinada hacia adelante, que no es la más cómoda para el tráfico diario en ciudad. El consumo
-  de 40 km/l está bien para la potencia que da, pero no es económico para el cilindraje. Está hecha para el que valora
-  el rendimiento deportivo por encima de la practicidad. Si querés una naked que acelere de verdad, con componentes de
-  gama alta y un chasis que invita a inclinarse en cada curva, la MT-15 es tu moto. Pero no esperes que sea práctica ni
-  barata de mantener.
+  La Yamaha MT-15 es la versión naked de la R15: misma base mecánica de 155 cc con
+  refrigeración líquida, 18,6 HP y caja de seis marchas, pero sin carenado y con un
+  manubrio que cambia por completo la postura. Es la 150 más potente que se vende en
+  Colombia y también una de las más caras: 15.500.000 pesos por una moto de ese
+  cilindraje. Es para ti si quieres prestaciones de deportiva con una posición menos
+  extrema y te importa el equipo (horquilla invertida, ABS, seis marchas). No es para ti
+  si buscas economía, comodidad para dos o una moto para aprender: aquí cada caballo se
+  paga.
+uso_diario: >-
+  El motor es lo mejor de la moto: 18,6 HP a 10.000 rpm en una moto de 138 kilos dan una
+  relación peso-potencia que ninguna otra 150 del mercado iguala. Eso significa que
+  adelanta con autoridad y mantiene 110 km/h sin sufrir, algo impensable en una FZ. La
+  contraparte es que hay que subirlo de vueltas para aprovecharlo: por debajo de 6.000 rpm
+  la moto es dócil, casi perezosa, y quien viene de una 200 va a sentir que le falta
+  empuje abajo. La horquilla invertida y el chasis derivado de la R15 le dan una precisión
+  en curva que se agradece en carretera de montaña. En ciudad la posición es la queja
+  habitual: las estriberas están retrasadas y el torso va inclinado, así que en tráfico
+  denso las muñecas y la espalda trabajan más de la cuenta. El asiento a 810 mm no es para
+  todo el mundo, y el de pasajero es pequeño y duro. El ABS de doble canal y el consumo de
+  40 km/l redondean un paquete coherente, aunque el tanque de 10 litros da apenas para
+  350-380 km.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 3.500 km"
+    costo_cop: 105000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 50000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 55000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 45000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 290000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 245000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 160000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1180000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Yamaha. El
+  SOAT y la técnico-mecánica van aparte. Es una de las motos más caras de mantener por
+  kilómetro en el segmento de 150-160 cc: aceite sintético, llantas deportivas de 17
+  pulgadas y pastillas en las dos ruedas. Quien compra MT-15 debe asumir que el costo de
+  operación se parece más al de una 250 que al de una 150.
+comparativa: >-
+  Frente a la Yamaha FZ 3.0, la MT-15 cuesta 3,7 millones más y entrega 5,6 caballos
+  adicionales, seis marchas, horquilla invertida y ABS de doble canal: es otra moto, no
+  una versión mejorada. Contra la TVS Apache RTR 160 4V, la Yamaha gana en refinamiento y
+  en red de servicio, y pierde en precio de forma contundente. Y si el objetivo es la
+  deportiva carenada, la Yamaha R15 ofrece el mismo motor con protección aerodinámica por
+  600.000 pesos más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la MT-15?"
+    respuesta: >-
+      El homologado es 40 km/l. En uso urbano tranquilo ronda 36-38; si se aprovecha el motor
+      subiéndolo de vueltas baja a 30-33. En carretera a 90 km/h constante se acerca a 42. Es
+      eficiente para su potencia, pero no es una moto económica.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es su terreno natural. Mantiene 110 km/h sin problema y tiene reserva para
+      adelantar. El límite no es el motor sino la autonomía: con 10 litros de tanque hay que
+      planear las paradas cada 300 km aproximadamente.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es la herramienta adecuada. El costo de mantenimiento, el precio de las llantas y la
+      posición de manejo la hacen poco práctica para reparto. Existen opciones mucho más
+      rentables para trabajo: una 125 con cadena cuesta la mitad de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la MT-15?"
+    respuesta: >-
+      Con 155 cc sigue en la categoría de 100 a 200 cc, así que paga alrededor de 343.000
+      pesos al año. Es la única buena noticia del costo fijo: el cilindraje la mantiene fuera
+      de la tarifa alta, aunque su precio de lista sea el de una moto superior.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No la recomendaría como primera moto. La posición deportiva, el asiento alto y un motor
+      que entrega lo mejor arriba exigen experiencia. Un novato aprende más rápido y con menos
+      riesgo en una 150 de posición neutra como la FZ 3.0.
+veredicto: >-
+  La MT-15 es la naked de 150 más divertida del mercado colombiano y se paga como tal. Si
+  tu prioridad es el rendimiento y aceptas el costo de mantenerla, es una compra
+  coherente; si buscas transporte económico con etiqueta deportiva, hay opciones que hacen
+  lo mismo por siete millones menos.

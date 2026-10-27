@@ -49,6 +49,24 @@ const motos = defineCollection({
     contras: z.array(z.string()),
     rating: z.number(),
     descripcion: z.string().optional(),
+    uso_diario: z.string().optional(),
+    costos: z.array(
+      z.object({
+        concepto: z.string(),
+        intervalo: z.string(),
+        costo_cop: z.number(),
+      })
+    ).optional(),
+    costo_anual_cop: z.number().optional(),
+    costos_nota: z.string().optional(),
+    comparativa: z.string().optional(),
+    veredicto: z.string().optional(),
+    faq: z.array(
+      z.object({
+        pregunta: z.string(),
+        respuesta: z.string(),
+      })
+    ).optional(),
     actualizado: z.string().optional(),
   }),
 })

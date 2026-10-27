@@ -29,30 +29,102 @@ llanta_trasero: 3.00-18
 precio_cop: 7499000
 imagen: /images/motos/bajaj-boxer-150x.webp
 pros:
-  - Diseñada específicamente para terreno destapado y uso de trabajo pesado
-  - Indicador de marchas y medidor de combustible, poco comunes en motos de trabajo
-  - Consumo de combustible muy bajo pese al aumento de cilindraje frente a la CT100
+  - "Diseñada específicamente para terreno destapado y uso de trabajo pesado"
+  - "Indicador de marchas y medidor de combustible, poco comunes en motos de trabajo"
+  - "Consumo de combustible muy bajo pese al aumento de cilindraje frente a la CT100"
 contras:
-  - Sin freno de disco en ninguna rueda
-  - Motor a carburador, sin la precisión de una inyección electrónica
-  - Diseño netamente utilitario, sin pretensiones estéticas
+  - "Sin freno de disco en ninguna rueda"
+  - "Motor a carburador, sin la precisión de una inyección electrónica"
+  - "Diseño netamente utilitario, sin pretensiones estéticas"
 rating: 4.4
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Boxer 150X es la respuesta de Bajaj para quien necesita una moto de
-  trabajo que aguante terreno difícil sin sacrificar la economía que ha
-  hecho famosa a la línea Boxer en Colombia. Sube el cilindraje frente a
-  la CT100, pero mantiene la filosofía de bajo consumo y bajo costo de
-  mantenimiento.
-
-  Su suspensión SNS y las llantas pensadas para que el barro no se pegue
-  la hacen una opción sólida para quien trabaja en zonas rurales o
-  reparte mercancía por caminos destapados. El indicador de marchas y el
-  medidor de combustible son detalles que se agradecen en una moto de
-  este segmento, donde muchas veces ni siquiera vienen de fábrica.
-
-  Compite con la Suzuki GN 125 y con motos utilitarias de marcas chinas
-  de menor respaldo. Es la moto ideal para el trabajador que necesita
-  resistencia y bajo consumo por encima de cualquier lujo, ya sea para
-  mensajería rural, agricultura o transporte de trabajo diario en
-  terreno exigente.
+  La Bajaj Boxer 150X es una moto de trabajo con vocación destapada: 149,5 cc, 12 HP, caja
+  de cuatro marchas, tanque de 13 litros y 175 mm de distancia al piso por 7.499.000
+  pesos. Está diseñada para cargar y para aguantar, no para correr. Es para ti si la usas
+  como herramienta en zona rural o periurbana, con bultos y vías en mal estado. No es para
+  ti si haces carretera, si quieres frenos de disco o si esperas comodidad: aquí todo está
+  calculado para durar.
+uso_diario: >-
+  La Boxer 150X tiene el torque más bajo del segmento: 13,25 Nm a solo 5.500 rpm, lo que
+  significa que jala desde muy abajo y perdona los cambios mal hechos. Esa es la razón por
+  la que es una moto de trabajo tan querida: con carga atrás y en camino destapado, se
+  puede rodar casi todo el tiempo en segunda sin que el motor se queje. La caja de cuatro
+  marchas es corta y la cuarta es prácticamente una sobremarcha: cómoda a 60-70 km/h,
+  incómoda por encima de 80. Los 175 mm al piso y las llantas de perfil alto permiten
+  pasar huecos y rieles sin golpear. El asiento a 780 mm es accesible. El indicador de
+  marchas y el medidor de combustible son detalles poco comunes en motos de trabajo y muy
+  útiles en el día a día. El punto negro son los frenos: tambor en las dos ruedas, sin
+  ABS. Con carga y en bajada mojada, la distancia de frenado se alarga mucho.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 2.500 km"
+    costo_cop: 45000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 24000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 17000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 135000
+  - concepto: "Llanta trasera de carga"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta delantera de carga"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 175000
+  - concepto: "Zapatas de freno traseras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 730000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es barato en repuestos, pero el intervalo
+  de aceite de 2.500 km implica más visitas al taller que una 125 moderna. Aun así, el
+  costo total anual se mantiene bajo porque ningún repuesto supera los 200.000 pesos y
+  todos se consiguen en tiendas de barrio.
+comparativa: >-
+  Frente a la Bajaj Boxer CT100, la 150X ofrece 3,8 caballos más, un tanque 4,5 litros
+  mayor y capacidad de carga real, por 1,3 millones adicionales: es el salto lógico para
+  trabajo pesado. Contra la AKT TTR 125, la Boxer gana en torque y en capacidad de carga,
+  y pierde en altura al piso y en frenada. Y si lo que buscas es una moto de trabajo con
+  freno de disco, la Bajaj CT 125 ofrece uno delantero por 600.000 pesos menos, aunque con
+  menos cilindraje.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Boxer 150X?"
+    respuesta: >-
+      El homologado es 45 km/l. En uso de trabajo con carga y vías destapadas baja a 35-38; en
+      asfalto a 60 km/h sube a 48. Con 13 litros de tanque la autonomía práctica va de 450 a
+      620 km, una de las mejores del segmento.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos sí. La cuarta marcha permite 70-75 km/h sin esfuerzo, pero por encima de
+      80 el motor va al límite y la moto se siente liviana. Es una moto de trayectos rurales e
+      intermunicipales cortos, no de autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Es su razón de existir. Aguanta carga, maltrato y caminos destapados, tiene indicador de
+      marchas y medidor de combustible, y su torque permite salir cargada sin sufrir. Es una
+      de las mejores herramientas de trabajo del mercado colombiano.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Boxer 150X?"
+    respuesta: >-
+      Con 149,5 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la técnico-mecánica. Es un costo fijo razonable para una moto de trabajo que puede
+      facturar todos los días.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Para aprender en zona rural, sí: el torque bajo y la caja corta perdonan mucho. Para
+      aprender en ciudad, no: los frenos de tambor, el peso con carga y la falta de ABS exigen
+      experiencia. Como primera moto de trabajo, es una escuela dura pero efectiva.
+veredicto: >-
+  La Boxer 150X no es una moto para disfrutar: es una moto para producir. Su torque desde
+  abajo, su tanque enorme y su tolerancia al maltrato la convierten en una herramienta que
+  se paga sola. Los frenos de tambor son su deuda pendiente con la seguridad.

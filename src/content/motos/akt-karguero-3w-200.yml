@@ -29,21 +29,108 @@ llanta_trasero: 4.50-12
 precio_cop: 15090000
 imagen: /images/motos/akt-karguero-3w-200.webp
 pros:
-  - Capacidad de carga útil de 410 kg
-  - Suspensión delantera reforzada y ballestas traseras de 5 hojas
-  - Relación precio-capacidad de carga más competitiva del mercado
+  - "Capacidad de carga útil de 410 kg"
+  - "Suspensión delantera reforzada y ballestas traseras de 5 hojas"
+  - "Relación precio-capacidad de carga más competitiva del mercado"
 contras:
-  - Velocidad limitada para viajes largos interurbanos
-  - Consumo de combustible elevado por su peso de 377 kg
-  - Sin ABS ni asistencias electrónicas de frenado
+  - "Velocidad limitada para viajes largos interurbanos"
+  - "Consumo de combustible elevado por su peso de 377 kg"
+  - "Sin ABS ni asistencias electrónicas de frenado"
 rating: 4.1
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  El Karguero 3W 200 es el motocarro de carga de AKT, diseñado para el transporte de mercancía en zonas urbanas y
-  rurales de Colombia. Con un motor de 197 cc OHV que entrega 12.07 HP y 13.9 Nm de torque, está optimizado para carga
-  más que para velocidad. Su volco con laterales abatibles permite cargar hasta 410 kg de forma práctica, y la
-  suspensión delantera telescópica reforzada de 49.95 mm combinada con ballestas traseras de 5 hojas ofrece estabilidad
-  incluso a plena carga. Los frenos son de disco hidráulico adelante y tambor hidráulico atrás. El tanque de 13.4 litros
-  le da una autonomía adecuada para jornadas de trabajo urbano. Compite directamente con el Tuk Tuk 200 de la misma AKT
-  y con motocarros de otras marcas. Es el vehículo ideal para el emprendedor que necesita un transporte de carga
-  económico, confiable y con respaldo de red de servicio a nivel nacional.
+  El AKT Karguero 3W 200 es un motocarro de tres ruedas con capacidad de carga útil de 410
+  kilos, motor de 197 cc, caja de cinco marchas y suspensión trasera de ballestas de cinco
+  hojas, por 15.090.000 pesos. No es una moto: es una herramienta de trabajo con la que se
+  puede reemplazar una camioneta pequeña en la última milla. Es para ti si tienes un
+  negocio, haces reparto pesado o trabajas en una zona donde una moto de dos ruedas no
+  alcanza. No es para ti si lo que buscas es moverte tú solo: para eso hay opciones diez
+  millones más baratas.
+uso_diario: >-
+  El Karguero 3W se maneja como un motocarro, no como una moto: la dirección es más
+  pesada, el ancho de trocha obliga a calcular las maniobras y los 377 kilos de peso se
+  sienten en cada arranque. A cambio, ofrece algo que ninguna moto de dos ruedas puede:
+  una plataforma de carga que aguanta 410 kilos y que en la práctica permite llevar
+  mercado, herramientas o pedidos de e-commerce sin colgar nada del manubrio. El motor de
+  197 cc con 12,07 HP y 13,9 Nm a 5.500 rpm está pensado para torque, no para velocidad:
+  con carga completa sostiene 50-60 km/h y en pendiente larga exige primera. La suspensión
+  trasera de ballestas de cinco hojas es lo que hace posible la capacidad de carga, y la
+  delantera reforzada absorbe el peso extra. La distancia al piso de 305 mm es enorme y
+  ayuda en vías destapadas y en resaltos. El freno delantero es de disco hidráulico y el
+  trasero de tambor hidráulico; no hay ABS.
+costos:
+  - concepto: "Aceite de motor 20W-50 (3 litros)"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 85000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 38000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 22000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta trasera de carga (par)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 380000
+  - concepto: "Llanta delantera de carga"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 210000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 65000
+  - concepto: "Zapatas de freno traseras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 85000
+  - concepto: "SOAT categoría motocarro"
+    intervalo: "Anual"
+    costo_cop: 386900
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 220000
+costo_anual_cop: 1290000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Hay tres cosas que encarecen este mantenimiento frente a
+  una moto: el aceite se cambia en mayor cantidad, el kit de arrastre sufre con la carga y
+  las llantas traseras son dos y se gastan más rápido. Aun así, el costo por kilo
+  transportado es el más bajo del mercado de vehículos de carga.
+comparativa: >-
+  Frente a una moto de trabajo como la Bajaj Boxer 150X, el Karguero cuesta 7,6 millones
+  más y ofrece 29 veces más capacidad de carga útil, con la desventaja de la velocidad y
+  el ancho. Contra una camioneta pequeña usada, el motocarro cuesta menos de la mitad,
+  consume una fracción y se parquea en cualquier parte. Y si la carga no supera los 100
+  kilos, una moto con parrilla cuesta la mitad y es mucho más ágil.
+faq:
+  - pregunta: "¿Cuánto consume el Karguero 3W 200?"
+    respuesta: >-
+      El consumo no está homologado para este vehículo y depende directamente de la carga. Con
+      410 kilos y recorrido urbano, el rango real está entre 18 y 24 km por galón equivalente;
+      con carga ligera en plano puede acercarse a 30. Es un dato que conviene medir con la
+      carga habitual antes de calcular la rentabilidad.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos intermunicipales cortos, sí, a 50-60 km/h. No es un vehículo para autopista: su
+      velocidad máxima y su estabilidad con carga no están pensadas para eso. Su terreno es la
+      ciudad y la vía secundaria en buen estado.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Es su razón de existir. Con 410 kilos de capacidad útil reemplaza varios viajes de moto
+      en uno solo, y eso se traduce en menos combustible, menos tiempo y menos personal. Para
+      reparto de última milla con paquetes voluminosos es la opción más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT del Karguero?"
+    respuesta: >-
+      Entra en la categoría de motocarro, con una tarifa cercana a los 387.000 pesos anuales,
+      más la revisión técnico-mecánica, que para este tipo de vehículo suele costar más que la
+      de una moto. Es un costo fijo bajo para la capacidad de carga que ofrece.
+  - pregunta: "¿Es difícil de manejar?"
+    respuesta: >-
+      Al principio sí. La dirección es más pesada que la de una moto, el ancho obliga a
+      calcular los espacios y hay que acostumbrarse a frenar con más distancia por el peso. En
+      dos o tres días de práctica urbana se vuelve natural, pero no es un vehículo para
+      alguien que nunca ha manejado nada con tres ruedas.
+veredicto: >-
+  El Karguero 3W 200 no compite con motos: compite con camionetas y con tres viajes de
+  moto convertidos en uno. Si tu negocio mueve carga, es una de las mejores inversiones
+  posibles; si solo necesitas moverte tú, es un gasto innecesario.

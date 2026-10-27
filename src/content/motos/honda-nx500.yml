@@ -29,24 +29,111 @@ llanta_trasero: 160/60-17
 precio_cop: 54900000
 imagen: /images/motos/honda-nx500.webp
 pros:
-  - Motor bicilíndrico suave, potente y muy confiable a largo plazo
-  - Autonomía sobresaliente gracias al tanque de 17.7 litros
-  - Excelente equilibrio entre uso urbano, ruta y trocha liviana
+  - "Motor bicilíndrico suave, potente y muy confiable a largo plazo"
+  - "Autonomía sobresaliente gracias al tanque de 17.7 litros"
+  - "Excelente equilibrio entre uso urbano, ruta y trocha liviana"
 contras:
-  - Precio la ubica fuera del alcance de la mayoría de compradores
-  - Peso considerable para maniobras en trocha exigente
-  - Pocos concesionarios fuera de las ciudades principales
+  - "Precio la ubica fuera del alcance de la mayoría de compradores"
+  - "Peso considerable para maniobras en trocha exigente"
+  - "Pocos concesionarios fuera de las ciudades principales"
 rating: 4.6
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Nx500 es el escalón que muchos motociclistas sueñan alcanzar después de años en cilindrajes medianos: una adventure
-  bicilíndrica, seria, hecha por Honda, con la solidez mecánica que caracteriza a la marca. No es la más potente de su
-  segmento, pero es probablemente la más equilibrada.
-
-  El motor de 471cc entrega una potencia lineal y fácil de dosificar, algo que se agradece tanto en trocha destapada
-  como en carretera a velocidades altas. El tanque grande le da una autonomía que pocas rivales igualan, ideal para
-  viajes largos sin depender de estaciones de servicio cada rato.
-
-  Su competencia natural son la Kawasaki Versys 650 y algunas Royal Enfield de mayor cilindraje, aunque compite en un
-  nicho más reducido en Colombia por su precio. Es una moto pensada para el motociclista experimentado que ya tuvo
-  varias motos antes y busca dar el salto a algo más grande, confiable y con verdadera vocación de viaje.
+  La Honda NX500 es la adventure de media cilindraje de Honda: motor bicilíndrico de 471
+  cc, 47,5 HP, 43 Nm, ABS de doble canal y un tanque de 17,7 litros por 54.900.000 pesos.
+  Es la moto con la que Honda quiere cubrir el hueco entre una 300 y una 700, con un
+  enfoque de trail asfáltico: capacidad de trocha liviana, pero comodidad y prestaciones
+  de carretera. Es para ti si quieres viajar por el país con parrillero y equipaje, con un
+  motor suave y autonomía real. No es para ti si tu presupuesto está por debajo de los 50
+  millones o si esperas una moto de enduro: 196 kilos y 190 mm al piso no son una trail
+  dura.
+uso_diario: >-
+  El bicilíndrico de 471 cc es la razón de ser de esta moto: entrega 47,5 HP de forma muy
+  suave, sin vibraciones molestas a 120 km/h, y con un torque de 43 Nm que permite
+  adelantar en sexta sin bajar dos marchas. Es un motor que se siente refinado en
+  cualquier régimen, y eso en trayectos de 400 km marca una diferencia enorme frente a un
+  monocilíndrico. Los 17,7 litros de tanque, con un consumo de 24 km/l, dan más de 420 km
+  de autonomía real, suficiente para cruzar tramos largos sin preocuparse. La posición es
+  erguida, con manubrio ancho y estriberas centradas, cómoda para dos horas seguidas. El
+  asiento a 830 mm es accesible para estaturas medias. El ABS de doble canal funciona
+  sobre disco doble de 296 mm adelante, con una frenada potente y bien modulada. En
+  ciudad, los 196 kilos y el ancho del manubrio complican filtrar entre carros; es una
+  moto que se disfruta en carretera, no en el tráfico. La suspensión absorbe bien el
+  asfalto roto, aunque en destapado serio se queda corta de recorrido.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 195000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 85000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 120000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 65000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 320000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 520000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 440000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 260000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2350000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Honda. El SOAT
+  y la técnico-mecánica van aparte. Es la ficha más cara de mantener de todo el catálogo,
+  y no por capricho: aceite de 195.000 pesos cada 6.000 km, llantas de medida grande por
+  encima de 500.000 pesos y un bicilíndrico que exige insumos de moto grande. Quien compra
+  una 500 debe asumir que el mantenimiento anual equivale a una moto de trabajo completa.
+comparativa: >-
+  Frente a la Honda XRE 300, la NX500 cuesta 21,4 millones más y ofrece 21,5 caballos
+  adicionales, un motor bicilíndrico, ABS de doble canal y autonomía muy superior: es un
+  salto de categoría, no una versión mejorada. Contra la Yamaha Ténéré 700, la Honda
+  cuesta unos 20 millones menos y pierde 25 caballos y capacidad de trocha real, aunque
+  gana en peso y en facilidad de uso diario. Y si el uso es más de trail ligero y el
+  presupuesto aprieta, la Kawasaki Versys-X 300 hace el 70 % del trabajo por la mitad.
+faq:
+  - pregunta: "¿Cuánto consume realmente la NX500?"
+    respuesta: >-
+      El homologado es 24 km/l. En carretera a 110 km/h el registro real está entre 22 y 25;
+      en ciudad con tráfico baja a 18-20. Con 17,7 litros de tanque la autonomía práctica va
+      de 320 a 440 km, con la ventaja de que en viaje se acerca al extremo alto.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno natural. Mantiene 130 km/h con el motor relajado y tiene reserva hasta
+      170. El bicilíndrico no vibra, el asiento es amplio y la protección aerodinámica es
+      suficiente para trayectos de 400 km por día. Es una turística con capacidad de trocha
+      liviana.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Cuesta 54,9 millones, pesa 196 kilos, consume 20 km/l en ciudad y su mantenimiento
+      supera los dos millones al año. Es una moto de viaje y disfrute. Para trabajo, una 125 o
+      150 cuesta cinco veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NX500?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 250, lo que significa que el SOAT no escala
+      con el cilindraje por encima de ese umbral.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No como primera moto. Pesa 196 kilos, tiene 47,5 caballos y una altura de asiento de 830
+      mm. Es una moto para quien ya tiene experiencia en 250 o 300 y quiere dar el salto a
+      viajar. La suavidad del motor ayuda, pero el peso en maniobras lentas no perdona.
+veredicto: >-
+  La NX500 es la adventure que hace todo bien y nada extremo: motor suave, autonomía real
+  y comodidad de carretera con capacidad de trocha liviana. Su problema es el precio: 54,9
+  millones la ponen fuera del alcance de la mayoría, y a ese nivel la competencia es
+  feroz.

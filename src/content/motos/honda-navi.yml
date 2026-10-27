@@ -29,24 +29,104 @@ llanta_trasero: 90/90-12
 precio_cop: 8490000
 imagen: /images/motos/honda-navi.webp
 pros:
-  - Rendimiento de combustible entre los mejores de su segmento
-  - Diseño compacto y liviano, muy fácil de maniobrar en tráfico
-  - Respaldo de la red de servicio Honda, la más amplia del país
+  - "Rendimiento de combustible entre los mejores de su segmento"
+  - "Diseño compacto y liviano, muy fácil de maniobrar en tráfico"
+  - "Respaldo de la red de servicio Honda, la más amplia del país"
 contras:
-  - Tanque muy pequeño, exige tanquear con frecuencia
-  - Sin freno de disco ni siquiera como opción
-  - Baúl bajo el asiento reducido comparado con otros scooters
+  - "Tanque muy pequeño, exige tanquear con frecuencia"
+  - "Sin freno de disco ni siquiera como opción"
+  - "Baúl bajo el asiento reducido comparado con otros scooters"
 rating: 4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Nav-i es la apuesta de Honda por el scooter más económico y básico de su portafolio, pensado para trayectos cortos
-  dentro de la ciudad y para quien busca su primer vehículo motorizado sin complicarse con marchas. Su tamaño reducido
-  la hace ideal para colarse entre el tráfico bogotano o paisa sin sufrir.
-
-  El consumo es su gran fortaleza: fácilmente supera los 50 km por litro en uso urbano moderado, lo que la vuelve muy
-  barata de mantener día a día. A cambio, el tanque de menos de 4 litros obliga a visitar la bomba de gasolina seguido,
-  algo que en carretera resulta poco práctico.
-
-  Compite con la Yamaha Ray ZR y la AKT Genesis, y aunque no es la scooter con más equipamiento del mercado, gana por
-  confiabilidad y respaldo de marca. Es la opción recomendada para estudiantes o para quien necesita movilidad urbana
-  económica sin pretensiones de viajar lejos.
+  La Honda Navi es una moto con formato inclasificable: mezcla de scooter y moto pequeña,
+  con 109 cc, 7,9 HP, transmisión automática CVT y un peso de 101 kilos por 8.490.000
+  pesos. Es la moto más barata de Honda en Colombia y una de las más fáciles de manejar
+  del mercado. Es para ti si quieres moverte en ciudad sin aprender a usar embrague ni
+  cambios, y valoras la red de servicio Honda. No es para ti si haces carretera, si
+  necesitas capacidad de carga o si esperas frenos modernos: aquí solo hay tambor.
+uso_diario: >-
+  La Navi es, ante todo, práctica. Con 101 kilos y 765 mm de asiento, cualquier persona
+  puede moverla, parquearla y levantarla. La transmisión CVT elimina el embrague y los
+  cambios, así que en tráfico denso solo hay que acelerar y frenar, lo que reduce la
+  fatiga de forma notable. El motor de 109 cc con inyección PGM-FI entrega 7,9 HP,
+  suficiente para ciudad y justo para vías rápidas: a 70 km/h ya va en su límite. El
+  consumo de 55 km/l es de los mejores del mercado, pero el tanque de 3,8 litros obliga a
+  tanquear cada 180-200 km. Los frenos de tambor en las dos ruedas, sin ABS, son el punto
+  más criticado: en pavimento mojado la distancia de frenado se alarga. El baúl bajo el
+  asiento es reducido y el espacio para el pasajero, mínimo.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 52000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 26000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 19000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 115000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 72000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 150000
+  - concepto: "Zapatas de freno delanteras y traseras"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 48000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 680000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Honda. El
+  SOAT y la técnico-mecánica van aparte. Es la ficha más barata de mantener del catálogo
+  junto con la Crypton: zapatas en lugar de pastillas, llantas pequeñas y un motor
+  sencillo. El único gasto extra frente a una moto con cadena es el mantenimiento del CVT,
+  que en este cilindraje es económico.
+comparativa: >-
+  Frente a la AKT Flex 125, la Navi cuesta 3,2 millones más y ofrece 0,7 caballos menos,
+  aunque gana en imagen, en red de servicio y en la simplicidad del CVT frente a la caja
+  semiautomática. Contra la Yamaha Crypton Finn FI, la Honda cuesta 600.000 pesos menos y
+  ofrece un caballo menos y un tanque mucho más pequeño, aunque gana en practicidad
+  urbana. Y si el objetivo es una moto automática con más capacidad, la AKT Dynamic Pro
+  CBS ofrece baúl y piso plano por menos dinero.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Navi?"
+    respuesta: >-
+      El homologado es 55 km/l. En ciudad con tráfico y paradas constantes el registro está
+      entre 48 y 52; en tramos planos se acerca a 57. Con 3,8 litros de tanque la autonomía
+      práctica es de 180 a 215 km, lo que obliga a tanquear varias veces por semana.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Poco. A 60 km/h va cómoda y a 70 ya va al límite. Las ruedas pequeñas, el peso ligero y
+      los frenos de tambor no están pensados para vías rápidas. Es una moto estrictamente
+      urbana.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve para pedidos pequeños y trayectos cortos, sobre todo por la facilidad de manejo y
+      el consumo. Pero el tanque de 3,8 litros y el baúl reducido la limitan. Para reparto de
+      volumen, una moto con tanque de 10 litros es más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Navi?"
+    respuesta: >-
+      Con 109 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 8,49 millones representa el 4 % del valor, una
+      proporción que conviene incluir en el presupuesto.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es probablemente la más fácil de aprender del mercado: sin embrague, sin cambios, 101
+      kilos y un asiento de 765 mm. El riesgo es el opuesto al habitual: tanta facilidad lleva
+      a subestimar la frenada, y los tambores sin ABS exigen distancia en mojado.
+veredicto: >-
+  La Navi es una moto de concepto inteligente: la simplicidad de un scooter con la postura
+  de una moto. Su limitación no es la calidad sino el alcance: 3,8 litros de tanque y
+  frenos de tambor la confinan a la ciudad y a trayectos cortos.

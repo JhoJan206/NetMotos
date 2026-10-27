@@ -29,24 +29,103 @@ llanta_trasero: 140/70-17
 precio_cop: 17990000
 imagen: /images/motos/royal-enfield-meteor-350.webp
 pros:
-  - Sonido y carácter de motor clásico, único en su segmento de precio
-  - Posición de manejo tipo crucero, muy cómoda para trayectos largos
-  - Tanque de 15 litros con buena autonomía para ruta
+  - "Sonido y carácter de motor clásico, único en su segmento de precio"
+  - "Posición de manejo tipo crucero, muy cómoda para trayectos largos"
+  - "Tanque de 15 litros con buena autonomía para ruta"
 contras:
-  - Peso elevado (191 kg) que exige algo de fuerza en maniobras lentas
-  - Torque disponible desde bajas rpm, pero potencia máxima modesta
-  - Costo de mantenimiento superior al de marcas indias más económicas
+  - "Peso elevado (191 kg) que exige algo de fuerza en maniobras lentas"
+  - "Torque disponible desde bajas rpm, pero potencia máxima modesta"
+  - "Costo de mantenimiento superior al de marcas indias más económicas"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Meteor 350 es la puerta de entrada al mundo Royal Enfield para el motociclista colombiano que busca algo distinto a
-  las naked deportivas del mercado. Con su estilo crucero relajado y ese sonido de escape grave tan característico de la
-  marca, se siente como ninguna otra moto en su rango de precio.
-
-  Su fuerte es la comodidad: la posición de manejo erguida y los pies adelantados hacen que trayectos largos en
-  carretera se sientan relajados, muy distinto a la postura deportiva de una naked convencional. El torque disponible
-  desde rpm bajas facilita adelantar sin tener que exprimir el motor.
-
-  Compite con la Hunter 350 de la misma marca (más orientada a ciudad) y, en un segmento distinto, con las cruceras
-  chinas de bajo costo. Es la moto ideal para el motociclista que valora el carácter y la estética clásica sobre la
-  potencia pura, y que quiere una moto para rodar tranquilo los fines de semana con estilo propio.
+  La Royal Enfield Meteor 350 es la crucero de entrada de la marca: 349 cc, 20,2 HP, 27 Nm
+  y una posición de manejo relajada con el manubrio alto y las estriberas adelantadas, por
+  17.990.000 pesos. Es la moto que compra quien quiere viajar sin prisa, con un tanque de
+  15 litros y un asiento a 765 mm, el más bajo de la familia. Es para ti si haces
+  trayectos largos a velocidad moderada y valoras comodidad por encima de prestaciones. No
+  es para ti si tu ruta incluye trocha, si necesitas adelantar con frecuencia o si el peso
+  de 191 kilos te parece excesivo para ciudad.
+uso_diario: >-
+  La Meteor es la más cómoda de las tres Royal de 350 para trayectos largos. La posición
+  de crucero, con las piernas hacia adelante y el torso erguido, reparte el peso de forma
+  distinta a la Classic y permite pasar dos horas en el asiento sin que la espalda
+  proteste. El motor es el mismo de 349 cc con 27 Nm a 4.000 rpm, con un quinto desarrollo
+  largo que permite cruceros de 100 km/h a bajas revoluciones, y el sonido de escape sigue
+  siendo el gran argumento emocional. El tanque de 15 litros, con un consumo de 32 km/l,
+  da casi 480 km de autonomía teórica, la mejor de la familia: en la práctica ronda los
+  400. Los frenos con ABS de doble canal cumplen, y la suspensión trasera es algo más
+  suave que la de la Hunter, aunque sigue siendo de recorrido corto. El peso de 191 kilos
+  se siente en maniobras lentas y en parqueadero, no en movimiento.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 98000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 54000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 38000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 235000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 315000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 275000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 160000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1490000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Royal Enfield.
+  El SOAT y la técnico-mecánica van aparte. El costo es similar al de la Classic y
+  superior al de una moto india de 200 cc: llantas de medida grande, aceite sintético y
+  SOAT de categoría alta. El tanque de 15 litros, en cambio, reduce las paradas en viaje y
+  eso también es una forma de ahorro.
+comparativa: >-
+  Frente a la Classic 350, la Meteor cuesta 2 millones menos y ofrece dos litros más de
+  tanque, una posición más cómoda para viajar y 4 kilos menos de peso: para carretera es
+  la mejor de las dos. Contra la Hunter 350, la Meteor cuesta 2 millones más y pierde
+  agilidad urbana, aunque gana en confort y autonomía. Y si el objetivo es una crucero de
+  mayor cilindraje, no hay nada en el mercado colombiano por debajo de los 30 millones.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Meteor 350?"
+    respuesta: >-
+      El homologado es 32 km/l. En ciudad con tráfico el registro está entre 27 y 30; en
+      carretera a 90 km/h sube a 35-37. Con 15 litros de tanque la autonomía práctica es de
+      400 a 530 km, la mejor de la familia 350.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno natural. La posición de crucero y el quinto desarrollo largo permiten
+      trayectos de 250 km sin fatiga. Mantiene 100 km/h con comodidad y llega a 115 en plano.
+      Por encima de 110 el motor vibra, pero la moto no se siente insegura.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Pesa 191 kilos, cuesta 18 millones y su mantenimiento ronda el millón y medio al
+      año. Es una moto de disfrute y viaje. Para trabajo, una 125 o 150 cuesta entre cuatro y
+      cinco veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Meteor 350?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor de la Classic y la Hunter, porque el criterio es el
+      cilindraje y no el tipo de moto.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es amable por el asiento bajo de 765 mm y el motor de torque bajo, pero los 191 kilos
+      son mucho para alguien sin experiencia en maniobras lentas. Es una buena primera moto
+      para quien tenga contextura y aprenda a manejar el peso desde el primer día.
+veredicto: >-
+  La Meteor 350 es la forma más cómoda y económica de viajar con carácter clásico en
+  Colombia: 15 litros de tanque, posición de crucero y un motor que no exige nada. Le
+  falta potencia para dos personas con equipaje, pero para rodar a 90 km/h por el país
+  sobra.

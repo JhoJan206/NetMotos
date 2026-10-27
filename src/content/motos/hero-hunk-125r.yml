@@ -29,22 +29,102 @@ llanta_trasero: 110/90-17
 precio_cop: 4590000
 imagen: /images/motos/hero-hunk-125r.webp
 pros:
-  - Frenos de disco en ambas ruedas
-  - Monoamortiguador Nitrox
-  - Garantía Hero 2 años
+  - "Frenos de disco en ambas ruedas"
+  - "Monoamortiguador Nitrox"
+  - "Garantía Hero 2 años"
 contras:
-  - Red de concesionarios limitada
-  - Consumo medio
-  - Disponibilidad de repuestos
+  - "Red de concesionarios limitada"
+  - "Consumo medio"
+  - "Disponibilidad de repuestos"
 rating: 4.1
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  Con un planteamiento de sport urbana, la Hero Hunk 125R intenta darle una cara más agresiva al segmento de 125 cc. Su
-  motor entrega 11 HP a 7.500 rpm y lo mejor que trae son los frenos: disco adelante de 276 mm y disco atrás de 220 mm,
-  algo que no todo el mundo ofrece en este cilindraje. El monoamortiguador Nitrox atrás ayuda a que se sienta más
-  plantada en las curvas que las rivales con doble amortiguador. Pesa 124 kilos y el asiento a 790 mm es accesible. El
-  problema de Hero en Colombia sigue siendo la red: apenas está creciendo y en ciudades intermedias conseguir un
-  repuesto puede ser una odisea. Los 4.590.000 COP están bien por lo que ofrece en papel, pero hay que medir bien si en
-  tu zona hay concesionario. La garantía de 2 años da tranquilidad, pero la disponibilidad de servicio es el verdadero
-  filtro. Para el que vive cerca de un taller Hero y quiere algo distinto a las AKT y Bajaj de siempre, es una opción
-  válida.
+  La Hero Hunk 125R es una 125 deportiva con frenos de disco en las dos ruedas, motor de
+  11 HP y monoamortiguador trasero, por 4.590.000 pesos. Es una propuesta poco habitual:
+  doble disco en una 125 de precio de entrada, algo que en el mercado colombiano solo
+  ofrecen contadas excepciones. Es para ti si quieres seguridad de frenada y no quieres
+  pasar de cinco millones. No es para ti si te importa la red de servicio: Hero tiene
+  menos concesionarios en Colombia que Honda, Yamaha o AKT, y eso es una limitación real.
+uso_diario: >-
+  El motor de 124,7 cc con carburador entrega 11 HP a 7.500 rpm, una cifra correcta para
+  el segmento. En ciudad se mueve con soltura gracias a sus 124 kilos y a una caja de
+  cinco marchas bien escalonada. El doble disco es el argumento más fuerte: 276 mm
+  adelante y 220 mm atrás, dimensiones que en una 125 son generosas y que dan una frenada
+  consistente incluso con pasajero. El monoamortiguador trasero es un plus frente a los
+  dobles amortiguadores convencionales, con mejor control en curva. La posición es
+  ligeramente deportiva, con el torso inclinado, cómoda para trayectos de 40 minutos. En
+  carretera mantiene 85 km/h y llega a 95 en plano. El consumo de 48 km/l con 10,5 litros
+  de tanque da unos 500 km de autonomía. La debilidad es el carburador: en frío y en
+  altura pide starter y calentamiento. El monoamortiguador trasero, además, mantiene la moto
+  más plantada con parrillero que las de doble amortiguador, aunque su recorrido es corto y
+  en vías rotas se siente seco.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 48000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 25000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 18000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 130000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 190000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 170000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 90000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 750000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es económico en repuestos, pero la
+  disponibilidad es el factor limitante: fuera de las ciudades principales, conseguir
+  piezas específicas de Hero puede tomar días. Ese tiempo también es un costo.
+comparativa: >-
+  Frente a la TVS Raider 125, la Hero cuesta 300.000 pesos menos y ofrece doble disco
+  igual, aunque pierde inyección y red de servicio. Contra la AKT CR4 125, la Hero gana en
+  precio y en tamaño de disco delantero, y pierde en respaldo de marca y en disponibilidad
+  de repuestos. Y si el presupuesto llega a 5,5 millones, la Honda CB125F ofrece inyección
+  y una red de servicio incomparablemente mayor.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Hunk 125R?"
+    respuesta: >-
+      El homologado es 48 km/l. En ciudad con tráfico el registro está entre 42 y 45; en
+      carretera a 70 km/h sube a 50. Con 10,5 litros de tanque la autonomía práctica es de 450
+      a 530 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos de 80 a 100 km a 80 km/h, sí. Con 11 HP tiene algo más de reserva que una 125
+      básica, aunque el carburador y el asiento limitan los trayectos largos. No es una moto
+      de viaje.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve por precio y por frenos, pero la red de servicio es el problema: si trabajas en
+      una ciudad intermedia sin concesionario Hero, un repuesto específico puede dejarte
+      parado varios días. Para reparto de alto volumen eso es un riesgo real.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Hunk 125R?"
+    respuesta: >-
+      Con 124,7 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la técnico-mecánica. Sobre una moto de 4,59 millones, el SOAT representa el 7,5 % del
+      valor: una proporción alta que conviene presupuestar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, sobre todo por la frenada: el doble disco perdona errores que en una moto con tambor
+      trasero terminan en caída. El carburador exige aprender a usar el starter, y la posición
+      deportiva puede incomodar los primeros días.
+veredicto: >-
+  La Hunk 125R ofrece doble disco por menos de cinco millones, algo que muy pocas 125
+  pueden igualar. Su techo no es la moto: es la red de posventa de Hero en Colombia, que
+  conviene verificar antes de comprar.

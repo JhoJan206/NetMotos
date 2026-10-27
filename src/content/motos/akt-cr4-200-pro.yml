@@ -29,24 +29,101 @@ llanta_trasero: 110/80-17
 precio_cop: 8590000
 imagen: /images/motos/akt-cr4-200-pro.webp
 pros:
-  - Inyección electrónica de fábrica, a diferencia de sus hermanas CR4 125 y 150
-  - Diseño robusto e imponente dentro del segmento de 200cc económicas
-  - Relación precio-cilindraje de las más competitivas del mercado
+  - "Inyección electrónica de fábrica, a diferencia de sus hermanas CR4 125 y 150"
+  - "Diseño robusto e imponente dentro del segmento de 200cc económicas"
+  - "Relación precio-cilindraje de las más competitivas del mercado"
 contras:
-  - Peso algo elevado (132 kg) frente a otras naked de 200cc
-  - Sin ABS, solo sistema de frenado combinado CBS
-  - Acabados que todavía no igualan a marcas indias como Bajaj o TVS
+  - "Peso algo elevado (132 kg) frente a otras naked de 200cc"
+  - "Sin ABS, solo sistema de frenado combinado CBS"
+  - "Acabados que todavía no igualan a marcas indias como Bajaj o TVS"
 rating: 4.5
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La CR4 200 Pro es el tope de gama de la familia CR4, y la única de las tres que da el salto a inyección electrónica,
-  dejando atrás el carburador de las versiones 125 y 150. Es la apuesta de AKT por competir de frente en el segmento de
-  naked de 200cc, tradicionalmente dominado por Bajaj y TVS.
-
-  Con casi 17 caballos, tiene la potencia suficiente para moverse con autoridad tanto en ciudad como en carretera, y los
-  frenos CBS en ambas ruedas dan una capacidad de frenado que compite bien con motos de marcas más establecidas. El peso
-  se siente un poco en maniobras lentas, pero en movimiento se comporta de forma estable.
-
-  Compite directamente con la Bajaj Pulsar NS200 y la TVS Apache RTR 200 4V, ofreciendo un precio bastante más bajo que
-  ambas. Es la moto ideal para el comprador que quiere el mayor cilindraje posible dentro del presupuesto de una moto
-  económica, sin gastar en las marcas asiáticas más establecidas.
+  La AKT CR4 200 Pro es el techo de la familia CR4: 197,6 cc, 16,8 HP, inyección
+  electrónica y frenos de disco con CBS por 8.590.000 pesos. Es la naked de 200 más barata
+  del mercado colombiano y la única del catálogo AKT con inyección en ese cilindraje. Es
+  para ti si quieres salir de la 150 sin pagar más de nueve millones y necesitas una moto
+  para ciudad y carretera corta. No es para ti si quieres ABS —aquí solo hay CBS— ni si te
+  importa la reventa: la marca sigue castigando ese rubro.
+uso_diario: >-
+  Los 16,8 HP cambian la conversación frente a las CR4 menores: en ciudad se puede rodar
+  tranquilo en tercera, y en carretera mantiene 95-100 km/h con soltura. La inyección
+  resuelve el arranque en frío y estabiliza el ralentí en altura, dos problemas clásicos
+  de las 125 y 150 carburadas de la marca. La caja de cinco marchas es la limitación: la
+  relación entre cuarta y quinta deja un hueco que se nota al adelantar en subida. Pesa
+  132 kilos, lo que la hace 8 kilos más pesada que la CR4 150 y algo más torpe en
+  maniobras de parqueadero. El asiento a 795 mm es cómodo y la posición erguida, buena
+  para trayectos de una hora. Los frenos con CBS funcionan, pero a este peso y con estas
+  prestaciones el ABS empieza a hacer falta. El consumo de 32 km/l con 13 litros de tanque
+  da unos 400 km de autonomía, una cifra correcta.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 72000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 32000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 22000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 150000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 225000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 195000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 105000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 880000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Con 197,6 cc se queda por debajo del umbral de 200, así que
+  paga la categoría intermedia del SOAT: 343.000 pesos en lugar de 761.000. Esa es una
+  ventaja real de las "casi 200" que conviene tener presente.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la CR4 200 Pro cuesta 4,6 millones menos y entrega 7,3
+  caballos menos, además de perder el ABS y la sexta marcha: la diferencia de precio se
+  explica sola. Contra la Honda CB190R 2.0, la AKT gana 0,2 caballos y pierde ABS, acabado
+  y red de servicio, aunque cuesta 4,3 millones menos. Y si el presupuesto aprieta pero
+  quieres doble disco, la CR4 150 ofrece el mismo esquema de frenos por 1,6 millones
+  menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CR4 200 Pro?"
+    respuesta: >-
+      El homologado es 32 km/l. En ciudad con tráfico denso baja a 27-29; en carretera a 90
+      km/h sube a 34-36. Con 13 litros de tanque la autonomía práctica está entre 350 y 450
+      km, suficiente para una semana de uso mixto.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es probablemente la AKT más adecuada para viajar después de la 250 R. Mantiene
+      95-100 km/h con comodidad y llega a 115 en plano. La posición erguida y el asiento firme
+      permiten trayectos de 150 km sin fatiga excesiva.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve si el trabajo incluye trayectos largos o vías rápidas. Para reparto urbano
+      intenso, el consumo de 28 km/l y las llantas más costosas la hacen menos rentable que
+      una 125. Es una moto de uso mixto, no una herramienta de reparto puro.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CR4 200 Pro?"
+    respuesta: >-
+      Con 197,6 cc se queda justo por debajo de los 200, así que paga la categoría de 100 a
+      200 cc: alrededor de 343.000 pesos al año. Son 418.000 pesos menos que una 250, un
+      ahorro anual que mucha gente no considera al comparar cilindrajes.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con matices. La potencia es manejable y la entrega lineal, así que un novato con
+      criterio puede llevarla. Pero pesa 132 kilos y no tiene ABS, solo CBS: en una frenada de
+      emergencia en mojado, el margen es menor que en una moto con ABS.
+veredicto: >-
+  La CR4 200 Pro es la puerta de entrada más barata al segmento de 200 cc con inyección.
+  No tiene ABS ni el refinamiento de una Bajaj, pero por 8,6 millones ofrece prestaciones
+  que hace cinco años costaban el doble.

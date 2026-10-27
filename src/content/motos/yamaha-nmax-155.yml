@@ -29,23 +29,108 @@ llanta_trasero: 130/70-13
 precio_cop: 16800000
 imagen: /images/motos/yamaha-nmax-155.webp
 pros:
-  - ABS de serie
-  - Excelente para ciudad
-  - Espacio bajo el asiento
+  - "ABS de serie"
+  - "Excelente para ciudad"
+  - "Espacio bajo el asiento"
 contras:
-  - Precio elevado
-  - Tanque pequeño
-  - No apta para carretera
+  - "Precio elevado"
+  - "Tanque pequeño"
+  - "No apta para carretera"
 rating: 4.6
-actualizado: "2026-07-17"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Yamaha NMAX 155 es el scooter más vendido de Colombia por una razón: hace todo bien. El motor de 155 cc con
-  inyección electrónica da 15 HP, suficiente para moverse en ciudad sin problemas y incluso coger una vía rápida sin
-  sentirse expuesto. La transmisión CVT es suave, el ABS de doble canal es de serie, y el espacio bajo el asiento te
-  cabe un casco y más cosas. Pesa 130 kilos y el asiento a 765 mm —bajito— hace que cualquier persona pueda manejarla
-  con confianza. El consumo de 45 km/l está bien, aunque el tanque de solo 6.6 litros significa que vas a la bomba cada
-  8-10 días si la usas a diario. No está hecha para carretera: las llantas de 13 pulgadas y la suspensión corta no dan
-  la estabilidad que necesitás a altas velocidades. Pero en ciudad, entre semáforos y trancones, es difícil encontrar
-  algo más práctico. Los 8.690.000 COP se justifican con la calidad de armado Yamaha, la red de servicio y el ABS. Para
-  el que vive en ciudad y prioriza comodidad, protección contra la lluvia y facilidad de uso sobre todo lo demás, la
-  NMAX es la respuesta correcta.
+  La Yamaha NMAX 155 es el scooter que redefinió el segmento premium en Colombia: motor de
+  155 cc con VVA, ABS en las dos ruedas, control de tracción y una posición de manejo que
+  se siente más de moto que de scooter. Cuesta 16.800.000 pesos, casi el triple que un
+  scooter de entrada, y aun así se vende: eso dice mucho de lo que ofrece. Es para ti si
+  haces trayectos urbanos largos, quieres comodidad sin renunciar a prestaciones y valoras
+  la seguridad activa. No es para ti si tu presupuesto es limitado, si necesitas cargar
+  bultos grandes o si haces carretera abierta con frecuencia.
+uso_diario: >-
+  El motor de 155 cc con VVA entrega 15 HP y permite algo que ningún scooter de 125 puede:
+  adelantar con seguridad en una vía rápida y mantener 100 km/h sin ahogarse. La
+  transmisión CVT es suave y no tiene el tirón brusco de algunos scooters económicos. La
+  altura del asiento, 765 mm, es amable, y el piso plano con túnel central bajo permite
+  llevar una mochila entre las piernas. El ABS de doble canal y el control de tracción son
+  la diferencia real frente a la competencia: en pavimento mojado, o sobre las líneas
+  blancas de un semáforo, la moto no se va. Pesa 130 kilos y eso se siente en maniobras a
+  baja velocidad y al parquear, aunque en movimiento es muy estable. La suspensión trasera
+  es de doble amortiguador y trabaja bien en vías irregulares. Su límite es el tanque: 6,6
+  litros dan para unos 280-300 km, poco para quien rueda mucho. Y en carretera abierta,
+  por encima de 110 km/h, la falta de protección aerodinámica se hace notar.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 95000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 45000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 45000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 190000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 20.000 km"
+    costo_cop: 120000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 290000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 250000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 150000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1050000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Yamaha. El
+  SOAT y la técnico-mecánica van aparte. El costo es notablemente más alto que el de un
+  scooter de 125 por tres razones: aceite sintético, llantas de mayor medida y el
+  mantenimiento del sistema CVT, que no existe en una moto con cadena. Aun así, sigue
+  siendo más barato de operar que un carro pequeño.
+comparativa: >-
+  Frente a la AKT Dynamic RX Fi, la NMAX cuesta 7 millones más y ofrece 3 HP adicionales,
+  ABS de doble canal y control de tracción: la diferencia no es de equipamiento, es de
+  categoría. Contra la Yamaha XMAX 300, la NMAX es más liviana, más barata y más ágil en
+  ciudad, aunque pierde el baúl para dos cascos y la estabilidad en carretera. Y frente a
+  una moto naked de 150 cc como la Yamaha FZ 3.0, la NMAX gana en comodidad y protección,
+  pero pierde en precio y en facilidad de mantenimiento.
+faq:
+  - pregunta: "¿Cuánto consume realmente la NMAX 155?"
+    respuesta: >-
+      El homologado es 45 km/l. En ciudad, con tráfico y uso del modo de arranque y parada, el
+      registro real está entre 38 y 42 km/l; en carretera a 80 km/h se acerca a 48. Con 6,6
+      litros de tanque la autonomía práctica es de 260 a 300 km.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Mejor que cualquier scooter de 125: mantiene 100-110 km/h y adelanta con soltura. Para
+      trayectos de 100 a 200 km es viable. Por encima de eso, la posición y la falta de
+      parabrisas cansan, y el tanque pequeño obliga a parar seguido.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, pero es cara para ese uso: el mantenimiento del CVT y las llantas de 13 pulgadas
+      cuestan más que los de una moto de trabajo. Quien reparte con NMAX lo hace por comodidad
+      y por imagen, no por economía. Para volumen puro, una 125 con cadena sale más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NMAX 155?"
+    respuesta: >-
+      Con 155 cc queda en la categoría de 100 a 200 cc, así que paga alrededor de 343.000
+      pesos anuales, no la tarifa alta. Mucha gente asume que un scooter de este precio paga
+      más, pero el criterio es el cilindraje, no el valor del vehículo.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, con una advertencia. No hay embrague que aprender y la moto es estable, pero pesa
+      130 kilos y tiene 15 HP: no es un juguete. La ventaja es que el ABS y el control de
+      tracción están ahí desde el primer día para cubrir los errores iniciales.
+veredicto: >-
+  La NMAX 155 es el scooter que hace que valga la pena pagar el doble: prestaciones
+  reales, seguridad activa que funciona y una conducción que no aburre. Es cara y su
+  tanque es pequeño, pero para quien la usa a diario en ciudad, cada uno de esos millones
+  extra se justifica.

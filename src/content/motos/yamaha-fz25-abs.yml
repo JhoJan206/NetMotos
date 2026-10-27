@@ -29,25 +29,102 @@ llanta_trasero: 130/70-17
 precio_cop: 15300000
 imagen: /images/motos/yamaha-fz25-abs.webp
 pros:
-  - Doble disco con ABS de serie en un segmento donde no siempre es lo común
-  - Motor Blue Core eficiente, con buen equilibrio entre potencia y consumo
-  - Tablero digital completo y buen respaldo de la red Yamaha
+  - "Doble disco con ABS de serie en un segmento donde no siempre es lo común"
+  - "Motor Blue Core eficiente, con buen equilibrio entre potencia y consumo"
+  - "Tablero digital completo y buen respaldo de la red Yamaha"
 contras:
-  - Potencia modesta frente a naked bicilíndricas de cilindraje similar
-  - Diseño que ya lleva varios años sin cambios mayores
-  - Suspensión trasera de recorrido corto para vías destapadas
+  - "Potencia modesta frente a naked bicilíndricas de cilindraje similar"
+  - "Diseño que ya lleva varios años sin cambios mayores"
+  - "Suspensión trasera de recorrido corto para vías destapadas"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La FZ25 es la naked monocilíndrica de 250cc con la que Yamaha lleva años defendiendo terreno en Colombia frente a la
-  ofensiva de marcas indias como TVS y Bajaj. Su motor Blue Core prioriza la eficiencia sobre la potencia bruta, lo que
-  se traduce en un consumo bastante competitivo para el segmento.
-
-  En ciudad se mueve con soltura gracias a su peso liviano de 148 kg, y el doble disco con ABS de serie da tranquilidad
-  en frenadas de emergencia, algo que todavía no todas las rivales del segmento ofrecen. En carretera cumple sin
-  sobresaltos, aunque el motor monocilíndrico se siente algo justo frente a las naked bicilíndricas como la Yamaha
-  MT-03.
-
-  Compite de frente con la Suzuki Gixxer 250 y la TVS Apache RTR 200 4V. Es la moto ideal para el motociclista que
-  quiere una naked de 250cc confiable, con buen respaldo de marca y consumo eficiente, sin necesitar todavía la potencia
-  (ni el precio) de una bicilíndrica.
+  La Yamaha FZ25 ABS es la naked de 250 de Yamaha para el mercado colombiano: motor Blue
+  Core de 249 cc, 20,9 HP, 20,1 Nm, ABS de doble canal y un tanque de 14 litros por
+  15.300.000 pesos. Es una moto de concepto conservador y ejecución muy sólida: no
+  sorprende en ningún apartado, pero tampoco falla en ninguno. Es para ti si quieres una
+  250 para uso diario y carretera, con respaldo de marca y mantenimiento previsible. No es
+  para ti si buscas prestaciones: por el mismo dinero, una Bajaj NS200 entrega 3,2
+  caballos más.
+uso_diario: >-
+  El motor Blue Core de 249 cc entrega 20,9 HP de forma muy lineal, con un torque de 20,1
+  Nm a 6.000 rpm que permite rodar en cuarta por ciudad sin tirones y mantener 110 km/h en
+  carretera con reserva. Es un motor que se siente más grande de lo que es: suave, sin
+  vibraciones molestas y con una respuesta predecible en cualquier régimen. La caja de
+  cinco marchas es la limitación frente a rivales de seis, y la quinta es larga, lo que
+  deja un hueco entre cuarta y quinta que se nota en ascensos con carga. La posición es
+  erguida y cómoda, con el asiento a 795 mm accesible para casi cualquier estatura. El
+  doble disco con ABS de doble canal es un equipo poco común en el segmento y frena con
+  autoridad. Pesa 148 kilos, un peso contenido que la hace ágil en tráfico. El consumo de
+  33 km/l con 14 litros da unos 460 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 92000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 44000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 45000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 195000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 285000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 245000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 155000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1450000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Yamaha. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento es el de una 250 japonesa:
+  aceite sintético, llantas de 17 pulgadas y pastillas en las dos ruedas. Es predecible y
+  no da sorpresas, pero cuesta casi el doble que el de una 150 india.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la FZ25 cuesta 2,1 millones más y ofrece 3,2 caballos
+  menos y una marcha menos, aunque gana en acabado, suavidad y red de servicio. Contra la
+  Yamaha MT-03, la FZ25 cuesta 16,6 millones menos y pierde 21 caballos y un motor
+  bicilíndrico: son motos de categorías distintas. Y si el objetivo es una 250 con ABS y
+  precio contenido, la Bajaj Dominar 250 ofrece 5,7 caballos más por 500.000 pesos
+  adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la FZ25?"
+    respuesta: >-
+      El homologado es 33 km/l. En ciudad con tráfico el registro está entre 28 y 31; en
+      carretera a 100 km/h sube a 35-37. Con 14 litros de tanque la autonomía práctica va de
+      390 a 520 km, suficiente para una semana larga de uso mixto.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 110 km/h y capacidad de llegar a 130 en plano. El motor no
+      vibra, el asiento es amplio y el ABS de doble canal da confianza. Es una 250 que sirve
+      para trayectos de 250 km sin drama.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve si el trabajo incluye recorridos largos, pero no es lo más rentable: consume 29
+      km/l en ciudad y el mantenimiento ronda el millón y medio anual. Para reparto urbano
+      intenso, una 125 cuesta la mitad de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la FZ25?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Son 418.000 pesos más que una 200, un salto que conviene tener claro
+      al comparar ambas categorías.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las mejores 250 para empezar: entrega lineal, asiento accesible, peso
+      contenido y ABS de doble canal. Los 20,9 caballos son suficientes para aprender sin
+      sustos y para no aburrirse en dos años.
+veredicto: >-
+  La FZ25 no gana ningún comparativo de ficha técnica y aun así es una de las 250 más
+  recomendables: motor suave, ABS doble, respaldo Yamaha y un comportamiento que no da
+  sorpresas. Para quien compra moto cada cinco años, eso vale más que 3 caballos.

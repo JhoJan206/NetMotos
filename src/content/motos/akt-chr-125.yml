@@ -29,23 +29,105 @@ llanta_trasero: 90/90-18
 precio_cop: 5490000
 imagen: /images/motos/akt-chr-125.webp
 pros:
-  - Precio de entrada bajo dentro del catálogo de AKT
-  - Freno de disco delantero, poco común en este rango de precio
-  - Consumo de combustible eficiente para uso urbano diario
+  - "Precio de entrada bajo dentro del catálogo de AKT"
+  - "Freno de disco delantero, poco común en este rango de precio"
+  - "Consumo de combustible eficiente para uso urbano diario"
 contras:
-  - Motor a carburador, sin la precisión de una inyección electrónica
-  - Freno trasero de tambor
-  - Acabados básicos frente a otras naked de la misma marca
+  - "Motor a carburador, sin la precisión de una inyección electrónica"
+  - "Freno trasero de tambor"
+  - "Acabados básicos frente a otras naked de la misma marca"
 rating: 4.1
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La CHR 125 es una de las opciones más económicas dentro del catálogo de AKT en Colombia, pensada para el comprador que
-  necesita una moto urbana sencilla, sin mayores pretensiones, a un precio de entrada bajo. Es la típica "primera moto"
-  para quien recién saca su licencia.
-
-  En el día a día se comporta como se espera de una 125cc básica: se mueve con soltura en tráfico, consume poco y no
-  exige mayor mantenimiento más allá de lo rutinario. El freno de disco delantero es un plus frente a otras motos de
-  este rango de precio que todavía vienen con tambor en ambas ruedas.
-
-  Compite con la Bajaj Boxer CT100 y la AKT NKD 125. Es la moto ideal para el comprador con presupuesto ajustado que
-  busca transporte básico y confiable para moverse en ciudad, sin necesitar potencia ni equipamiento adicional.
+  La AKT CHR 125 es la 125 económica de AKT que compite directamente con la NKD, con una
+  diferencia de 600.000 pesos a favor de la NKD y un motor algo menos potente: 8,2 HP
+  frente a 10,5. A cambio ofrece un tanque de 12 litros y una postura ligeramente más
+  alta. Es para ti si el precio es el criterio absoluto y necesitas una moto urbana con
+  freno de disco delantero. No es para ti si haces carretera con frecuencia o llevas
+  parrillero en pendientes: 8,2 caballos son pocos para este país, y la diferencia con la
+  NKD se siente.
+uso_diario: >-
+  En ciudad cumple sin quejas. Pesa 118 kilos, el asiento está a 780 mm y la posición de
+  manejo es neutra, así que se maneja con soltura entre carros. El motor a carburador
+  arranca bien en clima cálido, aunque en frío y en altura pide un poco de starter y unos
+  segundos de calentamiento antes de salir. La entrega de potencia es muy lineal y la caja
+  de cinco marchas está escalonada para ciudad: primera y segunda cortas, tercera y cuarta
+  de transición, quinta larga. El freno de disco delantero de 220 mm agradece en tráfico,
+  aunque el tambor trasero de 130 mm es el eslabón débil. En carretera la moto se queda
+  corta: a 75 km/h el motor va alto y adelantar requiere planearlo con tiempo. El tanque
+  de 12 litros es su mejor argumento: a 42 km/l da unos 500 km de autonomía, más de lo que
+  su motor invita a recorrer. La suspensión es blanda y cómoda en huecos, aunque se hunde
+  con dos personas a bordo.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 48000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 24000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 17000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 125000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 180000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 165000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 42000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 720000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es el típico de una 125 carburada china:
+  aceite cada 3.000 km, cadena cada 15.000 y repuestos que se encuentran en cualquier
+  taller AKT. Es de las motos más baratas de operar del mercado, aunque el consumo no es
+  tan bajo como el de una 100.
+comparativa: >-
+  Frente a la AKT NKD 125, que comparte marca y concepto, la CHR pierde 2,3 caballos y
+  cuesta 600.000 pesos menos: para uso urbano tranquilo es suficiente, pero en carretera o
+  con parrillero la diferencia se siente. Contra la Bajaj CT 125, la CHR gana 1,4 millones
+  en precio pero pierde en consumo y en torque a bajas vueltas. Y si el presupuesto llega
+  a 6,5 millones, la AKT CR4 125 ofrece CBS y un equipo claramente superior por 1,1
+  millones más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CHR 125?"
+    respuesta: >-
+      El dato de ficha es 42 km/l. En ciudad con tráfico el registro está entre 38 y 41; en
+      carretera a 70 km/h se acerca a 46. Con 12 litros de tanque da entre 450 y 550 km de
+      autonomía, una de las mejores cifras de su categoría.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos, con paciencia. A 70-75 km/h va cómoda; por encima de 80 el motor de 8,2
+      HP ya no tiene respuesta para adelantar. No es una moto para trayectos interurbanos
+      largos ni para autopista.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sí, sobre todo por el tanque grande y el bajo costo de mantenimiento. Lo que juega en
+      contra es la potencia: con el morral lleno y en lomitas, la moto pide primera
+      constantemente. Para reparto en terreno plano es una opción sensata.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CHR 125?"
+    respuesta: >-
+      Con 124,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año, más
+      la revisión técnico-mecánica. Es el 6,2 % del valor de la moto nueva, una proporción
+      alta que conviene tener en el presupuesto.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es muy dócil: poco peso, asiento bajo y una potencia que no sorprende. El carburador
+      exige aprender a usar el starter en frío, y el tambor trasero obliga a frenar con
+      anticipación. Para aprender en ciudad es una opción válida y barata.
+veredicto: >-
+  La CHR 125 es la opción "sin sorpresas" del catálogo AKT: barata, sencilla y con un
+  tanque enorme. Su problema no es la calidad sino la competencia interna: por 600.000
+  pesos más, la NKD 125 ofrece 2,3 caballos adicionales que en Colombia se agradecen todos
+  los días.

@@ -29,20 +29,105 @@ llanta_trasero: 110/90-17
 precio_cop: 10990000
 imagen: /images/motos/honda-xr150l-2.0-abs.webp
 pros:
-  - Más de 21 años de trayectoria de la línea XR en Colombia, con red de repuestos amplia
-  - Doble arranque (eléctrico y pedal), útil en caminos destapados donde falla la batería
+  - "Más de 21 años de trayectoria de la línea XR en Colombia, con red de repuestos amplia"
+  - "Doble arranque (eléctrico y pedal), útil en caminos destapados donde falla la batería"
 contras:
-  - Freno trasero de tambor, ya superado por el disco en varias rivales directas
-  - Motor carburado, sin la precisión ni el mantenimiento simplificado de una inyección electrónica
+  - "Freno trasero de tambor, ya superado por el disco en varias rivales directas"
+  - "Motor carburado, sin la precisión ni el mantenimiento simplificado de una inyección electrónica"
 rating: 4.2
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Honda XR150L 2.0 ABS es la evolución de un ícono colombiano. La línea XR tiene más de 21 años en el país, y esta
-  versión actualizada trae ABS en el freno delantero —un avance grande para el segmento doble propósito— y suspensión
-  invertida con cámara de nitrógeno. El motor de 149.15 cc con carburador da 11.7 HP y 12.1 Nm, números modestos pero
-  efectivos para trochas y carreteras veredales. Pesa 128 kilos y la distancia al suelo de 195 mm la hace pasar donde
-  otras se quedan. El doble arranque (eléctrico y pedal) es un detalle que los campesinos agradecen: cuando la batería
-  falla en medio de la nada, una patada y listo. Lo criticable: sigue siendo carburada cuando ya varias rivales tienen
-  inyección, y el freno trasero de tambor se siente anticuado. El precio de 10.990.000 COP está justificado por la red
-  de servicio Honda, que es la más grande del país. Para el que vive en zona rural, trabaja en el campo o necesita una
-  moto que aguante el castigo de las vías destapadas colombianas, la XR150L sigue siendo la referencia.
+  La Honda XR150L 2.0 ABS es la doble propósito que sostiene el trabajo rural colombiano
+  desde hace más de dos décadas. Motor de 149 cc, 11,7 HP, 195 mm de distancia al piso y
+  la posibilidad de arrancar a pedal cuando la batería falla: tres cosas que explican por
+  qué se ve en cada vereda del país. Es para ti si vives o trabajas fuera del asfalto, si
+  necesitas una moto que aguante maltrato y si valoras encontrar repuestos en cualquier
+  municipio. No es para ti si solo ruedas en ciudad, si buscas prestaciones o si tu
+  presupuesto no llega a once millones: en asfalto puro estarías pagando por capacidades
+  que no usas.
+uso_diario: >-
+  La XR150L no pretende ser cómoda ni rápida: pretende no romperse. La suspensión de
+  recorrido largo y las llantas de 19 y 17 pulgadas con tacos moderados absorben piedra
+  suelta, rieles y barro liviano sin transmitir el golpe al chasis. La altura al piso de
+  195 mm es suficiente para pasar corrientes de agua y troncos bajos, y el asiento a 825
+  mm obliga a los pilotos bajos a estirarse al detenerse. El motor de 107 cc de carrera
+  larga entrega 11,7 HP con un torque utilísimo a bajas vueltas: en trocha se maneja casi
+  solo en segunda, sin necesidad de embrague constante. En carretera sostiene 75-80 km/h,
+  con vibración perceptible y sin resto para adelantar. Los frenos son el punto más
+  criticado: disco delantero con ABS, tambor trasero. El ABS funciona, pero el tambor
+  trasero se queda corto en bajadas largas con carga. El detalle del doble arranque es
+  puro sentido práctico rural.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 55000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 30000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 20000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 245000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 215000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 65000
+  - concepto: "Zapatas de freno traseras"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 45000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 950000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte. Es más costosa de mantener que una 125 de calle por las
+  llantas de doble propósito, que se gastan antes, y por el kit de arrastre, que sufre con
+  polvo y barro. A cambio, la disponibilidad de repuestos Honda en el país es la mejor del
+  mercado.
+comparativa: >-
+  Frente a la AKT TTR 125, la XR150L ofrece 1,4 caballos más, ABS delantero y una red de
+  servicio mucho más amplia, a cambio de unos 3,6 millones adicionales. Contra la Yamaha
+  XTZ150, la Honda gana en fama de indestructible y en reventa, y pierde en precio por
+  unos cuatro millones. Y si el uso va a ser más de carretera que de trocha, la Honda XRE
+  300 o la Yamaha XTZ250 son el siguiente escalón lógico.
+faq:
+  - pregunta: "¿Cuánto consume realmente la XR150L?"
+    respuesta: >-
+      El dato de ficha es 42 km/l. En trocha, con primera y segunda constantes, baja a 33-36;
+      en asfalto a 70 km/h sube a 45. Con 12 litros de tanque la autonomía práctica va de 400
+      a 520 km según el terreno.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos de 100 a 150 km a 75 km/h, sí. Es una moto de trabajo, no de viaje: por encima de
+      80 el motor vibra y el asiento largo cansa. Para trayectos interurbanos largos hay
+      opciones más adecuadas en el mismo rango de precio.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zonas rurales, es la referencia. Aguanta peso, maltrato, caminos en mal estado y
+      arranca a pedal si algo falla. En ciudad pavimentada no tiene sentido: gastas llantas de
+      tacos, pierdes agilidad y pagas un precio alto por capacidad que no usas.
+  - pregunta: "¿Cuánto cuesta el SOAT de la XR150L?"
+    respuesta: >-
+      Con 149,15 cc entra en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año,
+      más la revisión técnico-mecánica. Es el mismo valor de cualquier 150, aunque el precio
+      de la moto sea casi el doble que el de una 125 económica.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Depende del terreno. En trocha perdona mucho y el motor es muy dócil. En ciudad es
+      exigente por la altura del asiento de 825 mm y el peso del manubrio. Para un
+      principiante urbano, una 125 de calle es una mejor escuela.
+veredicto: >-
+  La XR150L no es la moto más moderna ni la más equipada: es la que sigue funcionando
+  cuando las demás piden taller. En un país con la mitad de las vías sin pavimentar, ese
+  atributo vale más que cualquier ficha técnica.

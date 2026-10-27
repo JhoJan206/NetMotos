@@ -29,24 +29,105 @@ llanta_trasero: 130/80-17
 precio_cop: 30990000
 imagen: /images/motos/kawasaki-versys-x-300.webp
 pros:
-  - Motor bicilíndrico revolucionado, poco común en adventure de 300cc
-  - Tanque grande (17 litros) para viajes largos sin recargas frecuentes
-  - Parabrisas ajustable y buen equipamiento para touring liviano
+  - "Motor bicilíndrico revolucionado, poco común en adventure de 300cc"
+  - "Tanque grande (17 litros) para viajes largos sin recargas frecuentes"
+  - "Parabrisas ajustable y buen equipamiento para touring liviano"
 contras:
-  - Precio alto frente a doble propósito monocilíndricas de igual cilindraje
-  - Necesita revoluciones altas para entregar su mejor torque
-  - Capacidad todoterreno limitada frente a rivales tipo enduro puro
+  - "Precio alto frente a doble propósito monocilíndricas de igual cilindraje"
+  - "Necesita revoluciones altas para entregar su mejor torque"
+  - "Capacidad todoterreno limitada frente a rivales tipo enduro puro"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Versys-X 300 combina el ADN de la familia Versys de Kawasaki con un motor bicilíndrico de 300cc, algo que la separa
-  claramente de la competencia monocilíndrica en este segmento. Es una adventure más orientada al touring mixto que al
-  enduro pesado.
-
-  El motor entrega su mejor desempeño a revoluciones altas, así que en ciudad exige moverse un poco más de marchas de lo
-  habitual, pero en carretera abierta es donde se siente su verdadera vocación: estable, con buena protección al viento
-  y tanque grande para rodar largo sin preocuparse por la gasolina.
-
-  Compite con la Honda XRE 300 y la Suzuki V-Strom 250, diferenciándose por su motor de dos cilindros y su enfoque más
-  de carretera que de trocha extrema. Es la moto ideal para el motociclista que quiere hacer viajes largos con comodidad
-  de adventure, sin necesitar la capacidad todoterreno de una enduro dedicada.
+  La Kawasaki Versys-X 300 ABS es la adventure de entrada de Kawasaki: motor bicilíndrico
+  de 296 cc, 39 HP, ABS de doble canal y un tanque de 17 litros por 30.990.000 pesos. Es
+  una moto de turismo liviano con capacidad de trocha suave, pensada para quien quiere
+  viajar por carretera y caminos destapados sin una moto pesada. Es para ti si haces
+  trayectos mixtos y valoras autonomía y suavidad de motor. No es para ti si esperas una
+  enduro: 178 mm al piso y una suspensión de asfalto no son para trocha exigente.
+uso_diario: >-
+  El bicilíndrico de 296 cc es la gran diferencia frente a las adventure monocilíndricas:
+  entrega 39 HP con muy poca vibración y permite mantener 120 km/h en carretera sin
+  fatiga. Eso sí, hay que subirlo de vueltas para encontrar el torque: 25 Nm a 10.000 rpm
+  es una cifra alta en régimen, y quien viene de una monocilíndrica lo nota. El tanque de
+  17 litros con un consumo de 27 km/l da más de 450 km de autonomía teórica, una cifra de
+  turística real. La posición es erguida, con parabrisas ajustable y estriberas centradas,
+  cómoda durante dos horas. El asiento a 815 mm exige estatura media. El ABS de doble
+  canal frena sobre disco de 290 mm. Pesa 179 kilos, un peso contenido para una adventure.
+  En trocha suave se defiende, pero los 178 mm al piso y la suspensión corta limitan el
+  uso fuera del asfalto. La protección del parabrisas ajustable y la posición de las
+  estriberas permiten hacer trayectos largos sin cargar las rodillas, algo que no ocurre en
+  las adventure de asiento alto y estriberas retrasadas.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 175000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 82000
+  - concepto: "Bujías (dos unidades)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 88000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 58000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 295000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 395000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 340000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 225000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2050000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Kawasaki. El
+  SOAT y la técnico-mecánica van aparte. Es un mantenimiento de bicilíndrica: más aceite,
+  dos bujías y llantas de medida grande. A cambio, los intervalos son largos y la moto
+  está pensada para durar, así que el costo por kilómetro se diluye en el tiempo.
+comparativa: >-
+  Frente a la Suzuki V-Strom 250, la Versys cuesta 7 millones más y ofrece 15 caballos
+  adicionales y un motor más revolucionado, aunque pierde torque a bajas vueltas. Contra
+  la Kawasaki Z400, la Versys cuesta 3 millones menos y ofrece 6 caballos menos, con
+  capacidad de trocha y autonomía muy superiores. Y si el objetivo es una adventure
+  monocilíndrica más barata, la Honda XRE 300 cuesta 2,5 millones más y ofrece trocha
+  real.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Versys-X 300?"
+    respuesta: >-
+      El homologado es 27 km/l. En ciudad con tráfico el registro está entre 22 y 25; en
+      carretera a 110 km/h sube a 29-31. Con 17 litros de tanque la autonomía práctica va de
+      380 a 520 km, una de las mejores de su categoría.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno natural: mantiene 120 km/h sin vibraciones y llega a 150 en plano. El
+      parabrisas ajustable y la posición erguida permiten trayectos de 300 km con comodidad.
+      Es una turística liviana con apellido adventure.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Cuesta 31 millones, pesa 179 kilos y su mantenimiento supera los dos millones al
+      año. Es una moto de viaje. Para trabajo, una 125 cuesta seis veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Versys-X 300?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 31 millones representa el 2,5 % del valor, así que
+      no es el rubro que decide la compra.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con criterio, sí. La entrega es lineal, el peso es contenido y el ABS de doble canal
+      ayuda. Pero 39 caballos y una altura de asiento de 815 mm exigen experiencia. Es una
+      buena segunda moto para quien quiere empezar a viajar.
+veredicto: >-
+  La Versys-X 300 es la adventure de quien viaja por carretera con incursiones en
+  destapado suave: motor suave, autonomía real y comodidad de turística. No es una enduro,
+  y quien la compre entendiendo eso va a estar muy satisfecho.

@@ -53,9 +53,9 @@ const specs = [
   { label: 'Transmisión', value: moto.transmision },
   { label: 'Combustible', value: moto.combustible },
   { label: 'Capacidad del tanque', value: `${moto.capacidad_tanque_l} L` },
-  { label: 'Consumo', value: `${moto.consumo_km_l} km/l` },
+  { label: 'Consumo', value: moto.consumo_km_l > 0 ? `${moto.consumo_km_l} km/l` : 'No aplica' },
   { label: 'Peso', value: `${moto.peso_kg} kg` },
-  { label: 'Altura del asiento', value: `${moto.altura_asiento_mm} mm` },
+  { label: 'Altura del asiento', value: moto.altura_asiento_mm > 0 ? `${moto.altura_asiento_mm} mm` : 'No aplica' },
   { label: 'Distancia al suelo', value: `${moto.distancia_suelo_mm} mm` },
   { label: 'Suspensión delantera', value: moto.suspension_delantera },
   { label: 'Suspensión trasera', value: moto.suspension_trasera },
@@ -110,13 +110,31 @@ const schema = {
 
 const allMotos = (await getCollection('motos')).map(m => m.data)
 const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.id)
+
+const faqSchema = moto.faq?.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: moto.faq.map(f => ({
+        '@type': 'Question',
+        name: f.pregunta,
+        acceptedAnswer: { '@type': 'Answer', text: f.respuesta },
+      })),
+    }
+  : null
+
+const schemas = faqSchema ? [schema, faqSchema] : schema
+const costoAnual = moto.costo_anual_cop ? formatCOP(moto.costo_anual_cop) : ''
+const costoPorKm = moto.costo_anual_cop && moto.consumo_km_l
+  ? Math.round(moto.costo_anual_cop / 12000)
+  : null
 ---
 
 <BaseLayout
   title={`${moto.nombre_completo} - Ficha Técnica, Precio en Colombia`}
   description={`Ficha técnica de la ${moto.nombre_completo}: ${moto.cilindraje}cc, ${moto.potencia_hp} HP, consumo ${moto.consumo_km_l} km/l, precio ${formatCOP(moto.precio_cop)}. Pros, contras y especificaciones completas.`}
   canonical={motoPath}
-  schema={schema}
+  schema={schemas}
   type="product"
   image={moto.imagen}
   breadcrumbs={[
@@ -165,7 +183,7 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
               <span class="highlight-label">Potencia</span>
             </div>
             <div class="highlight">
-              <span class="highlight-value">{moto.consumo_km_l} km/l</span>
+              <span class="highlight-value">{moto.consumo_km_l > 0 ? `${moto.consumo_km_l} km/l` : 'No aplica'}</span>
               <span class="highlight-label">Consumo</span>
             </div>
             <div class="highlight">
@@ -203,6 +221,58 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
             </div>
           </section>
 
+          {moto.uso_diario && (
+            <section class="ficha-section">
+              <h2>¿Cómo se comporta en el día a día?</h2>
+              <p>{moto.uso_diario}</p>
+            </section>
+          )}
+
+          {moto.costos?.length && (
+            <section class="ficha-section ficha-costos">
+              <h2>Costos reales de propiedad</h2>
+              <div class="specs-table-wrapper">
+                <table class="specs-table costos-table">
+                  <thead>
+                    <tr>
+                      <th>Concepto</th>
+                      <th>Intervalo</th>
+                      <th>Costo aproximado</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {moto.costos.map(item => (
+                      <tr>
+                        <td class="spec-label">{item.concepto}</td>
+                        <td>{item.intervalo}</td>
+                        <td class="spec-value">{formatCOP(item.costo_cop)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {costoAnual && (
+                <div class="costo-resumen">
+                  <div class="costo-resumen-item">
+                    <span class="costo-resumen-label">Mantenimiento al año</span>
+                    <span class="costo-resumen-valor">{costoAnual}</span>
+                  </div>
+                  {costoPorKm && (
+                    <div class="costo-resumen-item">
+                      <span class="costo-resumen-label">Por kilómetro</span>
+                      <span class="costo-resumen-valor">${costoPorKm.toLocaleString('es-CO')}</span>
+                    </div>
+                  )}
+                  <div class="costo-resumen-item">
+                    <span class="costo-resumen-label">Base de cálculo</span>
+                    <span class="costo-resumen-valor">12.000 km/año</span>
+                  </div>
+                </div>
+              )}
+              {moto.costos_nota && <p class="costo-nota">{moto.costos_nota}</p>}
+            </section>
+          )}
+
           <div class="ficha-pros-contras">
             <div class="pros-card">
               <h3>Pros</h3>
@@ -218,20 +288,45 @@ const otherMotos = allMotos.filter(m => m.marca === moto.marca && m.id !== moto.
             </div>
           </div>
 
-          {otherMotos.length > 0 && (
+          {(moto.comparativa || otherMotos.length > 0) && (
             <section class="ficha-section">
-              <h2>Compara con otras motos de {moto.marca}</h2>
-              <div class="grid-3">
-                {otherMotos.slice(0, 3).map(m => (
-                  <a href={`/fichas-tecnicas/${m.slug}`} class="moto-mini-card" style={`border-left-color: ${color}`}>
-                    <strong>{m.nombre_completo}</strong>
-                    <span>{m.cilindraje}cc | {formatCOP(m.precio_cop)}</span>
-                  </a>
-                ))}
-              </div>
+              <h2>¿Con qué se compara?</h2>
+              {moto.comparativa && <p>{moto.comparativa}</p>}
+              {otherMotos.length > 0 && (
+                <div class="grid-3">
+                  {otherMotos.slice(0, 3).map(m => (
+                    <a href={`/fichas-tecnicas/${m.slug}`} class="moto-mini-card" style={`border-left-color: ${color}`}>
+                      <strong>{m.nombre_completo}</strong>
+                      <span>{m.cilindraje}cc | {formatCOP(m.precio_cop)}</span>
+                    </a>
+                  ))}
+                </div>
+              )}
               <p class="ficha-marca-link">
                 <a href={`/marcas/${marcaSlug}`}>Ver todas las motos {moto.marca} →</a>
               </p>
+            </section>
+          )}
+
+          {moto.faq?.length && (
+            <section class="ficha-section ficha-faq">
+              <h2>Preguntas frecuentes</h2>
+              {moto.faq.map(item => (
+                <details class="faq-item">
+                  <summary>{item.pregunta}</summary>
+                  <p>{item.respuesta}</p>
+                </details>
+              ))}
+            </section>
+          )}
+
+          {moto.veredicto && (
+            <section class="ficha-section ficha-veredicto">
+              <h2>Veredicto</h2>
+              <p>{moto.veredicto}</p>
+              {fechaActualizacion && (
+                <p class="veredicto-fecha">Precios y datos revisados en {fechaActualizacion}.</p>
+              )}
             </section>
           )}
 

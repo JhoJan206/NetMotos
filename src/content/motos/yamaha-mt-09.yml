@@ -29,26 +29,105 @@ llanta_trasero: 180/55-17
 precio_cop: 63000000
 imagen: /images/motos/yamaha-mt-09.webp
 pros:
-  - Motor tricilíndrico CP3 con carácter y sonido únicos en el segmento
-  - 'Electrónica completa: modos de manejo, control de tracción y quickshifter'
-  - Manejo ágil pese a la potencia, gracias a un chasis muy bien logrado
+  - "Motor tricilíndrico CP3 con carácter y sonido únicos en el segmento"
+  - "'Electrónica completa: modos de manejo, control de tracción y quickshifter'"
+  - "Manejo ágil pese a la potencia, gracias a un chasis muy bien logrado"
 contras:
-  - Precio fuera del alcance de la mayoría de motociclistas colombianos
-  - Consumo de combustible alto frente a naked de menor cilindraje
-  - Suspensión de fábrica exigente para uso 100% urbano diario
+  - "Precio fuera del alcance de la mayoría de motociclistas colombianos"
+  - "Consumo de combustible alto frente a naked de menor cilindraje"
+  - "Suspensión de fábrica exigente para uso 100% urbano diario"
 rating: 4.8
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La MT-09 es, para muchos motociclistas colombianos con presupuesto amplio, la naked que representa el techo del
-  segmento "accesible" antes de saltar a las superbikes. El motor tricilíndrico CP3 de 890cc entrega una potencia brutal
-  con un sonido que ninguna bicilíndrica logra igualar, y viene acompañado de electrónica de nivel superior: modos de
-  manejo, control de tracción y quickshifter de serie.
-
-  En carretera con curvas es una experiencia distinta a todo lo demás en este análisis: acelera con una contundencia que
-  exige respeto y el chasis responde de forma precisa pese al peso considerable. En ciudad, aunque se maneja bien
-  gracias a su buena maniobrabilidad, la potencia disponible obliga a manejar con la cabeza fría en tráfico pesado.
-
-  Compite en un nicho reducido en Colombia junto a la Kawasaki Z900 y la Triumph Street Triple, motos que pocos
-  compradores nacionales pueden pagar de contado. Es la moto ideal para el motociclista experimentado que ya pasó por
-  varias motos medianas y quiere el salto definitivo a una naked de referencia mundial, sin llegar todavía al terreno de
-  las superbikes carenadas.
+  La Yamaha MT-09 es la naked de referencia de la gama media-alta: motor tricilíndrico CP3
+  de 890 cc, 117,4 HP, 93 Nm, quickshifter, modos de manejo y control de tracción por
+  63.000.000 de pesos. Es una moto que combina potencia de superbike con una posición
+  erguida y un peso contenido. Es para ti si ya tienes experiencia y quieres una naked con
+  prestaciones serias y electrónica completa. No es para ti si buscas tu primera moto
+  grande o si tu presupuesto de mantenimiento es limitado.
+uso_diario: >-
+  El tricilíndrico CP3 es un motor con personalidad propia: entrega 117,4 HP con un sonido
+  que no se parece a ningún bicilíndrico ni a un cuatro en línea, y un torque de 93 Nm que
+  permite adelantar en cualquier marcha sin pensarlo. La electrónica es completa: modos de
+  manejo, control de tracción, quickshifter y una respuesta de acelerador que cambia según
+  el modo seleccionado. Con 188 kilos, la MT-09 es sorprendentemente ágil para su
+  potencia, gracias a un chasis bien logrado y a un centro de gravedad bajo. La posición
+  es erguida y el manubrio ancho, aunque la suspensión de fábrica es firme y se siente en
+  vías rotas. El ABS de doble canal frena sobre discos de 298 mm con pinzas radiales. El
+  consumo de 20 km/l con 14 litros da apenas 280 km de autonomía, el punto débil de la
+  moto.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (tricilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 265000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 115000
+  - concepto: "Bujías (tres unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 165000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 72000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 395000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 560000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 470000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 335000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 3100000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Yamaha. El
+  SOAT y la técnico-mecánica van aparte. Es la ficha más cara de mantener del catálogo,
+  después de la R9: tres bujías de iridio, casi seis litros de aceite sintético, llantas
+  deportivas que duran 8.000 km y pastillas de gama alta. Es el costo real de tener 117
+  caballos.
+comparativa: >-
+  Frente a la Yamaha MT-07, la MT-09 cuesta 6 millones más y ofrece 44 caballos
+  adicionales, un motor tricilíndrico, quickshifter y electrónica completa: es otro nivel
+  de moto. Contra la Yamaha YZF-R9, la MT-09 cuesta 13 millones menos y ofrece 1,6
+  caballos menos con la misma base mecánica, aunque pierde el carenado y las suspensiones
+  de pista. Y si el objetivo es una naked de 400 para uso diario, la Kawasaki Z400 cuesta
+  la mitad y hace el 80 % del trabajo urbano.
+faq:
+  - pregunta: "¿Cuánto consume realmente la MT-09?"
+    respuesta: >-
+      El homologado es 20 km/l. En ciudad con tráfico y uso deportivo el registro está entre
+      15 y 18; en carretera a 120 km/h sube a 22-24. Con 14 litros de tanque la autonomía
+      práctica va de 210 a 330 km, la más corta del catálogo.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con una soltura que impresiona: mantiene 150 km/h sin esfuerzo y tiene reserva hasta
+      más de 220. El problema no es la moto, es la autonomía y la falta de protección
+      aerodinámica. Para trayectos de 250 km es viable; para más, hay que planear las paradas.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Consume 16 km/l en ciudad, pesa 188 kilos y su mantenimiento supera los tres
+      millones al año. Es una moto de disfrute puro. Para trabajo, una 125 cuesta seis veces
+      menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la MT-09?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 250, lo que en una moto de 63 millones
+      representa menos del 2 % del valor: el SOAT no es el problema.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No, en absoluto. Con 117 caballos, 93 Nm y un motor que levanta la rueda delantera con
+      facilidad, es una moto para pilotos con experiencia consolidada. La electrónica ayuda,
+      pero no reemplaza el criterio.
+veredicto: >-
+  La MT-09 es una de las naked más divertidas que se pueden comprar y una de las más
+  exigentes de mantener. Su motor tricilíndrico y su chasis justifican el precio; su
+  autonomía y su costo de operación son la letra pequeña.

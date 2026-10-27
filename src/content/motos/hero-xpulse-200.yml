@@ -29,24 +29,100 @@ llanta_trasero: 120/80-18
 precio_cop: 15990000
 imagen: /images/motos/hero-xpulse-200.webp
 pros:
-  - Buena distancia al piso y suspensión de largo recorrido para trocha
-  - Precio competitivo frente a otras doble propósito de 200cc
-  - Tanque de 13 litros con buena autonomía para su tamaño
+  - "Buena distancia al piso y suspensión de largo recorrido para trocha"
+  - "Precio competitivo frente a otras doble propósito de 200cc"
+  - "Tanque de 13 litros con buena autonomía para su tamaño"
 contras:
-  - Motor se siente justo de potencia en carretera a alta velocidad
-  - Red de servicio Hero más reducida que la de Honda o Suzuki
-  - Vibración perceptible a revoluciones altas sostenidas
+  - "Motor se siente justo de potencia en carretera a alta velocidad"
+  - "Red de servicio Hero más reducida que la de Honda o Suzuki"
+  - "Vibración perceptible a revoluciones altas sostenidas"
 rating: 4.3
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Xpulse 200 le apunta directamente al motociclista que quiere una doble propósito con vocación real de trocha, sin
-  pagar el precio de una Honda XRE 300. Con buena distancia al piso y suspensión de recorrido largo, se defiende bien en
-  caminos destapados y terrenos irregulares.
-
-  En ciudad cumple sin problema, aunque su fuerte está en las vías destapadas donde la suspensión absorbe bien los
-  baches y piedras. En carretera pavimentada a velocidad de crucero el motor se siente algo exigido, así que no es la
-  mejor opción para viajes largos de autopista a alta velocidad constante.
-
-  Compite de frente con la Bajaj Pulsar NS200 en versión doble propósito y, en un segmento superior de precio, con la
-  propia XRE 300. Es la moto ideal para quien busca su primera doble propósito seria para explorar caminos rurales y
-  fincas los fines de semana, sin gastar el presupuesto de las marcas japonesas.
+  La Hero Xpulse 200 4V es una doble propósito de 199 cc con enfoque trail: 19,1 HP, 220
+  mm de distancia al piso, 158 kilos y un tanque de 13 litros por 15.999.000 pesos. Es una
+  moto pensada para quien quiere una adventure ligera de verdad, con capacidad de trocha y
+  postura de pie sobre las estriberas. Es para ti si haces caminos destapados largos y
+  quieres una moto con recorrido de suspensión real. No es para ti si haces carretera
+  abierta: 19 caballos y una aerodinámica desfavorable la limitan a 110 km/h.
+uso_diario: >-
+  La Xpulse es, de las doble propósito de este catálogo, la que tiene el enfoque más
+  trail. Los 220 mm al piso y la suspensión de largo recorrido permiten pasar terreno roto
+  con una soltura que una XR150L o una TTR 200 no alcanzan. El motor de 199 cc con
+  inyección entrega 19,1 HP con un torque que aparece temprano y permite subir en segunda
+  por caminos empinados sin exigir el embrague. La postura es erguida, con estriberas
+  anchas que permiten ponerse de pie, y el asiento a 825 mm exige cierta estatura. En
+  carretera mantiene 100-110 km/h, con vibración perceptible a revoluciones altas. Pesa
+  158 kilos, bastante para el cilindraje, y eso se nota en trocha técnica. El doble disco
+  con ABS en ambas ruedas es un equipo serio. El consumo de 32 km/l con 13 litros da unos
+  400 km de autonomía.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 75000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 35000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 24000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 13.000 km"
+    costo_cop: 165000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 250000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 220000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 120000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1020000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra incluida. El SOAT y
+  la técnico-mecánica van aparte. Las llantas de doble propósito y el kit de arrastre son
+  los rubros que más pesan, porque el polvo y el barro aceleran el desgaste. El motor de
+  199 cc mantiene el SOAT en la categoría intermedia, un alivio frente a una 250.
+comparativa: >-
+  Frente a la Honda XRE 300, la Xpulse cuesta 17,5 millones menos y ofrece 6,9 caballos
+  menos, aunque la diferencia de precio es de otra categoría. Contra la AKT TT200 ABS, la
+  Hero gana 2,3 caballos, ABS en las dos ruedas y 10 mm más de altura al piso, por 6,2
+  millones adicionales. Y si el uso es más de trabajo rural que de trail, la Honda XR150L
+  o la Bajaj Boxer 150X cuestan una fracción y cumplen.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Xpulse 200?"
+    respuesta: >-
+      El homologado es 32 km/l. En trocha con pendientes baja a 26-28; en carretera a 90 km/h
+      sube a 35. Con 13 litros de tanque la autonomía práctica va de 340 a 460 km, suficiente
+      para una ruta de un día sin recargar.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, hasta 110 km/h, con vibración a revoluciones altas. Es una moto de trail con
+      capacidad de enlace por asfalto, no una turística. Para trayectos de 150 km mixtos es
+      competente; para 400 km de autopista, incómoda.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zonas rurales con caminos rotos, sí, y con ventaja sobre motos de calle. En ciudad
+      pavimentada no tiene sentido: gastas llantas de tacos, pesas 158 kilos y pagas 16
+      millones por capacidad que no usas.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Xpulse 200?"
+    respuesta: >-
+      Con 199 cc se queda por debajo de los 200, así que paga la categoría de 100 a 200 cc:
+      alrededor de 343.000 pesos al año. Es una ventaja de 418.000 pesos frente a una 250, y
+      una de las razones por las que este cilindraje es tan popular.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      En trocha sí, porque la suspensión larga y el ABS perdonan mucho. En ciudad y en
+      carretera es exigente por la altura del asiento y el peso. Un principiante que solo
+      ruede en asfalto debería empezar en una moto de calle.
+veredicto: >-
+  La Xpulse 200 es la trail ligera más completa del mercado por debajo de los veinte
+  millones: 220 mm al piso, ABS doble y postura de pie. Su limitación es la potencia en
+  carretera y su red de servicio, no su capacidad fuera del asfalto.

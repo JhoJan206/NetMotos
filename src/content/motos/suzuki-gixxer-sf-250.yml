@@ -29,22 +29,102 @@ llanta_trasero: 150/60-17
 precio_cop: 17130000
 imagen: /images/motos/suzuki-gixxer-sf-250.webp
 pros:
-  - >-
-    Motor refrigerado por aceite, solución poco común en 250cc que da buena durabilidad sin el peso de un sistema
-    líquido
-  - ABS de doble canal de serie en toda la gama
+  - "\"Motor refrigerado por aceite, solución poco común en 250cc que da buena durabilidad sin el peso de un sistema líquido\""
+  - "ABS de doble canal de serie en toda la gama"
 contras:
-  - Precio elevado frente a naked de cilindraje similar sin carenado, como la Yamaha FZ25
-  - Carenado completo suma peso (161 kg) frente a versiones naked de la misma plataforma
+  - "Precio elevado frente a naked de cilindraje similar sin carenado, como la Yamaha FZ25"
+  - "Carenado completo suma peso (161 kg) frente a versiones naked de la misma plataforma"
 rating: 4.4
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Suzuki Gixxer SF 250 es la deportiva de acceso más seria que puedes comprar en Colombia sin saltar a los 300 cc o
-  más. Su motor refrigerado por aceite —una solución intermedia entre aire y líquido— entrega 26.1 HP y 22 Nm, con ABS
-  de doble canal de serie. El carenado completo le da una imagen de moto grande, aunque también suma peso: 161 kilos que
-  se sienten al maniobrar en bajas. En carretera, sin embargo, la postura semifija y la transmisión de 6 velocidades la
-  hacen viajar cómoda a 120 km/h, algo que las naked del mismo cilindraje no logran sin sufrir. El precio de 17.130.000
-  COP es alto, y ahí compite con la KTM 200 Duke por menos plata. Pero la Gixxer SF 250 ofrece un enfoque distinto: más
-  protección aerodinámica, ABS completo y ese motor SACS que casi no pide mantenimiento. Es para el que quiere estética
-  de deportiva sin lidiar con los costos de una 400. La llanta trasera 150/60-17 le da buena pinta desde atrás, y en
-  carretera se siente sólida.
+  La Suzuki Gixxer SF 250 es la deportiva carenada de 250 cc de Suzuki: 26,1 HP, 22 Nm,
+  ABS de doble canal y un carenado completo por 17.130.000 pesos. Es la alternativa
+  racional a las deportivas de 300 y 400, con un motor refrigerado por aceite que prioriza
+  durabilidad sobre cifras de ficha. Es para ti si quieres una deportiva carenada para
+  carretera, con posición tolerable y mantenimiento contenido. No es para ti si buscas
+  prestaciones puras o si haces mucha ciudad: 161 kilos y una postura inclinada cobran
+  factura en tráfico.
+uso_diario: >-
+  El motor de 249 cc entrega 26,1 HP con una linealidad que se agradece: no hay un pico
+  violento, la potencia sube de forma progresiva hasta las 9.000 rpm y la caja de seis
+  marchas permite mantenerlo en la zona buena sin esfuerzo. La refrigeración por aceite es
+  una solución poco común en 250 y ayuda en tráfico lento, donde un motor líquido
+  trabajaría más. En carretera el carenado protege bien hasta 120 km/h y la moto se siente
+  estable en curva gracias a un chasis rígido. La posición es deportiva pero no extrema:
+  el torso va inclinado y las estriberas algo retrasadas, tolerables durante una hora. El
+  asiento a 800 mm es accesible. El ABS de doble canal con disco de 300 mm adelante da una
+  frenada contundente y bien modulada. Pesa 161 kilos, que se notan en maniobras de
+  parqueadero. El consumo de 30 km/l con 12 litros da unos 360 km de autonomía, algo corta
+  para una deportiva de turismo.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 98000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 45000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 48000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 215000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 310000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 265000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 165000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1620000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Suzuki. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento es el de una 250: llantas de 17
+  pulgadas, pastillas en las dos ruedas y aceite sintético. A eso hay que sumar el costo
+  de los plásticos en caso de caída, que en una carenada nunca es menor de 500.000 pesos
+  por lateral.
+comparativa: >-
+  Frente a la Yamaha FZ25, la Gixxer SF cuesta 500.000 pesos más y ofrece carenado
+  completo, ABS de doble canal y 4,6 caballos adicionales: para carretera es claramente
+  superior. Contra la Kawasaki Ninja 400, la Suzuki cuesta 12,8 millones menos y pierde
+  19,4 caballos y un motor bicilíndrico, aunque gana en costo de mantenimiento y en
+  consumo. Y si el objetivo es una deportiva de 250 con mejor red de servicio, la Yamaha
+  R15 ofrece menos cilindraje pero mucha más posventa.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Gixxer SF 250?"
+    respuesta: >-
+      El homologado es 30 km/l. En ciudad con tráfico el registro está entre 25 y 28; en
+      carretera a 100 km/h sube a 32-34. Con 12 litros de tanque la autonomía práctica va de
+      300 y 410 km, algo corta para una moto con vocación de carretera.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 120 km/h y capacidad de llegar a 140. El carenado protege del
+      viento y el chasis es estable en curva. La posición deportiva cansa después de dos
+      horas, pero la moto en sí está hecha para trayectos de 200 a 300 km.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es lo más eficiente: consume 26 km/l en ciudad, el mantenimiento supera el millón y
+      medio anual y una caída implica reparar plásticos. Para reparto intenso, una moto con
+      cadena y sin carenado cuesta mucho menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Gixxer SF 250?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Son 418.000 pesos más que una 200, y hay que sumarlos a un
+      mantenimiento que ya ronda el millón y medio.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No como primera moto. La posición deportiva, los 161 kilos y una entrega de potencia que
+      invita a subir de vueltas exigen experiencia. El ABS de doble canal ayuda, pero es una
+      moto para después de un año en 150 o 200.
+veredicto: >-
+  La Gixxer SF 250 es la deportiva carenada más equilibrada del segmento: suficiente
+  potencia para viajar, posición tolerable para el día a día y un motor que prioriza
+  durar. Su limitación es el tanque y la red de servicio, no la mecánica.

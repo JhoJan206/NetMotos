@@ -29,23 +29,103 @@ llanta_trasero: 150/60-17
 precio_cop: 33990000
 imagen: /images/motos/kawasaki-z400.webp
 pros:
-  - Mismo motor bicilíndrico de la Ninja 400, con manejo más cómodo
-  - Posición de manejo erguida, mejor para uso diario en ciudad
-  - ABS de serie y frenos de buen desempeño
+  - "Mismo motor bicilíndrico de la Ninja 400, con manejo más cómodo"
+  - "Posición de manejo erguida, mejor para uso diario en ciudad"
+  - "ABS de serie y frenos de buen desempeño"
 contras:
-  - Precio alto frente a naked monocilíndricas de la competencia
-  - Diseño más discreto comparado con la versión carenada Ninja
-  - Repuestos y mantenimiento costosos frente a marcas indias
+  - "Precio alto frente a naked monocilíndricas de la competencia"
+  - "Diseño más discreto comparado con la versión carenada Ninja"
+  - "Repuestos y mantenimiento costosos frente a marcas indias"
 rating: 4.5
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Z400 es básicamente la Ninja 400 sin carenado, pensada para quien quiere el mismo motor bicilíndrico contundente
-  pero en una postura más cómoda para el uso diario en ciudad. Es la naked "premium" del segmento de 400cc en Colombia.
-
-  Comparte mecánica con la Ninja, así que el desempeño en aceleración y sonido es prácticamente idéntico, pero la
-  posición erguida la hace más amigable para trancones largos y trayectos urbanos frecuentes. En carretera con curvas
-  sigue siendo muy divertida gracias a su chasis liviano.
-
-  Compite con la KTM 250 Duke y, en menor medida, con la Yamaha MT-15, aunque ninguna de las dos iguala su motor de dos
-  cilindros. Es la moto ideal para el motociclista que quiere el carácter de una deportiva bicilíndrica pero en formato
-  naked, priorizando comodidad diaria sobre el carenado deportivo de la Ninja.
+  La Kawasaki Z400 es la versión naked de la Ninja 400: mismo motor bicilíndrico de 399 cc
+  con 45 HP y 37 Nm, pero con una posición erguida y un precio de 33.990.000 pesos. Es una
+  de las naked de 400 más equilibradas del mercado y la alternativa lógica para quien
+  quiere las prestaciones de la Ninja sin la posición deportiva. Es para ti si haces uso
+  mixto entre ciudad y carretera y quieres prestaciones con comodidad. No es para ti si
+  buscas una moto de diseño llamativo o si tu presupuesto está por debajo de los 30
+  millones.
+uso_diario: >-
+  El motor de 399 cc entrega 45 HP con una suavidad que se agradece en ciudad: se puede
+  rodar en tercera a 40 km/h sin tirones y en carretera mantener 130 km/h con reserva
+  hasta 170. La diferencia con la Ninja es la ergonomía: el manubrio es más alto y las
+  estriberas están centradas, así que el torso va erguido y las muñecas no cargan. Eso
+  convierte a la Z400 en una moto usable todos los días, no solo los fines de semana. Con
+  167 kilos, es ágil en tráfico y estable en curva. El ABS de doble canal frena sobre
+  disco de 310 mm. El asiento a 785 mm es accesible y el del parrillero, aunque pequeño,
+  es más usable que el de la Ninja. El consumo de 26 km/l con 14 litros da unos 360 km de
+  autonomía, su punto débil para viajar.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 180000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 84000
+  - concepto: "Bujías (dos unidades de iridio)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 90000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 58000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 305000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 420000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 365000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 240000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 2200000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario Kawasaki. El
+  SOAT y la técnico-mecánica van aparte. El mantenimiento es prácticamente el de la Ninja
+  400: misma base mecánica, mismas llantas, mismos intervalos. La única diferencia es que
+  una caída sin carenado cuesta mucho menos de reparar.
+comparativa: >-
+  Frente a la Kawasaki Ninja 400, la Z400 cuesta 2 millones menos y ofrece 3,3 caballos
+  menos, con una posición mucho más cómoda para el día a día. Contra la Yamaha MT-03, la
+  Kawasaki cuesta 2,1 millones más y ofrece 3 caballos adicionales y 83 cc más, aunque
+  pierde el embrague antirrebote y la conectividad. Y si el objetivo es una naked de 400
+  al menor precio, la Bajaj Pulsar NS400Z ofrece 39,4 caballos por 15,7 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Z400?"
+    respuesta: >-
+      El homologado es 26 km/l. En ciudad con tráfico el registro está entre 21 y 24; en
+      carretera a 110 km/h sube a 28-30. Con 14 litros de tanque la autonomía práctica va de
+      290 a 420 km, su principal limitación para viajar.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con soltura: mantiene 130 km/h sin vibraciones y llega a 170 en plano. La posición
+      erguida permite trayectos de 250 km con menos fatiga que en la Ninja. La autonomía y la
+      falta de protección aerodinámica son sus límites.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es lo más rentable: consume 23 km/l en ciudad y su mantenimiento supera los dos
+      millones al año. Sirve para trabajo si valoras prestaciones en trayectos largos, pero
+      para reparto urbano una 125 cuesta cinco veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Z400?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el mismo valor que una 250 y representa el 2,2 % del precio de la
+      moto.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Con criterio, sí. La entrega es lineal, el peso es contenido y el ABS de doble canal
+      cubre errores. Pero 45 caballos exigen respeto. Es una buena segunda moto para quien ya
+      maneja una 250 y quiere subir de nivel.
+veredicto: >-
+  La Z400 es la naked de 400 más equilibrada para uso diario: prestaciones de Ninja con
+  ergonomía de moto de todos los días. Su precio y su autonomía son sus dos objeciones, y
+  ninguna de las dos es mecánica.

@@ -29,24 +29,102 @@ llanta_trasero: 90/90-14
 precio_cop: 8090000
 imagen: /images/motos/akt-dynamic-pro-cbs.webp
 pros:
-  - Frenos CBS de fábrica en un scooter de precio de entrada
-  - Consumo de combustible entre los mejores de la gama automática de AKT
-  - Peso liviano, muy fácil de maniobrar en tráfico y parqueaderos
+  - "Frenos CBS de fábrica en un scooter de precio de entrada"
+  - "Consumo de combustible entre los mejores de la gama automática de AKT"
+  - "Peso liviano, muy fácil de maniobrar en tráfico y parqueaderos"
 contras:
-  - Cilindraje de 125cc, algo justo para dos pasajeros con equipaje
-  - Baúl bajo asiento reducido comparado con scooters de mayor tamaño
-  - Aceleración inicial modesta frente a scooters con relación más deportiva
+  - "Cilindraje de 125cc, algo justo para dos pasajeros con equipaje"
+  - "Baúl bajo asiento reducido comparado con scooters de mayor tamaño"
+  - "Aceleración inicial modesta frente a scooters con relación más deportiva"
 rating: 4.2
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Dynamic Pro CBS es el scooter de entrada de AKT, pensado para competir directamente en el segmento más económico de
-  scooters de 125cc. Su gran diferencial frente a otras opciones de este precio es el sistema de frenado combinado CBS,
-  que reparte la frenada entre ambas ruedas para mayor seguridad.
-
-  En el uso diario es un scooter sencillo y correcto: liviano, fácil de maniobrar entre el tráfico y con un consumo de
-  combustible que lo hace muy económico de mantener. No tiene las prestaciones de un scooter más grande, pero cumple
-  perfectamente para trayectos cortos dentro de la ciudad.
-
-  Compite con la Honda Nav-i y la AKT Jet Evo, esta última de la misma marca. Es el scooter ideal para el comprador con
-  presupuesto ajustado que busca movilidad urbana básica con un plus de seguridad en los frenos, sin necesitar mayor
-  cilindraje ni equipamiento.
+  La AKT Dynamic Pro CBS es el scooter de entrada de AKT: 124,6 cc, 9,2 HP, inyección
+  electrónica, frenos CBS y un peso de solo 108 kilos por 8.090.000 pesos. Es un scooter
+  pensado para trayectos urbanos cortos, con una propuesta muy concreta: comodidad
+  automática al precio más bajo posible dentro de la marca. Es para ti si haces recorridos
+  de menos de 15 km diarios y quieres la simplicidad de un CVT. No es para ti si ruedas en
+  vías rápidas, si llevas parrillero con frecuencia o si necesitas espacio de carga.
+uso_diario: >-
+  Con 108 kilos es el vehículo más liviano de esta lista, y eso se siente: se mueve entre
+  carros con una facilidad que ninguna moto de 130 kilos iguala, y se parquea en cualquier
+  hueco. El motor de 124,6 cc entrega 9,2 HP, suficiente para ciudad y justo para vías
+  rápidas: a 80 km/h ya va en su límite y con parrillero pierde bastante alegría. El
+  arranque es por botón, sin pedal, y la inyección evita el clásico problema de arranque
+  en frío. Los frenos CBS combinan delantero de disco de 190 mm y tambor trasero de 110
+  mm: funcionan bien a baja velocidad, que es el uso previsto. El baúl bajo el asiento es
+  pequeño, apenas para un casco abierto y poco más. La suspensión es blanda y absorbe bien
+  los huecos, aunque con dos personas hace tope con facilidad. El consumo de 40 km/l con
+  un tanque de 5,5 litros da unos 210 km: hay que tanquear seguido.
+costos:
+  - concepto: "Aceite de motor y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 62000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 28000
+  - concepto: "Bujía"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 20000
+  - concepto: "Correa de transmisión CVT"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 130000
+  - concepto: "Rodillos y guías del variador"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 78000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 155000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 48000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 780000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Es el scooter más barato de mantener del catálogo AKT, pero
+  hay un costo que no aparece en la tabla: el tanque de 5,5 litros obliga a visitar la
+  bomba cada 200 km, y en tiempo de trabajo eso también cuesta.
+comparativa: >-
+  Frente a la AKT Flex 125, la Dynamic Pro ofrece inyección, baúl bajo el asiento y frenos
+  CBS por 2,2 millones más, aunque pierde la posibilidad de usar ruedas grandes de 18
+  pulgadas. Contra la Honda Navi, la AKT gana en precio y en capacidad de carga, y pierde
+  en red de servicio y en valor de reventa. Y si puedes estirar el presupuesto, la Dynamic
+  RX Fi ofrece 2,8 caballos más por 1,4 millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Dynamic Pro CBS?"
+    respuesta: >-
+      El homologado es 40 km/l. En ciudad con tráfico denso baja a 36-38; en vías rápidas a 60
+      km/h sube a 43. Con 5,5 litros de tanque la autonomía práctica es de 190 a 235 km, una
+      de las más bajas del segmento por el tamaño del tanque.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Poco. Con 9,2 HP y 108 kilos, a 80 km/h ya va al límite y el viento la mueve. Sirve para
+      trayectos urbanos y periurbanos cortos; para carretera hace falta una 150 o más.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve para pedidos pequeños y trayectos cortos, gracias a la agilidad y al piso plano.
+      Pero el baúl es reducido y el tanque pequeño obliga a tanquear seguido. Para volumen
+      alto, una moto con cadena de 10 litros de tanque es más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Dynamic Pro CBS?"
+    respuesta: >-
+      Con 124,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Sobre
+      un vehículo de 8 millones, eso equivale a más del 4 % de su valor anual, una proporción
+      que conviene incluir en el presupuesto.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es una de las opciones más fáciles: sin embrague, sin cambios, liviana y con una altura
+      de asiento de 765 mm. El riesgo es que tanta facilidad lleva a subestimar la frenada; el
+      tambor trasero y la ausencia de ABS exigen aprender a dosificar desde el primer día.
+veredicto: >-
+  La Dynamic Pro CBS cumple con lo que promete: moverse en ciudad con el mínimo esfuerzo y
+  el mínimo costo. Es un scooter honesto para trayectos cortos, y su limitación no es la
+  calidad sino el tamaño: 5,5 litros de tanque y un baúl pequeño definen su alcance.

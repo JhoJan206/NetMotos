@@ -29,25 +29,105 @@ llanta_trasero: 150/60-17
 precio_cop: 27990000
 imagen: /images/motos/bmw-g310r.webp
 pros:
-  - Acabados y calidad de construcción propios de la marca alemana
-  - Motor con cilindro invertido (culata atrás) que baja el centro de gravedad
-  - Manejo muy equilibrado en curvas y frenadas
+  - "Acabados y calidad de construcción propios de la marca alemana"
+  - "Motor con cilindro invertido (culata atrás) que baja el centro de gravedad"
+  - "Manejo muy equilibrado en curvas y frenadas"
 contras:
-  - Tanque pequeño (11 litros) para el segmento de 300cc
-  - Precio elevado frente a rivales japonesas del mismo cilindraje
-  - Red de concesionarios BMW Motorrad limitada en Colombia
+  - "Tanque pequeño (11 litros) para el segmento de 300cc"
+  - "Precio elevado frente a rivales japonesas del mismo cilindraje"
+  - "Red de concesionarios BMW Motorrad limitada en Colombia"
 rating: 4.5
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La G 310 R es la puerta de entrada al mundo BMW Motorrad en Colombia, y se nota que la marca no quiso hacer una moto
-  "de entrada" cualquiera. El motor con la culata orientada hacia atrás es un detalle técnico poco común en este
-  segmento, pensado para mejorar el equilibrio y la respuesta del chasis.
-
-  En curvas es donde más se disfruta: el centro de gravedad bajo y el chasis bien calibrado le dan una sensación de
-  manejo que se acerca más a una moto europea de mayor cilindraje que a una naked asiática típica de 300cc. En ciudad
-  también se comporta con soltura, aunque el tanque pequeño obliga a tanquear más seguido de lo ideal para salidas
-  largas.
-
-  Compite con la KTM 250 Duke y la Kawasaki Z400, diferenciándose por el prestigio de marca y la calidad de construcción
-  típica alemana. Es la moto ideal para el motociclista que quiere entrar al segmento premium europeo sin comprar una
-  moto de gran cilindraje, priorizando manejo refinado y estatus de marca sobre el precio de compra.
+  La BMW G 310 R es la naked de entrada de BMW Motorrad: motor monocilíndrico de 313 cc
+  con cilindro invertido, 34 HP, 28 Nm, ABS de doble canal y acabados propios de la marca
+  alemana por 27.990.000 pesos. Es la BMW más accesible del mercado colombiano y una moto
+  que se compra tanto por lo que ofrece como por lo que representa. Es para ti si quieres
+  una naked de 300 con calidad de construcción y comportamiento equilibrado. No es para ti
+  si priorizas precio por caballo o si vives lejos de un concesionario BMW.
+uso_diario: >-
+  El motor de 313 cc con cilindro invertido —culata hacia atrás— baja el centro de
+  gravedad y permite un chasis más compacto, y eso se siente en la conducción: la moto
+  entra a curva con una facilidad que no corresponde a su cilindraje y se mantiene muy
+  estable en frenadas fuertes. Los 34 HP permiten mantener 120 km/h en carretera y llegar
+  a 145 en plano, con una entrega lineal que no sorprende pero tampoco se queda. La
+  posición es erguida, con el asiento a 785 mm accesible y un manubrio ancho que da
+  control. El ABS de doble canal frena sobre disco de 300 mm adelante. Pesa 158 kilos, un
+  peso contenido que la hace ágil en ciudad. El punto débil es el tanque: 11 litros con un
+  consumo de 27 km/l dan apenas 300 km de autonomía, poco para una moto de 300. Los
+  acabados y la tornillería están claramente por encima de la media del segmento.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 155000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 75000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 62000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 58000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 285000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 385000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 330000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 225000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1950000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario BMW Motorrad.
+  El SOAT y la técnico-mecánica van aparte. El mantenimiento de una BMW no es el de una
+  india: mano de obra de concesionario, repuestos importados y aceite sintético. A cambio,
+  los intervalos son largos y la moto está construida para durar. La red de servicio es el
+  factor a revisar antes de comprar.
+comparativa: >-
+  Frente a la Yamaha MT-03, la BMW cuesta 3,9 millones menos y ofrece 8 caballos menos,
+  con un motor monocilíndrico frente a un bicilíndrico: pierde en suavidad y gana en
+  acabado y en precio. Contra la Kawasaki Z400, la G 310 R cuesta 6 millones menos y
+  ofrece 11 caballos menos, aunque gana en calidad percibida. Y si el objetivo es una
+  naked de 300 con la mejor relación precio-prestaciones, la Bajaj Pulsar NS400Z ofrece
+  39,4 caballos por 9,7 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la G 310 R?"
+    respuesta: >-
+      El homologado es 27 km/l. En ciudad con tráfico el registro está entre 22 y 25; en
+      carretera a 100 km/h sube a 29-31. Con 11 litros de tanque la autonomía práctica va de
+      250 a 340 km, la más corta del segmento de 300.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 120 km/h y capacidad de llegar a 145. El motor no vibra en
+      exceso y el chasis es muy estable. La limitación es la autonomía: hay que parar cada 250
+      km, algo poco práctico para viajar.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Cuesta 28 millones, el mantenimiento es de concesionario BMW y la autonomía es
+      corta. Es una moto de uso personal y disfrute. Para trabajo, una 125 cuesta cinco veces
+      menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la G 310 R?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Sobre una moto de 28 millones representa el 2,7 % del valor:
+      manejable, pero hay que sumarlo al mantenimiento premium.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las mejores opciones para empezar en el mundo de las motos de marca
+      premium: 34 caballos, entrega lineal, peso contenido y ABS de doble canal. La autonomía
+      corta es su única limitación práctica.
+veredicto: >-
+  La G 310 R es la BMW que se compra con la razón y se defiende con los acabados: chasis
+  equilibrado, frenos sólidos y una calidad de construcción que se siente. Su tanque de 11
+  litros es su gran debilidad, y la red de servicio, su condición.

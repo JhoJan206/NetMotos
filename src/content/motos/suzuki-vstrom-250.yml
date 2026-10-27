@@ -29,25 +29,106 @@ llanta_trasero: 140/70-17
 precio_cop: 23900000
 imagen: /images/motos/suzuki-vstrom-250.webp
 pros:
-  - Motor bicilíndrico suave, poco común en este segmento de precio
-  - Tanque de 17.3 litros, de los más grandes en motos medias
-  - Confiabilidad Suzuki respaldada por buena red de repuestos
+  - "Motor bicilíndrico suave, poco común en este segmento de precio"
+  - "Tanque de 17.3 litros, de los más grandes en motos medias"
+  - "Confiabilidad Suzuki respaldada por buena red de repuestos"
 contras:
-  - Potencia modesta para el peso de la moto (188 kg)
-  - Suspensión enfocada más en carretera que en trocha exigente
-  - Precio superior al de rivales con motor monocilíndrico
+  - "Potencia modesta para el peso de la moto (188 kg)"
+  - "Suspensión enfocada más en carretera que en trocha exigente"
+  - "Precio superior al de rivales con motor monocilíndrico"
 rating: 4.4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La V-Strom 250 SX le da a Colombia algo poco frecuente en el segmento de 250cc: un motor de dos cilindros, que entrega
-  una suavidad de marcha muy distinta a la vibración típica de los monocilíndricos de esta gama. Es una moto pensada
-  para carretera larga con toques de trocha liviana, no para enduro pesado.
-
-  El tanque grande es su mejor argumento para viajar: con 17.3 litros la autonomía supera con facilidad los 400 km, algo
-  valioso en las rutas colombianas donde las estaciones de servicio no siempre están cerca. El peso se siente en trocha
-  destapada, pero en asfalto se mueve con estabilidad y buen freno.
-
-  Compite de frente con la Bajaj Dominar 400 y la Kawasaki Versys-X 300, peleando terreno gracias a su motor
-  bicilíndrico como diferenciador. Es la moto ideal para quien prioriza comodidad de marcha en carretera sobre capacidad
-  todoterreno pura, y que valora tener un motor más refinado aunque cueste un poco más que la competencia
-  monocilíndrica.
+  La Suzuki V-Strom 250 SX es la adventure de entrada de Suzuki: motor bicilíndrico de 249
+  cc, 24 HP, ABS de doble canal y un tanque de 17,3 litros por 23.900.000 pesos. Es, en
+  concepto, una moto de trail asfáltico: capacidad de trocha liviana, posición cómoda y
+  autonomía de turística. Es para ti si quieres viajar por carretera y caminos destapados
+  suaves con una moto confiable y de marca japonesa. No es para ti si esperas
+  prestaciones: 24 caballos para 188 kilos es una relación modesta, y eso se siente con
+  parrillero y equipaje en pendiente.
+uso_diario: >-
+  El bicilíndrico de 249 cc es lo más interesante de esta moto: entrega 24 HP con una
+  suavidad que ningún monocilíndrico de su precio iguala, y vibra mucho menos a 100 km/h.
+  Ese refinamiento es lo que se paga en la factura. El tanque de 17,3 litros, con un
+  consumo de 30 km/l, da más de 480 km de autonomía teórica y unos 420 reales, una cifra
+  de turística. La posición es erguida, con manubrio alto y estriberas centradas, cómoda
+  durante dos horas. El asiento a 800 mm es accesible y la protección aerodinámica
+  suficiente para viajar a 100 km/h. Los frenos con ABS de doble canal funcionan bien
+  sobre disco de 290 mm adelante. La limitación es la potencia: 24 caballos para 188 kilos
+  significan que adelantar requiere planearlo y que una subida larga con dos personas
+  obliga a bajar dos marchas. La suspensión está enfocada en asfalto, así que en trocha
+  exigente se queda corta.
+costos:
+  - concepto: "Aceite de motor sintético y filtro (bicilíndrico)"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 135000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 65000
+  - concepto: "Bujías (dos unidades)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 75000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 24.000 km"
+    costo_cop: 55000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 245000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 340000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 295000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 175000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1650000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de taller autorizado Suzuki. El
+  SOAT y la técnico-mecánica van aparte. El bicilíndrico exige más aceite y dos bujías, y
+  las llantas de medida grande cuestan más que las de una 150. A cambio, los intervalos de
+  servicio son largos y la moto está pensada para durar: es el tipo de mantenimiento que
+  se paga con la tranquilidad de no quedar varado en una carretera.
+comparativa: >-
+  Frente a la Bajaj Dominar 250, la V-Strom cuesta 8,1 millones más y ofrece 2,6 caballos
+  menos, aunque gana en autonomía, en suavidad de motor y en capacidad de trocha liviana.
+  Contra la Kawasaki Versys-X 300, la Suzuki cuesta 7 millones menos y pierde 15 caballos
+  y un motor más revolucionado, aunque gana en torque a bajas vueltas. Y si el presupuesto
+  aprieta, la Honda XRE 300 ofrece más capacidad de trocha real por 9,6 millones más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la V-Strom 250?"
+    respuesta: >-
+      El homologado es 30 km/l. En ciudad con tráfico el registro está entre 25 y 28; en
+      carretera a 100 km/h sube a 32-34. Con 17,3 litros de tanque la autonomía práctica va de
+      420 a 580 km, la mejor de su segmento.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno. Mantiene 110 km/h sin vibraciones y llega a 135 en plano. La posición
+      erguida y el tanque grande permiten trayectos de 300 km sin fatiga ni paradas
+      frecuentes. Con parrillero y equipaje pierde brío en subida, pero no se queda.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Pesa 188 kilos, cuesta 23,9 millones y su mantenimiento supera el millón y medio
+      anual. Es una moto de viaje. Para trabajo, una 125 cuesta una fracción de lo que cuesta
+      operar esta.
+  - pregunta: "¿Cuánto cuesta el SOAT de la V-Strom 250?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el doble de lo que paga una 200, un costo fijo que conviene sumar
+      antes de decidir el salto de cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí, es una de las adventure más amables para empezar: 24 caballos, entrega suave,
+      asiento de 800 mm y ABS de doble canal. El peso de 188 kilos es lo único que exige
+      práctica en maniobras lentas y en parqueadero.
+veredicto: >-
+  La V-Strom 250 SX es una moto de concepto claro: viajar cómodo y sin prisa, con
+  autonomía y confiabilidad por encima de las prestaciones. Quien la compre esperando
+  emoción se va a aburrir; quien la compre para cruzar el país a 100 km/h va a ser feliz.

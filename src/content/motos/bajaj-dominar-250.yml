@@ -29,29 +29,103 @@ llanta_trasero: 130/70-17
 precio_cop: 15799000
 imagen: /images/motos/bajaj-dominar-250.webp
 pros:
-  - Hereda gran parte del ADN de la Dominar 400 a un precio más bajo
-  - Peso más liviano que la Dominar 400, más manejable en ciudad
-  - ABS de doble canal de serie, poco común en el segmento de 250cc
+  - "Hereda gran parte del ADN de la Dominar 400 a un precio más bajo"
+  - "Peso más liviano que la Dominar 400, más manejable en ciudad"
+  - "ABS de doble canal de serie, poco común en el segmento de 250cc"
 contras:
-  - Suspensión delantera convencional, no invertida como en la Dominar 400
-  - Potencia inferior a rivales bicilíndricas como la Suzuki V-Strom 250
-  - Sigue siendo pesada frente a naked monocilíndricas puras de 250cc
+  - "Suspensión delantera convencional, no invertida como en la Dominar 400"
+  - "Potencia inferior a rivales bicilíndricas como la Suzuki V-Strom 250"
+  - "Sigue siendo pesada frente a naked monocilíndricas puras de 250cc"
 rating: 4.5
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Dominar 250 es la versión "de entrada" a la filosofía touring de
-  Bajaj, ofreciendo buena parte de lo que hace atractiva a la Dominar 400
-  pero con un cilindraje menor y, sobre todo, un precio bastante más
-  accesible. Es la opción para quien quiere una moto seria de carretera
-  sin llegar todavía al peso y precio de la 400.
-
-  El motor de 250cc entrega una potencia que sorprende para el
-  cilindraje, con más de 26 caballos, suficiente para sostener
-  velocidad de crucero en carretera sin sentirse ahogada. El ABS de
-  doble canal de serie es un plus de seguridad que muchas rivales de
-  este precio todavía no ofrecen.
-
-  Compite con la Suzuki V-Strom 250 y la Kawasaki Versys-X 300, aunque
-  con un precio más bajo que ambas. Es la moto ideal para el
-  motociclista que quiere el estilo touring de la familia Dominar, con
-  un presupuesto más ajustado que el que exige la versión de 400cc.
+  La Bajaj Dominar 250 es la hermana menor de la Dominar 400: 248,8 cc, 26,6 HP, 21,5 Nm,
+  ABS de doble canal y suspensión invertida por 15.799.000 pesos. Está pensada como
+  turismo deportivo de acceso: potencia suficiente para viajar, comodidad para dos
+  personas y equipo completo. Es para ti si quieres una 250 para carretera con parrillero
+  y equipaje, sin pagar el precio de una japonesa. No es para ti si tu uso es 100 % urbano
+  o si buscas una moto ligera: 164 kilos se sienten en cada maniobra lenta.
+uso_diario: >-
+  Las 26,6 caballos mueven 164 kilos con soltura, y lo más valioso es el torque de 21,5 Nm
+  que llega a 6.500 rpm: permite adelantar en sexta sin bajar dos marchas, algo que en
+  carretera colombiana con tractomulas se agradece. La posición de manejo es erguida con
+  estriberas centradas, cómoda para dos horas, exigente en tráfico denso por el peso. La
+  suspensión invertida delantera le da una precisión en curva muy superior a la de una
+  naked convencional. El ABS de doble canal funciona bien y es un argumento serio en una
+  moto que puede rodar a 140 km/h. En ciudad, el peso y el radio de giro obligan a
+  maniobras más amplias; el motor calienta y el ventilador entra seguido. El consumo de 30
+  km/l con 13 litros de tanque da unos 390 km de autonomía, correcto para el cilindraje.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 105000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 52000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 38000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 42000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 220000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 330000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 280000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 175000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1420000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Aquí hay tres saltos de costo frente a una 200: SOAT de
+  categoría alta, llantas de 17 pulgadas más anchas y aceite sintético con intervalos de
+  5.000 km. Es el costo real de viajar cómodo y con dos personas.
+comparativa: >-
+  Frente a la Bajaj Pulsar NS200, la Dominar 250 cuesta 2,6 millones más y ofrece 2,5
+  caballos, ABS de doble canal y una posición claramente más turística: el salto tiene
+  sentido si el uso incluye carretera. Contra la Suzuki V-Strom 250, la Dominar cuesta 8,1
+  millones menos y gana 2,6 caballos, aunque pierde el motor bicilíndrico y la capacidad
+  de trocha liviana. Y si el presupuesto alcanza, la Dominar 400 ofrece 24,5 HP, horquilla
+  invertida y más presencia por 3,6 millones adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Dominar 250?"
+    respuesta: >-
+      El homologado es 30 km/l. En ciudad con tráfico denso baja a 25-27; en carretera a 100
+      km/h sube a 33-35. Con 13 litros de tanque la autonomía práctica va de 330 a 450 km,
+      suficiente para un viaje de un día sin recargar.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su terreno natural. Mantiene 120 km/h sin esfuerzo y tiene reserva hasta 145. La
+      posición erguida, el asiento amplio y el ABS de doble canal la hacen una turística de
+      acceso muy competente para trayectos de 300 km.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Pesa 164 kilos, consume 26 km/l en ciudad y su mantenimiento es de moto grande. Es
+      una moto de disfrute y de viaje, no una herramienta de reparto. Para trabajo, una 125
+      cuesta menos de la mitad de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Dominar 250?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el doble de lo que paga una 200, y hay que sumarlo a un
+      mantenimiento que ya supera el millón de pesos anuales.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No como primera moto. Los 26,6 caballos y los 164 kilos exigen experiencia, sobre todo
+      en maniobras lentas y en frenadas de emergencia. Es una excelente segunda moto para
+      quien ya lleva un año en 150 o 200.
+veredicto: >-
+  La Dominar 250 es la forma más económica de entrar al turismo deportivo con ABS de doble
+  canal y suspensión invertida. No es ágil en ciudad ni barata de mantener, pero para
+  viajar con parrillero por el país no hay nada mejor por menos de dieciséis millones.

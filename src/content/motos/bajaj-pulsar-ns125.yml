@@ -29,22 +29,103 @@ llanta_trasero: 100/90-17
 precio_cop: 8799000
 imagen: /images/motos/bajaj-pulsar-ns125.webp
 pros:
-  - Diseño deportivo atractivo
-  - Monoamortiguador Nitrox
-  - Tanque de buen tamaño
+  - "Diseño deportivo atractivo"
+  - "Monoamortiguador Nitrox"
+  - "Tanque de buen tamaño"
 contras:
-  - Freno trasero de tambor
-  - Carburador (no inyección)
-  - Disponibilidad de servicio técnico
+  - "Freno trasero de tambor"
+  - "Carburador (no inyección)"
+  - "Disponibilidad de servicio técnico"
 rating: 4.1
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Bajaj Pulsar NS125 es de esas motos que mirás y pensás "esto parece más caro de lo que es". El diseño de tanque
-  musculoso y el monoamortiguador Nitrox le dan una presencia que no esperás en una 125 de 4.390.000 COP. El motor rinde
-  12 HP, que es de lo más alto en el segmento, y el chasis le da buen comportamiento en curvas para ser una naked
-  económica. El tanque de 11 litros va bien para el día a día. Donde se nota el ajuste de precio es en los componentes:
-  freno trasero de tambor, carburador en vez de inyección, y el servicio técnico de Bajaj no está tan extendido como el
-  de AKT o Yamaha. Para el motero joven que quiere una moto con estilo deportivo sin gastar lo que cuesta una Honda, la
-  NS125 es de las más atractivas visualmente. Pero hay que tener claro que es una moto para ciudad, no para carretera.
-  Los 122 kilos la hacen ágil, y el asiento a 785 mm es cómodo para la estatura promedio colombiana. El consumo de 48
-  km/l está bien dentro del promedio.
+  La Bajaj Pulsar NS125 es la versión de entrada de la familia NS: 124,6 cc, 12 HP, freno
+  de disco delantero de 260 mm y una estética deportiva heredada de la NS200, por
+  8.799.000 pesos. Es una moto que vende imagen antes que mecánica, y conviene decirlo
+  claro: por ese precio, la Bajaj Discover 125 Sport ofrece inyección electrónica y cuesta
+  1,8 millones menos. Es para ti si el diseño de la NS te importa de verdad y no quieres
+  pagar la NS160. No es para ti si comparas ficha técnica con precio: aquí hay opciones
+  más racionales en la misma marca.
+uso_diario: >-
+  El motor de 124,6 cc con carburador entrega 12 HP a 8.500 rpm, la misma cifra de la
+  Discover pero sin inyección. Eso significa que en frío pide starter y unos segundos de
+  calentamiento, y que en altura el ralentí puede volverse irregular. En marcha, la moto
+  se siente ágil: 122 kilos y una caja de cinco marchas bien escalonada permiten moverse
+  con soltura entre carros y mantener 85 km/h en carretera sin sufrir. La estética NS se
+  traduce en una posición algo deportiva y un asiento a 785 mm que resulta cómodo para
+  trayectos de 40 minutos. El disco delantero de 260 mm es más grande que el de muchas
+  rivales y frena con contundencia; el tambor trasero sigue siendo el punto flojo. La
+  suspensión es firme y estable en curva. El consumo de 48 km/l con 11 litros de tanque da
+  unos 480 km de autonomía, una cifra muy buena.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 50000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 25000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 18000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 130000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 185000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 165000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 50000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 730000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento es el típico de una 125 carburada, con
+  aceite cada 3.000 km. Es barato, pero el precio de compra alto hace que el costo por
+  kilómetro real sea peor que el de una Discover o una CT 125, que ofrecen inyección por
+  menos dinero.
+comparativa: >-
+  Frente a la Bajaj Discover 125 Sport, la NS125 cuesta 1,8 millones más, tiene carburador
+  en lugar de inyección y ofrece la misma potencia: la única ventaja es el diseño. Contra
+  la TVS Raider 125, la Bajaj pierde inyección y doble disco por el mismo dinero. Y si el
+  presupuesto llega a nueve millones, la Pulsar P150 ofrece 2,2 caballos más, inyección y
+  ABS delantero por solo 200.000 pesos adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la Pulsar NS125?"
+    respuesta: >-
+      El homologado es 48 km/l. En ciudad con tráfico el registro está entre 42 y 45; en
+      carretera a 70 km/h sube a 50. Con 11 litros de tanque la autonomía práctica es de 460 a
+      550 km, una de las mejores de su categoría.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos de 80 a 100 km a 80 km/h, sí. Con 12 HP tiene algo más de reserva que una 125
+      básica, aunque el carburador y el asiento limitan los trayectos largos. No es una moto
+      de viaje, pero tampoco se queda en el intento.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, pero no es la más rentable: cuesta 8,8 millones y el mantenimiento es de moto
+      económica. Para reparto puro, una CT 125 o una Discover cuestan menos de comprar y de
+      operar. La NS125 es más una moto de imagen que de trabajo.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NS125?"
+    respuesta: >-
+      Con 124,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Sobre
+      un precio de 8,8 millones, eso equivale al 3,9 % del valor, una proporción alta para una
+      125 de entrada.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Sí en lo mecánico: es dócil, liviana y la potencia no asusta. Pero como primera moto es
+      una compra poco eficiente: por menos dinero hay opciones con inyección, doble disco y
+      mejor equipo. Un principiante debería mirar la Raider 125 antes.
+veredicto: >-
+  La NS125 vive de la familia NS: se ve como una moto grande y por eso vende. Pero en
+  2026, una 125 carburada a 8,8 millones no se sostiene frente a rivales con inyección y
+  doble disco por menos. Es una moto para quien compra con los ojos; no para quien compra
+  con la calculadora.

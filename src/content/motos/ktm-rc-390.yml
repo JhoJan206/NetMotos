@@ -29,24 +29,107 @@ llanta_trasero: 150/60-17
 precio_cop: 30990000
 imagen: /images/motos/ktm-rc-390.webp
 pros:
-  - Potencia y torque muy por encima del resto de deportivas medianas
-  - Frenos radiales y ABS en curva de serie
-  - Carenado y ergonomía enfocados en manejo de pista real
+  - "Potencia y torque muy por encima del resto de deportivas medianas"
+  - "Frenos radiales y ABS en curva de serie"
+  - "Carenado y ergonomía enfocados en manejo de pista real"
 contras:
-  - Posición de manejo muy agresiva, poco práctica para uso diario
-  - Precio elevado frente a deportivas monocilíndricas de menor cilindraje
-  - Suspensión rígida que se siente en las vías destapadas colombianas
+  - "Posición de manejo muy agresiva, poco práctica para uso diario"
+  - "Precio elevado frente a deportivas monocilíndricas de menor cilindraje"
+  - "Suspensión rígida que se siente en las vías destapadas colombianas"
 rating: 4.7
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La RC 390 es, para muchos, la deportiva "de entrada" más seria que se puede comprar nueva en Colombia sin llegar a una
-  superbike. Con 44 caballos y un chasis derivado del ADN de competencia de KTM, entrega una experiencia de manejo que
-  se acerca bastante a la de motos de cilindraje mayor.
-
-  En pista o en carreteras con curvas es una fiera: acelera con ganas, frena con precisión gracias a sus discos
-  radiales, y el ABS en curva da seguridad al llevarla al límite. En ciudad, en cambio, la posición agachada y la
-  rigidez de la suspensión la vuelven menos cómoda para el uso diario que una naked equivalente.
-
-  Compite directamente con la Kawasaki Ninja 400, siendo la RC 390 la opción más orientada a manejo de pista puro. Es la
-  moto ideal para el motociclista que ya tiene experiencia y busca la deportiva más contundente posible en el segmento
-  de 390-400cc, priorizando desempeño sobre comodidad de uso diario.
+  La KTM RC 390 es la deportiva monocilíndrica más radical que se vende en Colombia: 399
+  cc, 44 HP, 39 Nm, 172 kilos y un chasis de acero enrejado con ABS en curva, por
+  30.990.000 pesos. No es una deportiva de imagen: es una moto de pista con espejos y
+  luces. Es para ti si haces track days, si disfrutas la conducción agresiva y aceptas una
+  posición que castiga en tráfico. No es para ti si tu uso es urbano diario, si llevas
+  parrillero con frecuencia o si las vías por donde ruedas están en mal estado.
+uso_diario: >-
+  El motor de 399 cc entrega 44 HP y 39 Nm con una contundencia que en carretera de
+  montaña es adictiva: sale de curva con fuerza desde 5.000 rpm y sigue empujando hasta el
+  corte, con una caja de seis marchas de recorrido corto que invita a subir y bajar
+  constantemente. El chasis enrejado y la horquilla invertida WP dan una precisión que
+  ninguna otra monocilíndrica del mercado iguala, y el ABS en curva permite frenar
+  inclinado con un margen que en una moto sin ese sistema sería impensable. Los frenos
+  radiales ByBre de 320 mm adelante son de nivel pista. La contraparte es la ergonomía: la
+  posición es agresiva, con estriberas muy retrasadas y el torso casi sobre el tanque, y
+  en tráfico la espalda y las muñecas lo pagan. La suspensión es rígida: en las vías rotas
+  colombianas se siente cada hueco. El consumo de 25 km/l con 13,7 litros da unos 340 km
+  de autonomía, corta para una moto con vocación de viaje.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 145000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 68000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 58000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 52000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 285000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 390000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 330000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 230000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1980000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra de concesionario KTM. El SOAT y
+  la técnico-mecánica van aparte. Es una de las fichas más caras de mantener: llantas
+  deportivas de 17 pulgadas que duran 9.000 km, pastillas en las dos ruedas, aceite
+  sintético y SOAT de categoría alta. A eso hay que sumar el costo de los plásticos si la
+  moto se cae, que en una carenada nunca es barato.
+comparativa: >-
+  Frente a la Bajaj Pulsar RS200, la RC 390 cuesta 15 millones más y ofrece 19,9 caballos
+  adicionales, ABS en curva, suspensiones WP y un chasis de otro nivel: son motos de
+  categorías distintas. Contra la Yamaha YZF-R9, la KTM cuesta unos 40 millones menos y
+  pierde 73 caballos y un motor tricilíndrico, aunque gana en peso y en costo de
+  mantenimiento. Y si el objetivo es una deportiva de 400 para uso mixto, la Kawasaki
+  Ninja 400 ofrece 1 caballo menos y un motor bicilíndrico por 3,5 millones menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la RC 390?"
+    respuesta: >-
+      El homologado es 25 km/l. En uso deportivo real el registro baja a 19-22; en carretera a
+      100 km/h constante sube a 27-29. Con 13,7 litros de tanque la autonomía práctica va de
+      260 a 400 km, muy dependiente de cómo se use el acelerador.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con la advertencia de la posición. El motor mantiene 130 km/h sin esfuerzo y llega a
+      170, y el carenado protege bien. Pero la ergonomía es de pista: después de 200 km la
+      espalda y las muñecas pasan factura. Es una moto para trayectos deportivos, no para
+      turismo.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No, en absoluto. La posición agachada, el calor del motor en tráfico, el consumo de 21
+      km/l y el costo de reparar plásticos la hacen inviable para trabajo. Es una moto de
+      disfrute y de circuito.
+  - pregunta: "¿Cuánto cuesta el SOAT de la RC 390?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Son 418.000 pesos más que una 200, y hay que sumarlos a un
+      mantenimiento anual que ronda los dos millones.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. Con 44 caballos, 172 kilos y una posición extrema, es una moto que castiga los
+      errores y que requiere experiencia real. Además, una caída en una carenada deportiva
+      puede costar más que un mes de salario. Es una tercera moto, no una primera.
+veredicto: >-
+  La RC 390 es la deportiva monocilíndrica más seria del mercado colombiano y se paga como
+  tal. Si tienes dónde aprovecharla, es una de las motos más divertidas que se pueden
+  comprar; si la quieres para ir a la oficina, vas a odiar cada semáforo.

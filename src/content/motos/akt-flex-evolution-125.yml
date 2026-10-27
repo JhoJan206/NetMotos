@@ -29,19 +29,104 @@ llanta_trasero: 2.75-17
 precio_cop: 5890000
 imagen: /images/motos/akt-flex-evolution-125.webp
 pros:
-  - Uno de los precios de entrada más bajos del mercado, ideal como primera moto
-  - Transmisión semiautomática fácil de aprender, sin manigueta de clutch
+  - "Uno de los precios de entrada más bajos del mercado, ideal como primera moto"
+  - "Transmisión semiautomática fácil de aprender, sin manigueta de clutch"
 contras:
-  - Tanque pequeño (3.8 L), exige tanquear con más frecuencia
-  - Freno trasero de tambor y motor carburado, tecnología más básica que la competencia con inyección
+  - "Tanque pequeño (3.8 L), exige tanquear con más frecuencia"
+  - "Freno trasero de tambor y motor carburado, tecnología más básica que la competencia con inyección"
 rating: 4
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  Si nunca has manejado moto y la idea del clutch te da nervios, la AKT Flex 125 es exactamente el tipo de vehículo por
-  el que deberías empezar. Su transmisión semiautomática de 4 cambios —sin manigueta de embrague— te deja concentrarte
-  en el tráfico sin pensar en hacer el punto de fricción. El motor de 123.7 cc entrega solo 8.6 HP, que para ciudad es
-  más que suficiente, y el asiento bajo (780 mm aprox.) hace que cualquier persona se sienta segura parándose en los
-  semáforos. Pesa apenas 103 kilos, así que maniobrarla en parqueadero es un juego de niños. La contrapartida es un
-  tanque diminuto de 3.8 litros: vas a vivir en la gasolinera si la usas para trabajar. También hay que aceptar que es
-  carburada, con freno trasero de tambor, y que los 5.890.000 COP ya no son tan "económicos" como antes. Pero como
-  primera moto o para recorridos cortos diarios, la Flex 125 cumple su promesa de simplicidad.
+  La AKT Flex 125 es la puerta de entrada más barata al mundo de las motos "sin clutch" en
+  Colombia: 123,7 cc, 8,6 HP y una caja semiautomática de cuatro marchas que se opera con
+  el pie, sin manigueta de embrague. Está pensada para quien nunca ha manejado moto, para
+  repartidores que hacen decenas de paradas al día y para quien quiere lo más económico de
+  operar. Es para ti si tu recorrido es urbano, corto y con muchas detenciones. No es para
+  ti si haces carretera, si llevas parrillero con frecuencia o si necesitas tanquear poco:
+  su tanque de 3,8 litros es el más pequeño de esta lista.
+uso_diario: >-
+  La gracia de la Flex está en la caja semiautomática: no hay embrague que modular, así
+  que el tráfico pesado deja de ser una tortura para la mano izquierda. Se conduce como
+  una moto pero se siente casi como un scooter, y eso explica por qué es una de las motos
+  más vendidas entre domiciliarios de ciudad. Pesa 103 kilos, es bajísima de maniobra y el
+  asiento a 780 mm permite apoyar bien los pies. La contraparte es la potencia: 8,6 HP
+  mueven con soltura a una persona, pero con parrillero en una lomita toca bajar a segunda
+  y esperar. La distancia al piso de 130 mm es la más baja del catálogo, así que los
+  resaltos y los huecos hay que pasarlos con cuidado si no quieres golpear el cárter. El
+  consumo de 48 km/l es bueno, pero el tanque de 3,8 litros obliga a tanquear cada 150-170
+  km, es decir, dos o tres veces por semana si trabajas con ella. Esa es la molestia real
+  de esta moto, más que su potencia.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 45000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 22000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 16000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 120000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 175000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 160000
+  - concepto: "Pastillas de freno delanteras"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 40000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 700000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El mantenimiento de la Flex es barato en repuestos, pero
+  tiene un costo escondido: el tanque pequeño obliga a más visitas a la bomba, y eso, en
+  tiempo de trabajo, se paga. Si el uso es de domicilios, vale la pena calcular cuántas
+  tanqueadas extra implica frente a una 125 con tanque de 10 litros.
+comparativa: >-
+  Frente a la Honda Navi, la Flex ofrece el mismo concepto de conducción sin embrague pero
+  con ruedas grandes de 18 pulgadas y postura de moto, lo que la hace más estable en vías
+  irregulares; la Navi gana en imagen y en red de servicio. Contra la AKT Dynamic Pro CBS,
+  que es scooter puro, la Flex es más barata y más liviana, pero pierde el baúl bajo el
+  asiento y la comodidad de un piso plano. Y si puedes estirar el presupuesto, la TVS
+  Raider 125 cuesta casi lo mismo y ofrece inyección, doble disco y cinco marchas.
+faq:
+  - pregunta: "¿Cuánto consume realmente la AKT Flex 125?"
+    respuesta: >-
+      El homologado es 48 km/l. En ciudad, con paradas constantes, el registro baja a 42-45
+      km/l. La autonomía real es de 155 a 175 km por tanque, así que un domiciliario puede
+      estar tanqueando cada dos días o incluso a diario si hace muchos kilómetros.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Poco. Con 8,6 HP y cuatro marchas, a 70 km/h ya va al límite y el tanque de 3,8 litros
+      da para menos de dos horas de viaje. Sirve para trayectos urbanos y periurbanos cortos;
+      para carretera hace falta una 150 o más.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Es una de las favoritas para eso precisamente por la caja semiautomática: menos fatiga
+      en el tráfico. Sin embargo, el tanque pequeño juega en contra. Si haces más de 150 km al
+      día, una 125 con tanque de 10 litros termina siendo más rentable en tiempo.
+  - pregunta: "¿Cuánto cuesta el SOAT de la Flex 125?"
+    respuesta: >-
+      Con 123,7 cc entra en la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año.
+      Es el mismo valor que paga cualquier 125, y representa casi el 6 % del precio de la moto
+      nueva, un dato que muchos compradores no calculan al comparar.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es probablemente la más amable del mercado para empezar: sin embrague, liviana, baja y
+      con potencia muy contenida. El riesgo es el opuesto al habitual: como es tan fácil, se
+      subestima la frenada. El tambor trasero y la ausencia de ABS exigen aprender a frenar
+      bien desde el principio.
+veredicto: >-
+  La Flex 125 resuelve el problema de moverse barato y sin complicaciones mecánicas, y lo
+  hace por menos de seis millones. Su límite no es la potencia: es el tanque. Quien la
+  compre sabiendo eso tendrá una moto cumplidora; quien espere viajar o hacer 200 km
+  diarios se va a cansar de la bomba.

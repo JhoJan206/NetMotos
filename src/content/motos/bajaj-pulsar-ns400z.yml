@@ -29,32 +29,105 @@ llanta_trasero: 150/60-17
 precio_cop: 18299000
 imagen: /images/motos/bajaj-pulsar-ns400z.webp
 pros:
-  - Casi 40 caballos por menos de 20 millones de pesos, de la mejor relación precio-potencia del mercado
-  - Cuatro modos de manejo (Carretera, Deporte, Lluvia, Off-Road) con ABS adaptativo
-  - Consola con conectividad Bluetooth para navegación, música y llamadas
+  - "Casi 40 caballos por menos de 20 millones de pesos, de la mejor relación precio-potencia del mercado"
+  - "Cuatro modos de manejo (Carretera, Deporte, Lluvia, Off-Road) con ABS adaptativo"
+  - "Consola con conectividad Bluetooth para navegación, música y llamadas"
 contras:
-  - Peso elevado (178 kg) para una naked de este tipo
-  - Consumo de combustible más alto que rivales monocilíndricas de menor potencia
-  - Marca Bajaj con menor prestigio percibido frente a KTM o Kawasaki en el segmento de 400cc
+  - "Peso elevado (178 kg) para una naked de este tipo"
+  - "Consumo de combustible más alto que rivales monocilíndricas de menor potencia"
+  - "Marca Bajaj con menor prestigio percibido frente a KTM o Kawasaki en el segmento de 400cc"
 rating: 4.7
-actualizado: "2026-07-22"
+actualizado: "2026-10-26"
 descripcion: >-
-  La Pulsar NS400Z redefinió lo que se podía esperar de una moto de 400cc
-  en Colombia al llegar con casi 40 caballos de potencia por un precio
-  muy por debajo de los 20 millones de pesos, en un segmento donde
-  rivales con potencia similar suelen costar entre 30 y 34 millones. Es,
-  sin exagerar, una de las mejores relaciones precio-potencia del
-  mercado nacional.
-
-  El paquete tecnológico también sorprende para su precio: cuatro modos
-  de manejo que ajustan la respuesta del motor y el ABS según el
-  terreno, control de tracción y una consola con conectividad Bluetooth
-  completa. En carretera, la potencia se siente contundente y el chasis
-  responde bien pese al peso considerable de la moto.
-
-  Compite directamente con la KTM 390 Duke y la TVS Apache RTR 310,
-  ofreciendo cifras de potencia comparables (e incluso superiores) a un
-  precio bastante más bajo. Es la moto ideal para el motociclista que
-  quiere el salto a 400cc sin gastar el presupuesto de las marcas
-  austríacas o europeas, priorizando potencia y tecnología sobre el
-  prestigio de marca.
+  La Bajaj Pulsar NS400Z es la naked más potente que Bajaj vende en Colombia: 373 cc, 39,4
+  HP, 35 Nm, cuatro modos de manejo, ABS adaptativo y conectividad Bluetooth por
+  18.299.000 pesos. Es, en relación precio-potencia, la moto más agresiva del mercado
+  colombiano. Es para ti si quieres prestaciones de 400 sin pagar precio de marca europea
+  o japonesa, y aceptas un peso alto a cambio. No es para ti si buscas una moto ligera y
+  ágil: con 178 kilos, la NS400Z se disfruta en carretera y sufre en tráfico lento.
+uso_diario: >-
+  Los 39,4 caballos no son una cifra de ficha: se sienten. La moto empuja con fuerza desde
+  4.000 rpm y sigue tirando hasta el corte, con una entrega que en carretera de montaña
+  permite adelantar en cualquier marcha. Los cuatro modos de manejo —Carretera, Deporte,
+  Lluvia y Off-Road— cambian de verdad la respuesta del acelerador, y el modo Lluvia
+  reduce la potencia de forma perceptible, lo que en pavimento mojado se agradece. El ABS
+  adaptativo ajusta su intervención según el modo seleccionado. En ciudad, la moto se
+  siente grande: 178 kilos y un asiento a 810 mm obligan a maniobras amplias. La posición
+  es erguida y cómoda, más de naked que de deportiva. El chasis es firme y la suspensión
+  invertida absorbe bien, aunque en vías rotas se siente seca. El consumo de 26 km/l con
+  14 litros de tanque da unos 360 km de autonomía.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 5.000 km"
+    costo_cop: 112000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 54000
+  - concepto: "Bujía"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 45000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 230000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 9.000 km"
+    costo_cop: 350000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 295000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 185000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1580000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El costo de operación es el de una moto de 400 real:
+  llantas anchas de 17 pulgadas, aceite sintético con intervalos de 5.000 km y SOAT de
+  categoría alta. Aun así, sigue siendo más barata de mantener que una KTM o una Yamaha de
+  cilindraje equivalente.
+comparativa: >-
+  Frente a la Bajaj Dominar 400, la NS400Z cuesta 1,1 millones menos y ofrece la misma
+  potencia con 15 kilos menos, cuatro modos de manejo y una postura más ágil: es la misma
+  plataforma con otro carácter. Contra la KTM 390 Duke, la Bajaj cuesta 11,5 millones
+  menos y pierde en acabado, en peso y en componentes de suspensión. Y frente a la Yamaha
+  MT-03, la NS400Z gana 8 caballos por 12,7 millones menos, aunque pierde el motor
+  bicilíndrico.
+faq:
+  - pregunta: "¿Cuánto consume realmente la NS400Z?"
+    respuesta: >-
+      El homologado es 26 km/l. En ciudad con tráfico denso baja a 21-23; en carretera a 110
+      km/h sube a 29-31. Con 14 litros de tanque la autonomía práctica va de 290 a 430 km, lo
+      que en viaje exige planear las paradas.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Es su mejor escenario. Mantiene 130 km/h con el motor relajado y llega a 170. Los cuatro
+      modos de manejo y el ABS adaptativo permiten afrontar lluvia o destapado liviano con
+      margen. Para trayectos de 400 km es una moto capaz.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No. Consume 22 km/l en ciudad, pesa 178 kilos y su mantenimiento supera el millón y
+      medio anual. Es una moto de disfrute. Para trabajo, una 125 o 150 cuesta entre tres y
+      cuatro veces menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NS400Z?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Es el doble de lo que paga una 200, y el principal costo fijo a
+      considerar antes de subir a 400.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. Con 39,4 caballos y 178 kilos, es una moto que castiga los errores. Los modos de
+      manejo ayudan, pero no reemplazan la experiencia. Es una excelente segunda o tercera
+      moto para quien ya domina una 200 o 250.
+veredicto: >-
+  La NS400Z es la moto con mejor relación precio-potencia del país, sin discusión: 39
+  caballos por 18 millones no lo ofrece nadie. Sus concesiones son peso, acabado y
+  consumo; sus virtudes, todo lo demás.

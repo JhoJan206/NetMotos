@@ -29,25 +29,103 @@ llanta_trasero: 100/80-17
 precio_cop: 6590000
 imagen: /images/motos/akt-cr4-125.webp
 pros:
-  - Frenos CBS de fábrica, un plus de seguridad poco común en 125cc económicas
-  - Diseño deportivo con horquilla invertida de estilo, más llamativo que rivales del segmento
-  - Una de las 125cc con mejor calificación de compradores en Colombia
+  - "Frenos CBS de fábrica, un plus de seguridad poco común en 125cc económicas"
+  - "Diseño deportivo con horquilla invertida de estilo, más llamativo que rivales del segmento"
+  - "Una de las 125cc con mejor calificación de compradores en Colombia"
 contras:
-  - Motor a carburador, sin inyección electrónica
-  - Potencia limitada para dos pasajeros en pendientes largas
-  - Suspensión "invertida" es más estética que funcional a este precio
+  - "Motor a carburador, sin inyección electrónica"
+  - "Potencia limitada para dos pasajeros en pendientes largas"
+  - "Suspensión \"invertida\" es más estética que funcional a este precio"
 rating: 4.6
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La CR4 125 se ha convertido en una de las 125cc más populares de AKT en Colombia, gracias a un diseño más deportivo
-  que el de sus hermanas NKD y CHR, y a la inclusión de frenos CBS (sistema de frenado combinado) que reparte la frenada
-  entre ambas ruedas, algo que suma bastante en seguridad para este segmento de precio.
-
-  En el uso diario se comporta como cualquier 125cc bien lograda: liviana, ágil en tráfico y con un consumo que la hace
-  muy barata de mantener. El diseño con horquilla de aspecto invertido le da un toque más agresivo que las naked
-  tradicionales de la competencia, aunque funcionalmente sigue siendo una suspensión convencional para este rango de
-  cilindraje.
-
-  Compite con la TVS Raider 125 y la Yamaha YBRZ 125, siendo de las opciones con mejor reputación entre compradores
-  según las calificaciones en los concesionarios. Es la moto ideal para el motociclista joven que quiere una 125cc con
-  más estilo que la competencia, sin salirse del presupuesto de una moto de entrada.
+  La AKT CR4 125 es la 125 más equipada de AKT: frenos de disco en las dos ruedas con
+  sistema CBS, horquilla de estilo invertido, diseño deportivo y 9,3 HP. Con 6.590.000
+  pesos se ubica 1,1 millones por encima de la CR4 básica y 1,7 millones por encima de la
+  NKD, y a cambio ofrece un paquete de seguridad y presencia que ninguna otra 125
+  económica iguala. Es para ti si quieres una 125 con frenos serios y una moto que se vea
+  actual. No es para ti si buscas prestaciones: 9,3 caballos siguen siendo 9,3 caballos,
+  por más que el carenado sugiera otra cosa.
+uso_diario: >-
+  La CR4 125 tiene la particularidad de frenar mejor que casi cualquier 125 de su precio:
+  disco de 240 mm adelante y 200 mm atrás, ambos con CBS, que reparte la fuerza entre las
+  dos ruedas al accionar el freno trasero. En lluvia y en frenadas de emergencia, esa
+  combinación marca una diferencia real frente al tambor trasero de sus rivales. El motor
+  de 124,6 cc entrega 9,3 HP con una entrega suave y predecible, suficiente para ciudad y
+  para trayectos cortos de carretera. La horquilla de aspecto invertido es más estética
+  que funcional en este rango de precio, pero aporta rigidez y se ve bien. Pesa 120 kilos,
+  el asiento a 785 mm queda en el promedio y la posición es ligeramente deportiva, con el
+  torso inclinado. El consumo de 40 km/l con tanque de 12,5 litros da unos 450 km de
+  autonomía. En carretera se defiende hasta 80 km/h; por encima, el motor pide más de lo
+  que puede dar.
+costos:
+  - concepto: "Aceite de motor 20W-50"
+    intervalo: "Cada 3.000 km"
+    costo_cop: 50000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 6.000 km"
+    costo_cop: 25000
+  - concepto: "Bujía"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 18000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 130000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 185000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 18.000 km"
+    costo_cop: 170000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 90000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 760000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. El doble disco encarece el mantenimiento frente a una 125
+  con tambor trasero, pero la diferencia anual ronda los 40.000 pesos: poco dinero por un
+  margen de seguridad que se nota en cada frenada. El resto es costo típico de 125
+  carburada.
+comparativa: >-
+  Frente a la AKT NKD 125, la CR4 cuesta 1,7 millones más y ofrece doble disco con CBS y
+  un diseño completamente distinto, aunque pierde 1,2 caballos. Contra la TVS Raider 125,
+  la CR4 es 1,7 millones más cara y ofrece lo mismo en frenos, pero la TVS suma inyección
+  y cinco marchas mejor escalonadas. Y si el presupuesto llega a siete millones, la CR4
+  150 entrega 3,2 caballos más por solo 400.000 pesos adicionales.
+faq:
+  - pregunta: "¿Cuánto consume realmente la CR4 125?"
+    respuesta: >-
+      El homologado es 40 km/l. En ciudad con tráfico denso baja a 35-38; en carretera a 70
+      km/h sube a 44. Con el tanque de 12,5 litros la autonomía práctica está entre 420 y 550
+      km, suficiente para dos semanas de uso urbano.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Tramos cortos sí, con límites. Mantiene 75-80 km/h y llega a 90 en plano, pero por
+      encima de 80 el motor va revolucionado y el consumo se dispara. Para viajes de más de
+      100 km conviene subir a la CR4 150 o a una 200.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      Sirve, aunque su precio y sus llantas la hacen menos rentable que una 125 básica. Su
+      ventaja es la frenada: en tráfico denso con frenadas constantes, el CBS da margen. Para
+      reparto de alto volumen, una NKD o una CT 125 cuestan menos de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la CR4 125?"
+    respuesta: >-
+      Con 124,6 cc paga la categoría de 100 a 200 cc: alrededor de 343.000 pesos al año. Es el
+      mismo valor de cualquier 125, aunque el precio de la moto sea 1,7 millones mayor que el
+      de la versión básica; el SOAT depende del cilindraje, no del equipamiento.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      Es una de las mejores 125 para empezar por la frenada: el CBS y el doble disco perdonan
+      errores que en una moto con tambor terminan en caída. El motor es dócil y el peso
+      contenido. La postura algo deportiva es lo único que puede incomodar los primeros días.
+veredicto: >-
+  La CR4 125 es la 125 que demuestra que la seguridad no tiene que costar un millón más:
+  doble disco con CBS por 6,6 millones es una propuesta seria. Su techo es el motor; su
+  argumento, la frenada. Quien priorice seguridad sobre prestaciones la va a valorar.

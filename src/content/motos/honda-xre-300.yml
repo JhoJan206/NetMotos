@@ -29,25 +29,110 @@ llanta_trasero: 120/80-18
 precio_cop: 33500000
 imagen: /images/motos/honda-xre-300.webp
 pros:
-  - La única enduro de 300cc genuina que se vende nueva en Colombia
-  - Distancia al piso enorme (259 mm), ideal para trocha exigente
-  - Confiabilidad Honda y altísimo valor de reventa
+  - "La única enduro de 300cc genuina que se vende nueva en Colombia"
+  - "Distancia al piso enorme (259 mm), ideal para trocha exigente"
+  - "Confiabilidad Honda y altísimo valor de reventa"
 contras:
-  - Precio elevado frente a otras doble propósito de cilindraje similar
-  - Altura de asiento (855 mm) incómoda para pilotos de estatura baja
-  - Vibración notoria en carretera a velocidades sostenidas altas
+  - "Precio elevado frente a otras doble propósito de cilindraje similar"
+  - "Altura de asiento (855 mm) incómoda para pilotos de estatura baja"
+  - "Vibración notoria en carretera a velocidades sostenidas altas"
 rating: 4.6
-actualizado: "2026-07-21"
+actualizado: "2026-10-26"
 descripcion: >-
-  La XRE 300 Sahara es la respuesta de Honda para quien realmente piensa meter la moto a terrenos difíciles y no solo
-  verse aventurero en la ciudad. Con casi 26 cm de distancia al piso y una suspensión de largo recorrido, pasa huecos,
-  piedras y barro que dejarían varada a cualquier naked convencional.
-
-  En carretera cumple bien, aunque no es la más veloz de su categoría; su fuerte es el uso mixto donde el asfalto se
-  acaba. La posición de manejo erguida ayuda en trocha, pero en trayectos largos de autopista se siente algo cansona por
-  la altura del asiento y el viento directo sin carenado.
-
-  Su competencia directa es la Bajaj Dominar 400 y la Kawasaki Versys-X 300, aunque ninguna la iguala en capacidad
-  todoterreno pura. Es la moto ideal para el que viaja a fincas, hace turismo de aventura o simplemente quiere una doble
-  propósito que no le tenga miedo a salirse del pavimento, y que además está dispuesto a pagar el premium que cobra la
-  marca del ala dorada.
+  La Honda XRE 300 Sahara es la única enduro de 300 cc que se vende nueva en Colombia, y
+  eso explica buena parte de su precio: 33.500.000 pesos por una moto de 291 cc. Con 26
+  HP, 259 mm de distancia al piso y un asiento a 855 mm, está hecha para quien de verdad
+  necesita salir del asfalto y no quiere una moto de 250 con suspensión corta. Es para ti
+  si vives en zona rural, haces trocha de verdad o quieres una moto de aventura ligera con
+  respaldo Honda. No es para ti si mides menos de 1,75 m, si tu uso es urbano o si esperas
+  una relación precio-potencia racional: por la mitad del dinero hay opciones que hacen el
+  80 % del trabajo.
+uso_diario: >-
+  Los 259 mm al piso son el dato que define esta moto: permiten pasar troncos, zanjas y
+  piedra suelta sin golpear el cárter, algo que ninguna otra moto de su cilindraje en
+  Colombia ofrece. La suspensión de recorrido largo absorbe el terreno roto y el motor de
+  291 cc con inyección PGM-FI entrega 27 Nm a 6.500 rpm, suficiente para subir en segunda
+  por caminos empinados con carga. La caja de seis marchas permite además cruceros cómodos
+  en carretera: mantiene 110 km/h sin esfuerzo. Los frenos son disco de 256 mm adelante y
+  220 mm atrás, ambos con ABS de doble canal, un equipo serio para trocha donde el bloqueo
+  de la rueda delantera es la causa más común de caída. El asiento a 855 mm es el punto de
+  fricción para pilotos de estatura media: al detenerse en un semáforo hay que estirarse.
+  Pesa 163 kilos, que se sienten en maniobras lentas pero no en movimiento. En carretera
+  sostenida por encima de 110 km/h aparece una vibración perceptible que cansa en
+  trayectos largos.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 88000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 42000
+  - concepto: "Bujía de iridio"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 48000
+  - concepto: "Refrigerante"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 42000
+  - concepto: "Kit de arrastre reforzado"
+    intervalo: "Cada 14.000 km"
+    costo_cop: 210000
+  - concepto: "Llanta trasera de doble propósito"
+    intervalo: "Cada 10.000 km"
+    costo_cop: 310000
+  - concepto: "Llanta delantera de doble propósito"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 270000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 155000
+  - concepto: "SOAT categoría más de 200 cc"
+    intervalo: "Anual"
+    costo_cop: 761400
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1480000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año, uso mixto y mano de obra de taller autorizado
+  Honda. El SOAT y la técnico-mecánica van aparte. Es la ficha más costosa de mantener de
+  las doble propósito: llantas de doble propósito que se gastan rápido, cadena que sufre
+  con el polvo y SOAT de categoría alta. Quien viene de una 150 debe presupuestar entre
+  500.000 y 600.000 pesos más al año, sin contar gasolina.
+comparativa: >-
+  Frente a la Honda XR150L 2.0 ABS, la XRE 300 cuesta 22,5 millones más y ofrece 14,3
+  caballos adicionales, ABS de doble canal y una capacidad de trocha que la 150 no tiene.
+  Contra la Yamaha XTZ250, la Honda gana 0,6 caballos y 15 mm de altura al piso, y pierde
+  en precio por unos cuatro millones. Y si el uso es más de trail ligero que de trabajo
+  rural, la Hero Xpulse 200 ofrece ABS doble y 220 mm al piso por la mitad del dinero,
+  aunque con 6,9 caballos menos.
+faq:
+  - pregunta: "¿Cuánto consume realmente la XRE 300?"
+    respuesta: >-
+      El homologado es 30 km/l. En trocha con primera y segunda constantes baja a 24-26; en
+      carretera a 100 km/h sube a 32-34. Con 13 litros de tanque la autonomía práctica va de
+      310 a 440 km, suficiente para una ruta rural de un día sin recargar.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, con comodidad hasta 110 km/h. La sexta marcha y el motor de 291 cc permiten
+      trayectos de 200 km sin fatiga. Por encima de 120 aparece vibración y el consumo sube,
+      pero la moto no se siente insegura. Es una doble propósito con capacidad real de enlace.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      En zona rural con vías destapadas, sí, y es de las mejores herramientas del mercado. En
+      ciudad pavimentada no tiene sentido: 855 mm de asiento, 163 kilos y llantas de tacos son
+      una desventaja diaria. Para reparto urbano, una 125 cuesta un tercio de operar.
+  - pregunta: "¿Cuánto cuesta el SOAT de la XRE 300?"
+    respuesta: >-
+      Por superar los 200 cc paga la tarifa alta: alrededor de 761.000 pesos al año, más la
+      técnico-mecánica. Son 418.000 pesos más que una 200 cc, un costo fijo que conviene sumar
+      antes de decidir el salto de cilindraje.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      En trocha es tolerante; en ciudad es exigente. El asiento de 855 mm y los 163 kilos
+      hacen que un novato de estatura media se sienta inseguro al detenerse. Como primera moto
+      rural tiene sentido; como primera moto urbana, no.
+veredicto: >-
+  La XRE 300 no compite por precio ni por ficha técnica: compite por ser la única moto
+  nueva que hace lo que hace. Si tu vida ocurre fuera del asfalto y puedes pagar 33
+  millones, no hay alternativa directa; si tu vida ocurre en la ciudad, es un gasto
+  difícil de justificar.

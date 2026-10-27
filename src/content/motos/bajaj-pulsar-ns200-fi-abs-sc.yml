@@ -29,20 +29,106 @@ llanta_trasero: 130/70-17
 precio_cop: 13199000
 imagen: /images/motos/bajaj-pulsar-ns200-fi-abs-sc.webp
 pros:
-  - Motor con tecnología triple bujía (DTS-i) que entrega potencia pareja en todo el rango
-  - App Bajaj Ride Connect con navegación y estadísticas de consumo, poco común en este precio
+  - "Motor con tecnología triple bujía (DTS-i) que entrega potencia pareja en todo el rango"
+  - "App Bajaj Ride Connect con navegación y estadísticas de consumo, poco común en este precio"
 contras:
-  - Suspensión delantera convencional (no invertida), un peldaño por debajo de la KTM Duke 200
-  - Acabados percibidos como menos premium que los de Honda o Yamaha en la misma franja
+  - "Suspensión delantera convencional (no invertida), un peldaño por debajo de la KTM Duke 200"
+  - "Acabados percibidos como menos premium que los de Honda o Yamaha en la misma franja"
 rating: 4.3
-actualizado: "2026-07-14"
+actualizado: "2026-10-26"
 descripcion: >-
-  Saltar de una 125 a la Bajaj Pulsar NS200 FI ABS SC es otro cuento. Con 24.13 HP y 199.5 cc, esta naked ya piensa en
-  serio tanto en ciudad como en carretera. Viene con inyección electrónica, ABS de doble canal y transmisión de 6
-  velocidades, que es lo mínimo que uno pide a este nivel. La tecnología DTS-i de triple bujía se nota en una entrega de
-  potencia pareja desde abajo, ideal para el tráfico colombiano donde necesitas respuesta sin estar llevando el motor al
-  límite. El precio de 13.199.000 COP la pone en competencia directa con la TVS Apache RTR 200 y la KTM 200 Duke,
-  perdiendo frente a esta última en suspensión (la NS200 lleva horquilla convencional, no invertida). Pero gana en
-  relación costo-beneficio si lo que buscas es un motor probado y un ecosistema de servicio que Bajaj ha mejorado
-  bastante en los últimos años. El peso de 155 kilos se siente estable en recta, y el tanque de 12 litros da para unos
-  380 km de ciudad. No es la más premium en acabados, pero cumple en lo importante.
+  La Bajaj Pulsar NS200 FI ABS SC es la naked de 200 cc con mejor relación
+  precio-prestaciones del mercado colombiano: 24,13 HP, inyección electrónica, seis
+  marchas, doble disco con ABS y 13.199.000 pesos. Es la moto que elige quien quiere salir
+  de la categoría 150 sin pagar precios de marca premium. Es para ti si buscas potencia
+  real para carretera, con equipo completo y mantenimiento contenido. No es para ti si
+  haces trayectos cortos de ciudad: 200 cc en tráfico denso consumen y calientan más de lo
+  que aportan, y la posición deportiva cansa en recorridos de cinco minutos.
+uso_diario: >-
+  El motor de 199,5 cc con triple bujía DTS-i tiene una virtud poco común: empuja desde
+  abajo y sigue empujando arriba. Eso significa que en ciudad se puede rodar en tercera
+  sin tirones y en carretera mantener 110 km/h con reserva para adelantar. Las seis
+  marchas están bien escalonadas y la quinta y sexta permiten cruceros cómodos a bajas
+  revoluciones. La posición de manejo es la de una naked deportiva: estriberas retrasadas,
+  torso inclinado y asiento a 807 mm, cómoda para una hora, exigente para tres. En tráfico
+  lento el motor calienta y el ventilador trabaja seguido, algo normal en 200 cc
+  refrigeradas por aceite. El chasis es estable y la horquilla telescópica convencional
+  cumple, aunque no tiene la precisión de una invertida. El ABS de doble canal es un plus
+  real en una moto de este precio. El consumo de 32 km/l es el costo de tener 24 caballos:
+  con 12 litros de tanque la autonomía ronda los 350 km.
+costos:
+  - concepto: "Aceite de motor sintético y filtro"
+    intervalo: "Cada 4.000 km"
+    costo_cop: 95000
+  - concepto: "Filtro de aire"
+    intervalo: "Cada 8.000 km"
+    costo_cop: 45000
+  - concepto: "Bujías (tres unidades)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 75000
+  - concepto: "Refrigerante de motor (refrigeración por aceite)"
+    intervalo: "Cada 12.000 km"
+    costo_cop: 40000
+  - concepto: "Kit de arrastre (cadena, piñón y catalina)"
+    intervalo: "Cada 15.000 km"
+    costo_cop: 185000
+  - concepto: "Llanta trasera"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 280000
+  - concepto: "Llanta delantera"
+    intervalo: "Cada 16.000 km"
+    costo_cop: 235000
+  - concepto: "Pastillas de freno (juego delantero y trasero)"
+    intervalo: "Cada 11.000 km"
+    costo_cop: 155000
+  - concepto: "SOAT categoría 100-200 cc"
+    intervalo: "Anual"
+    costo_cop: 343300
+  - concepto: "Revisión técnico-mecánica"
+    intervalo: "Anual"
+    costo_cop: 180000
+costo_anual_cop: 1180000
+costos_nota: >-
+  Estimación para 2026 con 12.000 km al año y mano de obra incluida. El SOAT y la
+  técnico-mecánica van aparte. Dos detalles importantes: como tiene 199,5 cc, sigue
+  pagando la categoría de 100 a 200 cc en el SOAT, lo que la hace notablemente más barata
+  de poseer que una 250. Y el motor de triple bujía pide tres bujías por cambio, un costo
+  pequeño que muchos comparativos ignoran.
+comparativa: >-
+  Frente a la KTM 200 Duke, la NS200 cuesta 5,7 millones menos y entrega casi la misma
+  potencia, aunque pierde 20 kilos de diferencia a favor de la austriaca, la horquilla
+  invertida y la garantía extendida. Contra la Yamaha FZ25, la Bajaj gana 3,2 caballos y
+  cuesta 2,1 millones menos, pero la Yamaha tiene mejor acabado y una red de servicio más
+  amplia. Y si el presupuesto lo permite, la Pulsar NS400Z ofrece 39 caballos por cinco
+  millones más.
+faq:
+  - pregunta: "¿Cuánto consume realmente la NS200?"
+    respuesta: >-
+      El homologado es 32 km/l. En ciudad con tráfico el registro está entre 26 y 29; en
+      carretera a 90 km/h sube a 35-37. Con 12 litros de tanque la autonomía práctica va de
+      320 a 420 km según el uso. Es el precio de tener 24 caballos.
+  - pregunta: "¿Aguanta carretera?"
+    respuesta: >-
+      Sí, es una de sus mejores virtudes. Mantiene 110-120 km/h sin esfuerzo y tiene reserva
+      para adelantar con seguridad. El asiento y la posición empiezan a cansar después de dos
+      horas, pero la moto en sí está hecha para viajar.
+  - pregunta: "¿Sirve para domicilios y trabajo?"
+    respuesta: >-
+      No es la opción más eficiente: el consumo es alto y el mantenimiento cuesta más que el
+      de una 125. Sirve para trabajo si valoras velocidad y capacidad de carga en trayectos
+      largos, pero para reparto urbano intenso una 125 o 150 sale más rentable.
+  - pregunta: "¿Cuánto cuesta el SOAT de la NS200?"
+    respuesta: >-
+      Con 199,5 cc se queda justo por debajo del límite, así que sigue pagando la categoría de
+      100 a 200 cc: alrededor de 343.000 pesos anuales. Es una ventaja enorme frente a una
+      250, que paga 761.000 pesos, más del doble.
+  - pregunta: "¿Es buena para principiantes?"
+    respuesta: >-
+      No. Con 24 caballos y 155 kilos, perdona menos que una 150. La entrega es lineal y
+      predecible, así que un novato con criterio puede manejarla, pero lo sensato es aprender
+      en una 125 o 150 y pasar a esta después de un año de experiencia.
+veredicto: >-
+  La NS200 es la moto que rompe la barrera entre "económica" y "deportiva": 24 caballos,
+  seis marchas y ABS por 13 millones no los ofrece nadie más. Si tu uso incluye carretera
+  y no te asusta un consumo de 28 km/l, es una de las compras más inteligentes del
+  mercado.
