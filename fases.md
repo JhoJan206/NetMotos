@@ -280,25 +280,45 @@ Veredicto — 50 palabras + fecha de actualización visible
 
 ---
 
-## Fase 4 — E-E-A-T y confianza ⬜
+## Fase 4 — E-E-A-T y confianza ✅ COMPLETADA
 
-**Esfuerzo estimado:** 2-3 días.
-**Por qué:** AdSense revisa credibilidad, no solo longitud. Hoy el autor es un nombre suelto sin respaldo.
+**Completada el 26 de octubre de 2026. Pendiente de desplegar.**
+**Por qué era importante:** AdSense revisa credibilidad, no solo longitud. El autor era un nombre suelto sin respaldo.
 
 ### Tareas
 
-- [ ] **F4-T1** — Crear `/autor/jhojan-jacome`: foto, bio real, años de experiencia, por qué sabe de motos.
-- [ ] **F4-T2** — Firmar cada artículo con enlace a la página de autor.
-- [ ] **F4-T3** — Crear `/politica-editorial`: cómo se recopila y verifica la información, cada cuánto se revisan precios, cómo reportar errores.
-- [ ] **F4-T4** — Añadir fuentes oficiales con enlace en los artículos de normativa (Superfinanciera, MinTransporte, RUNT, Andemos).
-- [ ] **F4-T5** — Fecha de actualización visible en cada ficha y artículo.
-- [ ] **F4-T6** — Correo de contacto real visible (hoy solo hay formulario de Formspree).
-- [ ] **F4-T7** — Revisar que privacidad y términos sigan vigentes y sin contradicciones con la calculadora.
+- [x] **F4-T1** — ~~Crear `/autor/jhojan-jacome` con foto y bio.~~ **Sustituida:** sección `#quien-escribe` en `/sobre-nosotros` con bio corta, sin foto ni página personal. Decisión del propietario del sitio.
+- [x] **F4-T2** — Firma con enlace desde cada artículo a `/sobre-nosotros#quien-escribe`. También en el schema `BlogPosting` (`author.url`).
+- [x] **F4-T3** — Crear `/politica-editorial` con 8 secciones: quién responde, fuentes, verificación de precios, qué son las estimaciones, valoraciones editoriales, política de correcciones, independencia y contacto. 893 palabras.
+- [x] **F4-T4** — Enlaces a fuentes oficiales en los 3 artículos de normativa: MinTransporte, ANSV, RUNT, Superfinanciera, Fasecolda, ICONTEC.
+- [x] **F4-T5** — Fecha de actualización visible: fichas (ya existía) y artículos. Nueva utilidad `formatDate.js` convierte el ISO a «26 de octubre de 2026».
+- [x] **F4-T6** — Correo real visible en `/contacto`, `/politica-editorial`, `/sobre-nosotros` y en el schema `ContactPage`.
+- [x] **F4-T7** — Privacidad y términos revisados. Añadido apartado de almacenamiento local (comparador y aviso de cookies) para que coincida con lo que hace el código.
 
-### Criterio de salida
+### Criterio de salida (cumplido con una excepción)
 
-- Página de autor y política editorial publicadas y enlazadas desde el footer.
-- 100 % de artículos con fecha y firma.
+- ✅ Política editorial publicada y enlazada desde el footer.
+- ⚠️ Página de autor propia: no se creó. En su lugar, sección `#quien-escribe` en `/sobre-nosotros`, enlazada desde los 16 artículos y desde el schema.
+- ✅ 100 % de artículos con fecha visible. El campo `actualizado` existe en el schema; se rellena a medida que cada post se revise.
+
+### Resultado real
+
+| Métrica | Antes | Después |
+|---|---|---|
+| Páginas de confianza | 0 | 1 (`/politica-editorial`) |
+| Artículos con autor enlazado | 0 | 16/16 |
+| Artículos con fecha en español | 0 | 16/16 |
+| Artículos con fuentes oficiales | 0 | 3/3 de normativa |
+| Correo de contacto visible | solo formulario | `jacomejhojan2006@gmail.com` |
+| URLs en sitemap | 105 | 106 |
+
+### Infraestructura nueva
+
+- `src/pages/politica-editorial.astro`: página completa con schema `WebPage`.
+- `src/utils/formatDate.js`: formatea `YYYY-MM-DD` a «26 de octubre de 2026» sin desfase de zona horaria.
+- `src/content/config.ts`: campo opcional `actualizado` en el schema de blog.
+- `src/layouts/BlogPostLayout.astro`: fecha formateada, bloque «Actualizado el …», autor enlazado, `dateModified` real.
+- `src/components/BlogCard.astro` y `src/components/BlogFilter.tsx`: fechas formateadas en los listados.
 
 ---
 
@@ -355,10 +375,10 @@ Veredicto — 50 palabras + fecha de actualización visible
 | # | Criterio | Estado |
 |---|---|---|
 | 1 | Trailing slash y duplicados eliminados | ✅ |
-| 2 | 68 fichas con 600+ palabras (0 archivadas) | ⬜ 0/68 |
+| 2 | 68 fichas con 600+ palabras (0 archivadas) | ✅ 68/68 |
 | 3 | ≥ 30 artículos de 1.500+ palabras | ⬜ 0/30 |
 | 4 | ≥ 90 % de URLs reales indexadas | ⬜ 39 % |
-| 5 | Página de autor + política editorial | ⬜ no existen |
+| 5 | Página de autor + política editorial | 🟡 Política editorial ✅ · autor nombrado y enlazado, sin página propia |
 | 6 | 8 semanas publicando sin parar | ⬜ |
 
 **Fecha objetivo: marzo de 2027.** *(Se movió de enero al conservar las 68 fichas.)*

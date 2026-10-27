@@ -6,6 +6,7 @@ const blog = defineCollection({
     title: z.string(),
     category: z.enum(['Lanzamientos', 'Guías', 'Normativa', 'Noticias', 'Deportes', 'Seguridad Vial']),
     date: z.string(),
+    actualizado: z.string().optional(),
     excerpt: z.string(),
     cover_image: z.string().optional(),
     author: z.string().default('Jhojan Jacome'),

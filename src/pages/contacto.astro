@@ -2,12 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 
 const FORMSPREE = 'https://formspree.io/f/xzdwlgze'
+const EMAIL = 'jacomejhojan2006@gmail.com'
 
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
   name: 'Contacto - NetMotos',
   description: 'Página de contacto de NetMotos.',
+  email: EMAIL,
 }
 ---
 
@@ -31,6 +33,10 @@ const schema = {
       <h1>Contacto</h1>
       <p style="color: var(--color-text-muted); margin-bottom: 32px">
         ¿Tienes una sugerencia, encontraste un error en alguna ficha técnica o quieres colaborar con NetMotos? Escríbenos.
+      </p>
+      <p style="background: var(--color-bg); border-left: 3px solid var(--color-secondary); color: var(--color-text); padding: 14px 18px; border-radius: var(--radius-sm); margin-bottom: 32px">
+        Correo directo: <a href="mailto:jacomejhojan2006@gmail.com"><strong>jacomejhojan2006@gmail.com</strong></a>.
+        Respondemos en un plazo de 2 días hábiles.
       </p>
       <div class="calc-form">
         <form action={FORMSPREE} method="POST">

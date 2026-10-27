@@ -3,6 +3,7 @@ title: "ABS y CBS Obligatorios en Motos Nuevas desde Octubre 2026: Lo Que Debes 
 slug: abs-cbs-obligatorio-motos-colombia-octubre-2026
 category: "Normativa"
 date: "2026-06-15"
+actualizado: "2026-10-26"
 excerpt: "El Ministerio de Transporte y la ANSV confirmaron que los sistemas ABS o CBS serán obligatorios en motos nuevas desde octubre de 2026. Te explicamos cómo aplica, qué motos afecta y cómo prepararte."
 cover_image: "/images/blog/abs-cbs.webp"
 author: "Jhojan Jacome"
@@ -54,3 +55,12 @@ Si estás pensando en comprar moto en los próximos meses:
 - **Si compras después**, todas las motos nuevas en los segmentos regulados cumplirán con la normativa, lo que uniforma el estándar de seguridad hacia arriba.
 
 > ¿Quieres comparar modelos con ABS y sin ABS? Usa nuestro [comparador interactivo](/comparador) para ver las especificaciones técnicas una por una.
+
+## Fuentes
+
+- [Ministerio de Transporte](https://www.mintransporte.gov.co/) — resoluciones y requisitos de seguridad vehicular.
+- [Agencia Nacional de Seguridad Vial](https://ansv.gov.co/) — normativa de seguridad vial y estadísticas de siniestralidad.
+- [RUNT](https://www.runt.com.co/) — registro y verificación de vehículos y trámites.
+- [ICONTEC](https://www.icontec.org/) — normas técnicas para cascos y equipamiento (NTC 4533).
+
+*Artículo informativo. Antes de comprar, confirma con el concesionario que la versión específica que te ofrecen cumple el requisito vigente.*

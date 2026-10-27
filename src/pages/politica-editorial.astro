@@ -1,0 +1,183 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const EMAIL = 'jacomejhojan2006@gmail.com'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Política editorial - NetMotos',
+  description: 'Cómo se elabora, verifica y corrige la información publicada en NetMotos.',
+  inLanguage: 'es-CO',
+  publisher: {
+    '@type': 'Organization',
+    name: 'NetMotos',
+    url: 'https://netmotos.lat',
+  },
+}
+---
+
+<BaseLayout
+  title="Política editorial"
+  description="Cómo se elabora, verifica y corrige la información de NetMotos: fuentes, revisión de precios, correcciones e independencia editorial."
+  canonical="/politica-editorial"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Política editorial', path: '/politica-editorial' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container" style="max-width: 800px">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Política editorial</span>
+      </nav>
+      <h1>Política editorial</h1>
+      <div class="markdown-content">
+        <p>
+          Esta página explica de dónde sale la información que publicamos, cómo la verificamos, qué
+          son las cifras que no provienen de una fuente oficial y cómo puedes reportar un error.
+        </p>
+
+        <h2>Quién responde por este sitio</h2>
+        <p>
+          NetMotos es un portal independiente publicado desde Colombia. El responsable de su
+          contenido es <strong>Jhojan Jacome</strong>. Todas las publicaciones llevan fecha y firma, y
+          cualquier corrección pasa por la misma persona antes de publicarse.
+        </p>
+
+        <h2>De dónde sale la información</h2>
+        <p>Las fuentes que usamos, en orden de prioridad, son:</p>
+        <ul>
+          <li>
+            <strong>Documentación del fabricante:</strong> fichas técnicas, manuales del propietario y
+            comunicados oficiales de cada marca para el mercado colombiano.
+          </li>
+          <li>
+            <strong>Concesionarios autorizados:</strong> precios de lista, versiones disponibles y
+            equipamiento de serie reportado por la red de cada marca en el país.
+          </li>
+          <li>
+            <strong>Entidades y documentos oficiales:</strong> Ministerio de Transporte, Agencia
+            Nacional de Seguridad Vial, RUNT, Superintendencia Financiera, Fasecolda y DIAN para todo
+            lo relacionado con normativa, SOAT, trámites e impuestos.
+          </li>
+          <li>
+            <strong>Prensa especializada del sector:</strong> lanzamientos, cambios de precio y
+            novedades que después contrastamos contra la fuente primaria.
+          </li>
+        </ul>
+        <p>
+          No publicamos especificaciones que no podamos atribuir a una de estas fuentes. Cuando un dato
+          no existe o no aplica —por ejemplo, el consumo homologado de un motocarro—, la tabla lo
+          indica como <strong>«No aplica»</strong> en lugar de rellenarlo con una cifra inventada.
+        </p>
+
+        <h2>Cómo se verifican los precios</h2>
+        <p>
+          Cada ficha técnica muestra al final la fecha de su última revisión. Los precios se
+          actualizan cuando cambia el año modelo, cuando el fabricante o el concesionario reporta un
+          ajuste, o cuando una norma modifica el costo final del vehículo —por ejemplo, un cambio en el
+          impoconsumo.
+        </p>
+        <p>
+          Los precios son de referencia y corresponden al valor de lista publicado. No incluyen
+          descuentos por temporada, incentivos del concesionario, accesorios, matrícula ni SOAT, y
+          pueden variar según la ciudad y la disponibilidad de inventario.
+        </p>
+        <p>
+          Si detectas un precio desactualizado, escríbenos: es la corrección que más rápido procesamos,
+          porque depende de un dato concreto y verificable.
+        </p>
+
+        <h2>Qué son las cifras de costos de mantenimiento</h2>
+        <p>
+          Las secciones <strong>«Costos reales de propiedad»</strong> son estimaciones propias, no
+          facturas. Se calculan tomando el precio de cada repuesto en el mercado colombiano y el
+          intervalo de servicio recomendado por el fabricante, sobre una base de uso de 12.000
+          kilómetros al año.
+        </p>
+        <p>
+          En cada ficha indicamos que se trata de una estimación para Colombia y señalamos el año de
+          referencia. El total anual corresponde únicamente a mantenimiento —repuestos y mano de obra—.
+          El SOAT y la revisión técnico-mecánica aparecen en la tabla como costos fijos separados,
+          porque no dependen del kilometraje.
+        </p>
+        <p>
+          Estos valores varían según el taller, la ciudad y el estado de la moto. Sirven para comparar
+          modelos entre sí y para presupuestar, no para reclamar un precio exacto.
+        </p>
+
+        <h2>Cómo se elaboran las valoraciones y los veredictos</h2>
+        <p>
+          La calificación que aparece en cada ficha es una <strong>valoración editorial</strong>,
+          construida a partir de las prestaciones declaradas, el equipamiento de seguridad, el precio
+          frente a sus competidores directos y el costo de mantenimiento estimado. No es el promedio de
+          opiniones de usuarios: hoy NetMotos no opera un sistema de reseñas verificadas, y por eso no
+          publicamos una calificación agregada.
+        </p>
+        <p>
+          Los apartados de pros, contras y veredicto expresan una posición editorial. Cuando un modelo
+          tiene una limitación objetiva —autonomía corta, falta de ABS, red de servicio reducida— la
+          señalamos aunque el vehículo se venda bien.
+        </p>
+
+        <h2>Política de correcciones</h2>
+        <p>
+          Cuando encontramos o recibimos un error, lo corregimos y dejamos constancia de la fecha de
+          actualización en la página afectada. Distinguimos tres casos:
+        </p>
+        <ul>
+          <li>
+            <strong>Error de dato</strong> —una cifra equivocada, un precio viejo, un nombre mal
+            escrito—: se corrige y se actualiza la fecha de revisión.
+          </li>
+          <li>
+            <strong>Error de contexto</strong> —una afirmación que era correcta cuando se publicó y
+            dejó de serlo por un cambio normativo o de mercado—: se reescribe el pasaje y se indica que
+            fue actualizado.
+          </li>
+          <li>
+            <strong>Desacuerdo de criterio</strong> —un lector considera que un veredicto es injusto—:
+            se revisa el argumento. Si la valoración se mantiene, se explica por qué; si no, se ajusta.
+          </li>
+        </ul>
+        <p>
+          No eliminamos una ficha ni la ocultamos de los buscadores para resolver un error. La
+          corregimos en el mismo lugar donde estaba.
+        </p>
+
+        <h2>Independencia editorial</h2>
+        <p>
+          NetMotos no está afiliado a ninguna marca ni a ningún concesionario. Ninguna marca paga por
+          aparecer en el catálogo, por un lugar en un comparativo ni por un veredicto favorable. Si en
+          el futuro existiera contenido patrocinado, se identificaría como tal de forma visible.
+        </p>
+        <p>
+          El sitio se financia con publicidad de Google AdSense, que se muestra de forma automática y
+          sobre la cual no tenemos control de selección. La publicidad no influye en qué modelos
+          cubrimos ni en lo que decimos de ellos.
+        </p>
+        <p>
+          Las herramientas del sitio —comparador, calculadora de consumo— son gratuitas y no envían
+          a nuestros servidores los datos que introduces en ellas. El comparador guarda tu selección
+          en el almacenamiento de sesión del navegador, y esa información se borra al cerrar la
+          pestaña.
+        </p>
+
+        <h2>Cómo contactarnos</h2>
+        <p>
+          Para reportar un error, sugerir un modelo o pedir una corrección, escribe a{' '}
+          <a href="mailto:jacomejhojan2006@gmail.com"><strong>jacomejhojan2006@gmail.com</strong></a> o
+          usa la <a href="/contacto">página de contacto</a>. Respondemos en un plazo de 2 días hábiles.
+        </p>
+        <p>
+          Si tu mensaje es sobre un dato concreto, incluye el enlace de la página y la cifra que
+          consideras incorrecta. Con eso podemos verificarlo y corregirlo más rápido.
+        </p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

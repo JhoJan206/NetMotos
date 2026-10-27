@@ -3,6 +3,7 @@ title: "Normativa de Cascos en Colombia 2026: Certificaciones, Multas y ECE 22.0
 slug: normativa-cascos-colombia-2026-multas
 category: "Normativa"
 date: "2026-02-10"
+actualizado: "2026-10-26"
 excerpt: "Todo sobre la normativa de cascos para motociclistas en Colombia en 2026: certificaciones vigentes (incluida la nueva ECE 22.06), multas actualizadas y cómo identificar un casco legal."
 cover_image: "/images/blog/normativa-cascos.webp"
 author: "Jhojan Jacome"
@@ -57,3 +58,12 @@ Invertir en un casco de calidad no es un gasto, es tu vida. Recomendamos cascos 
 ## Conclusión
 
 La normativa colombiana de cascos avanza hacia estándares cada vez más exigentes. Usa siempre casco certificado, en buen estado y correctamente cerrado: ninguna multa se compara con el costo de un accidente sin protección.
+
+## Fuentes
+
+- [Ministerio de Transporte](https://www.mintransporte.gov.co/) — Código Nacional de Tránsito y resoluciones sobre equipamiento de protección.
+- [Agencia Nacional de Seguridad Vial](https://ansv.gov.co/) — campañas y lineamientos sobre uso del casco.
+- [ICONTEC](https://www.icontec.org/) — NTC 4533, norma técnica de cascos protectores para motociclistas.
+- [RUNT](https://www.runt.com.co/) — consulta de multas y estado del vehículo.
+
+*Los valores de las multas se actualizan cada año. Verifica la tarifa vigente en el organismo de tránsito de tu municipio.*

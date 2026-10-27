@@ -3,6 +3,7 @@ title: "SOAT para Motos en Colombia 2026: Precios Actualizados y Cómo Pagarlo"
 slug: soat-motos-colombia-2026-precios
 category: "Normativa"
 date: "2026-01-15"
+actualizado: "2026-10-26"
 excerpt: "Conoce los precios oficiales del SOAT para motos en Colombia 2026 según cilindraje, incluyendo ciclomotores y motocarros. Te explicamos qué cubre, cómo pagarlo y qué pasa si te cogen sin él."
 cover_image: "/images/blog/soat.webp"
 author: "Jhojan Jacome"
@@ -55,3 +56,12 @@ En los últimos meses han aumentado las denuncias por "SOAT" falsos vendidos por
 ## Conclusión
 
 El SOAT no es un gasto, es una inversión en tu seguridad y en la de terceros. Para 2026 las tarifas se mantuvieron estables para la mayoría de motos, así que no hay excusa para dejarlo vencer.
+
+## Fuentes
+
+- [Superintendencia Financiera de Colombia](https://www.superfinanciera.gov.co/) — vigilancia de las entidades que expiden el SOAT.
+- [Fasecolda](https://www.fasecolda.com/) — tarifas y estadísticas del seguro obligatorio.
+- [RUNT](https://www.runt.com.co/) — verificación de la vigencia del SOAT por placa.
+- [Ministerio de Transporte](https://www.mintransporte.gov.co/) — normativa del seguro obligatorio.
+
+*Las tarifas del SOAT cambian cada año. Confirma el valor vigente con tu aseguradora antes de pagar.*

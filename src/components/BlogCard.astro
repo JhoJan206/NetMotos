@@ -1,4 +1,6 @@
 ---
+import { formatDate } from '../utils/formatDate'
+
 export interface Props {
   post: {
     slug: string
@@ -12,6 +14,7 @@ export interface Props {
 }
 
 const { post } = Astro.props
+const fecha = formatDate(post.date)
 
 const CATEGORY_COLORS: Record<string, string> = {
   Lanzamientos: '#FFE0E0',
@@ -39,7 +42,7 @@ const bgColor = CATEGORY_COLORS[post.category] || '#F0F0F0'
       <span class={`tag tag-${post.category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}>
         {post.category}
       </span>
-      <span class="blog-date">{post.date}</span>
+      <span class="blog-date">{fecha}</span>
     </div>
     <h3 class="blog-card-title">
       <a href={`/blog/${post.slug}`}>{post.title}</a>

@@ -6,6 +6,7 @@ interface Post {
   excerpt: string
   category: string
   date: string
+  fecha?: string
   author?: string
   cover_image?: string
 }
@@ -78,7 +79,7 @@ export default function BlogFilter({ posts: postsJson }: { posts: string }) {
                       <span className={`tag tag-${post.category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}>
                         {post.category}
                       </span>
-                      <span className="blog-date">{post.date}</span>
+                      <span className="blog-date">{post.fecha || post.date}</span>
                     </div>
                     <h3 className="blog-card-title">
                       <a href={`/blog/${post.slug}`}>{post.title}</a>
