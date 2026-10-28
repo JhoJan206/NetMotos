@@ -7,6 +7,8 @@
 > **Revisión 2 (26-oct-2026):** se conservan las 68 fichas. Fase 2 reescrita, calendario y fecha de reaplicación ajustados.
 >
 > **Revisión 3 (26-oct-2026):** Fase 1 completada.
+>
+> **Revisión 4 (26-oct-2026):** Fases 2, 4 y 6 completadas. Anuncios cableados con IDs reales y desactivados tras `PUBLIC_ADS_ENABLED`. Fase 3 en espera de medir la indexación.
 
 ---
 
@@ -343,26 +345,59 @@ Veredicto — 50 palabras + fecha de actualización visible
 
 ---
 
-## Fase 6 — AdSense técnico (pre-aprobación) ⬜
+## Fase 6 — AdSense técnico (pre-aprobación) ✅ COMPLETADA
 
-**Esfuerzo estimado:** 1 día.
-**Importante:** implementar el código **antes** de la aprobación, pero con los anuncios **desactivados**.
+**Completada el 26 de octubre de 2026. Pendiente de desplegar.**
+**Importante:** el código está implementado, pero los anuncios permanecen **desactivados** hasta que AdSense apruebe. Se controla con la variable de entorno `PUBLIC_ADS_ENABLED`.
 
 ### Tareas
 
-- [ ] **F6-T1** — Implementar bloques `<ins class="adsbygoogle">` reales en `AdSlot.astro`, detrás de un flag. Hoy es un `div` vacío: aunque te aprueben, ingresas $0.
-- [ ] **F6-T2** — Definir 3 formatos: leaderboard bajo el H1 del artículo, in-article, sidebar sticky en escritorio.
-- [ ] **F6-T3** — Reservar el espacio de los anuncios con `min-height` para evitar CLS.
-- [ ] **F6-T4** — Página de política de cookies dedicada (hoy está embebida en privacidad).
-- [ ] **F6-T5** — Verificar `ads.txt` (`google.com, pub-9384689460941433, DIRECT, f08c47fec0942fa0`) — ya está correcto.
-- [ ] **F6-T6** — Verificar Consent Mode v2 — ya implementado, revisar que el update funcione en producción.
-- [ ] **F6-T7** — Probar con la consola del navegador que los slots se rellenan con el flag activo en local.
+- [x] **F6-T1** — `AdSlot.astro` reescrito: mapa `SLOTS` con el ID real de cada unidad, bloques `<ins class="adsbygoogle">` y un `push({})` por bloque. Sin `PUBLIC_ADS_ENABLED === 'true'` no se emite ni un `<ins>`.
+- [x] **F6-T2** — Tres formatos reales, asignados a los 7 slots del sitio.
+- [x] **F6-T3** — `min-height` reservado por formato: 280 px (in-article), 150 px (horizontal), 600 px (sidebar). La sidebar se oculta por debajo de 1024 px, donde no hay columna.
+- [x] **F6-T4** — `/politica-de-cookies` publicada con 7 secciones: qué son, almacenamiento propio, cookies de terceros, Consent Mode, cómo desactivarlas, cambios y contacto.
+- [x] **F6-T5** — `ads.txt` verificado: `google.com, pub-9384689460941433, DIRECT, f08c47fec0942fa0`.
+- [x] **F6-T6** — Consent Mode v2 verificado: `gtag('consent','default', …)` con todo denegado y `update` al aceptar. El banner enlaza ahora a la política de cookies.
+- [x] **F6-T7** — Verificado sobre el HTML construido, en los dos estados del flag (ver tabla).
 
-### Criterio de salida
+### Unidades de anuncio
 
-- Slots funcionando en local con el flag activo.
-- 0 errores de consola.
-- CLS < 0,1.
+| Unidad | Nombre en AdSense | `data-ad-slot` | Formato | Slots que la usan |
+|---|---|---|---|---|
+| In-article | `netmotos-in-articl` | `1649360606` | `fluid` + `data-ad-layout="in-article"` | `ficha-inline`, `blog-post-inline` |
+| Sidebar | `netmotos-sidebar` | `9170039234` | `auto` + `full-width-responsive` | `sidebar-ficha`, `sidebar-blog-post`, `sidebar-calculadora`, `sidebar-guias` |
+| Horizontal | `netmotos-horizontal` | `5397033929` | `auto` + `full-width-responsive` | `marca-bottom` |
+
+### Verificación
+
+| Comprobación | Flag apagado | Flag encendido |
+|---|---|---|
+| `<ins class="adsbygoogle">` en una ficha | 0 | 2 |
+| `push({})` en una ficha | 0 | 2 |
+| `data-ad-slot` in-article | — | ✅ |
+| `data-ad-layout="in-article"` | — | ✅ |
+| Slot de sidebar | — | ✅ |
+| Slot horizontal en `/marcas/akt` | — | ✅ |
+| `data-ad-unit` sin ID huérfano | ✅ | ✅ |
+| Markup in-article (`display:block; text-align:center;`) | — | ✅ |
+| `/politica-de-cookies` en footer, privacidad y banner | ✅ | ✅ |
+| `lastmod` de los 3 posts actualizados = `2026-10-26` | ✅ | ✅ |
+| Fechas de «Artículos relacionados» en español | ✅ | ✅ |
+
+### Correcciones incluidas en esta tanda
+
+Dos defectos detectados al desplegar la Fase 4, ambos del mismo tipo que la fase vino a resolver:
+
+- **`astro.config.mjs`** — el `lastmod` del blog se calculaba solo con `date`. Ahora usa `actualizado` cuando existe: los 3 artículos revisados pasan de `2026-06-15` / `2026-02-10` / `2026-01-15` a `2026-10-26`.
+- **`src/pages/fichas-tecnicas/[slug].astro`** — los «Artículos relacionados» imprimían la fecha ISO cruda. Ahora pasan por `formatDate()`.
+
+### Cómo activar los anuncios (solo tras la aprobación)
+
+1. En Vercel → *Settings → Environment Variables*: `PUBLIC_ADS_ENABLED = true`.
+2. Redesplegar.
+3. Verificar en producción que aparece `data-ad-unit` en una ficha.
+
+**No activar la variable antes de la aprobación.** Con el flag apagado el sitio se comporta exactamente como hasta ahora: cero anuncios, cero `<ins>`, cero peticiones a AdSense.
 
 ---
 
@@ -430,7 +465,7 @@ Veredicto — 50 palabras + fecha de actualización visible
 | 9-12 | **Fase 2 + 3** | Oleada 3: 20 fichas + 8 artículos |
 | 13-15 | **Fase 2 + 3** | Oleada 4: 20 fichas + 6 artículos |
 | 16-17 | **Fase 3 + 5** | Últimos 6 artículos + indexación |
-| 18 | **Fase 6** | AdSense técnico |
+| 18 | **Fase 6** | ✅ AdSense técnico implementado y desactivado |
 | 19-20 | **Fase 7** | Reaplicar (marzo 2027) |
 
 > El ritmo asumido es de **~5 fichas y 2 artículos por semana**. Si en la práctica no se sostiene, la palanca es recortar artículos (Fase 3), **nunca** volver a archivar fichas.

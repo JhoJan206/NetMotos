@@ -52,7 +52,9 @@ export default function CookieConsent() {
           NetMotos utiliza cookies propias y de terceros (Google AdSense, Google Analytics) para mejorar tu experiencia y mostrar anuncios relevantes.
         </p>
         <p className="cookie-consent-meta">
-          <a href="/privacidad">Más información</a>
+          <a href="/politica-de-cookies">Política de cookies</a>
+          <span> · </span>
+          <a href="/privacidad">Privacidad</a>
         </p>
       </div>
       <div className="cookie-consent-actions">

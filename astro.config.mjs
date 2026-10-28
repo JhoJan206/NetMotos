@@ -27,7 +27,7 @@ function readLastmodDates() {
       const raw = fs.readFileSync(path.join(BLOG_DIR, file), 'utf8')
       const slug = field(raw, 'slug')
       if (!slug) continue
-      addDate(dates, `/blog/${slug}`, field(raw, 'date'))
+      addDate(dates, `/blog/${slug}`, field(raw, 'actualizado') || field(raw, 'date'))
     }
   }
 

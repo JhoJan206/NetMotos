@@ -1,0 +1,152 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const EMAIL = 'jacomejhojan2006@gmail.com'
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Política de cookies - NetMotos',
+  description: 'Qué cookies y tecnologías de almacenamiento usa NetMotos, para qué sirven y cómo puedes desactivarlas.',
+  inLanguage: 'es-CO',
+  publisher: {
+    '@type': 'Organization',
+    name: 'NetMotos',
+    url: 'https://netmotos.lat',
+  },
+}
+---
+
+<BaseLayout
+  title="Política de cookies"
+  description="Qué cookies y tecnologías de almacenamiento usa NetMotos, con qué finalidad, cuánto duran y cómo puedes desactivarlas."
+  canonical="/politica-de-cookies"
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Inicio', path: '/' },
+    { name: 'Política de cookies', path: '/politica-de-cookies' },
+  ]}
+>
+  <div class="page-wrapper">
+    <div class="container" style="max-width: 800px">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a>
+        <span>/</span>
+        <span>Política de cookies</span>
+      </nav>
+      <h1>Política de cookies</h1>
+      <div class="markdown-content">
+        <p>
+          Esta página explica qué cookies y tecnologías de almacenamiento utiliza NetMotos, con qué
+          finalidad, cuánto tiempo permanecen y cómo puedes desactivarlas. Forma parte de nuestra
+          <a href="/privacidad">política de privacidad</a>.
+        </p>
+
+        <h2>Qué son las cookies</h2>
+        <p>
+          Una cookie es un archivo pequeño que un sitio web guarda en tu navegador. Sirve para
+          recordar información entre una visita y otra: si ya aceptaste el aviso de cookies, qué
+          motos comparaste o qué páginas visitaste.
+        </p>
+        <p>
+          Además de cookies, NetMotos usa <strong>almacenamiento local del navegador</strong>
+          (<em>localStorage</em> y <em>sessionStorage</em>), que funciona de forma parecida pero no
+          envía nada automáticamente a ningún servidor.
+        </p>
+
+        <h2>Almacenamiento propio</h2>
+        <p>Estos datos los genera el propio sitio y no se comparten con terceros:</p>
+        <ul>
+          <li>
+            <strong>Decisión sobre cookies</strong> — guardada en <em>localStorage</em> con la clave
+            <code>cookies-accepted</code>. Recuerda si elegiste «Aceptar todas» o «Solo esenciales»
+            para no volver a preguntarte en cada visita. No caduca por sí sola: permanece hasta que
+            borres los datos del navegador.
+          </li>
+          <li>
+            <strong>Selección del comparador</strong> — guardada en <em>sessionStorage</em> con la
+            clave <code>comparador</code>. Contiene únicamente los identificadores de las motos que
+            añadiste. Se borra al cerrar la pestaña.
+          </li>
+        </ul>
+        <p>
+          Esta información no se transmite a nuestros servidores y no se usa para identificarte.
+        </p>
+
+        <h2>Cookies de terceros</h2>
+        <p>
+          NetMotos utiliza dos servicios de Google que instalan sus propias cookies. No controlamos su
+          contenido ni su duración exacta; los valores indicados son los que Google documenta
+          públicamente.
+        </p>
+
+        <h3>Google Analytics</h3>
+        <p>
+          Se usa para saber qué páginas se visitan, cuánto tiempo permanece la gente y desde qué tipo
+          de dispositivo entra. La información es agregada y no te identifica personalmente.
+        </p>
+        <ul>
+          <li><code>_ga</code> — distingue usuarios de forma anónima. Duración de hasta 2 años.</li>
+          <li><code>_ga_&lt;ID&gt;</code> — mantiene el estado de la sesión. Duración de hasta 2 años.</li>
+          <li><code>_gid</code> — distingue usuarios. Duración de 24 horas.</li>
+        </ul>
+
+        <h3>Google AdSense</h3>
+        <p>
+          Se usa para mostrar anuncios. Si aceptas las cookies, Google puede personalizar los anuncios
+          según tu navegación; si las rechazas, los anuncios se muestran sin personalización.
+        </p>
+        <ul>
+          <li><code>__gads</code> y <code>__gpi</code> — registro de impresiones y frecuencia de anuncios.</li>
+          <li><code>IDE</code> — identifica el navegador para limitar la repetición de anuncios y medir su rendimiento.</li>
+          <li><code>test_cookie</code> — verifica si el navegador acepta cookies. Duración de 15 minutos.</li>
+        </ul>
+        <p>
+          Puedes revisar cómo usa Google estos datos en
+          <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.
+        </p>
+
+        <h2>Cómo funciona tu elección</h2>
+        <p>
+          NetMotos aplica el modo de consentimiento de Google (<em>Consent Mode v2</em>). Al entrar por
+          primera vez, todas las categorías no esenciales están denegadas por defecto. Solo si pulsas
+          «Aceptar todas» se habilita el almacenamiento publicitario y analítico. Si eliges «Solo
+          esenciales», esas categorías permanecen denegadas y el sitio sigue funcionando con
+          normalidad.
+        </p>
+        <p>
+          Puedes cambiar de opinión en cualquier momento borrando los datos del sitio en tu navegador:
+          al volver a entrar, el aviso aparecerá de nuevo.
+        </p>
+
+        <h2>Cómo desactivar las cookies</h2>
+        <p>Cada navegador permite bloquear o eliminar cookies desde su configuración:</p>
+        <ul>
+          <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+          <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+          <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+          <li><a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64b" target="_blank" rel="noopener">Microsoft Edge</a></li>
+        </ul>
+        <p>
+          Para dejar de recibir publicidad personalizada de Google puedes usar
+          <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.
+          Ten en cuenta que bloquear todas las cookies puede afectar el funcionamiento de algunas
+          herramientas del sitio, como el comparador.
+        </p>
+
+        <h2>Cambios en esta política</h2>
+        <p>
+          Si añadimos o retiramos servicios que usen cookies, actualizaremos esta página y su fecha de
+          revisión. La versión vigente es la que aparece publicada en esta dirección.
+        </p>
+
+        <h2>Contacto</h2>
+        <p>
+          Si tienes dudas sobre esta política, escribe a{' '}
+          <a href="mailto:jacomejhojan2006@gmail.com"><strong>jacomejhojan2006@gmail.com</strong></a> o
+          usa la <a href="/contacto">página de contacto</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

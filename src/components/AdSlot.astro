@@ -3,7 +3,59 @@ export interface Props {
   id: string
   className?: string
 }
+
 const { id, className = '' } = Astro.props
+
+const CLIENT = 'ca-pub-9384689460941433'
+const ADS_ENABLED = import.meta.env.PUBLIC_ADS_ENABLED === 'true'
+
+type AdSize = 'inline' | 'sidebar' | 'horizontal'
+
+interface AdConfig {
+  slot: string
+  format: string
+  layout?: string
+  size: AdSize
+}
+
+const SLOTS: Record<string, AdConfig> = {
+  'blog-post-inline': { slot: '1649360606', format: 'fluid', layout: 'in-article', size: 'inline' },
+  'ficha-inline': { slot: '1649360606', format: 'fluid', layout: 'in-article', size: 'inline' },
+  'sidebar-ficha': { slot: '9170039234', format: 'auto', size: 'sidebar' },
+  'sidebar-blog-post': { slot: '9170039234', format: 'auto', size: 'sidebar' },
+  'sidebar-calculadora': { slot: '9170039234', format: 'auto', size: 'sidebar' },
+  'sidebar-guias': { slot: '9170039234', format: 'auto', size: 'sidebar' },
+  'marca-bottom': { slot: '5397033929', format: 'auto', size: 'horizontal' },
+}
+
+const config = SLOTS[id]
+const activo = ADS_ENABLED && Boolean(config)
+
+const attrs: Record<string, string> = config
+  ? {
+      'data-ad-client': CLIENT,
+      'data-ad-slot': config.slot,
+      'data-ad-format': config.format,
+    }
+  : {}
+
+if (config?.layout) attrs['data-ad-layout'] = config.layout
+if (config && config.size !== 'inline') attrs['data-full-width-responsive'] = 'true'
+
+const wrapperClass = config
+  ? `ad-slot ad-slot--${config.size} ${className}`.trim()
+  : `ad-slot ${className}`.trim()
+
+const insStyle = config?.size === 'inline' ? 'display:block; text-align:center;' : 'display:block'
 ---
 
-<div id={`ad-slot-${id}`} class={`ad-slot ${className}`} style="display: none;"></div>
+{activo && config ? (
+  <div class={wrapperClass} data-ad-unit={id}>
+    <ins class="adsbygoogle" style={insStyle} {...attrs} />
+    <script is:inline>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+) : (
+  <div id={`ad-slot-${id}`} class={wrapperClass} hidden></div>
+)}

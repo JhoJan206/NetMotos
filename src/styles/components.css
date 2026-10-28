@@ -1543,6 +1543,37 @@ a.tag {
 /* ===== AD SLOT ===== */
 .ad-slot {
   margin: 16px 0;
+  overflow: hidden;
+}
+
+.ad-slot[hidden] {
+  display: none;
+}
+
+.ad-slot .adsbygoogle {
+  display: block;
+  width: 100%;
+}
+
+.ad-slot--inline {
+  min-height: 280px;
+}
+
+.ad-slot--horizontal {
+  min-height: 150px;
+}
+
+.ad-slot--sidebar {
+  min-height: 600px;
+}
+
+@media (max-width: 1024px) {
+  .ad-slot--sidebar {
+    display: none;
+  }
+  .ad-slot--inline {
+    min-height: 250px;
+  }
 }
 
 /* ===== SECTION ===== */

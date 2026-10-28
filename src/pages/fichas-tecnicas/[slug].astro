@@ -4,6 +4,7 @@ import AdSlot from '../../components/AdSlot.astro'
 import CompararBoton from '../../components/CompararBoton'
 import { getCollection } from 'astro:content'
 import { formatCOP } from '../../utils/formatCurrency'
+import { formatDate } from '../../utils/formatDate'
 import { slugify } from '../../utils/slugify'
 import { findRelatedPosts } from '../../utils/related'
 
@@ -337,7 +338,7 @@ const costoPorKm = moto.costo_anual_cop && moto.consumo_km_l
                 {relatedPosts.map(post => (
                   <li>
                     <a href={`/blog/${post.slug}`}>{post.title}</a>
-                    <span class="ficha-related-meta">{post.category} · {post.date}</span>
+                    <span class="ficha-related-meta">{post.category} · {formatDate(post.date)}</span>
                   </li>
                 ))}
               </ul>
